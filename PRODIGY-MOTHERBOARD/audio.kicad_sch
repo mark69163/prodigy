@@ -1,682 +1,1351 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3dc88c1f-1e0b-4cf2-8ec0-a38da818a0f2)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Amplifier_Audio:LM386" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 1.27 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LM386" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 2.54 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf" (at 5.08 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "single Power opamp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSSOP*P0.65mm* TSSOP*3x3mm*P0.5mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LM386_0_1"
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 5.08)
-            (xy -5.08 -5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "LM386_1_1"
-        (pin input line (at 0 -7.62 90) (length 5.08)
-          (name "GAIN" (effects (font (size 0.508 0.508))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 7.62 270) (length 5.08)
-          (name "BYPASS" (effects (font (size 0.508 0.508))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 2.54 -7.62 90) (length 6.35)
-          (name "GAIN" (effects (font (size 0.508 0.508))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Audio:AudioJack3" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AudioJack3" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Audio Jack, 3 Poles (Stereo / TRS)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Jack*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AudioJack3_0_1"
-        (rectangle (start -5.08 -5.08) (end -6.35 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.54)
-            (xy 0.635 -3.175)
-            (xy 1.27 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 -2.54)
-            (xy -1.27 -3.175)
-            (xy -0.635 -2.54)
-            (xy -0.635 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy -2.54 2.54)
-            (xy -2.54 -2.54)
-            (xy -3.175 -3.175)
-            (xy -3.81 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 2.54 3.81) (end -5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "AudioJack3_1_1"
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "R" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "S" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "T" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:Antenna" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "AE" (at -1.905 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "Antenna" (at -1.905 0 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "antenna" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Antenna" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Antenna_0_1"
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 -3.81)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0 -2.54)
-            (xy -1.27 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Antenna_1_1"
-        (pin input line (at 0 -5.08 90) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:Buzzer" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "BZ" (at 3.81 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Buzzer" (at 3.81 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at -0.635 2.54 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at -0.635 2.54 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "quartz resonator ceramic" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Buzzer, polarized" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*Buzzer*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Buzzer_0_1"
-        (arc (start 0 -3.175) (mid 3.1612 0) (end 0 3.175)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.651 1.905)
-            (xy -1.143 1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.397 2.159)
-            (xy -1.397 1.651)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.175)
-            (xy 0 -3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Buzzer_1_1"
-        (pin passive line (at -2.54 2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:Microphone_Condenser" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "MK" (at -3.302 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "Microphone_Condenser" (at -3.302 -0.635 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "" (at 0 2.54 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 2.54 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitance condenser microphone" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Condenser microphone" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Microphone_Condenser_0_1"
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.762)
-            (xy 0 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 0 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 3.81)
-            (xy 0.762 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 4.064)
-            (xy 0.508 3.556)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 1.016 -0.254) (end -1.016 -0.762)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 1.016 0.762) (end -1.016 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "Microphone_Condenser_1_1"
-        (pin passive line (at 0 -5.08 90) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 5.08 270) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "RF:Si4460" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -6.35 16.51 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Si4460" (at 6.35 16.51 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" (at 0 30.48 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf" (at -7.62 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "transceiver sub-ghz radio ism" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "High-Performance, Low-Current Sub-GHz Transceiver, +13dBm, Major bands 142-1050 MHz, QFN-20" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Si4460_0_1"
-        (rectangle (start -7.62 15.24) (end 7.62 -15.24)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 10.16 -15.24) (end 10.16 -15.24)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Si4460_1_1"
-        (pin input line (at -10.16 12.7 0) (length 2.54)
-          (name "SDN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -7.62 180) (length 2.54)
-          (name "GPIO1" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin open_collector line (at -10.16 -12.7 0) (length 2.54)
-          (name "~{IRQ}" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 -2.54 0) (length 2.54)
-          (name "SCLK" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -10.16 -7.62 0) (length 2.54)
-          (name "SDO" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 -5.08 0) (length 2.54)
-          (name "SDI" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 -10.16 0) (length 2.54)
-          (name "~{SEL}" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 2.54 0) (length 2.54)
-          (name "XOUT" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 7.62 0) (length 2.54)
-          (name "XIN" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -17.78 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -10.16 180) (length 2.54)
-          (name "GPIO2" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 2.54 180) (length 2.54)
-          (name "RXp" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -12.7 180) (length 2.54)
-          (name "GPIO3" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -17.78 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 0 180) (length 2.54)
-          (name "RXn" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 10.16 12.7 180) (length 2.54)
-          (name "TX" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 7.62 -15.24 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 17.78 270) (length 2.54)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 10.16 7.62 180) (length 2.54)
-          (name "TXRAMP" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 2.54 17.78 270) (length 2.54)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -5.08 180) (length 2.54)
-          (name "GPIO0" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Device:Antenna") (at 222.25 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 159adaa0-ea50-4a27-a7fc-e72a71fcf1bc)
-    (property "Reference" "AE1" (at 224.79 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Antenna" (at 224.79 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" (at 222.25 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 222.25 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a509384c-e9a2-41e2-a69d-1a1c8563074c))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "AE1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack3") (at 110.49 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 364a382d-8d77-4e28-ac30-0a358e0faa58)
-    (property "Reference" "J15" (at 108.585 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack3" (at 108.585 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_Lumberg_1503_07_Horizontal" (at 110.49 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 110.49 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "R" (uuid 254dc259-6865-4c24-b127-d66f04cdc634))
-    (pin "S" (uuid e78a9742-9dd1-4980-b4a5-df8cc4cea14e))
-    (pin "T" (uuid 75480858-0ca0-4fd1-87e0-764eab9edf94))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "J15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Microphone_Condenser") (at 102.87 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 662a9d08-373c-42ea-9785-ff2ab64ba8f9)
-    (property "Reference" "MK1" (at 106.68 60.8965 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Microphone_Condenser" (at 106.68 63.4365 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Buzzer_Beeper:MagneticBuzzer_Kingstate_KCG0601" (at 102.87 59.69 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 59.69 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 52e52618-8671-4946-a18d-8fbaa1bd2067))
-    (pin "2" (uuid 114eb7d3-19fd-43fc-add6-53f308cf849d))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "MK1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RF:Si4460") (at 198.12 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 81660635-cd5f-412d-8ef2-99dff09011de)
-    (property "Reference" "U8" (at 200.0759 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Si4460" (at 200.0759 138.43 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" (at 198.12 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf" (at 190.5 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e6c3c51d-146c-4caf-a623-03ac515c22b5))
-    (pin "10" (uuid eb544b3a-b972-434b-86d5-5c1c0298f6f3))
-    (pin "11" (uuid 0e5bb52f-f84c-4502-ac93-24b2f549ebcf))
-    (pin "12" (uuid 6ca0ed05-9e23-4fd0-a5da-71b15ecdd7d8))
-    (pin "13" (uuid a19b2dd6-39b2-4cc4-a07d-4b9f0c1f754c))
-    (pin "14" (uuid 2ee9b089-ad44-4421-b5ef-bcfed75f73d1))
-    (pin "15" (uuid 4430dbef-c0f8-4901-bf30-99ae02a82b1e))
-    (pin "16" (uuid cd9a197f-d0c9-4541-8b53-0492033a343c))
-    (pin "17" (uuid 44410c95-2983-44ff-9b0f-311535a0b217))
-    (pin "18" (uuid e8ed67eb-d967-4085-9fe9-ddccc6f98065))
-    (pin "19" (uuid d3406942-d0af-4d52-85ed-df805d3d3f26))
-    (pin "2" (uuid 89a42441-e12b-4f32-ad22-8d44bf222df4))
-    (pin "20" (uuid 0248fe8a-7219-412f-9bee-fc97b58da9ad))
-    (pin "21" (uuid e1cd7aa2-1880-4983-9343-5dbacd229288))
-    (pin "3" (uuid dfdb3242-56c8-4170-aa4f-335ea342d909))
-    (pin "4" (uuid 1ba7181d-4487-4ee7-b454-f44ff44d98d4))
-    (pin "5" (uuid d6208f7f-dd5a-4bc8-89d6-80060aafbfe5))
-    (pin "6" (uuid 89cb8ddf-d019-4fb2-aeb9-2b76e0b8931b))
-    (pin "7" (uuid bb3fd1a7-2dcf-42da-b498-3bfc5975fb3d))
-    (pin "8" (uuid 788b3a68-8d55-4e53-bc50-d209401093ee))
-    (pin "9" (uuid 7cd3e7fd-6d0c-4905-a16b-0a349daf4c25))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "U8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Audio:LM386") (at 82.55 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b0016e0f-d921-4f3b-bd7c-9b57f32c4c7b)
-    (property "Reference" "U7" (at 92.71 60.0711 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM386" (at 92.71 62.6111 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (at 85.09 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf" (at 87.63 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f20e3986-51d6-4566-ba7c-b5697369b585))
-    (pin "2" (uuid 02d29a3d-d258-4054-9115-015af2b6eb3e))
-    (pin "3" (uuid aa8542b4-5c08-42c9-b9a6-92a9da97e557))
-    (pin "4" (uuid 43503ddd-e685-4459-a495-1301d0eb1fd5))
-    (pin "5" (uuid 157f21c6-b514-4c42-b970-39aaac3d5257))
-    (pin "6" (uuid ee8a0e22-81e7-4af2-9e23-a3d581d0d0b1))
-    (pin "7" (uuid da79f68c-a4a1-4984-a9f4-e6b070d547a5))
-    (pin "8" (uuid 09ce9663-63b0-4604-99b0-407cea526110))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "U7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Buzzer") (at 149.86 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ed35f1df-431c-4717-8086-850b330228a2)
-    (property "Reference" "BZ1" (at 153.67 60.325 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Buzzer" (at 153.67 62.865 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Buzzer_Beeper:MagneticBuzzer_ProSignal_ABI-010-RC" (at 149.225 58.42 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.225 58.42 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6a0e7f67-d401-4f67-a217-82a9add2c37f))
-    (pin "2" (uuid 2cffe949-afef-409e-86c5-527c8e622441))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "BZ1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Audio:LM386") (at 241.3 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fe5f6848-00a9-4c74-b2ac-39b1cca5642d)
-    (property "Reference" "U9" (at 251.46 61.3411 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM386" (at 251.46 63.8811 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (at 243.84 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf" (at 246.38 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 98b41d38-c28b-4a06-988f-cb94cd4fd66a))
-    (pin "2" (uuid 257a36e4-77f5-4a93-862b-0fe468dd82b4))
-    (pin "3" (uuid 46f6ae1c-8399-4d45-bf83-d069deba2c16))
-    (pin "4" (uuid 97806eb0-bf51-4564-b081-eee21fdef791))
-    (pin "5" (uuid 0fdf378a-5847-4605-95d6-cdacf3299d0b))
-    (pin "6" (uuid f7fb1916-e193-4cd5-b571-5cf98d168263))
-    (pin "7" (uuid b889de94-fc0e-4e39-8743-97a377a70543))
-    (pin "8" (uuid 19fde338-1def-45be-a1b5-40353f99c90c))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/0c012a12-bb06-42e9-80e6-d6a20806da26"
-          (reference "U9") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3dc88c1f-1e0b-4cf2-8ec0-a38da818a0f2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Audio:LM386"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM386"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single Power opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSSOP*P0.65mm* TSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM386_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM386_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GAIN"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "GAIN"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Audio:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Antenna"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RF:Si4460"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Si4460"
+				(at 6.35 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf"
+				(at -7.62 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Performance, Low-Current Sub-GHz Transceiver, +13dBm, Major bands 142-1050 MHz, QFN-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transceiver sub-ghz radio ism"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Si4460_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 10.16 -15.24)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Si4460_1_1"
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "SDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "~{IRQ}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "~{SEL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "RXp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "RXn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -15.24 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "TXRAMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 222.25 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "159adaa0-ea50-4a27-a7fc-e72a71fcf1bc")
+		(property "Reference" "AE1"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 224.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 222.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b010825-d3db-4833-b089-2abd653902b7")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 110.49 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "364a382d-8d77-4e28-ac30-0a358e0faa58")
+		(property "Reference" "J16"
+			(at 108.585 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 108.585 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_Lumberg_1503_07_Horizontal"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R"
+			(uuid "a9454d48-c8fe-4406-8b12-37c2176c524a")
+		)
+		(pin "S"
+			(uuid "cf45dd82-5818-483a-8e55-1af09797c30d")
+		)
+		(pin "T"
+			(uuid "e69ec65f-34d2-471b-904b-aa75658761b4")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF:Si4460")
+		(at 198.12 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81660635-cd5f-412d-8ef2-99dff09011de")
+		(property "Reference" "U6"
+			(at 200.0759 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Si4460"
+			(at 200.0759 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf"
+			(at 190.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c143bcba-37d4-4aaf-b850-81de726d534a")
+		)
+		(pin "10"
+			(uuid "ead92e7c-a31b-4e67-9c61-7a7b3d0b3be3")
+		)
+		(pin "11"
+			(uuid "2dfa9c0d-bbc8-4bb9-a025-dd56791abb10")
+		)
+		(pin "12"
+			(uuid "cfc09c3a-1faf-4468-8214-6ffc2bb5884b")
+		)
+		(pin "13"
+			(uuid "362294cf-f88d-423c-82c3-29403b1c4143")
+		)
+		(pin "14"
+			(uuid "fc2d2495-8ead-477b-a7b2-84b529880f98")
+		)
+		(pin "15"
+			(uuid "7cc10e5e-6e4e-47b7-8e5e-9ae2950ac960")
+		)
+		(pin "16"
+			(uuid "70791a98-bb0a-4cb4-b112-02eb649a8b6d")
+		)
+		(pin "17"
+			(uuid "2c9cc10c-7334-44c4-83c5-7603cf0a89b9")
+		)
+		(pin "18"
+			(uuid "6c4fd935-98e4-4e96-90ac-4bf1383c0bd6")
+		)
+		(pin "19"
+			(uuid "751e73f8-4b22-4d76-bd56-3ad2e64bd1b4")
+		)
+		(pin "2"
+			(uuid "f13e35dc-0a43-4429-a1ee-04935765aa8e")
+		)
+		(pin "20"
+			(uuid "1f589edf-495d-4b27-9a9a-73704dcdf0fb")
+		)
+		(pin "21"
+			(uuid "dba1b996-fea0-4310-abda-e99f59d9934b")
+		)
+		(pin "3"
+			(uuid "e29adbb9-23b1-440e-8b09-1e8dca8cf6e8")
+		)
+		(pin "4"
+			(uuid "5869cc70-0d31-4709-9bbb-49f513b4c0b8")
+		)
+		(pin "5"
+			(uuid "08aff7bd-e896-490c-beaf-5c0f1aaf29c5")
+		)
+		(pin "6"
+			(uuid "eab75b41-396b-4aa4-9f87-9987e5a71579")
+		)
+		(pin "7"
+			(uuid "f4eea53a-8196-4254-a32c-075a8e26e7a2")
+		)
+		(pin "8"
+			(uuid "1d1b7ea7-befe-4c54-a151-e54f42ea8ac7")
+		)
+		(pin "9"
+			(uuid "10a910e8-ea17-433e-a421-1392586c46b7")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:LM386")
+		(at 241.3 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe5f6848-00a9-4c74-b2ac-39b1cca5642d")
+		(property "Reference" "U7"
+			(at 251.46 61.3411 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM386"
+			(at 251.46 63.8811 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7402a146-4f10-41b2-aaf3-8cbaad51e83f")
+		)
+		(pin "2"
+			(uuid "f00bd968-85d1-4f09-b893-17509b20541d")
+		)
+		(pin "3"
+			(uuid "6191cd02-ba62-4469-9dac-0ab5220df8e9")
+		)
+		(pin "4"
+			(uuid "1434a784-fcf9-461d-b711-2413162483f1")
+		)
+		(pin "5"
+			(uuid "6af4a9e7-e0ae-4eb3-a6ab-656f7e24062e")
+		)
+		(pin "6"
+			(uuid "cd6fbfd7-c672-4f7d-961a-3deb1bff65b1")
+		)
+		(pin "7"
+			(uuid "19d4dee6-b848-4f85-aa5a-cdb653eed86a")
+		)
+		(pin "8"
+			(uuid "3510c135-975a-48d3-bb02-c0ac22e163f8")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

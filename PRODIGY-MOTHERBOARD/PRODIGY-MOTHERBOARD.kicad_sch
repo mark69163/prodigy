@@ -1,272 +1,842 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid f1c25860-8989-4190-bd24-2491d23ca7d9)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 31.75 83.82) (size 22.86 31.75) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 05960705-baea-4468-9535-7b4332689cde)
-    (property "Sheetname" "esp32-wroom-1-s3" (at 31.75 83.1084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "esp32.kicad_sch" (at 31.75 116.1546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 232.41 144.78) (size 27.94 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0c012a12-bb06-42e9-80e6-d6a20806da26)
-    (property "Sheetname" "AUDIO" (at 232.41 144.0684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "audio.kicad_sch" (at 232.41 159.3346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 232.41 52.07) (size 19.05 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 33b59e3c-6456-4c33-9606-114445a2e2ee)
-    (property "Sheetname" "micro_SD" (at 232.41 51.3584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "sd.kicad_sch" (at 232.41 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 31.75 58.42) (size 20.32 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 41b546f2-73ea-45af-90df-9868a2de9540)
-    (property "Sheetname" "USB" (at 31.75 57.7084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "usb.kicad_sch" (at 31.75 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 232.41 116.84) (size 27.94 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 47725dfe-8a89-438d-9e4f-9e943dfd0098)
-    (property "Sheetname" "accelerometer" (at 232.41 116.1284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "accelerometer.kicad_sch" (at 232.41 136.4746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 180.34 148.59) (size 20.32 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 57a67dfa-34a0-418f-88a6-5d1f09f28bd2)
-    (property "Sheetname" "HEATER" (at 180.34 147.8784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "heater.kicad_sch" (at 180.34 161.8746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 87.63 153.67) (size 27.94 31.75) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 68c611b4-6626-4f5e-8db6-2b7527a0fa95)
-    (property "Sheetname" "MOTOR" (at 87.63 152.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "motor.kicad_sch" (at 87.63 186.0046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 31.75 24.13) (size 21.59 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7df83d4f-8c4f-4445-bdae-bd2c13239983)
-    (property "Sheetname" "POWER" (at 31.75 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 31.75 51.3846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB_MCU_VCC" input (at 53.34 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid acfa0b8c-bc26-4819-bf57-b482a63eb24d)
-    )
-    (pin "+3V3" output (at 53.34 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1d0dc8fd-a28d-4643-ad6c-2a12e3c1cb59)
-    )
-    (pin "+12V" output (at 53.34 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d19d0393-ce12-40c5-9978-16e38057ae2f)
-    )
-    (pin "USB_ESP32_VCC" input (at 53.34 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 91df57cd-f77a-4f4e-ada0-73ffd512b378)
-    )
-    (pin "+5V" output (at 53.34 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 67313a28-4657-45f5-8082-c54dbb1849bc)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 110.49 21.59) (size 72.39 113.03) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7f3db57f-ac51-41e9-8dca-bd5af5601beb)
-    (property "Sheetname" "MCU" (at 110.49 20.8784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 110.49 135.2046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 31.75 123.19) (size 22.86 57.15) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a962dcec-9dee-4e54-acaa-e8da87dab487)
-    (property "Sheetname" "OUTPUTS" (at 31.75 122.4784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "outputs.kicad_sch" (at 31.75 180.9246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 232.41 83.82) (size 27.94 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b1537168-6bed-494f-94fc-02099d073fc2)
-    (property "Sheetname" "INTERFACE" (at 232.41 83.1084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "interface.kicad_sch" (at 232.41 111.0746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 153.67 153.67) (size 16.51 31.75) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b6067c5b-b0b3-4965-98dd-754256cc3fcc)
-    (property "Sheetname" "TMP" (at 153.67 152.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "tmp.kicad_sch" (at 153.67 186.0046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 124.46 153.67) (size 21.59 31.75) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cf0d8bf1-4632-49df-9398-b3de35528304)
-    (property "Sheetname" "CAN" (at 124.46 152.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "can.kicad_sch" (at 124.46 186.0046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 232.41 24.13) (size 13.97 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid edf7e11a-2a6c-4bff-b9f6-56b011438f63)
-    (property "Sheetname" "NFC" (at 232.41 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "nfc.kicad_sch" (at 232.41 43.7646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9" (page "15"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f1c25860-8989-4190-bd24-2491d23ca7d9")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 60.96 21.59) (xy 229.87 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f8b730-ff90-4434-aeee-9e46fe872e29")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 229.87 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9463c1a-95e2-4b83-89e2-b0ae7f833eda")
+	)
+	(text "57/64 pins"
+		(exclude_from_sim no)
+		(at 130.048 183.642 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+		)
+		(uuid "5f8159bb-13d8-4f5f-a3db-8d13972ec67a")
+	)
+	(sheet
+		(at 82.55 30.48)
+		(size 81.28 147.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27fc7bb4-2bbd-477b-b6e3-e07582947566")
+		(property "Sheetname" "MCU"
+			(at 82.55 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 82.55 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 114.3)
+		(size 21.59 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4747deee-8806-443e-847a-65f550cadde4")
+		(property "Sheetname" "esp32"
+			(at 39.37 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 39.37 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 44.45)
+		(size 44.45 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68745e9f-546d-4e12-ac2b-ba23aeab0093")
+		(property "Sheetname" "I2C"
+			(at 175.26 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c.kicad_sch"
+			(at 175.26 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 175.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 133.35)
+		(size 43.18 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68c611b4-6626-4f5e-8db6-2b7527a0fa95")
+		(property "Sheetname" "MOTOR"
+			(at 179.07 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 179.07 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 19.05)
+		(size 21.59 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7df83d4f-8c4f-4445-bdae-bd2c13239983")
+		(property "Sheetname" "POWER"
+			(at 39.37 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 39.37 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d0dc8fd-a28d-4643-ad6c-2a12e3c1cb59")
+		)
+		(pin "+12V" output
+			(at 60.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d19d0393-ce12-40c5-9978-16e38057ae2f")
+		)
+		(pin "+5V" output
+			(at 60.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67313a28-4657-45f5-8082-c54dbb1849bc")
+		)
+		(pin "USB_HOST_PWR" output
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f2ac2ae-fe8d-4ece-b64f-9f9a03b0ca3a")
+		)
+		(pin "EN_USB_HOST_PWR" input
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "644c73fd-4a9e-4dbf-b1e9-4c3c0d01d6f8")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 54.61)
+		(size 21.59 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2bc12b1-b9d0-4419-aed0-74588fb36767")
+		(property "Sheetname" "analog"
+			(at 39.37 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 39.37 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 19.05)
+		(size 39.37 140.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a962dcec-9dee-4e54-acaa-e8da87dab487")
+		(property "Sheetname" "OUTPUTS"
+			(at 229.87 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outputs.kicad_sch"
+			(at 229.87 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BREAKOUT_SERVO_0" bidirectional
+			(at 229.87 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "16a29d98-df03-40bb-9cd4-732ad18d284a")
+		)
+		(pin "BREAKOUT_SERVO_1" bidirectional
+			(at 229.87 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4887c18a-efa7-48e7-9a01-b013268774cd")
+		)
+		(pin "BREAKOUT_SERIAL_TX" bidirectional
+			(at 229.87 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba795961-7d7d-4efc-b9c5-6d82e17d81bf")
+		)
+		(pin "BREAKOUT_SERIAL_RX" bidirectional
+			(at 229.87 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "943042d5-bb63-4da3-af74-c69680411613")
+		)
+		(pin "BREAKOUT_SPI_MOSI" bidirectional
+			(at 229.87 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d48f6e7a-dc32-48e6-a420-82f67f722592")
+		)
+		(pin "BREAKOUT_SPI_MSIO" bidirectional
+			(at 229.87 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ea946e7-2512-4bb3-b9c9-481866f9b0f5")
+		)
+		(pin "BREAKOUT_SPI_SCK" bidirectional
+			(at 229.87 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b3be8a5-2a12-4547-9085-f035827f04f4")
+		)
+		(pin "BREAKOUT_CAN_TX" bidirectional
+			(at 229.87 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07af4ded-7846-481d-a0a4-2e1720033764")
+		)
+		(pin "BREAKOUT_CAN_RX" bidirectional
+			(at 229.87 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a14ffd84-9426-4606-ab76-191aa9aa6cff")
+		)
+		(pin "BREAKOUT_I2C_SCL" bidirectional
+			(at 229.87 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae4dce51-98a6-48e5-bb83-5d22e22d6d5e")
+		)
+		(pin "BREAKOUT_I2C_SDA" bidirectional
+			(at 229.87 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7934578-ed56-40ca-bf7c-e6a10634ab2b")
+		)
+		(pin "BREAKOUT_SPI_CS" bidirectional
+			(at 229.87 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f46f3fe-4663-4600-bf17-5c5c0ddb4766")
+		)
+		(pin "BREAKOUT_D_GPIO_1" bidirectional
+			(at 229.87 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a9ab460-4450-44fd-a6df-0463b9b23562")
+		)
+		(pin "BREAKOUT_D_GPIO_2" bidirectional
+			(at 229.87 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3959cd69-da20-4441-8e95-57b1015871e6")
+		)
+		(pin "BREAKOUT_D_GPIO_3" bidirectional
+			(at 229.87 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e22f95d8-c1b4-4f1d-bea7-918dd5ede843")
+		)
+		(pin "BREAKOUT_D_GPIO_0" bidirectional
+			(at 229.87 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28e2065d-9dfa-43fa-99b4-931ffca7c66f")
+		)
+		(pin "BREAKOUT_A_IN_0" input
+			(at 229.87 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f088f56e-9a34-45fd-8b40-86ab28ab6092")
+		)
+		(pin "BREAKOUT_A_OUT_0" output
+			(at 229.87 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa1149f2-78c1-48c0-a747-845ea2adadab")
+		)
+		(pin "BREAKOUT_USB_VBUS" input
+			(at 229.87 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ad8d51e-e933-4175-9131-3bb12e0c7dba")
+		)
+		(pin "BREAKOUT_USB_D+" input
+			(at 229.87 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1bbe83f6-5e54-42d1-98a4-00ca9560eb63")
+		)
+		(pin "BREAKOUT_USB_D-" input
+			(at 229.87 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d91f1f33-a591-4f21-943d-0e6d8ed41cc8")
+		)
+		(pin "BREAKOUT_SERVO_2" bidirectional
+			(at 229.87 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0260e34d-5a09-4a08-854c-8bb2eec20a98")
+		)
+		(pin "BREAKOUT_ULTRASONIC_TRIG" bidirectional
+			(at 229.87 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d91ea0de-d2b0-4244-aa1b-98b4c4a51f43")
+		)
+		(pin "BREAKOUT_ULTRASONIC_ECHO" bidirectional
+			(at 229.87 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9180579b-817a-4be9-b940-3348352bf690")
+		)
+		(pin "BREAKOUT_MOTOR_PWM1_1" output
+			(at 229.87 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5bdcc77a-41df-411a-bde5-c22d5f8c8170")
+		)
+		(pin "BREAKOUT_MOTOR_PWM1_2" output
+			(at 229.87 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2fdf70df-88b7-4166-810f-faceda9ce821")
+		)
+		(pin "BREAKOUT_MOTOR_PWM2_1" output
+			(at 229.87 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8033c55-2f86-43c2-9d0c-3fbe01a1eb35")
+		)
+		(pin "BREAKOUT_MOTOR_PWM2_2" output
+			(at 229.87 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27aee6ee-24e8-4674-aec9-0be5098e2f85")
+		)
+		(pin "BREAKOUT_MOTOR_C1_1" input
+			(at 229.87 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6ac7f65-ca34-453a-9cd5-3f1bc88baab4")
+		)
+		(pin "BREAKOUT_MOTOR_C2_1" input
+			(at 229.87 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86615973-8ce9-4c13-93d4-458701cba016")
+		)
+		(pin "BREAKOUT_MOTOR_C1_2" input
+			(at 229.87 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1875b006-2e0c-492b-bea8-20a27f674dc4")
+		)
+		(pin "BREAKOUT_MOTOR_C2_2" input
+			(at 229.87 156.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f51ad93-9f71-48a8-9649-807b26a5523e")
+		)
+		(pin "BREAKOUT_12V_OUT" input
+			(at 229.87 21.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dce28677-d7bb-4727-9d43-11fad3e707b1")
+		)
+		(pin "BREAKOUT_VCC" input
+			(at 229.87 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "effb707c-10f3-4563-b8af-a2cfbd7e4f71")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 82.55)
+		(size 21.59 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce186ed4-d4ab-4748-8528-740210dbd27e")
+		(property "Sheetname" "digital"
+			(at 39.37 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital.kicad_sch"
+			(at 39.37 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 30.48)
+		(size 44.45 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf0d8bf1-4632-49df-9398-b3de35528304")
+		(property "Sheetname" "CAN"
+			(at 175.26 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 175.26 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 58.42)
+		(size 44.45 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2913798-f444-47a6-8b64-53020d7d816b")
+		(property "Sheetname" "SPI"
+			(at 175.26 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spi.kicad_sch"
+			(at 175.26 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "53ce272d-9ae2-4c49-8f89-03126ad9a56f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 102.87 57.15)
+		(size 27.94 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12813d98-56c5-41f2-aee0-e0706ec2c7c4")
+		(property "Sheetname" "keypad"
+			(at 102.87 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keypad.kicad_sch"
+			(at 102.87 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 57.15)
+		(size 33.02 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "753ce03d-0bba-4af0-9ec4-e30d9f8176ba")
+		(property "Sheetname" "lcd"
+			(at 144.78 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcd.kicad_sch"
+			(at 144.78 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 57.15)
+		(size 16.51 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "904942d0-033a-428c-a503-5db171e4e28f")
+		(property "Sheetname" "TMP"
+			(at 185.42 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tmp.kicad_sch"
+			(at 185.42 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 57.15)
+		(size 19.05 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc250fdc-fa2f-4ef7-8838-9b00a449b7cb")
+		(property "Sheetname" "oled"
+			(at 210.82 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oled.kicad_sch"
+			(at 210.82 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 57.15)
+		(size 25.4 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d22aa4cb-3827-4ea6-8a80-eeff1d09b15c")
+		(property "Sheetname" "7segment driver"
+			(at 66.04 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sevenseg.kicad_sch"
+			(at 66.04 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093"
+					(page "22")
+				)
+			)
+		)
+	)
+)

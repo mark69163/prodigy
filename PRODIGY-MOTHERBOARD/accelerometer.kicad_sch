@@ -1,136 +1,451 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid abc97438-873a-42c0-b3dd-e769d6fc1f5d)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Sensor_Motion:LIS2DH" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -8.89 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "LIS2DH" (at 3.81 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" (at 0 -15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "3-axis accelerometer spi mems LGA-14" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-14" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LGA*2x2mm*P0.35mm*LayoutBorder3x4y*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LIS2DH_0_1"
-        (rectangle (start -7.62 10.16) (end 10.16 -10.16)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "LIS2DH_1_1"
-        (pin input line (at -10.16 -2.54 0) (length 2.54)
-          (name "SCL/SPC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -10.16 2.54 0) (length 2.54)
-          (name "SDA/SDI" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -10.16 0 0) (length 2.54)
-          (name "SDO" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-          (alternate "SA0" passive line)
-        )
-        (pin input line (at -10.16 5.08 0) (length 2.54)
-          (name "~{CS}" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 12.7 0 180) (length 2.54)
-          (name "INT2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 12.7 2.54 180) (length 2.54)
-          (name "INT1" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 2.54 12.7 270) (length 2.54)
-          (name "Vdd_IO" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 12.7 270) (length 2.54)
-          (name "Vdd" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -12.7 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Sensor_Motion:LIS2DH") (at 137.16 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8479e692-b03b-4d8c-9b22-9057d327287f)
-    (property "Reference" "U11" (at 139.1159 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LIS2DH" (at 139.1159 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" (at 137.16 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" (at 137.16 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 64231606-c8b5-4e09-aef2-73d69cab7c17))
-    (pin "10" (uuid e28f56b2-f57a-4122-a2d5-c3e6075f69c6))
-    (pin "11" (uuid 22241a06-f130-4bdb-aeb8-f190f569c0c2))
-    (pin "12" (uuid a13314b3-c7db-4be3-be9d-8e6cb8058049))
-    (pin "13" (uuid d87a8bdc-181a-46eb-b347-aea6a009d73c))
-    (pin "14" (uuid d73513d8-1663-4aa8-a2a5-245b2ad594fa))
-    (pin "2" (uuid 1f94396c-5fc3-46fd-b2b9-9a612da1b07f))
-    (pin "3" (uuid 49800466-d879-4a11-bace-4260ca1aea41))
-    (pin "4" (uuid 55cc5426-6c41-469a-a936-02271d6da0ba))
-    (pin "5" (uuid 932e2306-c901-4164-848c-4b74b17017a7))
-    (pin "6" (uuid 5322ea9c-2564-4036-98fd-433bdd019ac2))
-    (pin "7" (uuid 60a828cb-d6fb-4f3d-bfd3-d967ba75ec2d))
-    (pin "8" (uuid afc756ff-0588-415c-b56e-4f2980e5dfaa))
-    (pin "9" (uuid 9be2f664-ae43-4477-b53c-9772bdea5bd6))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/47725dfe-8a89-438d-9e4f-9e943dfd0098"
-          (reference "U11") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "abc97438-873a-42c0-b3dd-e769d6fc1f5d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Sensor_Motion:LIS2DH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LIS2DH"
+				(at 3.81 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "3-axis accelerometer spi mems LGA-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LGA*2x2mm*P0.35mm*LayoutBorder3x4y*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LIS2DH_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LIS2DH_1_1"
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SDA/SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SA0" passive line)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "Vdd_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Motion:LIS2DH")
+		(at 137.16 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8479e692-b03b-4d8c-9b22-9057d327287f")
+		(property "Reference" "U2"
+			(at 139.3541 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS2DH"
+			(at 139.3541 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y"
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "786cc99e-fade-4ae2-b7ce-503bcdd7c987")
+		)
+		(pin "10"
+			(uuid "29b78d2e-cd61-4e48-9b39-76551c3ca640")
+		)
+		(pin "11"
+			(uuid "6d3d83b4-7e2f-4683-b0ce-99b83751b6b6")
+		)
+		(pin "12"
+			(uuid "56418e11-51da-4109-bf2c-862b94f72005")
+		)
+		(pin "13"
+			(uuid "7c502407-4c41-427f-9b20-27ba1f23e97e")
+		)
+		(pin "14"
+			(uuid "1fd0ef15-1182-4701-a8d8-a6cbc5766a42")
+		)
+		(pin "2"
+			(uuid "54073ac1-2564-4f7b-9d31-02f62d169cbf")
+		)
+		(pin "3"
+			(uuid "d4e4dfd7-8105-4b8d-ba4c-5ed66a7f75a5")
+		)
+		(pin "4"
+			(uuid "378e155a-4dff-4f53-8fd9-5cebfcbad662")
+		)
+		(pin "5"
+			(uuid "02ad9629-0e58-449c-9786-3f532078762f")
+		)
+		(pin "6"
+			(uuid "407e6be2-1edb-4505-94c5-6a94be1e8b24")
+		)
+		(pin "7"
+			(uuid "66ff4b89-893b-4961-a12c-545b82da0bbf")
+		)
+		(pin "8"
+			(uuid "ce7d6a75-e71e-4814-8597-7a31c0047358")
+		)
+		(pin "9"
+			(uuid "f687b8ee-ca93-4743-95ec-ae820876243d")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/c2afee45-57e5-4466-9ef1-0a43aa29e9a3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

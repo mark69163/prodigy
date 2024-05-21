@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "caddd4ae-4e44-4ed3-9159-125840d6530b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 134.62 102.87)
+		(size 26.67 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1de6bd67-9d33-41f3-aec8-5ac609c7db7f")
+		(property "Sheetname" "tft"
+			(at 134.62 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tft.kicad_sch"
+			(at 134.62 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 107.95)
+		(size 27.94 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "beae7986-1156-4b71-ad5e-6c6ef7c2c7f1")
+		(property "Sheetname" "AUDIO"
+			(at 176.53 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 176.53 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 68.58)
+		(size 27.94 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2afee45-57e5-4466-9ef1-0a43aa29e9a3")
+		(property "Sheetname" "accelerometer"
+			(at 134.62 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accelerometer.kicad_sch"
+			(at 134.62 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 66.04)
+		(size 19.05 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4f3c4b1-d676-4f7b-883c-6fdba835d106")
+		(property "Sheetname" "micro_SD"
+			(at 172.72 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd.kicad_sch"
+			(at 172.72 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 67.31)
+		(size 13.97 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f75fe182-3b01-43c3-81e9-1a0709fd1be7")
+		(property "Sheetname" "NFC"
+			(at 200.66 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfc.kicad_sch"
+			(at 200.66 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b"
+					(page "4")
+				)
+			)
+		)
+	)
+)

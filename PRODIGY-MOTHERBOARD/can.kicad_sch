@@ -1,105 +1,327 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d7bc15e8-f132-4ae9-b315-1965217ab02b)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Interface_CAN_LIN:SN65HVD232" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -2.54 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "SN65HVD232" (at -2.54 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" (at -2.54 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "can transeiver ti" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SN65HVD232_0_1"
-        (rectangle (start -7.62 5.08) (end 7.62 -7.62)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "SN65HVD232_1_1"
-        (pin input line (at -10.16 2.54 0) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -10.16 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 7.62 270) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -10.16 0 0) (length 2.54)
-          (name "R" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -2.54 180) (length 2.54)
-          (name "CANL" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 0 180) (length 2.54)
-          (name "CANH" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Interface_CAN_LIN:SN65HVD232") (at 138.43 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7823fa41-814f-4807-a628-28fde59dd5df)
-    (property "Reference" "U12" (at 140.3859 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SN65HVD232" (at 140.3859 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 138.43 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" (at 135.89 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b8a68dc-07ac-4f8b-9a33-0c249b17cf9a))
-    (pin "2" (uuid b6f6c0b4-2b13-46dd-be49-c3d5c2924cd8))
-    (pin "3" (uuid 8706e137-3916-4b03-9883-143924cfa8d7))
-    (pin "4" (uuid a95799c5-9190-4270-bcb2-701aa5e39720))
-    (pin "5" (uuid 2d96f4e0-8f4b-4555-baf9-c41cb778ad60))
-    (pin "6" (uuid 1a5980f2-aa16-447d-a13d-2f0a8e8dd564))
-    (pin "7" (uuid 9836156d-1872-4fe1-b92f-a5b2d4687c23))
-    (pin "8" (uuid 994472c4-c988-4e7c-9581-b6e0304e0d82))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-          (reference "U12") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d7bc15e8-f132-4ae9-b315-1965217ab02b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Interface_CAN_LIN:SN65HVD232"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SN65HVD232"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
+				(at -2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "can transeiver ti"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN65HVD232_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN65HVD232_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -5.08 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:SN65HVD232")
+		(at 138.43 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7823fa41-814f-4807-a628-28fde59dd5df")
+		(property "Reference" "U9"
+			(at 140.3859 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN65HVD232"
+			(at 140.3859 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8a68dc-07ac-4f8b-9a33-0c249b17cf9a")
+		)
+		(pin "2"
+			(uuid "b6f6c0b4-2b13-46dd-be49-c3d5c2924cd8")
+		)
+		(pin "3"
+			(uuid "8706e137-3916-4b03-9883-143924cfa8d7")
+		)
+		(pin "4"
+			(uuid "a95799c5-9190-4270-bcb2-701aa5e39720")
+		)
+		(pin "5"
+			(uuid "2d96f4e0-8f4b-4555-baf9-c41cb778ad60")
+		)
+		(pin "6"
+			(uuid "1a5980f2-aa16-447d-a13d-2f0a8e8dd564")
+		)
+		(pin "7"
+			(uuid "9836156d-1872-4fe1-b92f-a5b2d4687c23")
+		)
+		(pin "8"
+			(uuid "994472c4-c988-4e7c-9581-b6e0304e0d82")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

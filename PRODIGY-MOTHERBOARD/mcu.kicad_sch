@@ -1,672 +1,3456 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid cc4dc8e9-35c7-475b-83c6-d75182886f21)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:Bus_M.2_Socket_A" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -22.86 46.99 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Bus_M.2_Socket_A" (at 16.51 46.99 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 26.67 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148" (at 0 26.67 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "M2 NGNF PCI-E" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "M.2 Socket 1-DP Mechanical Key A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*M*2*A*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Bus_M.2_Socket_A_0_1"
-        (rectangle (start -22.86 45.72) (end 22.86 -45.72)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "Bus_M.2_Socket_A_1_1"
-        (pin power_in line (at 0 -48.26 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin open_collector line (at 25.4 -22.86 180) (length 2.54)
-          (name "~{LED_2}" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -25.4 -15.24 0) (length 2.54)
-          (name "MLDIR_Sense" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -10.16 180) (length 2.54)
-          (name "DP_ML3n" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 48.26 270) (length 2.54)
-          (name "3.3V" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 10.16 180) (length 2.54)
-          (name "DP_AUXn" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -12.7 180) (length 2.54)
-          (name "DP_ML3p" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 7.62 180) (length 2.54)
-          (name "DP_AUXp" (effects (font (size 1.27 1.27))))
-          (number "22" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "23" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "24" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -5.08 180) (length 2.54)
-          (name "DP_ML2n" (effects (font (size 1.27 1.27))))
-          (number "25" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 0 180) (length 2.54)
-          (name "DP_ML1n" (effects (font (size 1.27 1.27))))
-          (number "26" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -7.62 180) (length 2.54)
-          (name "DP_ML2p" (effects (font (size 1.27 1.27))))
-          (number "27" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -2.54 180) (length 2.54)
-          (name "DP_ML1p" (effects (font (size 1.27 1.27))))
-          (number "28" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "29" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -25.4 10.16 0) (length 2.54)
-          (name "USB_D+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "30" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -15.24 180) (length 2.54)
-          (name "DP_HPD" (effects (font (size 1.27 1.27))))
-          (number "31" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 5.08 180) (length 2.54)
-          (name "DP_ML0n" (effects (font (size 1.27 1.27))))
-          (number "32" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "33" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 2.54 180) (length 2.54)
-          (name "DP_ML0p" (effects (font (size 1.27 1.27))))
-          (number "34" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 33.02 0) (length 2.54)
-          (name "PETp0" (effects (font (size 1.27 1.27))))
-          (number "35" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "36" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 30.48 0) (length 2.54)
-          (name "PETn0" (effects (font (size 1.27 1.27))))
-          (number "37" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 38.1 180) (length 2.54)
-          (name "VENDOR_DEFINED" (effects (font (size 1.27 1.27))))
-          (number "38" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "39" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 48.26 270) (length 2.54) hide
-          (name "3.3V" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 35.56 180) (length 2.54)
-          (name "VENDOR_DEFINED" (effects (font (size 1.27 1.27))))
-          (number "40" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -25.4 27.94 0) (length 2.54)
-          (name "PERp0" (effects (font (size 1.27 1.27))))
-          (number "41" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 33.02 180) (length 2.54)
-          (name "VENDOR_DEFINED" (effects (font (size 1.27 1.27))))
-          (number "42" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -25.4 25.4 0) (length 2.54)
-          (name "PERn0" (effects (font (size 1.27 1.27))))
-          (number "43" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -38.1 180) (length 2.54)
-          (name "COEX3" (effects (font (size 1.27 1.27))))
-          (number "44" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "45" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -35.56 180) (length 2.54)
-          (name "COEX2" (effects (font (size 1.27 1.27))))
-          (number "46" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 -35.56 0) (length 2.54)
-          (name "REFCLKp0" (effects (font (size 1.27 1.27))))
-          (number "47" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -33.02 180) (length 2.54)
-          (name "COEX1" (effects (font (size 1.27 1.27))))
-          (number "48" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 -38.1 0) (length 2.54)
-          (name "REFCLKn0" (effects (font (size 1.27 1.27))))
-          (number "49" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -25.4 7.62 0) (length 2.54)
-          (name "USB_D-" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 -27.94 180) (length 2.54)
-          (name "SUSCLK" (effects (font (size 1.27 1.27))))
-          (number "50" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "51" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 43.18 0) (length 2.54)
-          (name "~{PERST0}" (effects (font (size 1.27 1.27))))
-          (number "52" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -25.4 40.64 0) (length 2.54)
-          (name "~{CLKREQ0}" (effects (font (size 1.27 1.27))))
-          (number "53" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 15.24 180) (length 2.54)
-          (name "~{W_DISABLE2}" (effects (font (size 1.27 1.27))))
-          (number "54" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -25.4 38.1 0) (length 2.54)
-          (name "~{PEWAKE0}" (effects (font (size 1.27 1.27))))
-          (number "55" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 17.78 180) (length 2.54)
-          (name "~{W_DISABLE1}" (effects (font (size 1.27 1.27))))
-          (number "56" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "57" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 27.94 180) (length 2.54)
-          (name "I2C_DATA" (effects (font (size 1.27 1.27))))
-          (number "58" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 22.86 0) (length 2.54)
-          (name "PETp1" (effects (font (size 1.27 1.27))))
-          (number "59" (effects (font (size 1.27 1.27))))
-        )
-        (pin open_collector line (at 25.4 -20.32 180) (length 2.54)
-          (name "~{LED_1}" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 25.4 180) (length 2.54)
-          (name "I2C_CLK" (effects (font (size 1.27 1.27))))
-          (number "60" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 20.32 0) (length 2.54)
-          (name "PETn1" (effects (font (size 1.27 1.27))))
-          (number "61" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 25.4 22.86 180) (length 2.54)
-          (name "~{ALERT}" (effects (font (size 1.27 1.27))))
-          (number "62" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "63" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 43.18 180) (length 2.54)
-          (name "RESERVED" (effects (font (size 1.27 1.27))))
-          (number "64" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -25.4 17.78 0) (length 2.54)
-          (name "PERp1" (effects (font (size 1.27 1.27))))
-          (number "65" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 -2.54 0) (length 2.54)
-          (name "~{PERST1}" (effects (font (size 1.27 1.27))))
-          (number "66" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -25.4 15.24 0) (length 2.54)
-          (name "PERn1" (effects (font (size 1.27 1.27))))
-          (number "67" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -25.4 -5.08 0) (length 2.54)
-          (name "~{CLKREQ1}" (effects (font (size 1.27 1.27))))
-          (number "68" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "69" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -25.4 -7.62 0) (length 2.54)
-          (name "~{PEWAKE1}" (effects (font (size 1.27 1.27))))
-          (number "70" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 -40.64 0) (length 2.54)
-          (name "REFCLKp1" (effects (font (size 1.27 1.27))))
-          (number "71" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 48.26 270) (length 2.54) hide
-          (name "3.3V" (effects (font (size 1.27 1.27))))
-          (number "72" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -25.4 -43.18 0) (length 2.54)
-          (name "REFCLKn1" (effects (font (size 1.27 1.27))))
-          (number "73" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 48.26 270) (length 2.54) hide
-          (name "3.3V" (effects (font (size 1.27 1.27))))
-          (number "74" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -48.26 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "75" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 238.76 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0853aa88-50c1-4de9-be07-01c613f8f18f)
-    (property "Reference" "H?" (at 241.3 64.135 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 241.3 66.675 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 238.76 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 238.76 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 238.76 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 24.13 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1839309e-a389-45fc-90f9-cea3ef3de836)
-    (property "Reference" "H?" (at 26.67 34.925 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 26.67 37.465 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 24.13 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 24.13 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 24.13 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 238.76 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3176ec6a-d976-4841-ac49-23d607ee91a6)
-    (property "Reference" "H?" (at 241.3 57.785 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 241.3 60.325 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 238.76 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 238.76 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 238.76 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 24.13 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4e7feaf1-cc5a-478e-a98a-5862cbce443d)
-    (property "Reference" "H?" (at 26.67 48.895 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 26.67 51.435 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 24.13 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 24.13 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 24.13 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Bus_M.2_Socket_A") (at 168.91 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5bbf1025-c132-42b0-b6cf-0b0e36082c5c)
-    (property "Reference" "J11" (at 170.8659 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Bus_M.2_Socket_A" (at 170.8659 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "m.2_edge_connector_key_a:121992304" (at 168.91 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148" (at 168.91 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 168.91 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7e12c10b-8729-456e-8374-1bed7c2046b9))
-    (pin "16" (uuid bad73e21-b3f2-464e-8dcc-8c74d28c634f))
-    (pin "17" (uuid 20b540f6-3beb-485d-8e38-21e224dd9db0))
-    (pin "18" (uuid 0f214da0-ee40-4a79-a085-414010bc610a))
-    (pin "19" (uuid 405902b3-c14f-42ba-932d-bcfb80ca61b5))
-    (pin "2" (uuid 0d37ce01-2706-427e-a040-4d25725e0a12))
-    (pin "20" (uuid 69785bd8-5373-47cd-bbc8-d5089f1c2d9c))
-    (pin "21" (uuid 5c964608-6b0b-48c1-923e-d8a6896cb943))
-    (pin "22" (uuid 1ed54fee-1ae3-4d3d-ab87-7c4c24b78dcd))
-    (pin "23" (uuid 7e9afa25-1b19-4e55-a2e8-b8e3a5b91932))
-    (pin "24" (uuid b328d9a8-fdbd-4762-834f-5105a0bada77))
-    (pin "25" (uuid f6c68bd2-4630-4e36-ad98-884f6c65a271))
-    (pin "26" (uuid c30e7ed7-9330-4206-af3e-402713b5c3ae))
-    (pin "27" (uuid 87e8b09b-28e2-4db1-bd5b-189095dc7a03))
-    (pin "28" (uuid 30062c64-47a2-4433-b50e-1279a8373619))
-    (pin "29" (uuid 6aa88aec-93e8-442b-8d71-53d9d3876e90))
-    (pin "3" (uuid e9478db6-42a2-4a04-8403-e1fb0546771d))
-    (pin "30" (uuid cba84fa8-0838-4d0f-946d-305b6632707a))
-    (pin "31" (uuid ee01a689-0b0d-46e4-8be8-4ca967e1d0fb))
-    (pin "32" (uuid bec546e2-ec60-4dc7-af7b-c7a09cd74c83))
-    (pin "33" (uuid eb655fc4-1df6-4c5e-b564-f50930c08554))
-    (pin "34" (uuid e759c4b0-9eaa-40c0-a7ed-d6cecd3084a2))
-    (pin "35" (uuid 5fb15d83-bc25-4859-9800-8a3419b1446c))
-    (pin "36" (uuid 5e73ac4d-9281-4500-885c-9f4b32d75fc2))
-    (pin "37" (uuid 4a75868e-f0b1-42d9-8555-7b84af32f699))
-    (pin "38" (uuid d369cda8-2f2c-40fc-a901-49e78af12d16))
-    (pin "39" (uuid c910373e-08ba-46a2-9399-5a6380762d18))
-    (pin "4" (uuid 156d27e6-e7ba-447f-863c-938655a7bdac))
-    (pin "40" (uuid ba355b50-9517-4dac-af5f-7d59ddcddbda))
-    (pin "41" (uuid 9da5606b-4450-40bc-b942-e80a496f7ecd))
-    (pin "42" (uuid 90a7e4a1-8aa1-499a-8989-a069fb85eb29))
-    (pin "43" (uuid 11ea5101-5100-402e-ada3-42aa9986626a))
-    (pin "44" (uuid 2fb14455-9672-448f-83f6-b538a5fe9d40))
-    (pin "45" (uuid d5ecf387-ecfb-4fb6-9caa-7bcbbf02aafd))
-    (pin "46" (uuid 30f8f391-2190-436b-9481-0586297c40c2))
-    (pin "47" (uuid b8370b02-af0e-43e0-8c1f-95d08b412f91))
-    (pin "48" (uuid 60a2e288-df46-44c2-b914-4ac4498725db))
-    (pin "49" (uuid 780df210-1b17-4bdc-82ad-3a313b11ae83))
-    (pin "5" (uuid 649baf32-81b0-48ce-bc1d-b92ca954958e))
-    (pin "50" (uuid f9d859fc-baaa-4204-8d90-d9abdb6ef9db))
-    (pin "51" (uuid b608912d-fef8-4e7f-a35e-78464db0c861))
-    (pin "52" (uuid 65a839ee-ed38-4407-b596-5beadf5359bf))
-    (pin "53" (uuid 041ee575-3f32-4639-9d3b-d771e01a260c))
-    (pin "54" (uuid a7872a39-09fb-4bc9-bfc4-491bebe9de94))
-    (pin "55" (uuid 832fdd4f-41e5-4749-bab6-40c570537c86))
-    (pin "56" (uuid 5a2e6801-23c8-4cad-825a-ed9448c34472))
-    (pin "57" (uuid 60ff9972-500a-41de-b4c7-4ef8733a87f0))
-    (pin "58" (uuid 9e0773cf-7d8a-4053-b62f-4a07145ef646))
-    (pin "59" (uuid 1cc390de-a9b6-4e70-900a-f2da1a3ed59d))
-    (pin "6" (uuid d4ea43cc-c27a-4060-9102-b08dd4706b8a))
-    (pin "60" (uuid 79e97122-bed7-42e6-9ded-2adf77c2d38d))
-    (pin "61" (uuid e43f535a-64a6-42b2-ac4e-1483d5571edf))
-    (pin "62" (uuid c597198b-ca76-4862-9b66-9721b2864720))
-    (pin "63" (uuid 21d2601e-274c-4344-ad41-89f6097cd38b))
-    (pin "64" (uuid 212558b2-7431-41bf-b6a7-eba3a51d4066))
-    (pin "65" (uuid 86af5a54-cc1e-460b-b218-b3649d1fece3))
-    (pin "66" (uuid c7ba41d8-b19b-474c-aa4d-ededff6c661f))
-    (pin "67" (uuid 9ac2f104-d50a-40cb-9d32-c8af1d3ba224))
-    (pin "68" (uuid cf6e8aef-6cd2-48d9-8e04-2205fc45186c))
-    (pin "69" (uuid b32702ac-cc72-498b-8412-94ef86046653))
-    (pin "7" (uuid 54a97ea3-49f7-48b9-9abe-af0642a4f6e2))
-    (pin "70" (uuid 9ed5c2c5-3b3e-4e04-ad88-7857b6081f15))
-    (pin "71" (uuid 43c39202-4ba2-4b63-a407-76cdff8da02e))
-    (pin "72" (uuid dd92163f-88e5-4441-8452-5cdd55770de7))
-    (pin "73" (uuid 4c8f36e0-f065-43a0-83af-7cec96bd98cb))
-    (pin "74" (uuid 541aa729-b3ec-4e69-8c0b-75759dbfb564))
-    (pin "75" (uuid 0b6f8a6c-cb75-4e69-8d11-5866e99e83a5))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "J11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 238.76 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7e6cb070-c73e-431d-ac0f-7f5b7dbfac05)
-    (property "Reference" "H?" (at 241.3 51.435 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 241.3 53.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 238.76 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 238.76 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 238.76 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 24.13 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9410d610-ed78-4f12-b742-83605ab7b8eb)
-    (property "Reference" "H?" (at 26.67 22.225 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 26.67 24.765 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 24.13 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 24.13 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 24.13 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 24.13 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e16cfba0-60e9-4038-9ab8-3a70e6ea82af)
-    (property "Reference" "H?" (at 26.67 27.305 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 26.67 29.845 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 24.13 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 24.13 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 24.13 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 24.13 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f6ea9746-6246-423a-8f62-e23031211473)
-    (property "Reference" "H?" (at 26.67 42.545 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 26.67 45.085 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" (at 24.13 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 24.13 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 24.13 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9"
-          (reference "H?") (unit 1)
-        )
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7f3db57f-ac51-41e9-8dca-bd5af5601beb"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc4dc8e9-35c7-475b-83c6-d75182886f21")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Bus_M.2_Socket_A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -22.86 46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Bus_M.2_Socket_A"
+				(at 16.51 46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148"
+				(at 0 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "M.2 Socket 1-DP Mechanical Key A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "M2 NGNF PCI-E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*M*2*A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bus_M.2_Socket_A_0_1"
+				(rectangle
+					(start -22.86 45.72)
+					(end 22.86 -45.72)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Bus_M.2_Socket_A_1_1"
+				(pin power_in line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 25.4 -22.86 180)
+					(length 2.54)
+					(name "~{LED_2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -15.24 0)
+					(length 2.54)
+					(name "MLDIR_Sense"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -10.16 180)
+					(length 2.54)
+					(name "DP_ML3n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 48.26 270)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 10.16 180)
+					(length 2.54)
+					(name "DP_AUXn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -12.7 180)
+					(length 2.54)
+					(name "DP_ML3p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 7.62 180)
+					(length 2.54)
+					(name "DP_AUXp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -5.08 180)
+					(length 2.54)
+					(name "DP_ML2n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "DP_ML1n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "DP_ML2p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "DP_ML1p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 10.16 0)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -15.24 180)
+					(length 2.54)
+					(name "DP_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 5.08 180)
+					(length 2.54)
+					(name "DP_ML0n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 2.54 180)
+					(length 2.54)
+					(name "DP_ML0p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 33.02 0)
+					(length 2.54)
+					(name "PETp0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 30.48 0)
+					(length 2.54)
+					(name "PETn0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 38.1 180)
+					(length 2.54)
+					(name "VENDOR_DEFINED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 48.26 270)
+					(length 2.54) hide
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 35.56 180)
+					(length 2.54)
+					(name "VENDOR_DEFINED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 27.94 0)
+					(length 2.54)
+					(name "PERp0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 33.02 180)
+					(length 2.54)
+					(name "VENDOR_DEFINED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 25.4 0)
+					(length 2.54)
+					(name "PERn0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -38.1 180)
+					(length 2.54)
+					(name "COEX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -35.56 180)
+					(length 2.54)
+					(name "COEX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -35.56 0)
+					(length 2.54)
+					(name "REFCLKp0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -33.02 180)
+					(length 2.54)
+					(name "COEX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -38.1 0)
+					(length 2.54)
+					(name "REFCLKn0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 7.62 0)
+					(length 2.54)
+					(name "USB_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -27.94 180)
+					(length 2.54)
+					(name "SUSCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 43.18 0)
+					(length 2.54)
+					(name "~{PERST0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 40.64 0)
+					(length 2.54)
+					(name "~{CLKREQ0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 15.24 180)
+					(length 2.54)
+					(name "~{W_DISABLE2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 38.1 0)
+					(length 2.54)
+					(name "~{PEWAKE0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 17.78 180)
+					(length 2.54)
+					(name "~{W_DISABLE1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 27.94 180)
+					(length 2.54)
+					(name "I2C_DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 22.86 0)
+					(length 2.54)
+					(name "PETp1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 25.4 -20.32 180)
+					(length 2.54)
+					(name "~{LED_1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 25.4 180)
+					(length 2.54)
+					(name "I2C_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 20.32 0)
+					(length 2.54)
+					(name "PETn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 22.86 180)
+					(length 2.54)
+					(name "~{ALERT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 43.18 180)
+					(length 2.54)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 17.78 0)
+					(length 2.54)
+					(name "PERp1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -2.54 0)
+					(length 2.54)
+					(name "~{PERST1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 15.24 0)
+					(length 2.54)
+					(name "PERn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -5.08 0)
+					(length 2.54)
+					(name "~{CLKREQ1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -7.62 0)
+					(length 2.54)
+					(name "~{PEWAKE1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -40.64 0)
+					(length 2.54)
+					(name "REFCLKp1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 48.26 270)
+					(length 2.54) hide
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -43.18 0)
+					(length 2.54)
+					(name "REFCLKn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 48.26 270)
+					(length 2.54) hide
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:USB_C_Plug"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -10.16 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_C_Plug"
+				(at 10.16 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type-C Plug connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Plug*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_Plug_0_0"
+				(rectangle
+					(start -0.254 -35.56)
+					(end 0.254 -34.544)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -32.766)
+					(end 9.144 -33.274)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -30.226)
+					(end 9.144 -30.734)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -25.146)
+					(end 9.144 -25.654)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -22.606)
+					(end 9.144 -23.114)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -17.526)
+					(end 9.144 -18.034)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -9.906)
+					(end 9.144 -10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -7.366)
+					(end 9.144 -7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 12.954)
+					(end 9.144 12.446)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 18.034)
+					(end 9.144 17.526)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 20.574)
+					(end 9.144 20.066)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 25.654)
+					(end 9.144 25.146)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Plug_0_1"
+				(rectangle
+					(start -10.16 27.94)
+					(end 10.16 -35.56)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -8.89 -3.81)
+					(mid -6.985 -5.7067)
+					(end -5.08 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -3.81)
+					(mid -6.985 -4.4423)
+					(end -6.35 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -3.81)
+					(mid -6.985 -4.4423)
+					(end -6.35 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -6.35 3.81)
+					(mid -6.985 4.4423)
+					(end -7.62 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 3.81)
+					(mid -6.985 4.4423)
+					(end -7.62 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -5.08 3.81)
+					(mid -6.985 5.7067)
+					(end -8.89 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Plug_1_1"
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "RX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -17.78 180)
+					(length 5.08)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "TX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "TX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 5.08)
+					(name "CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -30.48 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "RX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "RX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -25.4 180)
+					(length 5.08)
+					(name "TX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -22.86 180)
+					(length 5.08)
+					(name "TX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 5.08)
+					(name "VCONN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 238.76 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0853aa88-50c1-4de9-be07-01c613f8f18f")
+		(property "Reference" "H8"
+			(at 241.3 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 241.3 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1839309e-a389-45fc-90f9-cea3ef3de836")
+		(property "Reference" "H3"
+			(at 26.67 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 26.67 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 24.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 24.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Plug")
+		(at 39.37 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276c4740-0acf-4b87-8cb5-9b2daf91e683")
+		(property "Reference" "P1"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Plug"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 43.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 43.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "b9622120-324b-4476-9cde-c4e0fb3a82c2")
+		)
+		(pin "A10"
+			(uuid "21586bf3-49cb-49ca-81b1-66504952dbbe")
+		)
+		(pin "A11"
+			(uuid "c3c37bda-ed29-4e33-8037-1ea86eedc568")
+		)
+		(pin "A12"
+			(uuid "68f64902-26d2-439e-bc0c-9cfb49e32d1d")
+		)
+		(pin "A2"
+			(uuid "3743a7e6-1bb2-4db2-9d39-b0b58fb5b983")
+		)
+		(pin "A3"
+			(uuid "eae9b713-12d2-4874-8efc-f71473efac69")
+		)
+		(pin "A4"
+			(uuid "8db58ca0-6246-4534-8e50-0b244d328af4")
+		)
+		(pin "A5"
+			(uuid "282a752a-d82f-4b4e-9e03-7943732660f1")
+		)
+		(pin "A6"
+			(uuid "794cd645-d14a-4663-be81-e522e82451ed")
+		)
+		(pin "A7"
+			(uuid "7557346a-0747-4fb8-ba84-fc93e64a8c5c")
+		)
+		(pin "A8"
+			(uuid "2a7bb66f-0116-4cfe-a12f-00529001db38")
+		)
+		(pin "A9"
+			(uuid "2d7ca30a-7d71-4e98-aad1-6b68e610bf03")
+		)
+		(pin "B1"
+			(uuid "d9c4f1e1-f51f-440f-92ee-686709fbafb5")
+		)
+		(pin "B10"
+			(uuid "dc1c34eb-4422-41fb-be43-2b79d829f08b")
+		)
+		(pin "B11"
+			(uuid "a0cd93d2-383f-4388-9e0a-0bbfaa3249dd")
+		)
+		(pin "B12"
+			(uuid "376bc28e-770f-4c27-80f8-1abebaffb911")
+		)
+		(pin "B2"
+			(uuid "547cde6d-45ee-48d5-a3eb-530d7379b5a7")
+		)
+		(pin "B3"
+			(uuid "e2efeb30-24ce-4c00-8379-7a5060b87043")
+		)
+		(pin "B4"
+			(uuid "31e1398c-6653-4ee1-9553-2547ab7eb51b")
+		)
+		(pin "B5"
+			(uuid "8f09e407-5280-4258-bed0-3198cfab9c15")
+		)
+		(pin "B8"
+			(uuid "c3753ce4-a53d-48ef-a458-5938230bcc1d")
+		)
+		(pin "B9"
+			(uuid "27e54bde-6883-4af6-8343-0a38b4c6a510")
+		)
+		(pin "S1"
+			(uuid "056c08f9-bb6d-4ff2-96b2-0213b96921ed")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 238.76 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3176ec6a-d976-4841-ac49-23d607ee91a6")
+		(property "Reference" "H7"
+			(at 241.3 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 241.3 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7feaf1-cc5a-478e-a98a-5862cbce443d")
+		(property "Reference" "H5"
+			(at 26.67 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 26.67 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Bus_M.2_Socket_A")
+		(at 151.13 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bbf1025-c132-42b0-b6cf-0b0e36082c5c")
+		(property "Reference" "J17"
+			(at 153.0859 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus_M.2_Socket_A"
+			(at 153.0859 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "m.2_edge_connector_key_a:121992304"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e12c10b-8729-456e-8374-1bed7c2046b9")
+		)
+		(pin "16"
+			(uuid "bad73e21-b3f2-464e-8dcc-8c74d28c634f")
+		)
+		(pin "17"
+			(uuid "20b540f6-3beb-485d-8e38-21e224dd9db0")
+		)
+		(pin "18"
+			(uuid "0f214da0-ee40-4a79-a085-414010bc610a")
+		)
+		(pin "19"
+			(uuid "405902b3-c14f-42ba-932d-bcfb80ca61b5")
+		)
+		(pin "2"
+			(uuid "0d37ce01-2706-427e-a040-4d25725e0a12")
+		)
+		(pin "20"
+			(uuid "69785bd8-5373-47cd-bbc8-d5089f1c2d9c")
+		)
+		(pin "21"
+			(uuid "5c964608-6b0b-48c1-923e-d8a6896cb943")
+		)
+		(pin "22"
+			(uuid "1ed54fee-1ae3-4d3d-ab87-7c4c24b78dcd")
+		)
+		(pin "23"
+			(uuid "7e9afa25-1b19-4e55-a2e8-b8e3a5b91932")
+		)
+		(pin "24"
+			(uuid "b328d9a8-fdbd-4762-834f-5105a0bada77")
+		)
+		(pin "25"
+			(uuid "f6c68bd2-4630-4e36-ad98-884f6c65a271")
+		)
+		(pin "26"
+			(uuid "c30e7ed7-9330-4206-af3e-402713b5c3ae")
+		)
+		(pin "27"
+			(uuid "87e8b09b-28e2-4db1-bd5b-189095dc7a03")
+		)
+		(pin "28"
+			(uuid "30062c64-47a2-4433-b50e-1279a8373619")
+		)
+		(pin "29"
+			(uuid "6aa88aec-93e8-442b-8d71-53d9d3876e90")
+		)
+		(pin "3"
+			(uuid "e9478db6-42a2-4a04-8403-e1fb0546771d")
+		)
+		(pin "30"
+			(uuid "cba84fa8-0838-4d0f-946d-305b6632707a")
+		)
+		(pin "31"
+			(uuid "ee01a689-0b0d-46e4-8be8-4ca967e1d0fb")
+		)
+		(pin "32"
+			(uuid "bec546e2-ec60-4dc7-af7b-c7a09cd74c83")
+		)
+		(pin "33"
+			(uuid "eb655fc4-1df6-4c5e-b564-f50930c08554")
+		)
+		(pin "34"
+			(uuid "e759c4b0-9eaa-40c0-a7ed-d6cecd3084a2")
+		)
+		(pin "35"
+			(uuid "5fb15d83-bc25-4859-9800-8a3419b1446c")
+		)
+		(pin "36"
+			(uuid "5e73ac4d-9281-4500-885c-9f4b32d75fc2")
+		)
+		(pin "37"
+			(uuid "4a75868e-f0b1-42d9-8555-7b84af32f699")
+		)
+		(pin "38"
+			(uuid "d369cda8-2f2c-40fc-a901-49e78af12d16")
+		)
+		(pin "39"
+			(uuid "c910373e-08ba-46a2-9399-5a6380762d18")
+		)
+		(pin "4"
+			(uuid "156d27e6-e7ba-447f-863c-938655a7bdac")
+		)
+		(pin "40"
+			(uuid "ba355b50-9517-4dac-af5f-7d59ddcddbda")
+		)
+		(pin "41"
+			(uuid "9da5606b-4450-40bc-b942-e80a496f7ecd")
+		)
+		(pin "42"
+			(uuid "90a7e4a1-8aa1-499a-8989-a069fb85eb29")
+		)
+		(pin "43"
+			(uuid "11ea5101-5100-402e-ada3-42aa9986626a")
+		)
+		(pin "44"
+			(uuid "2fb14455-9672-448f-83f6-b538a5fe9d40")
+		)
+		(pin "45"
+			(uuid "d5ecf387-ecfb-4fb6-9caa-7bcbbf02aafd")
+		)
+		(pin "46"
+			(uuid "30f8f391-2190-436b-9481-0586297c40c2")
+		)
+		(pin "47"
+			(uuid "b8370b02-af0e-43e0-8c1f-95d08b412f91")
+		)
+		(pin "48"
+			(uuid "60a2e288-df46-44c2-b914-4ac4498725db")
+		)
+		(pin "49"
+			(uuid "780df210-1b17-4bdc-82ad-3a313b11ae83")
+		)
+		(pin "5"
+			(uuid "649baf32-81b0-48ce-bc1d-b92ca954958e")
+		)
+		(pin "50"
+			(uuid "f9d859fc-baaa-4204-8d90-d9abdb6ef9db")
+		)
+		(pin "51"
+			(uuid "b608912d-fef8-4e7f-a35e-78464db0c861")
+		)
+		(pin "52"
+			(uuid "65a839ee-ed38-4407-b596-5beadf5359bf")
+		)
+		(pin "53"
+			(uuid "041ee575-3f32-4639-9d3b-d771e01a260c")
+		)
+		(pin "54"
+			(uuid "a7872a39-09fb-4bc9-bfc4-491bebe9de94")
+		)
+		(pin "55"
+			(uuid "832fdd4f-41e5-4749-bab6-40c570537c86")
+		)
+		(pin "56"
+			(uuid "5a2e6801-23c8-4cad-825a-ed9448c34472")
+		)
+		(pin "57"
+			(uuid "60ff9972-500a-41de-b4c7-4ef8733a87f0")
+		)
+		(pin "58"
+			(uuid "9e0773cf-7d8a-4053-b62f-4a07145ef646")
+		)
+		(pin "59"
+			(uuid "1cc390de-a9b6-4e70-900a-f2da1a3ed59d")
+		)
+		(pin "6"
+			(uuid "d4ea43cc-c27a-4060-9102-b08dd4706b8a")
+		)
+		(pin "60"
+			(uuid "79e97122-bed7-42e6-9ded-2adf77c2d38d")
+		)
+		(pin "61"
+			(uuid "e43f535a-64a6-42b2-ac4e-1483d5571edf")
+		)
+		(pin "62"
+			(uuid "c597198b-ca76-4862-9b66-9721b2864720")
+		)
+		(pin "63"
+			(uuid "21d2601e-274c-4344-ad41-89f6097cd38b")
+		)
+		(pin "64"
+			(uuid "212558b2-7431-41bf-b6a7-eba3a51d4066")
+		)
+		(pin "65"
+			(uuid "86af5a54-cc1e-460b-b218-b3649d1fece3")
+		)
+		(pin "66"
+			(uuid "c7ba41d8-b19b-474c-aa4d-ededff6c661f")
+		)
+		(pin "67"
+			(uuid "9ac2f104-d50a-40cb-9d32-c8af1d3ba224")
+		)
+		(pin "68"
+			(uuid "cf6e8aef-6cd2-48d9-8e04-2205fc45186c")
+		)
+		(pin "69"
+			(uuid "b32702ac-cc72-498b-8412-94ef86046653")
+		)
+		(pin "7"
+			(uuid "54a97ea3-49f7-48b9-9abe-af0642a4f6e2")
+		)
+		(pin "70"
+			(uuid "9ed5c2c5-3b3e-4e04-ad88-7857b6081f15")
+		)
+		(pin "71"
+			(uuid "43c39202-4ba2-4b63-a407-76cdff8da02e")
+		)
+		(pin "72"
+			(uuid "dd92163f-88e5-4441-8452-5cdd55770de7")
+		)
+		(pin "73"
+			(uuid "4c8f36e0-f065-43a0-83af-7cec96bd98cb")
+		)
+		(pin "74"
+			(uuid "541aa729-b3ec-4e69-8c0b-75759dbfb564")
+		)
+		(pin "75"
+			(uuid "0b6f8a6c-cb75-4e69-8d11-5866e99e83a5")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 238.76 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e6cb070-c73e-431d-ac0f-7f5b7dbfac05")
+		(property "Reference" "H6"
+			(at 241.3 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 241.3 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9410d610-ed78-4f12-b742-83605ab7b8eb")
+		(property "Reference" "H1"
+			(at 26.67 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 26.67 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e16cfba0-60e9-4038-9ab8-3a70e6ea82af")
+		(property "Reference" "H2"
+			(at 26.67 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 26.67 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6ea9746-6246-423a-8f62-e23031211473")
+		(property "Reference" "H4"
+			(at 26.67 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 26.67 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 24.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 24.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 64.77 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9452f1c-c72a-4efb-af84-9fcf7b481b2f")
+		(property "Reference" "D4"
+			(at 65.0875 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 65.0875 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289e4e12-7693-4340-ad80-e126315cba7e")
+		)
+		(pin "2"
+			(uuid "b83b16cd-7f42-4928-9ffa-f30619a1f1c7")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

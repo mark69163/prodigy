@@ -1,100 +1,303 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 19e81193-106b-4519-8cf0-ac78ee137005)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Sensor_Humidity:HDC1080" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -6.35 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "HDC1080" (at 3.81 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_SON:Texas_PWSON-N6" (at -1.27 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf" (at -10.16 6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Temperature Humidity Sensor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Package*SON:Texas*PWSON*N6*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "HDC1080_0_1"
-        (rectangle (start -7.62 5.08) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "HDC1080_1_1"
-        (pin bidirectional line (at 7.62 0 180) (length 2.54)
-          (name "SDA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at -7.62 0 0) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 7.62 2.54 180) (length 2.54)
-          (name "SCL" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
-          (name "DAP" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Sensor_Humidity:HDC1080") (at 127 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6a6f4fd9-3bcc-410c-9adb-9e28e810eee3)
-    (property "Reference" "U10" (at 118.11 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "HDC1080" (at 118.11 74.295 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Package_SON:Texas_PWSON-N6" (at 125.73 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf" (at 116.84 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7a497e4f-af85-4ec6-a488-f845735e048d))
-    (pin "2" (uuid 97aef6d7-695e-4709-9d8e-1076d810d1fd))
-    (pin "3" (uuid 42bc832c-599b-400c-acf9-81f582cfaa97))
-    (pin "4" (uuid 0663768e-dff5-4ef4-9388-744120ab0166))
-    (pin "5" (uuid 11b827c1-ad00-473c-9142-33adbbafbe86))
-    (pin "6" (uuid 76aae9bd-8019-48f1-8b16-cf25c04ed688))
-    (pin "7" (uuid f2048c3a-cf5f-4838-b766-65828f6600ad))
-    (instances
-      (project "PRODIGY-MOTHERBOARD"
-        (path "/f1c25860-8989-4190-bd24-2491d23ca7d9/b6067c5b-b0b3-4965-98dd-754256cc3fcc"
-          (reference "U10") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "19e81193-106b-4519-8cf0-ac78ee137005")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Sensor_Humidity:HDC1080"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HDC1080"
+				(at 3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:Texas_PWSON-N6"
+				(at -1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Temperature Humidity Sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Package*SON:Texas*PWSON*N6*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HDC1080_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HDC1080_1_1"
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 0 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54) hide
+					(name "DAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Humidity:HDC1080")
+		(at 127 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6f4fd9-3bcc-410c-9adb-9e28e810eee3")
+		(property "Reference" "U8"
+			(at 118.11 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HDC1080"
+			(at 118.11 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_PWSON-N6"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8808ac13-28d5-4b11-a0f9-4f3782ddf847")
+		)
+		(pin "2"
+			(uuid "e20a8530-e76a-46a2-82bf-2ef462d0c1ab")
+		)
+		(pin "3"
+			(uuid "52e68443-3f79-4277-a9e7-ed4e1c5ef1ae")
+		)
+		(pin "4"
+			(uuid "47e5d33c-fcd6-43f4-8334-8f997ee682cc")
+		)
+		(pin "5"
+			(uuid "314c971d-bf3b-4d9d-85d0-008a77a40fdd")
+		)
+		(pin "6"
+			(uuid "9821583d-40ba-4af0-8b3b-02c5e9f3932a")
+		)
+		(pin "7"
+			(uuid "c2fb4d78-700c-4d57-994c-73f0fa33bb46")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/904942d0-033a-428c-a503-5db171e4e28f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
