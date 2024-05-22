@@ -616,6 +616,10 @@
       "Root"
     ],
     [
+      "5b2ed776-5334-4587-8715-0b58b66b66ac",
+      "7segment driver"
+    ],
+    [
       "a962dcec-9dee-4e54-acaa-e8da87dab487",
       "OUTPUTS"
     ],
@@ -628,20 +632,12 @@
       "micro_SD"
     ],
     [
-      "c2afee45-57e5-4466-9ef1-0a43aa29e9a3",
-      "accelerometer"
-    ],
-    [
       "7df83d4f-8c4f-4445-bdae-bd2c13239983",
       "POWER"
     ],
     [
       "beae7986-1156-4b71-ad5e-6c6ef7c2c7f1",
       "AUDIO"
-    ],
-    [
-      "904942d0-033a-428c-a503-5db171e4e28f",
-      "TMP"
     ],
     [
       "cf0d8bf1-4632-49df-9398-b3de35528304",
@@ -672,20 +668,12 @@
       "tft"
     ],
     [
-      "12813d98-56c5-41f2-aee0-e0706ec2c7c4",
-      "keypad"
+      "94efb13e-f47a-4ad5-a80b-985c2164e820",
+      "I2C Devices"
     ],
     [
-      "753ce03d-0bba-4af0-9ec4-e30d9f8176ba",
-      "lcd"
-    ],
-    [
-      "cc250fdc-fa2f-4ef7-8838-9b00a449b7cb",
-      "oled"
-    ],
-    [
-      "d22aa4cb-3827-4ea6-8a80-eeff1d09b15c",
-      "7segment driver"
+      "d23a8b72-8742-4bfa-9594-8a2de80e1d70",
+      "50Hz Filter"
     ],
     [
       "ce186ed4-d4ab-4748-8528-740210dbd27e",

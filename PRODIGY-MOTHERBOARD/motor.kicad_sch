@@ -251,16 +251,16 @@
 	)
 	(symbol
 		(lib_id "Driver_Motor:DRV8870DDA")
-		(at 142.24 91.44 0)
+		(at 138.43 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de198dc5-0711-4377-bcb3-ba21ea6b9d59")
-		(property "Reference" "U10"
-			(at 144.1959 82.55 0)
+		(uuid "48c58626-9a84-4e71-b8dd-d2568500f727")
+		(property "Reference" "U21"
+			(at 140.3859 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +269,7 @@
 			)
 		)
 		(property "Value" "DRV8870DDA"
-			(at 144.1959 85.09 0)
+			(at 140.3859 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +278,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 144.78 93.98 0)
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +287,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
-			(at 135.89 82.55 0)
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +296,98 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 91.44 0)
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d7219d7-c2e7-41d8-a4b0-87e806b6ff52")
+		)
+		(pin "2"
+			(uuid "af16faff-e9e4-480e-a520-857fd607d040")
+		)
+		(pin "3"
+			(uuid "12bb56c8-818b-491f-accc-80cecf4d1615")
+		)
+		(pin "4"
+			(uuid "3454956c-d077-4e47-ab7f-f2b57effefc9")
+		)
+		(pin "5"
+			(uuid "ebdb9a04-251a-442f-9e60-ff85e608cf5e")
+		)
+		(pin "6"
+			(uuid "9859c354-0866-494f-bf1d-e333e0965830")
+		)
+		(pin "7"
+			(uuid "22dd8562-51bf-418b-96ba-f95fd840959c")
+		)
+		(pin "8"
+			(uuid "6fe8159c-bee5-4338-93ef-d4933071fe96")
+		)
+		(pin "9"
+			(uuid "4fa747a7-57f9-41aa-ace1-0ea82990a316")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8870DDA")
+		(at 138.43 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de198dc5-0711-4377-bcb3-ba21ea6b9d59")
+		(property "Reference" "U10"
+			(at 140.3859 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8870DDA"
+			(at 140.3859 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
