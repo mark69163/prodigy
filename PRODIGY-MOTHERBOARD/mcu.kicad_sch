@@ -2830,7 +2830,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bbf1025-c132-42b0-b6cf-0b0e36082c5c")
 		(property "Reference" "J17"
-			(at 153.0859 59.69 0)
+			(at 153.3241 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2839,7 @@
 			)
 		)
 		(property "Value" "Bus_M.2_Socket_A"
-			(at 153.0859 62.23 0)
+			(at 153.3241 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2010,7 +2010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_ProSignal_ABI-010-RC"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Mallory_AST1240MLQ"
 			(at 205.105 57.15 90)
 			(effects
 				(font
@@ -3051,7 +3051,7 @@
 	)
 	(symbol
 		(lib_id "LED:IRL81A")
-		(at 38.1 30.48 0)
+		(at 29.21 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3060,23 +3060,25 @@
 		(fields_autoplaced yes)
 		(uuid "8e4a5988-1837-4be0-82f2-f99c9bcb14cb")
 		(property "Reference" "D6"
-			(at 36.957 24.13 0)
+			(at 33.02 30.6069 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "D_IR_EMITTER"
-			(at 36.957 26.67 0)
+			(at 33.02 33.1469 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear"
-			(at 38.1 26.035 0)
+			(at 33.655 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
-			(at 36.83 30.48 0)
+			(at 29.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 30.48 0)
+			(at 29.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
