@@ -398,16 +398,16 @@
 	)
 	(symbol
 		(lib_id "Driver_Display:CR2013-MI2120")
-		(at 134.62 93.98 0)
+		(at 142.24 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b08ee4b-e99e-4de8-82bd-66923c32af4b")
 		(property "Reference" "U11"
-			(at 136.5759 77.47 0)
+			(at 140.2841 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +416,7 @@
 			)
 		)
 		(property "Value" "CR2013-MI2120"
-			(at 136.5759 80.01 0)
+			(at 140.2841 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +425,7 @@
 			)
 		)
 		(property "Footprint" "Display:CR2013-MI2120"
-			(at 134.62 111.76 0)
+			(at 142.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,7 +434,7 @@
 			)
 		)
 		(property "Datasheet" "http://pan.baidu.com/s/11Y990"
-			(at 118.11 81.28 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 93.98 0)
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

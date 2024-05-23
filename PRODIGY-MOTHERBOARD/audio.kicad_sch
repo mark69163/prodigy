@@ -999,7 +999,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 222.25 78.74 0)
+		(at 172.72 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1008,7 +1008,7 @@
 		(fields_autoplaced yes)
 		(uuid "159adaa0-ea50-4a27-a7fc-e72a71fcf1bc")
 		(property "Reference" "AE1"
-			(at 224.79 78.74 0)
+			(at 175.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 224.79 81.28 0)
+			(at 175.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1026,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 222.25 78.74 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 78.74 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 78.74 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1137,7 @@
 	)
 	(symbol
 		(lib_id "RF:Si4460")
-		(at 198.12 118.11 0)
+		(at 148.59 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1146,7 +1146,7 @@
 		(fields_autoplaced yes)
 		(uuid "81660635-cd5f-412d-8ef2-99dff09011de")
 		(property "Reference" "U6"
-			(at 200.0759 135.89 0)
+			(at 150.5459 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Value" "Si4460"
-			(at 200.0759 138.43 0)
+			(at 150.5459 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-			(at 198.12 87.63 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf"
-			(at 190.5 120.65 0)
+			(at 140.97 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1182,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 118.11 0)
+			(at 148.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Audio:LM386")
-		(at 241.3 64.77 0)
+		(at 191.77 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1273,7 +1273,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe5f6848-00a9-4c74-b2ac-39b1cca5642d")
 		(property "Reference" "U7"
-			(at 251.46 61.3411 0)
+			(at 201.93 41.0211 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1281,7 @@
 			)
 		)
 		(property "Value" "LM386"
-			(at 251.46 63.8811 0)
+			(at 201.93 43.5611 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1289,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
-			(at 243.84 62.23 0)
+			(at 194.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1298,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
-			(at 246.38 59.69 0)
+			(at 196.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 64.77 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

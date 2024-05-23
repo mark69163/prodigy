@@ -196,7 +196,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 114.3)
+		(at 39.37 55.88)
 		(size 21.59 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -208,7 +208,7 @@
 		)
 		(uuid "4747deee-8806-443e-847a-65f550cadde4")
 		(property "Sheetname" "esp32"
-			(at 39.37 113.5884 0)
+			(at 39.37 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 39.37 128.8546 0)
+			(at 39.37 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +226,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 39.37 114.3 0)
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,8 +476,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 54.61)
-		(size 21.59 19.05)
+		(at 36.83 128.27)
+		(size 33.02 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -488,7 +488,7 @@
 		)
 		(uuid "a2bc12b1-b9d0-4419-aed0-74588fb36767")
 		(property "Sheetname" "analog"
-			(at 39.37 53.8984 0)
+			(at 36.83 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +497,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 39.37 74.2446 0)
+			(at 36.83 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +506,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 39.37 54.61 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,8 +911,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 82.55)
-		(size 21.59 20.32)
+		(at 36.83 157.48)
+		(size 33.02 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -923,7 +923,7 @@
 		)
 		(uuid "ce186ed4-d4ab-4748-8528-740210dbd27e")
 		(property "Sheetname" "digital"
-			(at 39.37 81.8384 0)
+			(at 36.83 156.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,13 +932,73 @@
 			)
 		)
 		(property "Sheetfile" "digital.kicad_sch"
-			(at 39.37 103.4546 0)
+			(at 36.83 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DIGITAL_NEOPIXEL_IN" input
+			(at 69.85 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "48aa5859-7800-4dcf-a822-62257031b25e")
+		)
+		(pin "DIGITAL_NEOPIXEL_OUT" output
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4cce5313-2c9b-4409-adba-2a01b6a371b8")
+		)
+		(pin "DIGITAL_BUTTON_1" input
+			(at 69.85 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "edac31a7-cdbf-414a-8a14-0600cf0ead01")
+		)
+		(pin "DIGITAL_BUTTON_2" input
+			(at 69.85 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e4b9b9b-f1c2-4f7c-9348-e709d8212672")
+		)
+		(pin "DIGITAL_BUTTON_3" input
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b761582c-1b6e-4f5a-9fe5-34a1c5b5c186")
+		)
+		(pin "DIGITAL_BUTTON_0" output
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04d40a28-9c40-4ece-9a7a-5f0b15aa5cb4")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
