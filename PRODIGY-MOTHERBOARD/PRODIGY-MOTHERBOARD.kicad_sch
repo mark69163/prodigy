@@ -911,8 +911,8 @@
 		)
 	)
 	(sheet
-		(at 36.83 134.62)
-		(size 33.02 57.15)
+		(at 27.94 118.11)
+		(size 41.91 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -923,7 +923,7 @@
 		)
 		(uuid "ce186ed4-d4ab-4748-8528-740210dbd27e")
 		(property "Sheetname" "digital"
-			(at 36.83 133.9084 0)
+			(at 27.94 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +932,7 @@
 			)
 		)
 		(property "Sheetfile" "digital.kicad_sch"
-			(at 36.83 192.3546 0)
+			(at 27.94 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +941,7 @@
 			)
 		)
 		(pin "DIGITAL_NEOPIXEL_IN" input
-			(at 69.85 140.97 0)
+			(at 69.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +951,7 @@
 			(uuid "48aa5859-7800-4dcf-a822-62257031b25e")
 		)
 		(pin "DIGITAL_NEOPIXEL_OUT" output
-			(at 69.85 189.23 0)
+			(at 69.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +961,7 @@
 			(uuid "4cce5313-2c9b-4409-adba-2a01b6a371b8")
 		)
 		(pin "DIGITAL_BUTTON_0" output
-			(at 69.85 146.05 0)
+			(at 69.85 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +971,7 @@
 			(uuid "04d40a28-9c40-4ece-9a7a-5f0b15aa5cb4")
 		)
 		(pin "DIGITAL_BUZZER_IN" input
-			(at 69.85 138.43 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +981,7 @@
 			(uuid "4fbdb1b3-2765-438d-a5a1-89387e98df96")
 		)
 		(pin "DIGITAL_BUTTON_1" output
-			(at 69.85 148.59 0)
+			(at 69.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 			(uuid "00c1026d-8a13-402d-adce-442d4c0d15cc")
 		)
 		(pin "DIGITAL_BUTTON_3" output
-			(at 69.85 153.67 0)
+			(at 69.85 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1001,7 @@
 			(uuid "34c8311a-0156-440b-b3c8-5bbd1670e178")
 		)
 		(pin "DIGITAL_BUTTON_2" output
-			(at 69.85 151.13 0)
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,37 +1011,37 @@
 			(uuid "3786ee64-a8cd-4ef9-9f0b-3d8bce7352ab")
 		)
 		(pin "DIGITAL_LED_12V" input
-			(at 69.85 158.75 0)
+			(at 27.94 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "abb549e8-1b69-4b52-9532-cb6a08fff765")
 		)
 		(pin "DIGITAL_LED_3V3" input
-			(at 69.85 161.29 0)
+			(at 27.94 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "5a5bcd74-2978-473d-9587-ee08e4345edb")
 		)
 		(pin "DIGITAL_LED_5V" input
-			(at 69.85 163.83 0)
+			(at 27.94 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "d08ced24-993d-4e93-969d-79a71ad2122b")
 		)
 		(pin "DIGITAL_LED_1" input
-			(at 69.85 166.37 0)
+			(at 69.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1051,7 @@
 			(uuid "66d09786-f7d8-4c01-94a9-87732257d765")
 		)
 		(pin "DIGITAL_LED_2" input
-			(at 69.85 168.91 0)
+			(at 69.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1061,7 @@
 			(uuid "e4c20455-cb96-473e-8bab-bafc092ce5c3")
 		)
 		(pin "DIGITAL_LED_0" input
-			(at 69.85 171.45 0)
+			(at 69.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,6 +1069,96 @@
 				(justify right)
 			)
 			(uuid "3112470d-e2c8-4ce8-b1d8-41b1fef4e906")
+		)
+		(pin "DIGITAL_RGB_G" input
+			(at 69.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "961615d6-68ea-435a-aa55-40a86fa0bff4")
+		)
+		(pin "DIGITAL_RGB_R" input
+			(at 69.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6b368ab-c1d0-41fb-8b44-2c1439e82b11")
+		)
+		(pin "DIGITAL_RGB_B" input
+			(at 69.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "702e7ea2-96a0-4822-9cdb-9e7dd61be158")
+		)
+		(pin "DIGITAL_DETECT_G" input
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40473272-96e3-4010-a4ef-d84240c638aa")
+		)
+		(pin "DIGITAL_DETECT_B" input
+			(at 69.85 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "389519b8-b0e3-43c1-be16-42e5dcb30797")
+		)
+		(pin "DIGITAL_DETECT_R" input
+			(at 69.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df461c1e-327c-488f-935f-ebf6398cdeb8")
+		)
+		(pin "DIGITAL_IR_EMITTER" input
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50abd5f0-c168-4b96-bfe8-560c568033b7")
+		)
+		(pin "DIGITAL_IR_RECEIVER" output
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98ded965-b874-41f5-ad9a-7ca767fc1a2f")
+		)
+		(pin "DIGITAL_HEATER_IN" input
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbf208dc-792b-4365-87b7-e0e7006e0842")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
