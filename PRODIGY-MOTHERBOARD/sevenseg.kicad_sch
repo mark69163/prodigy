@@ -1809,7 +1809,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 74.93) (xy 143.51 74.93)
+			(xy 127 74.93) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 217.17 71.12)
+			(xy 156.21 71.12) (xy 222.25 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 62.23) (xy 127 62.23)
+			(xy 157.48 62.23) (xy 127 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 78.74) (xy 212.09 62.23)
+			(xy 217.17 78.74) (xy 217.17 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 146.05 78.74)
+			(xy 151.13 72.39) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 127 49.53)
+			(xy 157.48 49.53) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 62.23) (xy 208.28 62.23)
+			(xy 217.17 62.23) (xy 213.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 64.77) (xy 208.28 64.77)
+			(xy 214.63 64.77) (xy 213.36 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 67.31) (xy 151.13 71.12)
+			(xy 156.21 67.31) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 59.69) (xy 214.63 59.69)
+			(xy 213.36 59.69) (xy 219.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 71.12) (xy 217.17 57.15)
+			(xy 222.25 71.12) (xy 222.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 78.74) (xy 212.09 78.74)
+			(xy 151.13 78.74) (xy 217.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 127 59.69)
+			(xy 157.48 59.69) (xy 127 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 127 57.15)
+			(xy 157.48 57.15) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 74.93) (xy 214.63 59.69)
+			(xy 219.71 74.93) (xy 219.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 81.28) (xy 209.55 64.77)
+			(xy 214.63 81.28) (xy 214.63 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 151.13 67.31)
+			(xy 127 67.31) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 148.59 74.93)
+			(xy 153.67 69.85) (xy 153.67 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 146.05 72.39)
+			(xy 127 72.39) (xy 151.13 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 143.51 81.28)
+			(xy 148.59 74.93) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 148.59 69.85)
+			(xy 127 69.85) (xy 153.67 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 81.28) (xy 209.55 81.28)
+			(xy 148.59 81.28) (xy 214.63 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2149,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 127 54.61)
+			(xy 157.48 54.61) (xy 127 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 127 46.99)
+			(xy 157.48 46.99) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2169,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 57.15) (xy 208.28 57.15)
+			(xy 222.25 57.15) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 52.07) (xy 127 52.07)
+			(xy 157.48 52.07) (xy 127 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2189,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 64.77) (xy 127 64.77)
+			(xy 157.48 64.77) (xy 127 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 214.63 74.93)
+			(xy 153.67 74.93) (xy 219.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866191b9-029a-45c3-97e2-c0cc31ae4959")
-		(property "Reference" "R16"
+		(property "Reference" "R5"
 			(at 102.87 40.64 90)
 			(effects
 				(font
@@ -2315,7 +2315,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "R16")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2323,7 +2323,7 @@
 	)
 	(symbol
 		(lib_id "Display_Character:CC56-12SEKWA")
-		(at 180.34 54.61 0)
+		(at 185.42 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2331,8 +2331,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a85ab9bc-000f-4f22-bb45-48f04f0dd07b")
-		(property "Reference" "U15"
-			(at 180.34 36.83 0)
+		(property "Reference" "U2"
+			(at 185.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2340,7 @@
 			)
 		)
 		(property "Value" "CC56-12YWA"
-			(at 180.34 39.37 0)
+			(at 185.42 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2348,7 @@
 			)
 		)
 		(property "Footprint" "Display_7Segment:CC56-12YWA"
-			(at 180.34 69.85 0)
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2357,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SEKWA(Ver.7A).pdf"
-			(at 169.418 53.848 0)
+			(at 174.498 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2366,7 @@
 			)
 		)
 		(property "Description" "4 digit 7 segment super bright orange LED, common cathode"
-			(at 180.34 54.61 0)
+			(at 185.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2413,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "U15")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa18a8d4-9dfd-4f85-af22-f3054e8cc47b")
-		(property "Reference" "U14"
+		(property "Reference" "U1"
 			(at 119.0341 39.37 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "U14")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2565,7 +2565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7bd50b-706c-4d99-a87a-80fa8d54c1c4")
-		(property "Reference" "C24"
+		(property "Reference" "C3"
 			(at 95.25 49.5299 0)
 			(effects
 				(font
@@ -2619,7 +2619,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "C24")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e5b37f-5473-41cb-957c-5444d3287d9b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR010"
 			(at 116.84 36.83 0)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "#PWR024")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2701,7 +2701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae13bc3-983f-4a14-afeb-4ba1296c7204")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR09"
 			(at 83.82 63.5 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "#PWR020")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2767,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de59c07d-0dfc-406f-af19-262695880eea")
-		(property "Reference" "C23"
+		(property "Reference" "C2"
 			(at 81.28 49.5299 0)
 			(effects
 				(font
@@ -2821,7 +2821,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "C23")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2837,7 +2837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f298004a-07f0-44cd-9453-c53e8c968f3d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR011"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -2887,7 +2887,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "#PWR025")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

@@ -835,7 +835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4489837-9346-4db3-94a5-f90d6383e0a8")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 155.6259 60.96 0)
 			(effects
 				(font
@@ -1006,7 +1006,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/f75fe182-3b01-43c3-81e9-1a0709fd1be7"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)

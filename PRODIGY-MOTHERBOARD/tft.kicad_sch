@@ -406,7 +406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b08ee4b-e99e-4de8-82bd-66923c32af4b")
-		(property "Reference" "U11"
+		(property "Reference" "U16"
 			(at 140.2841 71.12 0)
 			(effects
 				(font
@@ -496,7 +496,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/1de6bd67-9d33-41f3-aec8-5ac609c7db7f"
-					(reference "U11")
+					(reference "U16")
 					(unit 1)
 				)
 			)
