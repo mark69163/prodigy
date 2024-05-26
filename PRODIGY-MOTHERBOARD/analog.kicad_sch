@@ -1171,7 +1171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f041bda-80c5-4228-a461-33de1f5eba66")
-		(property "Reference" "R64"
+		(property "Reference" "R69"
 			(at 196.85 95.885 0)
 			(effects
 				(font
@@ -1226,7 +1226,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a2bc12b1-b9d0-4419-aed0-74588fb36767"
-					(reference "R64")
+					(reference "R69")
 					(unit 1)
 				)
 			)

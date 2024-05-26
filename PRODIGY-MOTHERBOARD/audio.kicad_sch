@@ -1007,7 +1007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "159adaa0-ea50-4a27-a7fc-e72a71fcf1bc")
-		(property "Reference" "AE1"
+		(property "Reference" "AE2"
 			(at 175.26 58.42 0)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
-					(reference "AE1")
+					(reference "AE2")
 					(unit 1)
 				)
 			)
@@ -1146,7 +1146,7 @@
 		(fields_autoplaced yes)
 		(uuid "81660635-cd5f-412d-8ef2-99dff09011de")
 		(property "Reference" "U8"
-			(at 150.5459 115.57 0)
+			(at 150.7841 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Value" "Si4460"
-			(at 150.5459 118.11 0)
+			(at 150.7841 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

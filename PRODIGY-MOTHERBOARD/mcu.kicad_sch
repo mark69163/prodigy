@@ -4671,7 +4671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6039ab68-0df0-4945-8a5d-460be6b9c6c1")
-		(property "Reference" "J28"
+		(property "Reference" "J2"
 			(at 168.5641 41.91 0)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
-					(reference "J28")
+					(reference "J2")
 					(unit 1)
 				)
 			)
