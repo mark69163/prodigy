@@ -703,163 +703,6 @@
 				)
 			)
 		)
-		(symbol "Diode:SD05_SOD323"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SD05_SOD323"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transient voltage suppressor thyrector transil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SD05_SOD323_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SD05_SOD323_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1102,12 +945,6 @@
 		(uuid "8cbbc863-c0bd-4f90-a75d-3e0cac6963ff")
 	)
 	(junction
-		(at 83.82 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "927b5ea0-ddb3-4b08-b74c-e8f4e3037a4c")
-	)
-	(junction
 		(at 233.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1124,12 +961,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf868ab-b1b8-487d-b118-48f6ae091526")
-	)
-	(junction
-		(at 77.47 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cff4004b-241e-4c4a-b975-fa933677d4be")
 	)
 	(junction
 		(at 173.99 83.82)
@@ -1156,16 +987,6 @@
 			(type default)
 		)
 		(uuid "064542f9-9ccc-4901-abfd-c0a098e84137")
-	)
-	(wire
-		(pts
-			(xy 77.47 95.25) (xy 77.47 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d489c4-ce9e-4440-a494-0042cb22a52a")
 	)
 	(wire
 		(pts
@@ -1199,16 +1020,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 110.49) (xy 83.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8b0151-47f8-40a1-8c5b-64a07e9d802a")
-	)
-	(wire
-		(pts
 			(xy 97.79 76.2) (xy 97.79 77.47)
 		)
 		(stroke
@@ -1216,16 +1027,6 @@
 			(type default)
 		)
 		(uuid "2115fd19-a02d-4af0-a0bb-2f496351d3ad")
-	)
-	(wire
-		(pts
-			(xy 64.77 97.79) (xy 83.82 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21567623-4714-41f5-aada-2e57cafeee8f")
 	)
 	(wire
 		(pts
@@ -1289,16 +1090,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 77.47 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b157dc4-92bd-4f80-996b-d67205c47c84")
-	)
-	(wire
-		(pts
 			(xy 220.98 113.03) (xy 220.98 116.84)
 		)
 		(stroke
@@ -1349,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 104.14 95.25)
+			(xy 64.77 95.25) (xy 104.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1366,16 +1157,6 @@
 			(type default)
 		)
 		(uuid "6a678dd8-eb0a-4634-8432-066a2e9178b2")
-	)
-	(wire
-		(pts
-			(xy 83.82 97.79) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c8e7bea-a0b9-4b39-a1bb-8ba772c01162")
 	)
 	(wire
 		(pts
@@ -1659,16 +1440,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 110.49) (xy 77.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68844e4-96b6-4808-a0dc-b945fa46f7cc")
-	)
-	(wire
-		(pts
 			(xy 138.43 80.01) (xy 138.43 69.85)
 		)
 		(stroke
@@ -1679,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 97.79) (xy 115.57 97.79)
+			(xy 64.77 97.79) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1786,7 +1557,7 @@
 		)
 		(uuid "ae1b1834-8ba8-44e6-bd95-370e568b582c")
 	)
-	(hierarchical_label "ANALOG_BREAKOUT_IN"
+	(hierarchical_label "ANALOG_BREAKOUT_OUT"
 		(shape output)
 		(at 246.38 86.36 0)
 		(fields_autoplaced yes)
@@ -2087,77 +1858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 77.47 106.68 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cbfb23f-1bbc-413e-ba73-327981fe93fe")
-		(property "Reference" "D10"
-			(at 74.93 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05_SOD323"
-			(at 74.93 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 72.39 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 77.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 77.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10edfde2-5958-4d7e-bfff-95b89fbaf6bd")
-		)
-		(pin "2"
-			(uuid "a624ff3d-f3f0-482f-a26f-96cc38d30222")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/d23a8b72-8742-4bfa-9594-8a2de80e1d70"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 101.6 0)
 		(unit 1)
@@ -2218,73 +1918,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/d23a8b72-8742-4bfa-9594-8a2de80e1d70"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13ccb3c0-4289-452a-80b8-bb19ccdb9632")
-		(property "Reference" "#PWR0114"
-			(at 77.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a5785cf-bc75-491a-95b8-c52199ca6cd7")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/d23a8b72-8742-4bfa-9594-8a2de80e1d70"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -2919,76 +2552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 83.82 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6aabb98-868a-41c7-ae5a-8cee4039a7da")
-		(property "Reference" "D11"
-			(at 86.36 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05_SOD323"
-			(at 86.36 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49653260-7cf0-4438-9ca6-42ae5672d2b5")
-		)
-		(pin "2"
-			(uuid "09b7f666-55f1-47b7-841d-8299f2156217")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/d23a8b72-8742-4bfa-9594-8a2de80e1d70"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 213.36 102.87 0)
 		(unit 1)
@@ -3053,72 +2616,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/d23a8b72-8742-4bfa-9594-8a2de80e1d70"
 					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcb0afaf-0e18-438f-b501-e7eb59c2a3ab")
-		(property "Reference" "#PWR0115"
-			(at 83.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a444ed70-8946-493c-95df-a07db2134229")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/d23a8b72-8742-4bfa-9594-8a2de80e1d70"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

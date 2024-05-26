@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 219.71 143.51) (xy 229.87 143.51)
+			(xy 219.71 138.43) (xy 229.87 138.43)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 138.43) (xy 229.87 138.43)
+			(xy 219.71 133.35) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 140.97) (xy 229.87 140.97)
+			(xy 219.71 135.89) (xy 229.87 135.89)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 146.05) (xy 229.87 146.05)
+			(xy 219.71 140.97) (xy 229.87 140.97)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 127) (xy 229.87 127)
+			(xy 219.71 121.92) (xy 229.87 121.92)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 129.54) (xy 229.87 129.54)
+			(xy 219.71 124.46) (xy 229.87 124.46)
 		)
 		(stroke
 			(width 0)
@@ -165,7 +165,7 @@
 		)
 		(uuid "f1a21934-cd6c-4890-bfe2-582137700a24")
 	)
-	(text "59/64 pins"
+	(text "55/64 pins"
 		(exclude_from_sim no)
 		(at 130.048 183.642 0)
 		(effects
@@ -179,7 +179,7 @@
 	)
 	(sheet
 		(at 82.55 30.48)
-		(size 81.28 147.32)
+		(size 81.28 124.46)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 82.55 178.3846 0)
+			(at 82.55 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,8 +216,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 55.88)
-		(size 21.59 13.97)
+		(at 27.94 154.94)
+		(size 40.64 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -228,7 +228,7 @@
 		)
 		(uuid "4747deee-8806-443e-847a-65f550cadde4")
 		(property "Sheetname" "esp32"
-			(at 39.37 55.1684 0)
+			(at 27.94 154.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +237,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 39.37 70.4346 0)
+			(at 27.94 182.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 39.37 55.88 0)
+			(at 27.94 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -370,7 +370,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 137.16)
+		(at 175.26 132.08)
 		(size 44.45 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -382,7 +382,7 @@
 		)
 		(uuid "68c611b4-6626-4f5e-8db6-2b7527a0fa95")
 		(property "Sheetname" "MOTOR"
-			(at 175.26 136.4484 0)
+			(at 175.26 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +391,7 @@
 			)
 		)
 		(property "Sheetfile" "motor.kicad_sch"
-			(at 175.26 147.9046 0)
+			(at 175.26 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +400,7 @@
 			)
 		)
 		(pin "MOTOR_IN1_2" input
-			(at 175.26 143.51 180)
+			(at 175.26 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +410,7 @@
 			(uuid "10f93e89-370f-4070-a863-5cfcd03fd2df")
 		)
 		(pin "MOTOR_IN2_2" input
-			(at 175.26 146.05 180)
+			(at 175.26 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +420,7 @@
 			(uuid "b772fd64-3a82-4ea7-8dac-845ca934d8b0")
 		)
 		(pin "MOTOR_OUT2_BREAKOUT_1" output
-			(at 219.71 140.97 0)
+			(at 219.71 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +430,7 @@
 			(uuid "c773baf8-bc3f-46f3-96e4-29accf0f91c3")
 		)
 		(pin "MOTOR_OUT1_BREAKOUT_1" output
-			(at 219.71 138.43 0)
+			(at 219.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +440,7 @@
 			(uuid "486a78fe-b7eb-4bc7-a029-fb60c33b69ec")
 		)
 		(pin "MOTOR_IN1_1" input
-			(at 175.26 138.43 180)
+			(at 175.26 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,7 +450,7 @@
 			(uuid "99dc3c73-a22f-495b-bfa7-4aba91757ca2")
 		)
 		(pin "MOTOR_IN2_1" input
-			(at 175.26 140.97 180)
+			(at 175.26 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +460,7 @@
 			(uuid "186237c9-fa32-4b37-824d-47cc06719da9")
 		)
 		(pin "MOTOR_OUT1_BREAKOUT_2" output
-			(at 219.71 143.51 0)
+			(at 219.71 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +470,7 @@
 			(uuid "692d54fc-c020-4671-a34d-1fae4eef71b3")
 		)
 		(pin "MOTOR_OUT2_BREAKOUT_2" output
-			(at 219.71 146.05 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +576,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 82.55)
+		(at 34.29 52.07)
 		(size 33.02 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -588,7 +588,7 @@
 		)
 		(uuid "a2bc12b1-b9d0-4419-aed0-74588fb36767")
 		(property "Sheetname" "analog"
-			(at 35.56 81.8384 0)
+			(at 34.29 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 35.56 102.1846 0)
+			(at 34.29 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,13 +606,53 @@
 			)
 		)
 		(property "Field2" ""
-			(at 35.56 82.55 0)
+			(at 34.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "ANALOG_POTENTIOMETER_OUT" output
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd061dac-3855-4374-80eb-02b086cb25f0")
+		)
+		(pin "ANALOG_THERMISTOR_OUT" output
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f73cd3d7-7fc4-48f2-b754-0cd9572a81e3")
+		)
+		(pin "ANALOG_PHOTOTRANSISTOR_OUT" output
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f15579d8-805e-4223-8aac-2a4338cbf869")
+		)
+		(pin "ANALOG_MICROPHONE_OUT" output
+			(at 67.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b51c83e9-56d2-401d-845f-2955d3dee943")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
@@ -653,7 +693,7 @@
 			)
 		)
 		(pin "BREAKOUT_SERIAL_TX" bidirectional
-			(at 229.87 100.33 180)
+			(at 229.87 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +703,7 @@
 			(uuid "ba795961-7d7d-4efc-b9c5-6d82e17d81bf")
 		)
 		(pin "BREAKOUT_SERIAL_RX" bidirectional
-			(at 229.87 102.87 180)
+			(at 229.87 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +773,7 @@
 			(uuid "1f46f3fe-4663-4600-bf17-5c5c0ddb4766")
 		)
 		(pin "BREAKOUT_D_GPIO_1" bidirectional
-			(at 229.87 109.22 180)
+			(at 229.87 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +783,7 @@
 			(uuid "0a9ab460-4450-44fd-a6df-0463b9b23562")
 		)
 		(pin "BREAKOUT_D_GPIO_2" bidirectional
-			(at 229.87 111.76 180)
+			(at 229.87 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +793,7 @@
 			(uuid "3959cd69-da20-4441-8e95-57b1015871e6")
 		)
 		(pin "BREAKOUT_D_GPIO_3" bidirectional
-			(at 229.87 114.3 180)
+			(at 229.87 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +803,7 @@
 			(uuid "e22f95d8-c1b4-4f1d-bea7-918dd5ede843")
 		)
 		(pin "BREAKOUT_D_GPIO_0" bidirectional
-			(at 229.87 106.68 180)
+			(at 229.87 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,7 +813,7 @@
 			(uuid "28e2065d-9dfa-43fa-99b4-931ffca7c66f")
 		)
 		(pin "BREAKOUT_A_OUT_0" output
-			(at 229.87 119.38 180)
+			(at 229.87 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +833,7 @@
 			(uuid "7ad8d51e-e933-4175-9131-3bb12e0c7dba")
 		)
 		(pin "BREAKOUT_USB_D+" input
-			(at 229.87 93.98 180)
+			(at 229.87 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +843,7 @@
 			(uuid "1bbe83f6-5e54-42d1-98a4-00ca9560eb63")
 		)
 		(pin "BREAKOUT_USB_D-" input
-			(at 229.87 96.52 180)
+			(at 229.87 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +853,7 @@
 			(uuid "d91f1f33-a591-4f21-943d-0e6d8ed41cc8")
 		)
 		(pin "BREAKOUT_MOTOR_PWM1_1" output
-			(at 229.87 138.43 180)
+			(at 229.87 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +863,7 @@
 			(uuid "5bdcc77a-41df-411a-bde5-c22d5f8c8170")
 		)
 		(pin "BREAKOUT_MOTOR_PWM1_2" output
-			(at 229.87 140.97 180)
+			(at 229.87 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +873,7 @@
 			(uuid "2fdf70df-88b7-4166-810f-faceda9ce821")
 		)
 		(pin "BREAKOUT_MOTOR_PWM2_1" output
-			(at 229.87 143.51 180)
+			(at 229.87 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +883,7 @@
 			(uuid "e8033c55-2f86-43c2-9d0c-3fbe01a1eb35")
 		)
 		(pin "BREAKOUT_MOTOR_PWM2_2" output
-			(at 229.87 146.05 180)
+			(at 229.87 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +893,7 @@
 			(uuid "27aee6ee-24e8-4674-aec9-0be5098e2f85")
 		)
 		(pin "BREAKOUT_MOTOR_C1_1" input
-			(at 229.87 149.86 180)
+			(at 229.87 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +903,7 @@
 			(uuid "b6ac7f65-ca34-453a-9cd5-3f1bc88baab4")
 		)
 		(pin "BREAKOUT_MOTOR_C2_1" input
-			(at 229.87 152.4 180)
+			(at 229.87 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +913,7 @@
 			(uuid "86615973-8ce9-4c13-93d4-458701cba016")
 		)
 		(pin "BREAKOUT_MOTOR_C1_2" input
-			(at 229.87 154.94 180)
+			(at 229.87 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +923,7 @@
 			(uuid "1875b006-2e0c-492b-bea8-20a27f674dc4")
 		)
 		(pin "BREAKOUT_MOTOR_C2_2" input
-			(at 229.87 157.48 180)
+			(at 229.87 152.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +953,7 @@
 			(uuid "effb707c-10f3-4563-b8af-a2cfbd7e4f71")
 		)
 		(pin "BREAKOUT_A_IN_P1+" output
-			(at 229.87 127 180)
+			(at 229.87 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +963,7 @@
 			(uuid "3b5cb7ce-d89a-4d47-a08b-42af412ca05b")
 		)
 		(pin "BREAKOUT_A_IN_P1-" output
-			(at 229.87 129.54 180)
+			(at 229.87 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,8 +1001,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 118.11)
-		(size 41.91 49.53)
+		(at 27.94 77.47)
+		(size 41.91 67.31)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -973,7 +1013,7 @@
 		)
 		(uuid "ce186ed4-d4ab-4748-8528-740210dbd27e")
 		(property "Sheetname" "digital"
-			(at 27.94 117.3984 0)
+			(at 27.94 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1022,7 @@
 			)
 		)
 		(property "Sheetfile" "digital.kicad_sch"
-			(at 27.94 168.2246 0)
+			(at 27.94 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1031,7 @@
 			)
 		)
 		(pin "DIGITAL_NEOPIXEL_IN" input
-			(at 69.85 128.27 0)
+			(at 69.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1041,7 @@
 			(uuid "48aa5859-7800-4dcf-a822-62257031b25e")
 		)
 		(pin "DIGITAL_NEOPIXEL_OUT" output
-			(at 69.85 165.1 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1051,7 @@
 			(uuid "4cce5313-2c9b-4409-adba-2a01b6a371b8")
 		)
 		(pin "DIGITAL_BUTTON_0" output
-			(at 69.85 153.67 0)
+			(at 69.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1061,7 @@
 			(uuid "04d40a28-9c40-4ece-9a7a-5f0b15aa5cb4")
 		)
 		(pin "DIGITAL_BUZZER_IN" input
-			(at 69.85 123.19 0)
+			(at 69.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1071,7 @@
 			(uuid "4fbdb1b3-2765-438d-a5a1-89387e98df96")
 		)
 		(pin "DIGITAL_BUTTON_1" output
-			(at 69.85 156.21 0)
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +1081,7 @@
 			(uuid "00c1026d-8a13-402d-adce-442d4c0d15cc")
 		)
 		(pin "DIGITAL_BUTTON_3" output
-			(at 69.85 161.29 0)
+			(at 69.85 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1091,7 @@
 			(uuid "34c8311a-0156-440b-b3c8-5bbd1670e178")
 		)
 		(pin "DIGITAL_BUTTON_2" output
-			(at 69.85 158.75 0)
+			(at 69.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1101,7 @@
 			(uuid "3786ee64-a8cd-4ef9-9f0b-3d8bce7352ab")
 		)
 		(pin "DIGITAL_LED_12V" input
-			(at 27.94 120.65 180)
+			(at 27.94 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1111,7 @@
 			(uuid "abb549e8-1b69-4b52-9532-cb6a08fff765")
 		)
 		(pin "DIGITAL_LED_3V3" input
-			(at 27.94 125.73 180)
+			(at 27.94 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1121,7 @@
 			(uuid "5a5bcd74-2978-473d-9587-ee08e4345edb")
 		)
 		(pin "DIGITAL_LED_5V" input
-			(at 27.94 123.19 180)
+			(at 27.94 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1131,7 @@
 			(uuid "d08ced24-993d-4e93-969d-79a71ad2122b")
 		)
 		(pin "DIGITAL_LED_1" input
-			(at 69.85 134.62 0)
+			(at 69.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1141,7 @@
 			(uuid "66d09786-f7d8-4c01-94a9-87732257d765")
 		)
 		(pin "DIGITAL_LED_2" input
-			(at 69.85 137.16 0)
+			(at 69.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1151,7 @@
 			(uuid "e4c20455-cb96-473e-8bab-bafc092ce5c3")
 		)
 		(pin "DIGITAL_LED_0" input
-			(at 69.85 132.08 0)
+			(at 69.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1161,7 @@
 			(uuid "3112470d-e2c8-4ce8-b1d8-41b1fef4e906")
 		)
 		(pin "DIGITAL_RGB_G" input
-			(at 69.85 140.97 0)
+			(at 69.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1171,7 @@
 			(uuid "961615d6-68ea-435a-aa55-40a86fa0bff4")
 		)
 		(pin "DIGITAL_RGB_R" input
-			(at 69.85 143.51 0)
+			(at 69.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1181,7 @@
 			(uuid "b6b368ab-c1d0-41fb-8b44-2c1439e82b11")
 		)
 		(pin "DIGITAL_RGB_B" input
-			(at 69.85 146.05 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,37 +1191,37 @@
 			(uuid "702e7ea2-96a0-4822-9cdb-9e7dd61be158")
 		)
 		(pin "DIGITAL_DETECT_G" input
-			(at 27.94 129.54 180)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "40473272-96e3-4010-a4ef-d84240c638aa")
 		)
 		(pin "DIGITAL_DETECT_B" input
-			(at 27.94 132.08 180)
+			(at 69.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "389519b8-b0e3-43c1-be16-42e5dcb30797")
 		)
 		(pin "DIGITAL_DETECT_R" input
-			(at 27.94 134.62 180)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "df461c1e-327c-488f-935f-ebf6398cdeb8")
 		)
 		(pin "DIGITAL_IR_EMITTER" input
-			(at 69.85 125.73 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1231,7 @@
 			(uuid "50abd5f0-c168-4b96-bfe8-560c568033b7")
 		)
 		(pin "DIGITAL_IR_RECEIVER" output
-			(at 69.85 149.86 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1241,7 @@
 			(uuid "98ded965-b874-41f5-ad9a-7ca767fc1a2f")
 		)
 		(pin "DIGITAL_HEATER_IN" input
-			(at 69.85 120.65 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1357,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 125.73)
+		(at 175.26 120.65)
 		(size 44.45 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -1329,7 +1369,7 @@
 		)
 		(uuid "d23a8b72-8742-4bfa-9594-8a2de80e1d70")
 		(property "Sheetname" "50Hz Filter"
-			(at 175.26 125.0184 0)
+			(at 175.26 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1378,7 @@
 			)
 		)
 		(property "Sheetfile" "filter.kicad_sch"
-			(at 175.26 131.3946 0)
+			(at 175.26 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1387,7 @@
 			)
 		)
 		(pin "+3.3VA" input
-			(at 175.26 127 180)
+			(at 175.26 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1397,7 @@
 			(uuid "0ce44193-7cc9-471d-a244-310b8eba6804")
 		)
 		(pin "ANALOG_IN_P1+" input
-			(at 219.71 127 0)
+			(at 219.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1407,7 @@
 			(uuid "e74b6520-cb78-48a7-9e3f-1a62321d0a8f")
 		)
 		(pin "ANALOG_IN_P1-" input
-			(at 219.71 129.54 0)
+			(at 219.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,15 +1416,15 @@
 			)
 			(uuid "a0947a42-f419-47a8-a07b-1258a6b68587")
 		)
-		(pin "ANALOG_BREAKOUT_IN" output
-			(at 175.26 129.54 180)
+		(pin "ANALOG_BREAKOUT_OUT" output
+			(at 175.26 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16b9a63a-5039-433d-a968-86c11bf4861c")
+			(uuid "acf2cf72-87a6-4d47-9ebb-8df64fbbcd86")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"

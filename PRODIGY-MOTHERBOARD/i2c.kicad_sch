@@ -1071,6 +1071,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 109.22) (xy 237.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00212de0-11d7-46bb-b3c0-a1e5a0229527")
+	)
+	(wire
+		(pts
 			(xy 140.97 149.86) (xy 200.66 149.86)
 		)
 		(stroke
@@ -1421,16 +1431,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 109.22) (xy 229.87 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c7c5f7-07c6-4ec6-9641-c43332316827")
-	)
-	(wire
-		(pts
 			(xy 77.47 106.68) (xy 102.87 106.68)
 		)
 		(stroke
@@ -1541,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 106.68) (xy 237.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20087c2-4afd-4c10-9121-47f2351cdeff")
+	)
+	(wire
+		(pts
 			(xy 200.66 63.5) (xy 200.66 149.86)
 		)
 		(stroke
@@ -1578,16 +1588,6 @@
 			(type default)
 		)
 		(uuid "d7921246-5259-435d-9b82-3c384f49bd41")
-	)
-	(wire
-		(pts
-			(xy 215.9 106.68) (xy 229.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a1654d-06a5-4648-ad34-6cf19267ad66")
 	)
 	(wire
 		(pts
@@ -1788,7 +1788,7 @@
 	)
 	(hierarchical_label "I2C_SCL_BREAKOUT"
 		(shape bidirectional)
-		(at 229.87 106.68 0)
+		(at 237.49 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1812,7 +1812,7 @@
 	)
 	(hierarchical_label "I2C_SDA_BREAKOUT"
 		(shape bidirectional)
-		(at 229.87 109.22 0)
+		(at 237.49 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
