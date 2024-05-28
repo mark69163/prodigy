@@ -127,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 21.59) (xy 229.87 21.59)
+			(xy 69.85 21.59) (xy 229.87 21.59)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 26.67) (xy 229.87 26.67)
+			(xy 69.85 26.67) (xy 229.87 26.67)
 		)
 		(stroke
 			(width 0)
@@ -216,8 +216,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 154.94)
-		(size 40.64 26.67)
+		(at 27.94 151.13)
+		(size 41.91 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -228,7 +228,7 @@
 		)
 		(uuid "4747deee-8806-443e-847a-65f550cadde4")
 		(property "Sheetname" "esp32"
-			(at 27.94 154.2284 0)
+			(at 27.94 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +237,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 27.94 182.1946 0)
+			(at 27.94 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 27.94 154.94 0)
+			(at 27.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,8 +488,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 19.05)
-		(size 21.59 26.67)
+		(at 27.94 19.05)
+		(size 41.91 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -500,7 +500,7 @@
 		)
 		(uuid "7df83d4f-8c4f-4445-bdae-bd2c13239983")
 		(property "Sheetname" "POWER"
-			(at 39.37 18.3384 0)
+			(at 27.94 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +509,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 39.37 46.3046 0)
+			(at 27.94 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +518,7 @@
 			)
 		)
 		(pin "+3V3" output
-			(at 60.96 36.83 0)
+			(at 69.85 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,7 +528,7 @@
 			(uuid "1d0dc8fd-a28d-4643-ad6c-2a12e3c1cb59")
 		)
 		(pin "+12V" output
-			(at 60.96 21.59 0)
+			(at 69.85 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +538,7 @@
 			(uuid "d19d0393-ce12-40c5-9978-16e38057ae2f")
 		)
 		(pin "+5V" output
-			(at 60.96 24.13 0)
+			(at 69.85 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +548,7 @@
 			(uuid "67313a28-4657-45f5-8082-c54dbb1849bc")
 		)
 		(pin "USB_HOST_PWR" output
-			(at 60.96 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,7 +558,7 @@
 			(uuid "4f2ac2ae-fe8d-4ece-b64f-9f9a03b0ca3a")
 		)
 		(pin "EN_USB_HOST_PWR" input
-			(at 60.96 33.02 0)
+			(at 69.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,8 +576,8 @@
 		)
 	)
 	(sheet
-		(at 34.29 52.07)
-		(size 33.02 19.05)
+		(at 27.94 52.07)
+		(size 41.91 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -588,7 +588,7 @@
 		)
 		(uuid "a2bc12b1-b9d0-4419-aed0-74588fb36767")
 		(property "Sheetname" "analog"
-			(at 34.29 51.3584 0)
+			(at 27.94 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 34.29 71.7046 0)
+			(at 27.94 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +606,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 34.29 52.07 0)
+			(at 27.94 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +615,7 @@
 			)
 		)
 		(pin "ANALOG_POTENTIOMETER_OUT" output
-			(at 67.31 57.15 0)
+			(at 69.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			(uuid "fd061dac-3855-4374-80eb-02b086cb25f0")
 		)
 		(pin "ANALOG_THERMISTOR_OUT" output
-			(at 67.31 62.23 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +635,7 @@
 			(uuid "f73cd3d7-7fc4-48f2-b754-0cd9572a81e3")
 		)
 		(pin "ANALOG_PHOTOTRANSISTOR_OUT" output
-			(at 67.31 54.61 0)
+			(at 69.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +645,7 @@
 			(uuid "f15579d8-805e-4223-8aac-2a4338cbf869")
 		)
 		(pin "ANALOG_MICROPHONE_OUT" output
-			(at 67.31 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,6 +653,26 @@
 				(justify right)
 			)
 			(uuid "b51c83e9-56d2-401d-845f-2955d3dee943")
+		)
+		(pin "ANALOG_JOYSTICK_X_OUT" output
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b2abe24-dce7-4e88-9fea-c3b26a9d7b62")
+		)
+		(pin "ANALOG_JOYSTICK_Y_OUT" output
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44c5e976-5daa-4234-bde2-3d3059addd88")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
