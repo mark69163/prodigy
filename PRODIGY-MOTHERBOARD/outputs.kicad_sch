@@ -1450,12 +1450,6 @@
 		(uuid "99293e5d-7dbf-4d3e-a651-71aafed1f256")
 	)
 	(junction
-		(at 238.76 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d7fe5de-90a2-4dd2-b888-ec456e3e6ec1")
-	)
-	(junction
 		(at 111.76 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1502,12 +1496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efaaa83b-faf1-4d27-98d5-45bbefd432f7")
-	)
-	(junction
-		(at 234.95 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f91d4627-37b0-4777-be39-2142f67b2553")
 	)
 	(no_connect
 		(at 72.39 153.67)
@@ -1565,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 88.9) (xy 234.95 105.41)
+			(xy 234.95 88.9) (xy 234.95 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1645,16 +1633,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 107.95) (xy 238.76 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229f0db8-7173-4fae-ab15-b8fa909fd6e3")
-	)
-	(wire
-		(pts
 			(xy 234.95 69.85) (xy 242.57 69.85)
 		)
 		(stroke
@@ -1682,16 +1660,6 @@
 			(type default)
 		)
 		(uuid "2ac329fa-53aa-46cb-907d-57f98c4e5510")
-	)
-	(wire
-		(pts
-			(xy 242.57 105.41) (xy 234.95 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af2524f-447d-4586-95ff-d94b0c015b27")
 	)
 	(wire
 		(pts
@@ -1742,16 +1710,6 @@
 			(type default)
 		)
 		(uuid "35dd279a-ba5b-4d91-abf5-e1fa0583519e")
-	)
-	(wire
-		(pts
-			(xy 231.14 102.87) (xy 242.57 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c9d0d5-6293-4c47-9b72-32eb2829b0b6")
 	)
 	(wire
 		(pts
@@ -1875,16 +1833,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 91.44) (xy 238.76 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50d4d188-b99f-435a-8a10-4558882b1bb8")
-	)
-	(wire
-		(pts
 			(xy 165.1 52.07) (xy 173.99 52.07)
 		)
 		(stroke
@@ -1992,16 +1940,6 @@
 			(type default)
 		)
 		(uuid "6b1aecae-8f33-4f64-add5-41f79b6bb744")
-	)
-	(wire
-		(pts
-			(xy 231.14 97.79) (xy 242.57 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dca5877-b9b0-45d7-82a9-f225af34c8ba")
 	)
 	(wire
 		(pts
@@ -2365,16 +2303,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 100.33) (xy 242.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6c517a5-fb63-4d00-91c1-a2eebc818834")
-	)
-	(wire
-		(pts
 			(xy 171.45 85.09) (xy 173.99 85.09)
 		)
 		(stroke
@@ -2442,16 +2370,6 @@
 			(type default)
 		)
 		(uuid "db431438-98eb-4d7c-b49e-6863d652143f")
-	)
-	(wire
-		(pts
-			(xy 231.14 95.25) (xy 242.57 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc446bb4-eada-44ff-937f-9a103758d3c3")
 	)
 	(wire
 		(pts
@@ -2555,23 +2473,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 238.76 110.49)
+			(xy 238.76 91.44) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "efe7cea3-19a3-48aa-864f-0d54fcb078f1")
-	)
-	(wire
-		(pts
-			(xy 234.95 105.41) (xy 234.95 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05e4bb9-f113-4cee-993c-a9528edf2e11")
 	)
 	(wire
 		(pts
@@ -2668,18 +2576,6 @@
 			(justify right)
 		)
 		(uuid "21381339-0297-4c72-a10f-8bbfcf3a6652")
-	)
-	(hierarchical_label "BREAKOUT_MOTOR_PWM2_2"
-		(shape output)
-		(at 231.14 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2418a5d6-d717-4aef-b4c0-f42866e3657e")
 	)
 	(hierarchical_label "BREAKOUT_SERVO_1"
 		(shape bidirectional)
@@ -2825,30 +2721,6 @@
 		)
 		(uuid "46770a76-9a6b-43e9-bebd-43117baf8922")
 	)
-	(hierarchical_label "BREAKOUT_MOTOR_C2_2"
-		(shape input)
-		(at 231.14 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "473560ec-50cc-4e7e-ba98-98e02fccea30")
-	)
-	(hierarchical_label "BREAKOUT_MOTOR_C1_2"
-		(shape input)
-		(at 231.14 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "474452a5-47e8-4619-ac75-5efc20b21777")
-	)
 	(hierarchical_label "BREAKOUT_I2C_SCL"
 		(shape bidirectional)
 		(at 165.1 67.31 180)
@@ -2993,18 +2865,6 @@
 		)
 		(uuid "d0079a8c-c6d2-417a-813b-74b64a98f548")
 	)
-	(hierarchical_label "BREAKOUT_MOTOR_PWM1_2"
-		(shape output)
-		(at 231.14 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4e35353-a5d4-47e5-8f02-d573b48f8cf4")
-	)
 	(hierarchical_label "BREAKOUT_D_GPIO_1"
 		(shape bidirectional)
 		(at 107.95 64.77 180)
@@ -3126,97 +2986,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 247.65 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a8687d2-5cf7-47fc-a8af-0678bb7af418")
-		(property "Reference" "J21"
-			(at 250.19 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOTOR"
-			(at 250.19 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1a30149-8e20-4515-a25e-1bd5de129a49")
-		)
-		(pin "2"
-			(uuid "dc6dfeeb-4428-4da6-bce9-900309f696ef")
-		)
-		(pin "3"
-			(uuid "71c7455c-77ad-4dc4-86ce-505e8897ca9a")
-		)
-		(pin "4"
-			(uuid "1df4d4ac-471c-44a8-9f63-ad3873122a94")
-		)
-		(pin "5"
-			(uuid "982f92e8-c49a-4de7-8ccd-20c23e19b1c8")
-		)
-		(pin "6"
-			(uuid "7f8be28e-37a1-4d37-9ec4-9b0f35371ac2")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -3480,7 +3249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 110.49 0)
+		(at 238.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3489,7 +3258,7 @@
 		(fields_autoplaced yes)
 		(uuid "4205ec77-d573-4f33-bac6-e7509d915c69")
 		(property "Reference" "#PWR018"
-			(at 238.76 116.84 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 115.57 0)
+			(at 238.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 110.49 0)
+			(at 238.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 110.49 0)
+			(at 238.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 110.49 0)
+			(at 238.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,8 +3692,8 @@
 		(at 247.65 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5ae3e09f-96f5-4ceb-bf6e-dfe4f72da474")
@@ -4355,8 +4124,8 @@
 		(at 247.65 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8015d1bb-3df6-48e3-a0c1-e77f450e688e")
@@ -4655,8 +4424,8 @@
 		(at 247.65 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a5830034-f032-4e9d-bbb8-2d22b71db815")
@@ -4737,8 +4506,8 @@
 		(at 247.65 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a7c7bba9-3504-4b26-843f-efb3e53dd53a")
