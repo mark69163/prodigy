@@ -107,7 +107,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 86.36 156.21)
+			(xy 78.74 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a7f6ea-11a4-44da-9b98-a0daa1de62e2")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 86.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 156.21) (xy 229.87 156.21)
+			(xy 86.36 144.78) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -574,6 +584,16 @@
 			(type default)
 		)
 		(uuid "f5fbd2c2-6e5e-4c7d-89c2-c11627356c30")
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e8a8e0-a9e9-4ea7-a726-b1ac85a504b9")
 	)
 	(wire
 		(pts
@@ -1157,7 +1177,7 @@
 	)
 	(sheet
 		(at 36.83 135.89)
-		(size 41.91 27.94)
+		(size 41.91 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1177,7 +1197,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 36.83 164.4146 0)
+			(at 36.83 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,6 +1213,26 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "SERIAL_ESP_RX1" input
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a0a310d-ec22-4a55-97ec-64f99fa32308")
+		)
+		(pin "SERIAL_ESP_TX1" output
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d65e13ad-3661-46d7-95de-0642d4517c4b")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
@@ -1813,7 +1853,7 @@
 			(uuid "02dffe98-5c01-4b20-a3fd-f7043c7e72f4")
 		)
 		(pin "BREAKOUT_NEOPIXEL_IN" input
-			(at 229.87 156.21 180)
+			(at 229.87 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
