@@ -1001,32 +1001,32 @@
 		)
 	)
 	(junction
-		(at 138.43 90.17)
+		(at 146.05 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "091442fc-4bb4-45e7-bdd3-c5f253177763")
 	)
 	(junction
-		(at 113.03 59.69)
+		(at 120.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "296c6e6e-70f2-468d-8a39-79f6890cf02c")
 	)
 	(junction
-		(at 127 67.31)
+		(at 134.62 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4117775e-ba67-4853-87f3-e1b4f3a3530c")
 	)
 	(junction
-		(at 127 59.69)
+		(at 134.62 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a0885b4-fd55-433a-9dcd-f672fa2ef0ee")
 	)
 	(wire
 		(pts
-			(xy 138.43 90.17) (xy 138.43 91.44)
+			(xy 146.05 106.68) (xy 146.05 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 59.69) (xy 138.43 59.69)
+			(xy 134.62 76.2) (xy 146.05 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 138.43 69.85)
+			(xy 146.05 76.2) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 119.38 77.47)
+			(xy 135.89 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 90.17) (xy 151.13 90.17)
+			(xy 146.05 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 72.39) (xy 121.92 72.39)
+			(xy 119.38 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 72.39)
+			(xy 129.54 91.44) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 151.13 74.93)
+			(xy 156.21 91.44) (xy 158.75 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 77.47) (xy 119.38 74.93)
+			(xy 127 93.98) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 151.13 82.55)
+			(xy 156.21 99.06) (xy 158.75 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 74.93) (xy 119.38 74.93)
+			(xy 119.38 91.44) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 128.27 82.55)
+			(xy 123.19 99.06) (xy 135.89 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 151.13 77.47)
+			(xy 156.21 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 121.92 74.93)
+			(xy 135.89 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 127 67.31)
+			(xy 120.65 83.82) (xy 134.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 87.63) (xy 138.43 90.17)
+			(xy 146.05 104.14) (xy 146.05 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 127 59.69)
+			(xy 120.65 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 113.03 59.69)
+			(xy 120.65 73.66) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(text "I^2 * R = 0.5W\nI = 0.5A"
 		(exclude_from_sim no)
-		(at 166.37 87.122 0)
+		(at 173.99 103.632 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 	)
 	(hierarchical_label "MOTOR_IN2_1"
 		(shape input)
-		(at 111.76 74.93 180)
+		(at 119.38 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1228,7 +1228,7 @@
 	)
 	(hierarchical_label "MOTOR_OUT2_BREAKOUT_1"
 		(shape output)
-		(at 151.13 77.47 0)
+		(at 158.75 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1240,7 +1240,7 @@
 	)
 	(hierarchical_label "MOTOR_OUT1_BREAKOUT_1"
 		(shape output)
-		(at 151.13 74.93 0)
+		(at 158.75 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1252,7 +1252,7 @@
 	)
 	(hierarchical_label "MOTOR_IN1_1"
 		(shape input)
-		(at 111.76 72.39 180)
+		(at 119.38 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1264,7 +1264,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 113.03 57.15 0)
+		(at 120.65 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1272,8 +1272,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d77caa-c147-457c-9162-e476ef3024de")
-		(property "Reference" "#PWR070"
-			(at 113.03 60.96 0)
+		(property "Reference" "#PWR094"
+			(at 120.65 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 113.03 52.07 0)
+			(at 120.65 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +1290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 57.15 0)
+			(at 120.65 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 57.15 0)
+			(at 120.65 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 113.03 57.15 0)
+			(at 120.65 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1322,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
-					(reference "#PWR070")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -1330,7 +1330,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 86.36 0)
+		(at 158.75 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1338,8 +1338,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82426d59-9497-49bc-a1ee-12c50fe15b63")
-		(property "Reference" "R30"
-			(at 153.67 85.0899 0)
+		(property "Reference" "R31"
+			(at 161.29 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,7 +1348,7 @@
 			)
 		)
 		(property "Value" "2"
-			(at 153.67 87.6299 0)
+			(at 161.29 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 149.352 86.36 90)
+			(at 156.972 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 86.36 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,7 +1375,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 86.36 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1392,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1400,7 +1400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 91.44 0)
+		(at 146.05 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1408,8 +1408,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b697d916-1cf1-4d5a-9ecc-005aafd2f08f")
-		(property "Reference" "#PWR073"
-			(at 138.43 97.79 0)
+		(property "Reference" "#PWR097"
+			(at 146.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 96.52 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 91.44 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 91.44 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 91.44 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1458,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
-					(reference "#PWR073")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1466,7 +1466,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 113.03 63.5 0)
+		(at 120.65 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1475,7 +1475,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7748e22-18ae-4fab-b4a1-c04a5bcc530a")
 		(property "Reference" "C55"
-			(at 116.84 61.3409 0)
+			(at 124.46 77.8509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1484,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 116.84 63.8809 0)
+			(at 124.46 80.3909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1493,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 113.9952 67.31 0)
+			(at 121.6152 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 63.5 0)
+			(at 120.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 63.5 0)
+			(at 120.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 63.5 0)
+		(at 134.62 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1545,7 +1545,7 @@
 		(fields_autoplaced yes)
 		(uuid "c009e5d6-f712-4bac-af01-58cd1387797a")
 		(property "Reference" "C56"
-			(at 130.81 62.2299 0)
+			(at 138.43 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1554,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 130.81 64.7699 0)
+			(at 138.43 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.9652 67.31 0)
+			(at 135.5852 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 63.5 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1581,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 63.5 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1606,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 82.55 0)
+		(at 123.19 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1614,8 +1614,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf362543-bdea-4f0a-83dd-7c8d6a741c2d")
-		(property "Reference" "#PWR072"
-			(at 115.57 86.36 0)
+		(property "Reference" "#PWR096"
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 115.57 77.47 0)
+			(at 123.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 82.55 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 82.55 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 82.55 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1664,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
-					(reference "#PWR072")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -1672,7 +1672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 67.31 0)
+		(at 134.62 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1680,8 +1680,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c7cd10-9d47-4d22-a0e1-9d8731b7e7cb")
-		(property "Reference" "#PWR071"
-			(at 127 73.66 0)
+		(property "Reference" "#PWR095"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 72.39 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 67.31 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 67.31 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 67.31 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1730,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
-					(reference "#PWR071")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -1738,7 +1738,7 @@
 	)
 	(symbol
 		(lib_id "Driver_Motor:DRV8870DDA")
-		(at 138.43 77.47 0)
+		(at 146.05 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1746,8 +1746,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de198dc5-0711-4377-bcb3-ba21ea6b9d59")
-		(property "Reference" "U12"
-			(at 140.6241 67.31 0)
+		(property "Reference" "U13"
+			(at 148.2441 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Value" "DRV8870DDA"
-			(at 140.6241 69.85 0)
+			(at 148.2441 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 140.97 80.01 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
-			(at 132.08 68.58 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 77.47 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1821,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68c611b4-6626-4f5e-8db6-2b7527a0fa95"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)

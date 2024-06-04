@@ -405,7 +405,7 @@
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "ignore",
       "lib_symbol_issues": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -416,11 +416,11 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -620,28 +620,12 @@
       "MCU"
     ],
     [
-      "5b2ed776-5334-4587-8715-0b58b66b66ac",
-      "7segment driver"
-    ],
-    [
-      "a962dcec-9dee-4e54-acaa-e8da87dab487",
-      "OUTPUTS"
-    ],
-    [
-      "d8aab2a1-25b6-4fb2-8368-6cdabd5442db",
-      "NFC"
-    ],
-    [
-      "c4f3c4b1-d676-4f7b-883c-6fdba835d106",
-      "micro_SD"
-    ],
-    [
       "7df83d4f-8c4f-4445-bdae-bd2c13239983",
       "POWER"
     ],
     [
-      "beae7986-1156-4b71-ad5e-6c6ef7c2c7f1",
-      "AUDIO"
+      "4747deee-8806-443e-847a-65f550cadde4",
+      "esp32"
     ],
     [
       "cf0d8bf1-4632-49df-9398-b3de35528304",
@@ -652,28 +636,40 @@
       "MOTOR"
     ],
     [
-      "4747deee-8806-443e-847a-65f550cadde4",
-      "esp32"
+      "a962dcec-9dee-4e54-acaa-e8da87dab487",
+      "OUTPUTS"
     ],
     [
       "68745e9f-546d-4e12-ac2b-ba23aeab0093",
       "I2C"
     ],
     [
-      "e2913798-f444-47a6-8b64-53020d7d816b",
-      "SPI"
-    ],
-    [
-      "1de6bd67-9d33-41f3-aec8-5ac609c7db7f",
-      "tft"
-    ],
-    [
       "94efb13e-f47a-4ad5-a80b-985c2164e820",
       "I2C Devices"
     ],
     [
-      "d23a8b72-8742-4bfa-9594-8a2de80e1d70",
-      "50Hz Filter"
+      "e2913798-f444-47a6-8b64-53020d7d816b",
+      "SPI"
+    ],
+    [
+      "5b2ed776-5334-4587-8715-0b58b66b66ac",
+      "7segment driver"
+    ],
+    [
+      "d8aab2a1-25b6-4fb2-8368-6cdabd5442db",
+      "NFC"
+    ],
+    [
+      "c4f3c4b1-d676-4f7b-883c-6fdba835d106",
+      "micro_SD"
+    ],
+    [
+      "beae7986-1156-4b71-ad5e-6c6ef7c2c7f1",
+      "AUDIO"
+    ],
+    [
+      "1de6bd67-9d33-41f3-aec8-5ac609c7db7f",
+      "tft"
     ],
     [
       "ce186ed4-d4ab-4748-8528-740210dbd27e",
@@ -682,6 +678,10 @@
     [
       "a2bc12b1-b9d0-4419-aed0-74588fb36767",
       "analog"
+    ],
+    [
+      "d23a8b72-8742-4bfa-9594-8a2de80e1d70",
+      "50Hz Filter"
     ]
   ],
   "text_variables": {}

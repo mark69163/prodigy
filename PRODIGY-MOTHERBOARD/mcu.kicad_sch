@@ -3575,6 +3575,10 @@
 		(uuid "332ba3d7-1e2c-43c9-8f14-ef43aff2ac46")
 	)
 	(no_connect
+		(at 279.4 143.51)
+		(uuid "44246107-8f4f-43b0-a0b7-b62df796f1d4")
+	)
+	(no_connect
 		(at 54.61 118.11)
 		(uuid "5123c930-fb46-4be0-8e2e-bee2fc67a86d")
 	)
@@ -3587,8 +3591,24 @@
 		(uuid "65fb2771-be0d-4953-a356-9426331ae17f")
 	)
 	(no_connect
+		(at 279.4 124.46)
+		(uuid "798daae9-5eb1-40c0-b746-cc1151938608")
+	)
+	(no_connect
+		(at 279.4 137.16)
+		(uuid "8260bd95-d2d0-4089-aee8-86fdd847ef85")
+	)
+	(no_connect
+		(at 279.4 134.62)
+		(uuid "941a91a6-ee4d-4fd9-b1d8-48966f3efbc8")
+	)
+	(no_connect
 		(at 54.61 107.95)
 		(uuid "94cfa3f2-fa45-437e-b0b3-ff74935982b0")
+	)
+	(no_connect
+		(at 279.4 114.3)
+		(uuid "a34d7bc2-bc64-481f-beea-6dfb5a713dff")
 	)
 	(no_connect
 		(at 54.61 123.19)
@@ -3599,8 +3619,20 @@
 		(uuid "b356f3a6-0620-49b6-9065-0dcdc006d242")
 	)
 	(no_connect
+		(at 279.4 116.84)
+		(uuid "c7dc7cfb-72cb-4af7-96ca-7450906ffe3e")
+	)
+	(no_connect
+		(at 279.4 149.86)
+		(uuid "cb1302ec-833b-4a70-b30d-052770886a82")
+	)
+	(no_connect
 		(at 54.61 95.25)
 		(uuid "d72393ac-7e94-4612-9412-9c31723a28d7")
+	)
+	(no_connect
+		(at 279.4 127)
+		(uuid "eb47e2b3-2c8b-4546-9f8b-cba962b9b372")
 	)
 	(wire
 		(pts
@@ -3744,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 133.35) (xy 275.59 133.35)
+			(xy 273.05 124.46) (xy 279.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3944,7 +3976,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 143.51) (xy 275.59 143.51)
+			(xy 275.59 134.62) (xy 279.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4094,6 +4126,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 116.84) (xy 279.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677fd3f7-79e3-47a4-bb86-06adf37cfa86")
+	)
+	(wire
+		(pts
 			(xy 66.04 133.35) (xy 62.23 133.35)
 		)
 		(stroke
@@ -4104,13 +4146,23 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 146.05) (xy 275.59 146.05)
+			(xy 275.59 137.16) (xy 279.4 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c14422e-e30d-4ac3-bd09-8e7ac7310c18")
+	)
+	(wire
+		(pts
+			(xy 275.59 143.51) (xy 279.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d057ba1-1716-48fa-a2f9-e96c9e6bae4c")
 	)
 	(wire
 		(pts
@@ -4354,6 +4406,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 114.3) (xy 279.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cee8d8-925b-4fd1-bb82-b2896f745eb9")
+	)
+	(wire
+		(pts
 			(xy 54.61 85.09) (xy 54.61 86.36)
 		)
 		(stroke
@@ -4454,13 +4516,23 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 135.89) (xy 275.59 135.89)
+			(xy 273.05 127) (xy 279.4 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2b75d36-510f-48ec-a9e1-da9403d33a3d")
+	)
+	(wire
+		(pts
+			(xy 275.59 149.86) (xy 279.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe68b73-5fa3-4706-aadc-32c25654c366")
 	)
 	(wire
 		(pts
@@ -4613,8 +4685,47 @@
 		(uuid "ff9a3d83-ac8f-4b53-9c24-667bd6aedc8f")
 	)
 	(rectangle
-		(start 250.19 140.97)
-		(end 273.05 148.59)
+		(start 252.73 140.97)
+		(end 276.86 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 132 0 0 0.2)
+		)
+		(uuid 00e8c41d-b96f-4d2a-ab46-2c5c5fbb4a6d)
+	)
+	(rectangle
+		(start 195.58 91.44)
+		(end 218.44 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 132 0 0 0.2)
+		)
+		(uuid 0ef68bc2-f47a-4d45-9db3-143a396851b7)
+	)
+	(rectangle
+		(start 251.46 148.59)
+		(end 276.86 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 132 0 0 0.2)
+		)
+		(uuid 12da82c8-dffb-49ef-8e37-fee5c81815d9)
+	)
+	(rectangle
+		(start 254 132.08)
+		(end 276.86 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -4624,6 +4735,19 @@
 			(color 132 0 0 0.2)
 		)
 		(uuid 13e5503c-f247-4230-8ee4-8ccc2c7931d4)
+	)
+	(rectangle
+		(start 254 111.76)
+		(end 276.86 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 132 0 0 0.2)
+		)
+		(uuid 352b6917-2f19-4a5b-8a62-577ea0611b1c)
 	)
 	(rectangle
 		(start 23.368 47.498)
@@ -4638,8 +4762,8 @@
 		(uuid 3b2d256c-b4cd-4d06-93fe-f20ac6d2c47d)
 	)
 	(rectangle
-		(start 250.19 130.81)
-		(end 273.05 138.43)
+		(start 254 121.92)
+		(end 276.86 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -4664,8 +4788,8 @@
 		(uuid 92949558-d3df-48d6-9ca7-933056c345d8)
 	)
 	(rectangle
-		(start 267.208 155.194)
-		(end 283.718 164.084)
+		(start 256.286 100.838)
+		(end 272.796 109.728)
 		(stroke
 			(width 0)
 			(type default)
@@ -4675,6 +4799,18 @@
 			(color 132 0 0 0.2)
 		)
 		(uuid 981fdab3-50b4-47a2-95b4-9e89eef085bc)
+	)
+	(rectangle
+		(start 248.92 99.06)
+		(end 281.94 154.94)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9ee33a4-3bca-4290-a1e4-9aa86339aace)
 	)
 	(rectangle
 		(start 195.58 106.68)
@@ -4727,6 +4863,19 @@
 		)
 		(uuid fa0ea556-960b-4675-bf0b-ea0dccfc3faf)
 	)
+	(text "3 USER LEDs needed?"
+		(exclude_from_sim no)
+		(at 220.218 93.98 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7f6c6df6-91e2-4c2f-8384-5fa7f789c82b")
+	)
 	(text "USB-C USB 2.0\n"
 		(exclude_from_sim no)
 		(at 22.86 45.72 0)
@@ -4740,9 +4889,22 @@
 		)
 		(uuid "a5175a37-19d6-4b9c-b40f-76ba85f06e9d")
 	)
-	(text "NOT Neccesary,\ncan be removed\nor exchanged"
+	(text "Additionally an ESP enable \nor wakeup or interrupt pin \ncould be useful\n"
 		(exclude_from_sim no)
-		(at 275.59 160.02 0)
+		(at 121.92 194.056 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b85ff037-e89a-4ee4-a68b-a237328c2cf9")
+	)
+	(text "Can be removed\nor exchanged"
+		(exclude_from_sim no)
+		(at 264.16 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,6 +4924,19 @@
 			(justify left bottom)
 		)
 		(uuid "ca7c5e19-fb65-4c73-a1cd-876512ad8961")
+	)
+	(text "49 Pins Total\n57 Pins for full functinality\n8 Pins Should be reconsidered"
+		(exclude_from_sim no)
+		(at 176.53 157.734 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "da2aff67-1076-441a-af1e-32bff0ff3930")
 	)
 	(global_label "MCU_BUTTON_RESET"
 		(shape input)
@@ -4821,7 +4996,7 @@
 	)
 	(hierarchical_label "SPI_ENABLE_SD"
 		(shape input)
-		(at 269.24 133.35 180)
+		(at 273.05 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4941,7 +5116,7 @@
 	)
 	(hierarchical_label "DIGITAL_IR_EMITTER"
 		(shape output)
-		(at 271.78 143.51 180)
+		(at 275.59 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4977,7 +5152,7 @@
 	)
 	(hierarchical_label "SPI_DETECT_SD"
 		(shape output)
-		(at 269.24 135.89 180)
+		(at 273.05 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5073,7 +5248,7 @@
 	)
 	(hierarchical_label "DIGITAL_IR_RECEIVER"
 		(shape input)
-		(at 271.78 146.05 180)
+		(at 275.59 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5167,6 +5342,18 @@
 		)
 		(uuid "89e0fcd8-247c-4808-97fe-801ecee818ab")
 	)
+	(hierarchical_label "I2C_INTERRUPT_KEYPAD"
+		(shape input)
+		(at 275.59 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d7c349e-2ae2-49fb-aedc-a9182a060093")
+	)
 	(hierarchical_label "SERIAL_OUT_RX1"
 		(shape output)
 		(at 135.89 74.93 180)
@@ -5202,6 +5389,18 @@
 			(justify right)
 		)
 		(uuid "95fc2cd5-b28c-45f5-84c5-4353c96cddfc")
+	)
+	(hierarchical_label "CAN_SILENT"
+		(shape output)
+		(at 273.05 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97351b57-239d-4163-bfcb-4c1a8b11330c")
 	)
 	(hierarchical_label "CAN_OUT_TX1"
 		(shape output)
@@ -5274,6 +5473,18 @@
 			(justify right)
 		)
 		(uuid "ad8ea520-4857-409c-b2f1-14a45398f81d")
+	)
+	(hierarchical_label "CAN_EN"
+		(shape input)
+		(at 273.05 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b095a902-49b2-4c9c-b61e-9589e9230d00")
 	)
 	(hierarchical_label "ANALOG_PHOTOTRANSISTOR"
 		(shape input)
@@ -5371,6 +5582,18 @@
 		)
 		(uuid "f42f507e-2c1b-4c9f-beac-8e74b29353df")
 	)
+	(hierarchical_label "ANALOG_MICROPHONE"
+		(shape input)
+		(at 275.59 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb1ae9d6-1fa6-4dc0-af14-0ad519b477f7")
+	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
 		(at 135.89 49.53 180)
@@ -5409,7 +5632,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 33.02 0)
+		(at 259.08 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5418,7 +5641,7 @@
 		(fields_autoplaced yes)
 		(uuid "0853aa88-50c1-4de9-be07-01c613f8f18f")
 		(property "Reference" "H3"
-			(at 261.62 32.385 0)
+			(at 261.62 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5650,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 34.925 0)
+			(at 261.62 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5659,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 33.02 0)
+			(at 259.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 33.02 0)
+			(at 259.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5677,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 33.02 0)
+			(at 259.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5686,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 259.08 33.02 0)
+			(at 259.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5775,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 60.96 0)
+		(at 259.08 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5561,7 +5784,7 @@
 		(fields_autoplaced yes)
 		(uuid "1839309e-a389-45fc-90f9-cea3ef3de836")
 		(property "Reference" "H6"
-			(at 261.62 60.325 0)
+			(at 261.62 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5793,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 62.865 0)
+			(at 261.62 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5802,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 60.96 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 60.96 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 60.96 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5829,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 259.08 60.96 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5848,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 26.67 0)
+		(at 259.08 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5634,7 +5857,7 @@
 		(fields_autoplaced yes)
 		(uuid "3176ec6a-d976-4841-ac49-23d607ee91a6")
 		(property "Reference" "H2"
-			(at 261.62 26.035 0)
+			(at 261.62 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5866,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 28.575 0)
+			(at 261.62 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5875,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 26.67 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 26.67 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 26.67 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5902,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 259.08 26.67 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,79 +6051,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e7feaf1-cc5a-478e-a98a-5862cbce443d")
-		(property "Reference" "H8"
-			(at 261.62 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 261.62 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
-					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -6804,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 20.32 0)
+		(at 259.08 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6813,7 +6963,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e6cb070-c73e-431d-ac0f-7f5b7dbfac05")
 		(property "Reference" "H1"
-			(at 261.62 19.685 0)
+			(at 261.62 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +6972,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 22.225 0)
+			(at 261.62 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6981,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 20.32 0)
+			(at 259.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +6990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 20.32 0)
+			(at 259.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +6999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 20.32 0)
+			(at 259.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +7008,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 259.08 20.32 0)
+			(at 259.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7294,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 48.26 0)
+		(at 259.08 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7153,7 +7303,7 @@
 		(fields_autoplaced yes)
 		(uuid "9410d610-ed78-4f12-b742-83605ab7b8eb")
 		(property "Reference" "H4"
-			(at 261.62 47.625 0)
+			(at 261.62 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7312,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 50.165 0)
+			(at 261.62 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7321,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 48.26 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 48.26 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 48.26 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7348,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 259.08 48.26 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +7503,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 53.34 0)
+		(at 259.08 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7362,7 +7512,7 @@
 		(fields_autoplaced yes)
 		(uuid "e16cfba0-60e9-4038-9ab8-3a70e6ea82af")
 		(property "Reference" "H5"
-			(at 261.62 52.705 0)
+			(at 261.62 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7521,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 55.245 0)
+			(at 261.62 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7530,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 53.34 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 53.34 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 53.34 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +7557,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 259.08 53.34 0)
+			(at 259.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,79 +7705,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6ea9746-6246-423a-8f62-e23031211473")
-		(property "Reference" "H7"
-			(at 261.62 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 261.62 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 259.08 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 259.08 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
-					(reference "H7")
 					(unit 1)
 				)
 			)

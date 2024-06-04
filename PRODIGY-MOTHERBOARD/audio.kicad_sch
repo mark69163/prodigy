@@ -1702,6 +1702,19 @@
 			)
 		)
 	)
+	(text "I need help, what are we doing here?\nRadio, audio player?\n"
+		(exclude_from_sim no)
+		(at 141.224 139.446 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b609ef3a-3516-4384-a17d-7e01043409a7")
+	)
 	(symbol
 		(lib_id "Device:Antenna")
 		(at 172.72 58.42 0)
@@ -1779,7 +1792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81660635-cd5f-412d-8ef2-99dff09011de")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 150.7841 115.57 0)
 			(effects
 				(font
@@ -1890,7 +1903,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1906,7 +1919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c3a268b-aa95-4f7d-a7fb-279b83a259b8")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 207.9341 119.38 0)
 			(effects
 				(font
@@ -2053,7 +2066,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2069,7 +2082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d34d70-6eb9-4ee6-937d-a43f530b25a6")
-		(property "Reference" "J23"
+		(property "Reference" "J14"
 			(at 104.14 83.82 0)
 			(effects
 				(font
@@ -2127,7 +2140,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
-					(reference "J23")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe5f6848-00a9-4c74-b2ac-39b1cca5642d")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 201.93 41.0211 0)
 			(effects
 				(font
@@ -2213,7 +2226,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/beae7986-1156-4b71-ad5e-6c6ef7c2c7f1"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)

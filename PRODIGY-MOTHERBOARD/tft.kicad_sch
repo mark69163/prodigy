@@ -613,10 +613,6 @@
 		)
 	)
 	(no_connect
-		(at 121.92 92.71)
-		(uuid "00d2e393-cae7-4c58-b71f-6c43fe4cbac9")
-	)
-	(no_connect
 		(at 162.56 80.01)
 		(uuid "47f0de1d-04e7-436f-8b6c-08aa10112aae")
 	)
@@ -698,6 +694,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f6abc4-66b0-446e-b945-d82f3df98883")
+	)
+	(wire
+		(pts
 			(xy 110.49 82.55) (xy 121.92 82.55)
 		)
 		(stroke
@@ -705,6 +711,16 @@
 			(type default)
 		)
 		(uuid "b38114ee-66f0-4558-89b6-33d20ae4f47a")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29cf163-4f62-489c-956b-18215c8ba010")
 	)
 	(wire
 		(pts
@@ -798,7 +814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b08ee4b-e99e-4de8-82bd-66923c32af4b")
-		(property "Reference" "U17"
+		(property "Reference" "U18"
 			(at 140.2841 71.12 0)
 			(effects
 				(font
@@ -888,7 +904,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/1de6bd67-9d33-41f3-aec8-5ac609c7db7f"
-					(reference "U17")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -904,7 +920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c25c2dcb-22f7-4125-912b-36fdaa03e0bd")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0129"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -954,7 +970,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/1de6bd67-9d33-41f3-aec8-5ac609c7db7f"
-					(reference "#PWR099")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -970,7 +986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25c4490-a97d-411b-b51d-ad23f15ea1f3")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0127"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -1020,7 +1036,73 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/1de6bd67-9d33-41f3-aec8-5ac609c7db7f"
-					(reference "#PWR098")
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad10b65-7fa7-4a80-a2ef-736600acab53")
+		(property "Reference" "#PWR0128"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf2b867c-fc5e-49f2-af0f-43dac77533b3")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/1de6bd67-9d33-41f3-aec8-5ac609c7db7f"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
