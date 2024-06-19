@@ -478,6 +478,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -664,10 +665,6 @@
       "micro_SD"
     ],
     [
-      "beae7986-1156-4b71-ad5e-6c6ef7c2c7f1",
-      "AUDIO"
-    ],
-    [
       "1de6bd67-9d33-41f3-aec8-5ac609c7db7f",
       "tft"
     ],
@@ -682,6 +679,14 @@
     [
       "d23a8b72-8742-4bfa-9594-8a2de80e1d70",
       "50Hz Filter"
+    ],
+    [
+      "e2ee46de-ca36-40c4-8b39-11a7484f5116",
+      "Strain_gauge"
+    ],
+    [
+      "1fb3a40b-5b56-4526-bac8-0d25e381d4b7",
+      "pt100"
     ]
   ],
   "text_variables": {}

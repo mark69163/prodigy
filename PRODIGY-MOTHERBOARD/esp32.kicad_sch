@@ -6157,7 +6157,7 @@
 	)
 	(text "In USB CDC Mode\nBOOT button is not needed,\nBut externally accessible"
 		(exclude_from_sim no)
-		(at 109.474 189.992 0)
+		(at 109.22 190.754 0)
 		(effects
 			(font
 				(size 2.54 2.54)

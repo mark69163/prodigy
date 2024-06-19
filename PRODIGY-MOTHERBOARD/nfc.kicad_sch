@@ -2051,10 +2051,6 @@
 		(uuid "4f51bdd9-3d2a-4f09-a05b-6a06e597e2fa")
 	)
 	(no_connect
-		(at 102.87 53.34)
-		(uuid "763fdfe4-8224-4fa0-9b3e-b9b8088aa691")
-	)
-	(no_connect
 		(at 143.51 68.58)
 		(uuid "a2f7eb62-7387-4130-91c9-479ff76164f0")
 	)
@@ -2065,10 +2061,6 @@
 	(no_connect
 		(at 143.51 58.42)
 		(uuid "d6ead9df-2324-4853-b4dd-900bea0a25fd")
-	)
-	(no_connect
-		(at 102.87 50.8)
-		(uuid "da96abca-f47e-41b6-83a7-7d8b979953fe")
 	)
 	(no_connect
 		(at 143.51 83.82)
@@ -2166,6 +2158,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 53.34) (xy 102.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183b04d6-4b46-4d1f-a397-4ecfb90f20f7")
+	)
+	(wire
+		(pts
 			(xy 22.86 58.42) (xy 36.83 58.42)
 		)
 		(stroke
@@ -2253,6 +2255,16 @@
 			(type default)
 		)
 		(uuid "359031d0-8993-4903-9885-507341371de6")
+	)
+	(wire
+		(pts
+			(xy 95.25 50.8) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35960a8b-8b99-49fb-b087-31496d634573")
 	)
 	(wire
 		(pts
@@ -6517,6 +6529,18 @@
 		)
 		(uuid "1d09b1ae-99d3-48e8-ad9f-9efad84c4af5")
 	)
+	(hierarchical_label "SPI_RST_NFC"
+		(shape input)
+		(at 95.25 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fa34116-45f0-4973-b53e-00fba4b8973a")
+	)
 	(hierarchical_label "SPI_MISO_NFC"
 		(shape input)
 		(at 95.25 63.5 180)
@@ -6540,6 +6564,18 @@
 			(justify right)
 		)
 		(uuid "38c9b707-12ba-4706-aa88-c8c5842501bd")
+	)
+	(hierarchical_label "SPI_IRQ_NFC"
+		(shape input)
+		(at 95.25 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e0d3cf9-4207-453c-b1b7-d50905fbdf78")
 	)
 	(hierarchical_label "SPI_MOSI_NFC"
 		(shape input)
