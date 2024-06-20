@@ -2089,7 +2089,13 @@
 		(uuid "203084ce-ed36-452d-b379-c4bd70452386")
 	)
 	(junction
-		(at 50.8 76.2)
+		(at 39.37 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a8d14f-4886-4401-afac-4df7a306733d")
+	)
+	(junction
+		(at 207.01 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "277dd099-5cba-46b0-84dd-1828bf48d373")
@@ -2099,6 +2105,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fba25ea-b5af-4a6e-b914-140833dcb440")
+	)
+	(junction
+		(at 52.07 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53f6f80d-2205-4c96-bc5f-523c360b5c4d")
+	)
+	(junction
+		(at 59.69 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a9488fe-6d2d-4721-98b7-725777fde0a7")
 	)
 	(junction
 		(at 195.58 44.45)
@@ -2119,7 +2137,7 @@
 		(uuid "6258c045-e7da-43f4-b76f-56a8fba5faf5")
 	)
 	(junction
-		(at 54.61 134.62)
+		(at 57.15 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "730fc61f-5d25-4719-b667-81069df44e07")
@@ -2167,6 +2185,18 @@
 		(uuid "93074f50-6953-40f4-99d0-7dcec6cca1e2")
 	)
 	(junction
+		(at 39.37 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cae2a38-9f8e-466e-88c2-3fea071c4c9e")
+	)
+	(junction
+		(at 46.99 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e555534-5170-44ee-85ad-5255ded17e72")
+	)
+	(junction
 		(at 129.54 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2185,10 +2215,16 @@
 		(uuid "aaf6850f-a45b-4e25-9339-ec3e86fa0e76")
 	)
 	(junction
-		(at 46.99 119.38)
+		(at 49.53 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac97caaa-fdd1-4cd4-a2d7-cc755e3d7da0")
+	)
+	(junction
+		(at 52.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aebd9178-08b6-4198-a852-e08110179747")
 	)
 	(junction
 		(at 134.62 82.55)
@@ -2201,6 +2237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb0b1348-fc0d-424b-994b-f8625b8289fb")
+	)
+	(junction
+		(at 46.99 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8e46f9-0219-4ae0-a531-0d9784e99fc6")
 	)
 	(junction
 		(at 134.62 151.13)
@@ -2239,14 +2281,24 @@
 		(uuid "f672dda3-3943-4d72-9969-09bde0a147da")
 	)
 	(junction
-		(at 54.61 121.92)
+		(at 57.15 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa3bc3a1-b890-4abc-bcce-c896aa42c147")
 	)
 	(wire
 		(pts
-			(xy 46.99 134.62) (xy 54.61 134.62)
+			(xy 52.07 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0282ab65-1e25-4cc2-a045-7858ae9d081d")
+	)
+	(wire
+		(pts
+			(xy 49.53 135.89) (xy 57.15 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2273,6 +2325,16 @@
 			(type default)
 		)
 		(uuid "07180f55-98d0-4e75-b1e0-3b4e4a9594d5")
+	)
+	(wire
+		(pts
+			(xy 59.69 86.36) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fa85cb-160a-4acf-a695-eec66c55d93e")
 	)
 	(wire
 		(pts
@@ -2346,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 119.38) (xy 46.99 124.46)
+			(xy 49.53 120.65) (xy 49.53 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2386,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24541776-e9f0-4608-afc1-7de73a3bc460")
+	)
+	(wire
+		(pts
 			(xy 245.11 35.56) (xy 264.16 35.56)
 		)
 		(stroke
@@ -2396,13 +2468,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 50.8 77.47)
+			(xy 207.01 140.97) (xy 207.01 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "250b021e-6e59-4876-a408-d0282d0a86e6")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a978f6-6388-4610-a580-c4031fb750c7")
 	)
 	(wire
 		(pts
@@ -2466,6 +2548,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 76.2) (xy 59.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314ef7a3-463c-4454-9167-7fae02561682")
+	)
+	(wire
+		(pts
 			(xy 148.59 41.91) (xy 151.13 41.91)
 		)
 		(stroke
@@ -2476,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 121.92) (xy 63.5 121.92)
+			(xy 57.15 123.19) (xy 66.04 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2493,6 +2585,16 @@
 			(type default)
 		)
 		(uuid "40d1b160-d596-4542-b0bd-dc06b63190f4")
+	)
+	(wire
+		(pts
+			(xy 39.37 88.9) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b96f8d-d9db-44ba-8ad7-298a97514fda")
 	)
 	(wire
 		(pts
@@ -2513,6 +2615,26 @@
 			(type default)
 		)
 		(uuid "45f2ff04-1e1b-4b49-8cdc-1a33605a18a4")
+	)
+	(wire
+		(pts
+			(xy 52.07 73.66) (xy 52.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a955eb-85ad-41b3-a02a-94d00a7d32e4")
+	)
+	(wire
+		(pts
+			(xy 39.37 86.36) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cf31bc-2a41-4a53-8de2-1ea3ede89a7a")
 	)
 	(wire
 		(pts
@@ -2566,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 63.5 76.2)
+			(xy 207.01 140.97) (xy 219.71 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2616,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 68.58) (xy 39.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c48b9a4-ffa2-43f1-b551-08f7c198c97d")
+	)
+	(wire
+		(pts
 			(xy 210.82 83.82) (xy 210.82 77.47)
 		)
 		(stroke
@@ -2646,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 124.46) (xy 60.96 125.73)
+			(xy 63.5 125.73) (xy 63.5 127)
 		)
 		(stroke
 			(width 0)
@@ -2703,6 +2835,16 @@
 			(type default)
 		)
 		(uuid "6fae0cb8-1e18-4efd-81e8-20e6f899fbc2")
+	)
+	(wire
+		(pts
+			(xy 46.99 88.9) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d1b6f5-cd18-41b1-a991-c3f9da0457e9")
 	)
 	(wire
 		(pts
@@ -2766,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 54.61 121.92)
+			(xy 43.18 123.19) (xy 57.15 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2823,6 +2965,16 @@
 			(type default)
 		)
 		(uuid "9207fef0-1358-4aef-a773-daa61e8b20f7")
+	)
+	(wire
+		(pts
+			(xy 31.75 68.58) (xy 39.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a14931-5ff8-4e4d-a0db-95164360da0e")
 	)
 	(wire
 		(pts
@@ -2896,6 +3048,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 86.36) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18f0c1d-26a0-497b-8f15-0f6aa4f6a000")
+	)
+	(wire
+		(pts
 			(xy 252.73 38.1) (xy 264.16 38.1)
 		)
 		(stroke
@@ -2946,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 119.38) (xy 63.5 119.38)
+			(xy 49.53 120.65) (xy 66.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 63.5 78.74)
+			(xy 214.63 143.51) (xy 219.71 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 119.38) (xy 46.99 119.38)
+			(xy 43.18 120.65) (xy 49.53 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 132.08) (xy 46.99 134.62)
+			(xy 49.53 133.35) (xy 49.53 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3063,6 +3225,16 @@
 			(type default)
 		)
 		(uuid "b52f0cb2-c84a-444e-a795-515c4d6bcb46")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 46.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f12330-8091-4586-b71c-5f8b9150dff7")
 	)
 	(wire
 		(pts
@@ -3096,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 85.09) (xy 50.8 87.63)
+			(xy 207.01 149.86) (xy 207.01 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3146,6 +3318,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 86.36) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f0cdac-f315-4c75-81aa-e16f87697b64")
+	)
+	(wire
+		(pts
 			(xy 233.68 96.52) (xy 233.68 99.06)
 		)
 		(stroke
@@ -3156,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 58.42 83.82)
+			(xy 214.63 146.05) (xy 214.63 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3368,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 124.46) (xy 63.5 124.46)
+			(xy 59.69 76.2) (xy 59.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca87c434-0da4-4a8c-b6ba-e536aa323a3e")
+	)
+	(wire
+		(pts
+			(xy 63.5 125.73) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 121.92) (xy 54.61 124.46)
+			(xy 57.15 123.19) (xy 57.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3256,13 +3448,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 76.2) (xy 50.8 76.2)
+			(xy 203.2 140.97) (xy 207.01 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de26e27d-b30d-433a-bbc6-25f70c5830ae")
+	)
+	(wire
+		(pts
+			(xy 31.75 73.66) (xy 52.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5b2c76-5160-4c4b-9b50-6b69c8dfcd92")
 	)
 	(wire
 		(pts
@@ -3306,7 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 63.5 81.28)
+			(xy 214.63 146.05) (xy 219.71 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 132.08) (xy 54.61 134.62)
+			(xy 57.15 133.35) (xy 57.15 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3353,6 +3555,16 @@
 			(type default)
 		)
 		(uuid "ea65ba81-1c49-4895-9cf0-6b054c30b4b1")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 46.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea68e5ae-33e8-49b9-8722-bb184396b40f")
 	)
 	(wire
 		(pts
@@ -3386,7 +3598,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 58.42 78.74)
+			(xy 214.63 139.7) (xy 214.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3476,6 +3688,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 88.9) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5ebfaa-cccc-42aa-8f7f-467830fdaadd")
+	)
+	(wire
+		(pts
 			(xy 156.21 90.17) (xy 156.21 93.98)
 		)
 		(stroke
@@ -3483,6 +3705,16 @@
 			(type default)
 		)
 		(uuid "fa631272-d64e-40bd-85a3-4291139f2ba3")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 62.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb361bad-7cda-4232-b2c3-5cf35452c215")
 	)
 	(wire
 		(pts
@@ -3526,7 +3758,7 @@
 	)
 	(rectangle
 		(start 17.78 100.33)
-		(end 83.82 153.67)
+		(end 83.82 162.56)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -3549,8 +3781,8 @@
 		(uuid 0747a783-3ea8-40ad-8e82-50d11dbe6278)
 	)
 	(rectangle
-		(start 17.78 60.96)
-		(end 83.82 95.25)
+		(start 173.99 125.73)
+		(end 240.03 162.56)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -3571,6 +3803,18 @@
 			(type none)
 		)
 		(uuid 3c21da6f-3373-4482-b51e-d84531e15252)
+	)
+	(rectangle
+		(start 17.78 59.69)
+		(end 83.82 96.52)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b5e60e4-4943-4c57-b016-a0bdae7f50c6)
 	)
 	(rectangle
 		(start 218.44 17.78)
@@ -3671,9 +3915,9 @@
 		)
 		(uuid "21c7581a-d886-4f65-bce6-f8250f6d4435")
 	)
-	(text "If Serial-1 is UNUSED, then 2 GPIO"
+	(text "PT100/PT1000 Breakout"
 		(exclude_from_sim no)
-		(at 16.51 176.022 0)
+		(at 19.558 65.024 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3682,7 +3926,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4e373f84-232b-496b-b82a-cf96126f8836")
+		(uuid "378305f3-829b-47b9-9277-f35becbc2db9")
 	)
 	(text "CAN Breakout\n"
 		(exclude_from_sim no)
@@ -3697,7 +3941,7 @@
 		)
 		(uuid "7f1c48a1-4de9-4b4c-b062-6a5f50246cfb")
 	)
-	(text "Analog Input Breakout\n"
+	(text "Piezo Sensor Input Breakout\n"
 		(exclude_from_sim no)
 		(at 19.812 23.114 0)
 		(effects
@@ -3723,22 +3967,9 @@
 		)
 		(uuid "9974c001-d211-4638-99a6-23c7fa7a3264")
 	)
-	(text "Closed Loop Motor Interface OR 2 GPIO (C1, C2)\n"
-		(exclude_from_sim no)
-		(at 16.51 171.196 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "aeeebb86-4419-405c-a79c-55948b38c358")
-	)
 	(text "Neopixel Breakout\n"
 		(exclude_from_sim no)
-		(at 19.05 65.786 0)
+		(at 175.26 130.556 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3775,31 +4006,17 @@
 		)
 		(uuid "c37923b9-0f43-4aa1-b812-dc2eafd74173")
 	)
-	(text "If I2C is UNUSED, then 2 GPIO"
-		(exclude_from_sim no)
-		(at 16.51 180.848 0)
+	(hierarchical_label "RTD_W4"
+		(shape output)
+		(at 31.75 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "d76d33c2-8de2-49b5-b2d4-dab59c74286c")
-	)
-	(text "If SPI is UNUSED, then 1 GPIO (CS)"
-		(exclude_from_sim no)
-		(at 16.256 185.674 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "fccfbc5d-8ff6-4b2d-a6a2-767ee1af9c0d")
+		(uuid "12d28666-0ea4-40e5-8ca3-32dae2657fa4")
 	)
 	(hierarchical_label "BREAKOUT_SPI_MOSI"
 		(shape bidirectional)
@@ -3839,7 +4056,7 @@
 	)
 	(hierarchical_label "BREAKOUT_NEOPIXEL_IN"
 		(shape input)
-		(at 46.99 76.2 180)
+		(at 203.2 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3875,7 +4092,7 @@
 	)
 	(hierarchical_label "BREAKOUT_CAN_H"
 		(shape bidirectional)
-		(at 40.64 119.38 180)
+		(at 43.18 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3909,6 +4126,18 @@
 		)
 		(uuid "46770a76-9a6b-43e9-bebd-43117baf8922")
 	)
+	(hierarchical_label "RTD_W1"
+		(shape output)
+		(at 31.75 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e0a34a2-34de-421b-a6d2-fe73a269b064")
+	)
 	(hierarchical_label "BREAKOUT_I2C_SCL"
 		(shape bidirectional)
 		(at 240.03 38.1 180)
@@ -3935,7 +4164,7 @@
 	)
 	(hierarchical_label "BREAKOUT_CAN_L"
 		(shape bidirectional)
-		(at 40.64 121.92 180)
+		(at 43.18 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3957,6 +4186,18 @@
 		)
 		(uuid "78de5d31-211f-46af-95a7-02e5fd2698da")
 	)
+	(hierarchical_label "RTD_W2"
+		(shape output)
+		(at 31.75 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c693238-256c-4fa4-9a90-9e04ca05ecc9")
+	)
 	(hierarchical_label "BREAKOUT_SERIAL_RX"
 		(shape bidirectional)
 		(at 198.12 99.06 180)
@@ -3968,6 +4209,18 @@
 			(justify right)
 		)
 		(uuid "80e2ff92-63cd-4e1d-906e-358ae1707ba6")
+	)
+	(hierarchical_label "RTD_W3"
+		(shape output)
+		(at 31.75 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f74427f-1086-4ab4-abbe-27f0fae5537f")
 	)
 	(hierarchical_label "BREAKOUT_USB_D-"
 		(shape input)
@@ -4055,7 +4308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 83.82 0)
+		(at 214.63 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4063,8 +4316,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "025fb9fd-d3c5-4ee3-a941-54b7f2be4c51")
-		(property "Reference" "#PWR027"
-			(at 58.42 90.17 0)
+		(property "Reference" "#PWR073"
+			(at 214.63 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4326,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 88.9 0)
+			(at 214.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 83.82 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 83.82 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 83.82 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4366,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR027")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4129,7 +4382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "044bab96-a9da-46e4-a1c4-648f930eb2b6")
-		(property "Reference" "D20"
+		(property "Reference" "D36"
 			(at 235.966 104.14 90)
 			(effects
 				(font
@@ -4184,7 +4437,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D20")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "054020b8-9ca7-448b-b289-c2003598bc14")
-		(property "Reference" "D23"
+		(property "Reference" "D27"
 			(at 139.954 143.51 90)
 			(effects
 				(font
@@ -4254,7 +4507,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D23")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4271,7 +4524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "066a5f62-a4f7-4e76-892c-b8bb4c4e1c26")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR077"
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -4321,7 +4574,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR031")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -4337,7 +4590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ae61a41-9695-430c-b514-d9a3d5adee63")
-		(property "Reference" "D11"
+		(property "Reference" "D19"
 			(at 113.284 44.45 90)
 			(effects
 				(font
@@ -4392,7 +4645,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D11")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -4408,7 +4661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13c6c517-db90-4da1-9f6c-d3090631d41f")
-		(property "Reference" "D19"
+		(property "Reference" "D35"
 			(at 227.584 104.14 90)
 			(effects
 				(font
@@ -4463,7 +4716,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D19")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -4479,7 +4732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a86146f-13d9-477f-a097-bd5434f339f5")
-		(property "Reference" "J10"
+		(property "Reference" "J14"
 			(at 161.29 130.175 0)
 			(effects
 				(font
@@ -4497,7 +4750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_6-G-5,08_1x06_P5.08mm_Horizontal"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -4554,7 +4807,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J10")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4562,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 125.73 0)
+		(at 63.5 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4570,8 +4823,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bcccda0-a250-45de-88fd-a416f1008c38")
-		(property "Reference" "#PWR042"
-			(at 60.96 132.08 0)
+		(property "Reference" "#PWR075"
+			(at 63.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 130.81 0)
+			(at 63.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 125.73 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 125.73 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 125.73 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4873,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR042")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4636,7 +4889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ed50e06-60ee-41fb-8868-474bea2d434e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR098"
 			(at 257.81 38.1 0)
 			(effects
 				(font
@@ -4686,7 +4939,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR015")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -4703,7 +4956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275fc531-66ec-4c7e-981d-307f56d813d6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR078"
 			(at 121.92 157.48 0)
 			(effects
 				(font
@@ -4753,7 +5006,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR045")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4770,7 +5023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2885a4dd-0159-4604-b1cd-ea798e4a320d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR097"
 			(at 252.73 57.15 0)
 			(effects
 				(font
@@ -4820,7 +5073,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR022")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -4836,7 +5089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e861d8-47a7-4d9d-a7a0-3495624b0fbe")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR083"
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -4886,7 +5139,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR035")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -4902,7 +5155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d007564-1199-4ae5-8bef-103f2a935035")
-		(property "Reference" "J8"
+		(property "Reference" "J12"
 			(at 153.924 67.818 0)
 			(effects
 				(font
@@ -4972,7 +5225,144 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J8")
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 52.07 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dd20262-4192-49e2-b488-c8c7db512823")
+		(property "Reference" "D33"
+			(at 57.404 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD05_SOD323"
+			(at 54.61 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aef8fe4-f410-42c3-9f96-5ef908fd6759")
+		)
+		(pin "2"
+			(uuid "352183a3-7c26-4cbe-8aed-c2d87772750d")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e563209-58e0-4774-9072-85f462eee6b3")
+		(property "Reference" "#PWR086"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e05f39-e06e-4cf7-8d9f-6f435cac66dd")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4988,7 +5378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34090e35-cf7f-4f28-adba-db7a44568258")
-		(property "Reference" "R6"
+		(property "Reference" "R26"
 			(at 228.6 83.8199 0)
 			(effects
 				(font
@@ -5042,7 +5432,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "R6")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35e8dc42-ec34-4277-95b4-3c57735e3631")
-		(property "Reference" "D14"
+		(property "Reference" "D28"
 			(at 145.796 44.45 90)
 			(effects
 				(font
@@ -5112,7 +5502,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D14")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5129,7 +5519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c2103ae-d63f-4d59-8ea6-ca90d91a9c6d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR094"
 			(at 245.11 57.15 0)
 			(effects
 				(font
@@ -5179,7 +5569,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR021")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5195,7 +5585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4205ec77-d573-4f33-bac6-e7509d915c69")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR084"
 			(at 151.13 146.05 0)
 			(effects
 				(font
@@ -5245,7 +5635,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR043")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5262,7 +5652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cdf14a-99b4-4741-b78e-9e4072d24b67")
-		(property "Reference" "D6"
+		(property "Reference" "D16"
 			(at 52.07 39.3699 90)
 			(effects
 				(font
@@ -5316,7 +5706,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D6")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5332,7 +5722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "432d160b-0e8b-4f8b-b702-d343981f6bb0")
-		(property "Reference" "D17"
+		(property "Reference" "D23"
 			(at 122.936 89.408 90)
 			(effects
 				(font
@@ -5387,7 +5777,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D17")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -5403,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e52b36-4ac7-4780-9098-dd39439e9d73")
-		(property "Reference" "D7"
+		(property "Reference" "D18"
 			(at 63.5 39.3699 90)
 			(effects
 				(font
@@ -5457,7 +5847,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D7")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -5473,7 +5863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "461e12aa-fc22-4d1d-b417-c4a1898328f5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR088"
 			(at 195.58 52.07 0)
 			(effects
 				(font
@@ -5523,7 +5913,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR018")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5539,7 +5929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc5546b-1461-4f51-9197-4ed29d1e18dd")
-		(property "Reference" "J6"
+		(property "Reference" "J18"
 			(at 271.78 38.735 0)
 			(effects
 				(font
@@ -5557,7 +5947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
 			(at 269.24 38.1 0)
 			(effects
 				(font
@@ -5608,7 +5998,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J6")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5625,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fcda9ae-8ac0-476d-a8b6-8534fc2f0e7b")
-		(property "Reference" "D16"
+		(property "Reference" "D20"
 			(at 116.84 88.8999 90)
 			(effects
 				(font
@@ -5679,7 +6069,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D16")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -5695,7 +6085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558626c2-7142-474e-abfd-2c1e01e759a1")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR085"
 			(at 153.67 100.33 0)
 			(effects
 				(font
@@ -5745,7 +6135,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR029")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5762,7 +6152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f296bce-814f-41f9-b9e8-c1eff63966c1")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR076"
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -5812,7 +6202,92 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR023")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "648bc7ae-8fe6-47af-92ae-7b702eb3debc")
+		(property "Reference" "J16"
+			(at 69.85 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTD_PT100"
+			(at 69.85 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba5010f6-7b4a-4f3f-b87a-b6e428c72d7a")
+		)
+		(pin "2"
+			(uuid "ecf4bb92-8274-4c56-af1f-7a38b97e1abd")
+		)
+		(pin "3"
+			(uuid "2b9e2498-c446-44cc-b5df-6cba02e9a7de")
+		)
+		(pin "4"
+			(uuid "282448d9-3c35-462c-a11d-721fe8f8a67d")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -5828,7 +6303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b81180f-3700-479e-9ef0-7a8379ad231e")
-		(property "Reference" "J5"
+		(property "Reference" "J15"
 			(at 205.74 35.5599 0)
 			(effects
 				(font
@@ -5846,7 +6321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 203.2 35.56 0)
 			(effects
 				(font
@@ -5882,7 +6357,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J5")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -5898,7 +6373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9ec938-1614-4539-874e-63665dd83aa8")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR074"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -5948,7 +6423,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR020")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5964,7 +6439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd62feb-39d7-4dcc-be3e-fdf0f47ee9b9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR091"
 			(at 215.9 76.2 0)
 			(effects
 				(font
@@ -6014,7 +6489,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR024")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b6bd17-1839-4ac9-9f1d-ebee9f2c492c")
-		(property "Reference" "D24"
+		(property "Reference" "D29"
 			(at 148.336 143.51 90)
 			(effects
 				(font
@@ -6084,7 +6559,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D24")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -6100,7 +6575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "712d4094-613d-4f92-9b7e-fb51bf38333e")
-		(property "Reference" "D18"
+		(property "Reference" "D26"
 			(at 137.16 88.8999 90)
 			(effects
 				(font
@@ -6154,7 +6629,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D18")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -6170,7 +6645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74fd0b85-fc0c-4c86-8d00-ad6168f6375c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR099"
 			(at 261.62 49.53 0)
 			(effects
 				(font
@@ -6220,7 +6695,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR017")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -6236,7 +6711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77377a4a-adcd-49a2-8d16-9c44f3652b9b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR096"
 			(at 250.19 114.3 0)
 			(effects
 				(font
@@ -6286,7 +6761,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR034")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6769,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 68.58 121.92 0)
+		(at 71.12 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6302,7 +6777,7 @@
 		(dnp no)
 		(uuid "7c9d71c4-6871-4da8-a2c7-79a5529a69a7")
 		(property "Reference" "J11"
-			(at 71.882 120.142 0)
+			(at 74.422 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6785,7 @@
 			)
 		)
 		(property "Value" "Can"
-			(at 70.104 122.428 0)
+			(at 72.644 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,8 +6793,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
-			(at 68.58 121.92 0)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 121.92 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6812,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 121.92 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +6821,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 68.58 121.92 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e291801-0675-4ef2-a965-2cdd70a5931f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR090"
 			(at 213.36 118.11 0)
 			(effects
 				(font
@@ -6431,7 +6906,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR038")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8335d644-993b-4054-a038-e36b5f1e6eae")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 68.58 29.2099 0)
 			(effects
 				(font
@@ -6465,7 +6940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -6501,7 +6976,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6984,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SD05_SOD323")
-		(at 46.99 128.27 270)
+		(at 49.53 129.54 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6517,8 +6992,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8378376d-3618-4845-8966-f9d282ab8c13")
-		(property "Reference" "D25"
-			(at 40.894 128.27 90)
+		(property "Reference" "D14"
+			(at 43.434 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +7002,7 @@
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 44.45 129.5399 90)
+			(at 46.99 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +7012,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 41.91 128.27 0)
+			(at 44.45 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +7021,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 46.99 128.27 0)
+			(at 49.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +7030,7 @@
 			)
 		)
 		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 46.99 128.27 0)
+			(at 49.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +7047,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D25")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6588,7 +7063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8feece50-a74f-4741-852c-320a6b894725")
-		(property "Reference" "D10"
+		(property "Reference" "D38"
 			(at 247.396 43.18 90)
 			(effects
 				(font
@@ -6643,7 +7118,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D10")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -6659,7 +7134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90009f1d-da3b-4a39-9c4f-2c16c88976b4")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR089"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -6709,7 +7184,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR026")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -6717,7 +7192,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 58.42 74.93 0)
+		(at 214.63 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6725,8 +7200,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "909ddf34-99fd-4a11-8889-7f2a44b1c4f0")
-		(property "Reference" "#PWR025"
-			(at 58.42 78.74 0)
+		(property "Reference" "#PWR072"
+			(at 214.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +7210,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 58.42 69.85 0)
+			(at 214.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +7218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 74.93 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +7227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 74.93 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +7236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 74.93 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +7250,78 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR025")
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 46.99 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "913b2032-2a9e-4c84-b9e0-9e662ef09c70")
+		(property "Reference" "D32"
+			(at 41.656 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD05_SOD323"
+			(at 44.45 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 46.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 46.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63e5bd2f-41ae-4b82-9e07-fc0cd8b96fa6")
+		)
+		(pin "2"
+			(uuid "df075424-f455-4e9e-8b2a-e5bc7dcf2237")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -6791,7 +7337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9340c4d2-5f39-42c0-bfee-6df3ca24e29b")
-		(property "Reference" "D9"
+		(property "Reference" "D37"
 			(at 239.014 43.18 90)
 			(effects
 				(font
@@ -6846,7 +7392,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D9")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -6862,7 +7408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9edce712-67be-4baf-931c-46c1825fe171")
-		(property "Reference" "D22"
+		(property "Reference" "D24"
 			(at 124.206 143.51 90)
 			(effects
 				(font
@@ -6917,7 +7463,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D22")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6933,7 +7479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15a9605-3a6e-4102-95f3-24a85c31d19d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR087"
 			(at 195.58 36.83 0)
 			(effects
 				(font
@@ -6983,7 +7529,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR014")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7070,7 +7616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af790465-e3c8-4d81-8fe6-37658c46d23a")
-		(property "Reference" "J4"
+		(property "Reference" "J13"
 			(at 158.75 34.925 0)
 			(effects
 				(font
@@ -7088,7 +7634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_6-G-5,08_1x06_P5.08mm_Horizontal"
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -7145,7 +7691,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J4")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -7153,34 +7699,35 @@
 	)
 	(symbol
 		(lib_id "Diode:SD05_SOD323")
-		(at 50.8 81.28 270)
+		(at 39.37 82.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b5e578da-a85e-4e61-9800-270a9a4a2e9b")
-		(property "Reference" "D15"
-			(at 48.26 80.0099 90)
+		(uuid "b3f40637-0046-4917-8c3e-1c271cdf7c1e")
+		(property "Reference" "D30"
+			(at 33.274 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 48.26 82.5499 90)
+			(at 36.83 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 45.72 81.28 0)
+			(at 34.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 50.8 81.28 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7745,77 @@
 			)
 		)
 		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 50.8 81.28 0)
+			(at 39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c9e5e18-198b-41ca-9d99-5c3aa02b040a")
+		)
+		(pin "2"
+			(uuid "b55f1afc-5462-4f7d-b3ea-bed89a47d298")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 207.01 146.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5e578da-a85e-4e61-9800-270a9a4a2e9b")
+		(property "Reference" "D15"
+			(at 204.47 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD05_SOD323"
+			(at 204.47 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 207.01 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b60b73fc-3203-4915-8801-1160e1fefa28")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR095"
 			(at 250.19 99.06 0)
 			(effects
 				(font
@@ -7281,7 +7898,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR030")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7296,7 +7913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbeccf31-da7a-443d-b78e-8acb98c24089")
-		(property "Reference" "D13"
+		(property "Reference" "D25"
 			(at 137.414 44.45 90)
 			(effects
 				(font
@@ -7351,7 +7968,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D13")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -7368,7 +7985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be64784e-c026-41e1-a061-944ee1b4a4f9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR070"
 			(at 54.61 54.61 0)
 			(effects
 				(font
@@ -7418,7 +8035,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR019")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7426,15 +8043,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 68.58 78.74 0)
+		(at 224.79 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c3dc81f0-19fd-4401-967d-0f59c3d24d05")
-		(property "Reference" "J7"
-			(at 71.882 76.962 0)
+		(property "Reference" "J10"
+			(at 228.092 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,15 +8059,15 @@
 			)
 		)
 		(property "Value" "Neopixel"
-			(at 74.422 78.994 0)
+			(at 230.632 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
-			(at 68.58 78.74 0)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
+			(at 224.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +8076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 78.74 0)
+			(at 224.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +8085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 78.74 0)
+			(at 224.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +8094,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 68.58 78.74 0)
+			(at 224.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +8114,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7513,7 +8130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6a6ee1d-bd8d-49d4-a6ea-5e02be48744e")
-		(property "Reference" "D12"
+		(property "Reference" "D22"
 			(at 121.666 44.45 90)
 			(effects
 				(font
@@ -7568,7 +8185,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D12")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -7584,7 +8201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82ad52d-7f51-4117-b619-ff9ac0aee4e6")
-		(property "Reference" "J9"
+		(property "Reference" "J17"
 			(at 260.35 99.695 0)
 			(effects
 				(font
@@ -7602,7 +8219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
 			(at 257.81 99.06 0)
 			(effects
 				(font
@@ -7653,7 +8270,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "J9")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -7670,7 +8287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ef2cc8-ba8a-4b06-9685-08ba601f2ba1")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR093"
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -7720,7 +8337,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR040")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -7736,7 +8353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd27fe81-1fdf-4719-8c28-5681b62f67a3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR080"
 			(at 134.62 104.14 0)
 			(effects
 				(font
@@ -7786,7 +8403,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR033")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7794,7 +8411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 87.63 0)
+		(at 207.01 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7802,8 +8419,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea9b98e-7dd8-4254-b60e-3fcde3d570c2")
-		(property "Reference" "#PWR028"
-			(at 50.8 93.98 0)
+		(property "Reference" "#PWR069"
+			(at 207.01 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +8429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 92.71 0)
+			(at 207.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +8437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 87.63 0)
+			(at 207.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +8446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 87.63 0)
+			(at 207.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +8455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 87.63 0)
+			(at 207.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +8469,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR028")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7860,7 +8477,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 134.62 0)
+		(at 57.15 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7868,8 +8485,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfcfff19-3c2e-445e-823d-be7252d87fb7")
-		(property "Reference" "#PWR044"
-			(at 54.61 140.97 0)
+		(property "Reference" "#PWR071"
+			(at 57.15 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8495,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 139.7 0)
+			(at 57.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,7 +8503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 134.62 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 134.62 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +8521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 134.62 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8535,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR044")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7934,7 +8551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ae6273-6560-432d-b12c-9e90084ecb7a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR081"
 			(at 144.78 29.21 0)
 			(effects
 				(font
@@ -7984,7 +8601,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR013")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8000,7 +8617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc40c31-a762-4dd1-9e9e-420efc7e45cf")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 215.5541 109.22 0)
 			(effects
 				(font
@@ -8072,7 +8689,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8080,7 +8697,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SD05_SOD323")
-		(at 54.61 128.27 270)
+		(at 57.15 129.54 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8088,8 +8705,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfb18123-d47c-4119-96b5-4e6602cde019")
-		(property "Reference" "D26"
-			(at 48.514 128.27 90)
+		(property "Reference" "D17"
+			(at 51.054 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8715,7 @@
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 52.07 129.5399 90)
+			(at 54.61 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8725,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 49.53 128.27 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8734,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 54.61 128.27 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8743,7 @@
 			)
 		)
 		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 54.61 128.27 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8760,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D26")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -8160,7 +8777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e22c77a1-93fd-46e3-90d8-0990776546bb")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR092"
 			(at 233.68 118.11 0)
 			(effects
 				(font
@@ -8210,7 +8827,77 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR039")
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 59.69 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e790d062-baba-44bb-be9d-a71e0bc38d44")
+		(property "Reference" "D34"
+			(at 65.786 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD05_SOD323"
+			(at 62.23 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11045b31-ee03-4c88-9a37-58a5983be894")
+		)
+		(pin "2"
+			(uuid "8bdf2547-2633-42ab-8162-f89c9840aedb")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -8226,7 +8913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8b94e0b-053c-4a0f-93d6-99d13ebee7b5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR082"
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -8276,7 +8963,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR016")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0e895d4-5908-4b4a-9f40-00821dc714a3")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR079"
 			(at 128.27 104.14 0)
 			(effects
 				(font
@@ -8343,7 +9030,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "#PWR032")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8359,7 +9046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc612956-dbde-4e1b-a314-8ffcbb207793")
-		(property "Reference" "D8"
+		(property "Reference" "D31"
 			(at 193.04 39.3699 90)
 			(effects
 				(font
@@ -8413,7 +9100,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a962dcec-9dee-4e54-acaa-e8da87dab487"
-					(reference "D8")
+					(reference "D31")
 					(unit 1)
 				)
 			)
