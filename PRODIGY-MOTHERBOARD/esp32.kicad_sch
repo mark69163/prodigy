@@ -8471,7 +8471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Horizontal"
 			(at 238.76 119.38 0)
 			(effects
 				(font
