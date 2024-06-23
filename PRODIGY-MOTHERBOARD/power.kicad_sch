@@ -4657,7 +4657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026209e7-f59f-4e42-b355-9329003dfeff")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 252.73 111.76 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4723,7 +4723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f0431d7-c2ce-427c-90aa-957df4abea13")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 41.91 80.01 0)
 			(effects
 				(font
@@ -4773,7 +4773,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1832670d-6f3e-4e62-bc56-5eb524c4aacd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 71.12 38.1 0)
 			(effects
 				(font
@@ -4977,7 +4977,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d6b5837-f757-47fb-8019-5032ac40ceb9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5136,7 +5136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27846e82-b495-4b92-89f6-7f70a2821bba")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 193.04 64.135 0)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5435,7 +5435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc97793-a70f-4e37-b63b-de0ac4e41dd6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 180.34 127 0)
 			(effects
 				(font
@@ -5485,7 +5485,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5569,7 +5569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4d5027-a498-4b25-b660-016e8cbb80a3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 63.5 138.43 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 		(instances
 			(project ""
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fef482a-c63e-47cd-ba11-bca5dd19f5a9")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -5685,7 +5685,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5701,7 +5701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4108d65e-a136-4fd9-a238-fe5bdf5e96e0")
-		(property "Reference" "TP4"
+		(property "Reference" "TP8"
 			(at 260.35 30.9879 0)
 			(effects
 				(font
@@ -5753,7 +5753,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP4")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a204e3-8644-4bdd-8935-e5d797ffaf6e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -5819,7 +5819,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5835,7 +5835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ffc0dc-aac0-4070-89d1-f8ba0d4edf41")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 46.99 29.7179 0)
 			(effects
 				(font
@@ -5887,7 +5887,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d6cce14-cbd3-4e6d-b0cd-67aa4e32e662")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 247.65 41.275 0)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6043,7 +6043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555cd4eb-1476-467f-ade9-2bace2cee4ff")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 236.22 140.0809 0)
 			(effects
 				(font
@@ -6097,7 +6097,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6181,7 +6181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d2e41fd-eb71-4061-9abd-8fb943a6a74b")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 74.93 41.656 0)
 			(effects
 				(font
@@ -6235,7 +6235,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6321,7 +6321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9e95b1-125f-48da-827b-2a739fdcbc8f")
-		(property "Reference" "#PWR0247"
+		(property "Reference" "#PWR028"
 			(at 82.55 146.05 0)
 			(effects
 				(font
@@ -6371,7 +6371,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR0247")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "634e0820-6d49-4e17-a2b8-3b21372e853c")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 137.16 36.195 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6456,7 +6456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "645e45f7-5cc3-492e-9f37-a4d18edc9265")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 71.12 55.88 0)
 			(effects
 				(font
@@ -6506,7 +6506,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6522,7 +6522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64f1a424-19e9-4323-91f8-5953b80e3e9d")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 187.96 132.715 0)
 			(effects
 				(font
@@ -6576,7 +6576,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6592,7 +6592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68abaed9-7105-43ab-af8f-1afc27d6efa4")
-		(property "Reference" "TP5"
+		(property "Reference" "TP7"
 			(at 245.11 103.3779 0)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP5")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -6728,7 +6728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b21642b-813b-406f-b9e9-72b87c5701d1")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 205.74 104.775 0)
 			(effects
 				(font
@@ -6782,7 +6782,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6938,7 +6938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7acba9f9-f051-4c9e-aa24-9638ed668298")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 172.72 132.715 0)
 			(effects
 				(font
@@ -6992,7 +6992,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8356b249-f550-44ff-87a5-2e448c3763d6")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 114.3 108.585 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7148,7 +7148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c54ae13-1f0e-4aa8-bbcc-a7c519662579")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 166.37 46.355 0)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7218,7 +7218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db012d9-4a79-458f-96f5-4b992a18423f")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 177.8 64.135 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7288,7 +7288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a6abe1-7b8a-4488-88f1-b03765fe5a9a")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 69.85 88.265 0)
 			(effects
 				(font
@@ -7342,7 +7342,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7358,7 +7358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c5fdec-4461-4619-9c49-0fe81ca28797")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 111.76 36.195 0)
 			(effects
 				(font
@@ -7412,7 +7412,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9790cc7f-cd6f-4adb-ab02-40e50b2120d2")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 242.57 113.665 0)
 			(effects
 				(font
@@ -7482,7 +7482,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7638,7 +7638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a52b5614-1306-4c1e-ab14-edc3b5674355")
-		(property "Reference" "TP7"
+		(property "Reference" "TP3"
 			(at 68.58 71.6279 0)
 			(effects
 				(font
@@ -7690,7 +7690,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP7")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7706,7 +7706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6075aca-2e2b-49df-a0a8-c16efe040c26")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 153.67 138.43 0)
 			(effects
 				(font
@@ -7756,7 +7756,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6337035-b17a-49eb-9c3b-cc8dbe7e03f1")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 69.85 132.5879 0)
 			(effects
 				(font
@@ -7824,7 +7824,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7910,7 +7910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa09162b-76c1-489b-9902-747879765461")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 185.42 55.88 0)
 			(effects
 				(font
@@ -7960,7 +7960,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8065,7 +8065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad27c864-4fb2-494a-89f8-b6e841982b45")
-		(property "Reference" "TP8"
+		(property "Reference" "TP6"
 			(at 85.09 132.5879 0)
 			(effects
 				(font
@@ -8117,7 +8117,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP8")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8133,7 +8133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae392450-13bf-4773-830b-db10f3f2eb6f")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 127 108.585 0)
 			(effects
 				(font
@@ -8187,7 +8187,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8202,7 +8202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae3de8c3-9d58-470e-bd2a-f62d0b0845f8")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 240.03 65.1509 0)
 			(effects
 				(font
@@ -8256,7 +8256,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8272,7 +8272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeb056c6-d839-45a7-ab1f-6f4dbe772f42")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -8322,7 +8322,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3aadf6c-20b2-46e2-b7de-5a3fe688042e")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 210.82 32.385 0)
 			(effects
 				(font
@@ -8392,7 +8392,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8479,7 +8479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c203a0e4-c61c-4213-95f9-92e692ac0268")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 44.45 138.43 0)
 			(effects
 				(font
@@ -8529,7 +8529,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8545,7 +8545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c24b4e6d-e104-4ad3-a243-3f54ebe6e7c7")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 232.41 152.4 0)
 			(effects
 				(font
@@ -8595,7 +8595,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8611,7 +8611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5380f1d-4af4-4819-b5ac-39ae7f86d288")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 236.22 77.47 0)
 			(effects
 				(font
@@ -8661,7 +8661,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8743,7 +8743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c96acac5-a6c9-4715-8676-dcbda24c3b7a")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 139.7 108.585 0)
 			(effects
 				(font
@@ -8797,7 +8797,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8813,7 +8813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d60f7b-909c-4abd-bcfe-e94b829bdcdf")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -8863,7 +8863,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8879,7 +8879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb2a336c-41fd-4180-8325-d32ac46d2655")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 124.46 36.195 0)
 			(effects
 				(font
@@ -8933,7 +8933,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8949,7 +8949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb4ecd35-7533-4ec5-bd95-16d6a21826da")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -8999,7 +8999,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d20d9c57-c285-4dcd-b3cd-1b68af999840")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9150,7 +9150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3010ed4-de33-4c12-b240-59c476392be4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 222.25 124.46 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e414fb-5da7-4ee9-94b3-d8a626297ce2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -9266,7 +9266,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9352,7 +9352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d56bdde0-b509-4a96-bc51-829089215833")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 234.95 41.275 0)
 			(effects
 				(font
@@ -9406,7 +9406,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d707c1e3-2a8f-45b0-b498-43ad9fc8623c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 227.33 52.07 0)
 			(effects
 				(font
@@ -9472,7 +9472,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9488,7 +9488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8aacc14-ff84-4408-a8d8-08b229ef0ed2")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 81.28 88.265 0)
 			(effects
 				(font
@@ -9542,7 +9542,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9558,7 +9558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2358e75-e09a-44be-9c22-aa2e0136eb9a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -9608,7 +9608,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9624,7 +9624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb7d341f-5a2c-4e6a-adae-570d7fd3013b")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 252.73 157.48 0)
 			(effects
 				(font
@@ -9674,7 +9674,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9689,7 +9689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed289a3f-e442-4bf8-97ad-8fbbda135546")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 162.56 123.19 0)
 			(effects
 				(font
@@ -9743,7 +9743,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9759,7 +9759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef14ef6e-f25a-48f2-9b42-39e61164b712")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9965,7 +9965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3782e4a-eca0-4b9a-bccd-d6915818b03b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 176.53 154.94 0)
 			(effects
 				(font
@@ -10015,7 +10015,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10099,7 +10099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f660d2a5-22f3-4b06-afc6-a5721acdb934")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 82.55 30.9879 0)
 			(effects
 				(font
@@ -10151,7 +10151,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10167,7 +10167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8fd2e44-9fef-4d61-bc5e-353b6cbe6a8d")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 229.87 113.665 0)
 			(effects
 				(font
@@ -10221,7 +10221,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)

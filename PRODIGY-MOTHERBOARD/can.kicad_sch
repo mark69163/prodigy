@@ -953,6 +953,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -1716,7 +1795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06098c05-a500-421d-9507-cde1073df2a5")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 220.98 105.41 0)
 			(effects
 				(font
@@ -1766,7 +1845,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1782,7 +1861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dcd20ac-880d-410a-9393-dbb4fc6dfea7")
-		(property "Reference" "TP16"
+		(property "Reference" "TP9"
 			(at 97.79 104.9019 0)
 			(effects
 				(font
@@ -1834,7 +1913,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "TP16")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -1850,7 +1929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17767b35-569f-4f02-9bfa-ce888d230637")
-		(property "Reference" "C29"
+		(property "Reference" "C28"
 			(at 152.4 96.5199 0)
 			(effects
 				(font
@@ -1904,7 +1983,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "C29")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -1920,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "187c57a5-ace3-44fe-9196-8f4aca3a8614")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 180.34 109.22 0)
 			(effects
 				(font
@@ -1970,7 +2049,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2056,7 +2135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28ea5761-8274-475a-8bd1-ada94b806a34")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -2106,7 +2185,71 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR061")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e00efa7-3738-4717-9dd5-9e4334ce2fd7")
+		(property "Reference" "FID11"
+			(at 135.89 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.89 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
+					(reference "FID11")
 					(unit 1)
 				)
 			)
@@ -2122,7 +2265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b042cf-b6db-4346-8107-580fe9298df6")
-		(property "Reference" "C32"
+		(property "Reference" "C31"
 			(at 224.79 91.4399 0)
 			(effects
 				(font
@@ -2176,7 +2319,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "C32")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2192,7 +2335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4325bb41-5ac6-4607-acc2-2474e6e7f4c7")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 166.37 109.22 0)
 			(effects
 				(font
@@ -2242,7 +2385,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2258,7 +2401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a0a0c5e-47b4-43e8-b746-f80f934f6be8")
-		(property "Reference" "C28"
+		(property "Reference" "C27"
 			(at 138.43 96.5199 0)
 			(effects
 				(font
@@ -2312,7 +2455,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "C28")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5a7422-f181-4010-99c1-55ec0c71bd4b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -2378,7 +2521,71 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR060")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5363b861-6667-455a-a420-024fe9756e48")
+		(property "Reference" "FID12"
+			(at 135.89 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.89 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
+					(reference "FID12")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d8f1c7a-09fe-4035-b170-064fcc3acae2")
-		(property "Reference" "C31"
+		(property "Reference" "C30"
 			(at 184.15 96.5199 0)
 			(effects
 				(font
@@ -2448,7 +2655,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69be85c2-d468-4402-bbf1-e6d6334a7ab0")
-		(property "Reference" "C30"
+		(property "Reference" "C29"
 			(at 170.18 96.5199 0)
 			(effects
 				(font
@@ -2518,7 +2725,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "C30")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -2534,7 +2741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a24205d-9ce2-43ca-8acf-36b3060939a6")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 99.06 68.5799 0)
 			(effects
 				(font
@@ -2588,7 +2795,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2768,7 +2975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9c69899-e483-49b3-8783-c759094ecbd3")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 95.25 80.01 0)
 			(effects
 				(font
@@ -2818,7 +3025,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2834,7 +3041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ab1d73-03a7-442e-9441-f61fc3031730")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 110.49 109.22 0)
 			(effects
 				(font
@@ -2884,7 +3091,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2970,7 +3177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99f0a28-9bc9-4cb5-b65e-b0a5f0e2c1bb")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -3020,7 +3227,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

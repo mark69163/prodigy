@@ -2565,7 +2565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7bd50b-706c-4d99-a87a-80fa8d54c1c4")
-		(property "Reference" "C43"
+		(property "Reference" "C42"
 			(at 101.6 76.1999 0)
 			(effects
 				(font
@@ -2619,7 +2619,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "C43")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e5b37f-5473-41cb-957c-5444d3287d9b")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0148"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "#PWR0144")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -2701,7 +2701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae13bc3-983f-4a14-afeb-4ba1296c7204")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0147"
 			(at 90.17 90.17 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "#PWR0143")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -2767,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de59c07d-0dfc-406f-af19-262695880eea")
-		(property "Reference" "C42"
+		(property "Reference" "C41"
 			(at 87.63 76.1999 0)
 			(effects
 				(font
@@ -2821,7 +2821,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "C42")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2837,7 +2837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f298004a-07f0-44cd-9453-c53e8c968f3d")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0149"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -2887,7 +2887,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/e2913798-f444-47a6-8b64-53020d7d816b/5b2ed776-5334-4587-8715-0b58b66b66ac"
-					(reference "#PWR0145")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)

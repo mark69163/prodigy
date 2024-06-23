@@ -4258,6 +4258,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -6234,7 +6316,7 @@
 		)
 		(uuid fa8f1f4c-c121-4701-a00c-b4861b4529a7)
 	)
-	(text "In USB CDC Mode\nBOOT button is not needed,\nBut externally accessible"
+	(text "In USB CDC Mode\nBOOT button is not needed"
 		(exclude_from_sim no)
 		(at 109.22 190.754 0)
 		(effects
@@ -7176,7 +7258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1315f2b6-27cc-46c5-a2a2-f5faed8ed8df")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 158.75 31.75 0)
 			(effects
 				(font
@@ -7226,7 +7308,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7242,7 +7324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171c9a0d-3fff-4276-b4f8-39a53cf1835c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 44.45 189.23 0)
 			(effects
 				(font
@@ -7292,7 +7374,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7514,7 +7596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "393c656c-9e5d-4db5-8afc-d04ecf8c41df")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -7564,7 +7646,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7580,7 +7662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "424a5d43-0407-4283-bb03-51b16cd8bf43")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 38.1 157.48 0)
 			(effects
 				(font
@@ -7630,7 +7712,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7850,7 +7932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5317ed32-7a97-45af-8679-4b2a6bd76bbd")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 63.5 172.7199 0)
 			(effects
 				(font
@@ -7904,7 +7986,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7988,7 +8070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8105662d-9b4b-423e-933e-5c3714be51d1")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -8038,7 +8120,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8123,7 +8205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a71d5f4-1751-419b-84e7-b8e1d29b2cf3")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR053"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -8173,7 +8255,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8189,7 +8271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc8f596-9924-437e-ae91-97619c0f8fc9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 63.5 129.54 0)
 			(effects
 				(font
@@ -8239,7 +8321,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8319,7 +8401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f384fea-114d-4651-895f-8669368c555e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 40.64 130.81 0)
 			(effects
 				(font
@@ -8369,7 +8451,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8446,13 +8528,87 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 238.76 119.38 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 246.38 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab23ee07-0175-44a0-9ec6-167e64c11408")
+		(property "Reference" "H10"
+			(at 248.92 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 248.92 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
+		(at 238.76 119.38 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b9531319-c5d6-4072-a10c-682302f152e8")
 		(property "Reference" "J8"
@@ -8792,7 +8948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15f1b8b-14b3-4845-b606-c9ec58958614")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -8842,7 +8998,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8858,7 +9014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89a4ae1-d464-401e-b7da-9652d58b346b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 227.33 153.67 0)
 			(effects
 				(font
@@ -8908,7 +9064,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8924,7 +9080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1307e7f-a999-4a8a-aada-17a94f8d5c96")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 90.17 92.71 0)
 			(effects
 				(font
@@ -8974,7 +9130,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8990,7 +9146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4f7491-f8e3-4654-94d6-7fe7068202ed")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 158.75 137.16 0)
 			(effects
 				(font
@@ -9040,7 +9196,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
