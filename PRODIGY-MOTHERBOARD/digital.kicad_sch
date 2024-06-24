@@ -11108,7 +11108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_IR_EMITTER"
+		(property "Value" "LL-304PDD2E"
 			(at 58.42 176.4029 90)
 			(effects
 				(font
@@ -11117,7 +11117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 51.435 173.99 0)
 			(effects
 				(font
@@ -11126,7 +11126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+		(property "Datasheet" "https://www.tme.eu/hu/details/ll-304pdd2e/fotodiodak/luckylight/"
 			(at 55.88 175.26 0)
 			(effects
 				(font
@@ -14750,7 +14750,7 @@
 				)
 			)
 		)
-		(property "Value" "TSDP341xx"
+		(property "Value" "OSRB38C9BA"
 			(at 87.165 168.91 0)
 			(effects
 				(font
@@ -14767,7 +14767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/82667/tsdp341.pdf"
+		(property "Datasheet" "https://www.tme.eu/hu/details/osrb38c9ba/ir-vevo-modulok/optosupply/"
 			(at 105.41 170.18 0)
 			(effects
 				(font
