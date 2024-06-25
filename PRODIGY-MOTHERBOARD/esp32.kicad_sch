@@ -8556,7 +8556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad"
 			(at 246.38 38.1 0)
 			(effects
 				(font
@@ -9230,7 +9230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "m.2_edge_connector_key_a:121992304"
 			(at 158.75 53.34 0)
 			(effects
 				(font
