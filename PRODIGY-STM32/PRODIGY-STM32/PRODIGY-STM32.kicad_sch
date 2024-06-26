@@ -1,0 +1,1547 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f2f1c781-b8fe-416b-b7a0-b424640c1d9f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01efb3dd-1d8a-46b0-b312-ba863a3e4a82")
+		(property "Reference" "H1"
+			(at 193.04 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 193.04 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 199.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f1b659c-6321-4c8d-9bef-86e68070b0c2")
+		(property "Reference" "H2"
+			(at 201.93 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 201.93 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee47e18f-7499-44be-93cb-e4fac6a91329")
+		(property "Reference" "H4"
+			(at 193.04 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 193.04 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 199.39 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a96b55-fe59-46a5-a704-3fc3081406ff")
+		(property "Reference" "H3"
+			(at 201.93 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 201.93 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 199.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 199.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 16.51)
+		(size 48.26 179.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c940864-b0c7-4fea-a950-c583ebb4a87f")
+		(property "Sheetname" "mcu"
+			(at 120.65 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 120.65 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 15.24)
+		(size 34.29 180.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "333eab81-c884-4b42-882a-4ee6d949c24e")
+		(property "Sheetname" "Connector-1"
+			(at 52.07 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 52.07 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_EN" input
+			(at 86.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9082defb-1a87-427e-9497-a93588e0a21c")
+		)
+		(pin "SERIAL_OUT_RX2" output
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1b6295b-e806-459f-a67f-70c96ad70712")
+		)
+		(pin "USB_HOST_OUT_P-" output
+			(at 86.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4dc0e6fd-829e-423c-98b1-bc0ae8e60f82")
+		)
+		(pin "USB_HOST_OUT_P+" output
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77d3772e-3a45-4db5-8a7a-af8f7c475896")
+		)
+		(pin "USB_HOST_ENABLE" output
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67609321-6ee7-41b5-935e-91fef86c6b73")
+		)
+		(pin "SERIAL_OUT_TX2" output
+			(at 86.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ffe8814-4eb4-498d-b5ea-1a153f2c831c")
+		)
+		(pin "SPI_MISO" output
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01808bb4-55c7-45cb-a4ef-a7a3c3d8ed8d")
+		)
+		(pin "SPI_SCK" output
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9853d973-e99b-42f7-add8-1841211c0fee")
+		)
+		(pin "SPI_CS_BREAKOUT" output
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21c29e9e-c0ad-433f-ae87-6ec4789f1b60")
+		)
+		(pin "SPI_MOSI" output
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6bcad037-3bca-4a54-87e0-7635a650eb7b")
+		)
+		(pin "CAN_SILENT" output
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a30a4fe8-826c-4659-9419-48bdef180d2c")
+		)
+		(pin "SPI_CS_NFC" output
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b57da83-97f6-4dc8-98b0-9728dddd3ed6")
+		)
+		(pin "SPI_IRQ_NFC" output
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eba94b65-ce33-47b6-a90a-262429d6cbbe")
+		)
+		(pin "SPI_RST_NFC" output
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "204dd0d5-5a57-4408-a9cc-234d1ecd20df")
+		)
+		(pin "SPI_CS_SEVENSEG" output
+			(at 86.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0fa1bc29-5bb0-4274-b794-3ac5aaa89f7b")
+		)
+		(pin "SPI_TFT_DC" output
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5f27741-ef47-4152-b627-880de2f44d3d")
+		)
+		(pin "SPI_CS_TFT" output
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2596e47-794f-43d5-a2ce-0aea423a0745")
+		)
+		(pin "SPI_TFT_RESET" output
+			(at 86.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4ea2a41-7c59-491d-b4d6-8fbf600883fd")
+		)
+		(pin "DIGITAL_BUZZER_OUT" output
+			(at 86.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52de64d1-cc83-4e4b-893a-b546e9a6cc15")
+		)
+		(pin "MOTOR_PWM_OUT_2" output
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba9ee0db-0215-43eb-ac26-5342b1544087")
+		)
+		(pin "MOTOR_CC_IN_2" output
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e5dc22f-1213-40a8-bd9e-d88ffb01f43d")
+		)
+		(pin "DIGITAL_HEATER_OUT" output
+			(at 86.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5db92255-82e2-45b5-942e-02bfbc82374a")
+		)
+		(pin "DIGITAL_LED_OUT_2" output
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4d0d727-a794-43c6-bc82-d9d43de00610")
+		)
+		(pin "DIGITAL_LED_OUT_1" output
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c69f631-1705-476f-8dfc-3778e40bd9ab")
+		)
+		(pin "MOTOR_PWM_OUT_1" output
+			(at 86.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ce6596c-1a92-4ea0-b7c4-7e82ca42b106")
+		)
+		(pin "MOTOR_CC_IN_1" output
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6a62339-196b-4475-931c-a4a790020139")
+		)
+		(pin "DIGITAL_LED_OUT_0" output
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52fc7066-5e78-42c8-bb01-c4c9a4156bcc")
+		)
+		(pin "DIGITAL_RGB_B" output
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f5b5457-6f96-4fef-ba40-f892c794cd3b")
+		)
+		(pin "DIGITAL_BUTTON_IN_1" input
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e44a9a08-8717-4232-ac00-a985d103b9a6")
+		)
+		(pin "DIGITAL_BUTTON_IN_0" input
+			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "572e4fc3-2281-403b-8a8f-317a54fbff9e")
+		)
+		(pin "DIGITAL_RGB_G" output
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62328445-bcea-4fe5-9426-bff82205b28a")
+		)
+		(pin "DIGITAL_RGB_R" output
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5a82958-18f0-483a-8a2f-592a02c28e39")
+		)
+		(pin "DIGITAL_BUTTON_IN_3" input
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2c7062a-7d86-4713-a362-0a5abdb7e01b")
+		)
+		(pin "DIGITAL_BUTTON_IN_2" input
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85e6fd5f-8c95-4ced-87a2-90c98e1c4bdc")
+		)
+		(pin "DIGITAL_NEOPIXEL_OUT" output
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4be0e8dc-f441-4f60-af21-1c869be8ac19")
+		)
+		(pin "I2C_INTERRUPT_KEYPAD" input
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5a04f6d-d4ce-4927-aeba-5a697c431840")
+		)
+		(pin "DIGITAL_IR_RECEIVER" input
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06276597-39b6-4f83-a96b-6c22d7738052")
+		)
+		(pin "DIGITAL_IR_EMITTER" output
+			(at 86.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "677055cd-e510-4425-aac5-6f8186b652dd")
+		)
+		(pin "USB_DP-" bidirectional
+			(at 86.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b22e7931-0468-42ef-a518-3a69887d5621")
+		)
+		(pin "SERIAL_OUT_RX1" output
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3affe6c2-30d4-459d-ab3c-c6a5ae55c074")
+		)
+		(pin "USB_DP+" bidirectional
+			(at 86.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "353211f4-571d-4b7c-94f1-f4392ba8ea91")
+		)
+		(pin "SERIAL_OUT_TX1" output
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9e9d6be-ef35-4c04-adf1-4ec0ba7e68c1")
+		)
+		(pin "USB_HOST_FAULT" input
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70b72063-d7fc-4fed-b850-1f71b4b3b1c2")
+		)
+		(pin "I2C_SCL" output
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4da84f5b-a0c4-4aef-9273-f73dff7375cc")
+		)
+		(pin "CAN_OUT_RX1" output
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5aa563b1-8094-463c-ae77-57c9bc6c1586")
+		)
+		(pin "CAN_OUT_TX1" output
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccac776a-3422-4315-9fb4-fff506bdbbef")
+		)
+		(pin "I2C_INTERRUPT_ACCEL" output
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23a65e01-355b-4070-a6a9-102c075691c9")
+		)
+		(pin "I2C_SDA" output
+			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e2b75a1-1306-4bf8-9dba-dc846cc609bd")
+		)
+		(pin "ANALOG_JOYSTICK_Y" input
+			(at 86.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c07751e4-4075-47e2-9425-53aa6e815827")
+		)
+		(pin "ANALOG_JOYSTICK_X" input
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6304bbe7-d23a-4cf1-a855-0dfb62983787")
+		)
+		(pin "ANALOG_PHOTOTRANSISTOR" input
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b77998b4-9661-40ff-b96e-0ea91d13af0b")
+		)
+		(pin "ANALOG_MICROPHONE" input
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f40707d5-e4f1-47d9-8872-d2562240b7d3")
+		)
+		(pin "ANALOG_BREAKOUT_PT100" input
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "197ed4fe-3fc6-45ab-976e-22ef9735ed54")
+		)
+		(pin "ANALOG_POTENTIOMETER" input
+			(at 86.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c3d1caf-4241-4def-ba62-ab1c078e855e")
+		)
+		(pin "ANALOG_HEATER_TEMPERATURE" input
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6aec2597-89a7-42d8-bacb-48b5e81f940e")
+		)
+		(pin "ANALOG_BREAKOUT_PIEZO" input
+			(at 86.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1721304-ad09-4b0a-b784-492ded22dbdd")
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 171.45)
+		(size 27.94 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b")
+		(property "Sheetname" "st-link-v2"
+			(at 88.9 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "st_link.kicad_sch"
+			(at 88.9 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T_SWO" bidirectional
+			(at 116.84 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec3dbcc6-4843-475f-9390-abf4c7fb1f08")
+		)
+		(pin "DIO" bidirectional
+			(at 116.84 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8dd1a9b-1456-449c-a5cd-7ecd0fbb052d")
+		)
+		(pin "CLK" bidirectional
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce133a3d-2fb7-4ad3-b684-897c73326f1d")
+		)
+		(pin "USB_D+" bidirectional
+			(at 88.9 182.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "877e5819-0e94-4a77-ae92-f614b7071b83")
+		)
+		(pin "USB_D-" bidirectional
+			(at 88.9 185.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c5f4fb7-c3d4-4454-8778-392529d18d3b")
+		)
+		(pin "T_RST" bidirectional
+			(at 116.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf04f2e1-396b-4d6c-b7ae-35caeb1ddd0b")
+		)
+		(pin "T_RX" bidirectional
+			(at 116.84 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bcb732af-56a6-4e3b-845d-158e960ed578")
+		)
+		(pin "T_CLK" bidirectional
+			(at 116.84 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b978e00c-a7f4-479f-976a-1d3746e38ede")
+		)
+		(pin "T_TX" bidirectional
+			(at 116.84 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb0e33b7-09b9-45c0-9d5a-15682af9cc5a")
+		)
+		(pin "T_DIO" bidirectional
+			(at 116.84 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ec3190d-4d15-4bcf-93b8-a89b2f599876")
+		)
+		(pin "BOOT" bidirectional
+			(at 116.84 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "273f306e-766a-452c-828a-f75c09f3f376")
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 24.13)
+		(size 20.32 100.33)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8ef92a9-2b6b-4a6a-82b5-94550f671624")
+		(property "Sheetname" "Connector-2"
+			(at 186.69 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector2.kicad_sch"
+			(at 186.69 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_GPIO_11" bidirectional
+			(at 186.69 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "256fc692-be04-4c0f-8f4f-f78761fe0c3d")
+		)
+		(pin "MCU_GPIO_10" bidirectional
+			(at 186.69 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ce2b953-fb1f-4337-ada7-d9408df087fd")
+		)
+		(pin "MCU_GPIO_22" bidirectional
+			(at 186.69 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a1349cb-b9b8-407e-ab0a-9533c64869ab")
+		)
+		(pin "MCU_GPIO_9" bidirectional
+			(at 186.69 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fa4c3de-37a6-4bca-a4a7-1b834706ce62")
+		)
+		(pin "SD_CMD" output
+			(at 186.69 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "278796d1-a83f-4197-a5ed-26765ed3ec59")
+		)
+		(pin "MCU_GPIO_2" bidirectional
+			(at 186.69 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27221ae7-18ad-4817-ba6c-5b2667999768")
+		)
+		(pin "MCU_GPIO_4" bidirectional
+			(at 186.69 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae83b07d-beff-48ea-9fbe-2700d4981b62")
+		)
+		(pin "MCU_GPIO_27" bidirectional
+			(at 186.69 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29c2e803-8187-448e-91c9-1afd97460a2e")
+		)
+		(pin "MCU_GPIO_3" bidirectional
+			(at 186.69 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a9b6bdc-741a-4651-9ccd-2e84707a1484")
+		)
+		(pin "MCU_GPIO_17" bidirectional
+			(at 186.69 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8af81439-35b8-4b3f-b722-a7f7f2cac9ab")
+		)
+		(pin "MCU_VREF" bidirectional
+			(at 186.69 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15b35038-3193-478e-a1fe-5448875bff83")
+		)
+		(pin "SD_DET" input
+			(at 186.69 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5c90cc4-c355-441d-887d-3615ebe72983")
+		)
+		(pin "MCU_RESET" bidirectional
+			(at 186.69 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a83d32fc-868a-4789-bb79-f45aba07bdc8")
+		)
+		(pin "MCU_GPIO_12" bidirectional
+			(at 186.69 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6af79c3-4f23-496a-befe-4f449fe3b5b7")
+		)
+		(pin "MCU_GPIO_21" bidirectional
+			(at 186.69 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f237fdba-0049-4f79-9205-ac1bdf70bb42")
+		)
+		(pin "MCU_GPIO_20" bidirectional
+			(at 186.69 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb93ef46-9907-43a4-8a66-a7bafd3a5d31")
+		)
+		(pin "MCU_GPIO_16" bidirectional
+			(at 186.69 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecf62cb6-92d0-49fb-8654-fa3ce26b2ab8")
+		)
+		(pin "MCU_GPIO_15" bidirectional
+			(at 186.69 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e266656d-30d0-45bf-8c9b-5af24810bee2")
+		)
+		(pin "MCU_GPIO_8" bidirectional
+			(at 186.69 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66d2bb88-25bd-4eff-9ddb-a771cff8db9a")
+		)
+		(pin "MCU_GPIO_23" bidirectional
+			(at 186.69 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0fd16549-9140-4995-bd5d-1858ac9586ae")
+		)
+		(pin "MCU_GPIO_18" bidirectional
+			(at 186.69 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd6e2fa8-e3e0-4be4-8dcb-e9d1c5f4e5a2")
+		)
+		(pin "MCU_GPIO_7" bidirectional
+			(at 186.69 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89463eac-0829-4b4f-8a9c-5ad281a3b893")
+		)
+		(pin "MCU_GPIO_25" bidirectional
+			(at 186.69 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b19a6cb1-95ce-4ee8-acc0-98a76d756652")
+		)
+		(pin "MCU_GPIO_24" bidirectional
+			(at 186.69 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "087ba5ef-4e38-4ece-a103-299ea0862bec")
+		)
+		(pin "MCU_GPIO_5" bidirectional
+			(at 186.69 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2af90658-46c8-4d8a-a070-fe7140003b14")
+		)
+		(pin "MCU_GPIO_19" bidirectional
+			(at 186.69 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9415dff-47f8-4f10-bbda-fa61881ba1e0")
+		)
+		(pin "MCU_GPIO_6" bidirectional
+			(at 186.69 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "909d04fe-a0c2-4eca-a68a-98561ec0b23d")
+		)
+		(pin "MCU_GPIO_26" bidirectional
+			(at 186.69 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d1e71a8a-f96f-421f-a99d-ffe2418df037")
+		)
+		(pin "MCU_GPIO_13" bidirectional
+			(at 186.69 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f5e6a17-7ded-4596-87ce-a3a38cac0186")
+		)
+		(pin "SD_Enable" output
+			(at 186.69 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97c8920e-28ab-4a10-ab53-f3067eca2fba")
+		)
+		(pin "SD_DAT2" bidirectional
+			(at 186.69 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcc91f33-0b89-4a49-aac8-c8b04fd0ca52")
+		)
+		(pin "SD_DAT1" bidirectional
+			(at 186.69 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0dc3e711-7a9a-4a48-a61d-099921c306be")
+		)
+		(pin "SD_DAT0" bidirectional
+			(at 186.69 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9db62fa8-910d-4c72-b8ee-3201cee8b9df")
+		)
+		(pin "MCU_GPIO_14" bidirectional
+			(at 186.69 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71a9f7bd-b81f-49dc-8168-57a9fae3ee3f")
+		)
+		(pin "SD_DAT3" bidirectional
+			(at 186.69 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39cce01c-afa1-43d6-92be-c828487a6bd9")
+		)
+		(pin "SD_CLK" output
+			(at 186.69 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8bd0bc2-5a14-47be-a7b7-8641aa06b5b8")
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
