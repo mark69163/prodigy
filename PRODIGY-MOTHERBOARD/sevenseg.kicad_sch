@@ -2306,6 +2306,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 109.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 109.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19459da3-16be-4596-aa1c-bf476088d994")
 		)
@@ -2347,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:CC56-12YWA"
+		(property "Footprint" "Display_7Segment:CA56-12SRWA"
 			(at 180.34 96.52 0)
 			(effects
 				(font
@@ -2366,6 +2393,33 @@
 			)
 		)
 		(property "Description" "4 digit 7 segment super bright orange LED, common cathode"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "FYQ-3641AUHR-21"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -2447,7 +2501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -2466,6 +2520,33 @@
 			)
 		)
 		(property "Description" "8-Digit LED Display Driver"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -2602,6 +2683,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -2804,6 +2912,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 83.82 77.47 0)
 			(effects
 				(font

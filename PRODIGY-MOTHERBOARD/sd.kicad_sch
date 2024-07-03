@@ -1774,6 +1774,126 @@
 				)
 			)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 149.86 134.62)
@@ -1788,7 +1908,7 @@
 		(uuid "a94e01cf-1ad5-420a-85f8-095126b3d8ad")
 	)
 	(junction
-		(at 121.92 72.39)
+		(at 118.11 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af18446f-0c94-4e03-8f37-84bb49778bd5")
@@ -1798,12 +1918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb6cb45-ff3a-4e55-9f94-aa9e33e17b7d")
-	)
-	(junction
-		(at 125.73 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f27921c1-34b1-43f1-8c41-01616918a10d")
 	)
 	(no_connect
 		(at 151.13 72.39)
@@ -1901,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 121.92 72.39)
+			(xy 113.03 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 121.92 73.66)
+			(xy 118.11 72.39) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 121.92 72.39)
+			(xy 118.11 71.12) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2141,17 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 125.73 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba76e36b-1ed5-4e80-84f4-4e3f41a2f5aa")
-	)
-	(wire
-		(pts
-			(xy 121.92 72.39) (xy 130.81 72.39)
+			(xy 118.11 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2281,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 62.23) (xy 125.73 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab95e88-d5b9-4039-9eb4-1765aed41539")
-	)
-	(wire
-		(pts
 			(xy 138.43 116.84) (xy 170.18 116.84)
 		)
 		(stroke
@@ -2311,7 +2405,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 63.5) (xy 125.73 67.31)
+			(xy 118.11 62.23) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcac0a33-e0ed-405c-a801-bcc77069fe0f")
+	)
+	(wire
+		(pts
+			(xy 125.73 62.23) (xy 125.73 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2610,7 @@
 	)
 	(hierarchical_label "SD_Enable"
 		(shape input)
-		(at 116.84 72.39 180)
+		(at 113.03 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2609,6 +2713,33 @@
 			)
 		)
 		(property "Description" "8 channel EMI filters with integrated ESD protection,  12 pF, 40 Ohm"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 120.65 121.92 0)
 			(effects
 				(font
@@ -2732,6 +2863,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94d6b607-2101-45a7-9456-2970a20a7e4d")
 		)
@@ -2755,7 +2913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "182932bf-ddfc-42fe-9a23-a697da24aad2")
-		(property "Reference" "#PWR0249"
+		(property "Reference" "#PWR0250"
 			(at 120.65 142.24 0)
 			(effects
 				(font
@@ -2805,7 +2963,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0249")
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -2813,7 +2971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 67.31 0)
+		(at 118.11 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2822,7 +2980,7 @@
 		(dnp no)
 		(uuid "1f4082da-1adc-4492-a398-481b5061aecb")
 		(property "Reference" "R86"
-			(at 119.38 66.0399 0)
+			(at 115.57 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2989,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 68.5799 0)
+			(at 115.57 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2998,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.142 67.31 90)
+			(at 116.332 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +3007,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/hu/details/rc0603fr-0710k/smd-ellenallasok/yageo/rc0603fr-0710kl/"
-			(at 121.92 67.31 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +3016,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 67.31 0)
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +3076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c640253-9490-428d-a94e-a52d01ed8d4f")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0253"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -2941,7 +3126,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0252")
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -3000,6 +3185,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0dbb2c25-88f9-41d1-a965-800a9f8c3c0a")
 		)
@@ -3019,6 +3231,72 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
 					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 118.11 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d7413c9-54e3-4e4d-916a-d684e8b06852")
+		(property "Reference" "#PWR0249"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 118.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94dd4da6-4672-4600-808c-c510970b702e")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -3146,6 +3424,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7d3b8e2-a6da-4c46-8172-9ff8c9900ff0")
 		)
@@ -3168,7 +3473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9598d806-c3fc-4a11-a1ab-74916fe2d639")
-		(property "Reference" "#PWR0250"
+		(property "Reference" "#PWR0251"
 			(at 125.73 66.04 0)
 			(effects
 				(font
@@ -3218,7 +3523,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0250")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 78.74 0)
 			(effects
 				(font
@@ -3271,6 +3576,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -3304,7 +3636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a10aaf06-5ac4-42fa-9091-ebffbf6c45f2")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR0255"
 			(at 168.91 88.9 0)
 			(effects
 				(font
@@ -3354,7 +3686,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0254")
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -3362,7 +3694,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 121.92 73.66 0)
+		(at 118.11 73.66 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3371,7 +3703,7 @@
 		(dnp no)
 		(uuid "a7617478-1adb-4336-9b48-45c8ec6eab18")
 		(property "Reference" "TP17"
-			(at 124.46 76.9621 0)
+			(at 120.65 76.9621 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3712,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 124.46 75.057 0)
+			(at 120.65 75.057 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3722,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 127 73.66 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 73.66 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3740,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 73.66 0)
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d590ec-a5ce-4e1d-b918-980b914d80b1")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR0254"
 			(at 167.64 147.32 0)
 			(effects
 				(font
@@ -3488,7 +3847,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0253")
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -3538,6 +3897,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 193.04 121.92 0)
 			(effects
 				(font
@@ -3598,7 +3984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c18ac748-de54-4fc3-9381-fb2033850f2f")
-		(property "Reference" "#PWR0251"
+		(property "Reference" "#PWR0252"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -3648,7 +4034,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0251")
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -3709,6 +4095,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddfcafe6-01be-46e2-b6a1-f1afd8f2fdd3")
 		)
@@ -3734,7 +4147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e368ea21-a2e7-4a18-accb-d8bc8daf3202")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR0256"
 			(at 213.36 146.05 0)
 			(effects
 				(font
@@ -3784,7 +4197,7 @@
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "#PWR0255")
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -3818,7 +4231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.8752 78.74 0)
 			(effects
 				(font
@@ -3837,6 +4250,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 168.91 74.93 0)
 			(effects
 				(font

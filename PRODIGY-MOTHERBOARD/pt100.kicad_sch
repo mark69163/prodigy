@@ -759,126 +759,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3VA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -975,6 +855,126 @@
 				)
 			)
 		)
+		(symbol "power:VAA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VAA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VAA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VAA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VAA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 135.89 59.69)
@@ -987,6 +987,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02256daf-bebf-48aa-b053-09ebd45a416f")
+	)
+	(junction
+		(at 199.39 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e619311-143b-4bd2-9742-2ba1823e744e")
 	)
 	(junction
 		(at 199.39 81.28)
@@ -1019,16 +1025,16 @@
 		(uuid "5c9bda43-b571-45ba-87d1-dd614f4c7e1e")
 	)
 	(junction
+		(at 199.39 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86082031-d872-4e42-a65a-5bfff33becfd")
+	)
+	(junction
 		(at 233.68 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b2d50a7-2c0e-4138-8ac3-973be6cca32e")
-	)
-	(junction
-		(at 199.39 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a78319c8-4534-41d8-980c-e1a80b1e511d")
 	)
 	(junction
 		(at 215.9 81.28)
@@ -1041,12 +1047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af84dd36-956b-49dd-9df4-760d8ae0dbe9")
-	)
-	(junction
-		(at 199.39 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7293a96-028a-4b2e-bab6-5a2d3d339c5e")
 	)
 	(junction
 		(at 114.3 101.6)
@@ -1086,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 123.19) (xy 166.37 113.03)
+			(xy 166.37 123.19) (xy 166.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1103,6 +1103,16 @@
 			(type default)
 		)
 		(uuid "1caa966f-6069-4da5-9491-b50c8c57bafa")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd9c45e-f42d-4e8d-90a5-0badca492d15")
 	)
 	(wire
 		(pts
@@ -1146,6 +1156,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 72.39) (xy 176.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edaf706-5eb8-435e-a25a-1ac62ca34316")
+	)
+	(wire
+		(pts
 			(xy 71.12 62.23) (xy 71.12 63.5)
 		)
 		(stroke
@@ -1166,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 91.44) (xy 199.39 97.79)
+			(xy 199.39 90.17) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 199.39 113.03)
+			(xy 166.37 110.49) (xy 199.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1223,6 +1243,16 @@
 			(type default)
 		)
 		(uuid "58c9e7d0-11de-41be-8d23-a37047551799")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62adbd53-522d-4983-a1f3-d0d750378eab")
 	)
 	(wire
 		(pts
@@ -1316,33 +1346,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 199.39 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a4db83b-828b-42e2-b151-42e5715210b4")
-	)
-	(wire
-		(pts
-			(xy 166.37 96.52) (xy 185.42 96.52)
+			(xy 166.37 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8053c0ce-7fda-4b09-b4ee-71321e693289")
-	)
-	(wire
-		(pts
-			(xy 199.39 113.03) (xy 199.39 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e453d7-4318-4a3e-98bb-59fdf8de4ad2")
 	)
 	(wire
 		(pts
@@ -1356,16 +1366,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 199.39 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "948e6d86-5530-4379-9a50-fc88b5c81f71")
-	)
-	(wire
-		(pts
 			(xy 135.89 67.31) (xy 135.89 69.85)
 		)
 		(stroke
@@ -1373,6 +1373,16 @@
 			(type default)
 		)
 		(uuid "98024cfe-a032-4f01-93c1-98eaa7566242")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 199.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e19158-5916-47ef-b04c-26616ccdf8a6")
 	)
 	(wire
 		(pts
@@ -1386,7 +1396,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 199.39 113.03)
+			(xy 199.39 106.68) (xy 199.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1443,16 +1453,6 @@
 			(type default)
 		)
 		(uuid "afccecaa-282c-4d7d-a448-ef2264780875")
-	)
-	(wire
-		(pts
-			(xy 185.42 96.52) (xy 185.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d3a8a2-f05d-4343-bacf-7e67a44f9f86")
 	)
 	(wire
 		(pts
@@ -1921,6 +1921,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1245038c-ee3b-4ab3-83c9-9ad091cd686a")
 		)
@@ -1972,7 +1999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 120.65 90)
 			(effects
 				(font
@@ -1999,6 +2026,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "faabaaf7-f5d9-44dd-9860-ef70549b7629")
 		)
@@ -2015,17 +2069,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 223.52 93.98 0)
+		(lib_id "power:VAA")
+		(at 151.13 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "108938fe-72b9-4b85-8c3b-273132c54f12")
-		(property "Reference" "#PWR0245"
-			(at 223.52 97.79 0)
+		(uuid "0d9aa176-1dd3-4f35-b11b-82c39789077b")
+		(property "Reference" "#PWR0239"
+			(at 151.13 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,8 +2087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 223.52 88.9 0)
+		(property "Value" "VAA"
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 93.98 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 93.98 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,8 +2113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 223.52 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,12 +2123,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1d51b65-ed5e-491f-9463-4b3fba8a37e6")
+			(uuid "e67e444e-e61c-42f6-aff8-1e39f52c3ca2")
 		)
 		(instances
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
-					(reference "#PWR0245")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -2108,7 +2162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 136.8552 67.31 0)
 			(effects
 				(font
@@ -2135,6 +2189,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1309c00-d04a-4fe2-b537-f94ba4f86f60")
 		)
@@ -2145,72 +2226,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 151.13 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b372fff-3234-40fd-8d5c-00be03dc2128")
-		(property "Reference" "#PWR0239"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 151.13 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 151.13 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "621f2ba7-f58b-4916-b9d3-37008410b833")
-		)
-		(instances
-			(project ""
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
-					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -2329,6 +2344,33 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -2379,7 +2421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.55 83.058 90)
 			(effects
 				(font
@@ -2398,6 +2440,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 209.55 81.28 0)
 			(effects
 				(font
@@ -2540,6 +2609,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c8f0da1-764f-4c76-bde5-f974501f3089")
 		)
@@ -2559,72 +2655,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 115.57 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33d30c74-91a7-4402-be82-5def96909d9e")
-		(property "Reference" "#PWR0236"
-			(at 115.57 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 115.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40a668ff-f65c-49b8-a54d-4c46281105e8")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
-					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.82 127.508 90)
 			(effects
 				(font
@@ -2676,6 +2706,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 210.82 125.73 0)
 			(effects
 				(font
@@ -2727,7 +2784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -2746,6 +2803,33 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -2836,6 +2920,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VAA")
+		(at 115.57 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dec0f5e-b30b-4c5f-a413-46bad5275090")
+		(property "Reference" "#PWR0236"
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 115.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 115.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "236a6d07-77ef-4549-8abe-668d9d6c06df")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Reference_Voltage:LM4125AIM5-2.5")
 		(at 151.13 59.69 0)
 		(mirror y)
@@ -2893,6 +3043,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "0e7e1e59-af17-4b08-9e95-9d932a41aaaf")
 		)
@@ -2912,71 +3089,6 @@
 			(project ""
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "U23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 176.53 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "616f51e0-213e-400f-b74d-7e1f70094d9d")
-		(property "Reference" "#PWR0243"
-			(at 176.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 181.102 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6861c33e-0836-4009-ae53-21d5bca04394")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
-					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -3101,6 +3213,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56ca095f-6fbe-4f92-8dc5-43e0c8a2f7e2")
 		)
@@ -3152,7 +3291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 127.508 90)
 			(effects
 				(font
@@ -3179,6 +3318,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d927d23-71de-4210-b073-82ce045822fc")
 		)
@@ -3189,71 +3355,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 176.53 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9abc92e3-0f42-4b9d-bf2a-f0f1f5897a71")
-		(property "Reference" "#PWR0241"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 176.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 176.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52eb6312-23d0-48b8-b6e8-8b055b79e44d")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
-					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 86.36 0)
 			(effects
 				(font
@@ -3314,6 +3415,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dddea07e-4646-4dfe-9f2a-06e563d5b2b4")
 		)
@@ -3324,6 +3452,138 @@
 			(project ""
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VAA")
+		(at 176.53 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd0a9f54-b70b-4f5d-94ec-8287e7914b44")
+		(property "Reference" "#PWR0243"
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2190e5-998f-4fb2-b484-c5a0f069bf66")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VAA")
+		(at 176.53 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4674443-2b0a-49ba-a640-43f08a4b5075")
+		(property "Reference" "#PWR0241"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4135281d-5b07-4452-bef7-cef729991429")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -3374,6 +3634,33 @@
 			)
 		)
 		(property "Description" "Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -3499,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.522 109.22 90)
 			(effects
 				(font
@@ -3526,6 +3813,33 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f39660a-4d9b-4d3f-8ef1-d2852c8b707a")
 		)
@@ -3543,7 +3857,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 101.6 0)
+		(at 199.39 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3551,7 +3865,7 @@
 		(dnp no)
 		(uuid "de8e49da-a18f-496b-b6ba-58a748e189b5")
 		(property "Reference" "R79"
-			(at 201.93 100.3299 0)
+			(at 201.93 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3874,7 @@
 			)
 		)
 		(property "Value" "3.205k"
-			(at 201.93 102.8699 0)
+			(at 201.93 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,8 +3882,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 197.612 101.6 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 197.612 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 101.6 0)
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3901,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 101.6 0)
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,6 +3946,72 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VAA")
+		(at 223.52 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e68678ba-8ee6-419e-bcf1-cb8973e8a2a1")
+		(property "Reference" "#PWR0245"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b206ebe-1ec4-4150-91e7-a5f0c3d24d9a")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -3637,7 +4044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 86.36 90)
 			(effects
 				(font
@@ -3656,6 +4063,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 199.39 86.36 0)
 			(effects
 				(font
@@ -3706,7 +4140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.52 83.058 90)
 			(effects
 				(font
@@ -3725,6 +4159,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 223.52 81.28 0)
 			(effects
 				(font
