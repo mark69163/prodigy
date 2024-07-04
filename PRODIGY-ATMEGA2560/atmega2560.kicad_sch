@@ -3021,12 +3021,6 @@
 		(uuid "526eb73e-1ac3-4f44-baa7-069e95489f4f")
 	)
 	(junction
-		(at 193.04 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54bdeb75-e5fc-471a-9a68-c412da8be124")
-	)
-	(junction
 		(at 234.95 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3054,7 +3048,13 @@
 		(at 193.04 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0404318-b5c1-45a5-a46b-d323bce13438")
+		(uuid "d9475975-5b1f-4b22-bcdb-6d5e689dcf52")
+	)
+	(junction
+		(at 193.04 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daff2552-0b8a-4dd2-bc47-26b3816a19d1")
 	)
 	(junction
 		(at 207.01 50.8)
@@ -5658,7 +5658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.8152 58.42 0)
 			(effects
 				(font
@@ -5761,6 +5761,76 @@
 			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49f4bc15-cacf-4feb-8f34-6b4a4b4bacfd")
+		(property "Reference" "C3"
+			(at 189.23 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 189.23 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 192.0748 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dffddf83-e51b-4976-864c-a3a8dd37b2c5")
+		)
+		(pin "1"
+			(uuid "8e7a9398-6c61-4d8f-8a8e-80773bf9718e")
+		)
+		(instances
+			(project "PRODIGY-ATMEGA2560"
+				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6052,7 +6122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.9248 50.8 0)
 			(effects
 				(font
@@ -6188,7 +6258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 220.0148 50.8 0)
 			(effects
 				(font
@@ -6325,7 +6395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.9948 58.42 0)
 			(effects
 				(font
@@ -6369,76 +6439,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3884cb3-d62d-48c8-984d-41c29f961b1e")
-		(property "Reference" "C3"
-			(at 189.23 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 189.23 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 192.0748 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02d7a74e-5ef3-4158-aa04-ee1d5af53744")
-		)
-		(pin "1"
-			(uuid "5c8fa35c-56f0-4555-9343-719119e9a96c")
-		)
-		(instances
-			(project "PRODIGY-ATMEGA2560"
-				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 234.95 46.99 0)
 		(mirror y)
 		(unit 1)
@@ -6465,7 +6465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.9848 50.8 0)
 			(effects
 				(font
@@ -7033,7 +7033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 247.9548 50.8 0)
 			(effects
 				(font
@@ -7103,7 +7103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 206.0448 50.8 0)
 			(effects
 				(font
