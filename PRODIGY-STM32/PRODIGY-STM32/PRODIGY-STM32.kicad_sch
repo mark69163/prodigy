@@ -1076,7 +1076,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "01efb3dd-1d8a-46b0-b312-ba863a3e4a82")
 		(property "Reference" "H1"
@@ -1125,6 +1125,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1141,7 +1159,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0f7c70b7-9818-45dd-adcd-2132d6f0edd5")
 		(property "Reference" "FID2"
@@ -1189,6 +1207,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 186.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 186.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1205,7 +1241,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2f1b659c-6321-4c8d-9bef-86e68070b0c2")
 		(property "Reference" "H3"
@@ -1254,6 +1290,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1270,7 +1324,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b91d28f5-fb3c-4bed-b02c-52e81c35d7ba")
 		(property "Reference" "FID6"
@@ -1318,6 +1372,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1334,7 +1406,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1b19dcc-6031-439b-b125-5f596f938d98")
 		(property "Reference" "FID3"
@@ -1382,6 +1454,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 186.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 186.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1398,7 +1488,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c5ddddbd-a93b-400d-8de9-93d34db5fdf3")
 		(property "Reference" "FID4"
@@ -1446,6 +1536,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 200.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 200.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1462,7 +1570,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ee47e18f-7499-44be-93cb-e4fac6a91329")
 		(property "Reference" "H2"
@@ -1511,6 +1619,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1527,7 +1653,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f1cbac75-e5a5-408a-a853-1ebb3d8262aa")
 		(property "Reference" "FID5"
@@ -1575,6 +1701,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1591,7 +1735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4a96b55-fe59-46a5-a704-3fc3081406ff")
 		(property "Reference" "H4"
@@ -1640,6 +1784,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 195.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 195.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
@@ -1656,7 +1818,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fdfc9d12-5804-4f16-8be6-92b6a08585db")
 		(property "Reference" "FID1"
@@ -1696,6 +1858,24 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
 			(at 186.69 138.43 0)
 			(effects
 				(font

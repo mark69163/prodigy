@@ -7983,6 +7983,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 33.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CC0603BRNPO9BN4R7"
+			(at 33.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "074a4558-ea84-4436-a1b6-d8061638cf40")
 		)
@@ -8252,6 +8270,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL21B225KOFNNNE"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f24fc605-1fbf-48db-afe4-4d8a296a878e")
 		)
@@ -8315,6 +8351,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 82 GPIO, LQFP100"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "STM32F407VGT6"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -8687,6 +8741,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c3458b2-65be-496f-ac3d-edb82129af84")
 		)
@@ -8728,7 +8800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -8747,6 +8819,24 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "8.00M-CFPX104"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -9091,6 +9181,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 231.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 231.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ecdaded-dd12-40f6-95fb-c62d1f48a966")
 		)
@@ -9228,6 +9336,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69b21b19-0d15-43e2-be95-34ac4287f81d")
 		)
@@ -9291,6 +9417,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
 			(at 250.19 66.04 0)
 			(effects
 				(font
@@ -9428,6 +9572,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 245.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -9574,6 +9736,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 224.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 224.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a8bb2a66-aec1-469d-9ef1-17bab8d056bb")
 		)
@@ -9644,6 +9824,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 259.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 259.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f1b286f-4bf6-4709-a967-bc9736786606")
 		)
@@ -9686,7 +9884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm"
 			(at 154.94 165.1 0)
 			(effects
 				(font
@@ -9705,6 +9903,24 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 154.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 154.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "32.768K-CFPX217"
 			(at 154.94 165.1 0)
 			(effects
 				(font
@@ -9783,6 +9999,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL21B225KOFNNNE"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9007a72f-b32d-4cfc-88e6-4048dd9d48e3")
 		)
@@ -9846,6 +10080,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
 			(at 217.17 34.29 0)
 			(effects
 				(font
@@ -10123,6 +10375,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 161.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "0603N2R7C500CT"
+			(at 161.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea38d7ea-1fc7-4142-a71f-29584a911038")
 		)
@@ -10186,6 +10456,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 273.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 273.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
 			(at 273.05 34.29 0)
 			(effects
 				(font
@@ -10265,6 +10553,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7f0a647-4b38-4ee6-8c1b-f2e869d49132")
 		)
@@ -10327,6 +10633,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CC0603BRNPO9BN4R7"
 			(at 45.72 64.77 0)
 			(effects
 				(font
@@ -10406,6 +10730,24 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0eb0e069-819e-48a9-8b5f-cceeee05b002")
 		)
@@ -10467,6 +10809,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "0603N2R7C500CT"
 			(at 148.59 171.45 0)
 			(effects
 				(font

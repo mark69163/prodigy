@@ -5202,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-100DS-0.4V(51)"
+		(property "Value" "DF40C-100DP-04V-51"
 			(at 137.16 28.194 0)
 			(effects
 				(font
@@ -5230,6 +5230,24 @@
 		)
 		(property "Description" ""
 			(at 136.906 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 137.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "DF40C-100DP-04V-51"
+			(at 137.16 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

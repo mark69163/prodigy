@@ -12778,7 +12778,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DF40C-100DS-0.4V51"
 			(at 53.34 16.51 0)
 			(effects
 				(font
@@ -15858,7 +15858,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DF40C-100DS-0.4V51"
 			(at 237.49 19.05 0)
 			(effects
 				(font

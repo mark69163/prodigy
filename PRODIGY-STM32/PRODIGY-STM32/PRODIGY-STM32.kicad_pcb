@@ -335,6 +335,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee961e4d-5892-4b05-a656-370f835ea9a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b255caff-6cd2-4395-85f7-81dd1ad3ad36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/ec229ffc-58b9-45fb-ad60-b2685835afc6")
 		(sheetname "st-link-v2")
@@ -544,6 +570,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51afd131-3e66-4aba-b534-2d8768d2b183")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "0603N100J500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3514a4e-2239-4f5f-aa1b-8269b95ff6e4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -761,6 +813,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81e35fca-7771-4177-b185-daa3697c0365")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97dc8723-0d7b-4509-812a-f5998d5a18ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/61a994f4-0ab8-449a-9cef-0343b5a73587")
 		(sheetname "mcu")
@@ -970,6 +1048,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3b708bc-037e-41aa-9da5-cca7340a3c58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1501FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7ae7a1f-3af5-4da8-81f3-5c2dc5321335")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1187,6 +1291,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dd5299f-2448-459a-9315-6a76f5588e99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "0603N2R7C500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa204fa6-683a-47dc-80fe-7c5e76a80623")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/c6dd614b-8964-4582-aa35-78b77bff6bc0")
 		(sheetname "mcu")
@@ -1396,6 +1526,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10a8e6c3-f102-4e49-8f51-9215316e67dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cdfab04-09df-43d7-820d-835c26f15d30")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1613,6 +1769,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "180fd5b4-de4b-4c53-9bb4-5de6e6b8eefd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef0a224d-085d-4495-b98d-3c6217b67a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/c9ae77df-6b94-4e8f-8bfe-2ec4e04a7354")
 		(sheetname "st-link-v2")
@@ -1822,6 +2004,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e37220fd-1ef1-4b0b-b8c2-134939c78c53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CC0603BRNPO9BN4R7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad18f5b9-8ff0-419b-8a16-229701590486")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2039,6 +2247,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74cedfb0-9442-4d6f-9e07-770c01808943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d2a38e6-78a1-4fae-89d7-f99713e8d95c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/7dd9402d-cfd9-4fe8-9c8e-5a3f99ba712c")
 		(sheetname "mcu")
@@ -2248,6 +2482,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9b6ca6e-39d8-4ddf-a620-b290123ac104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa15258-2649-4108-bfda-1d076eb26067")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2465,11 +2725,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27056a30-fb7d-4d2b-b77e-65164fe936b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a533d58-d417-40ad-a38b-29f5ddae9912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/01efb3dd-1d8a-46b0-b312-ba863a3e4a82")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -2575,6 +2861,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6e9f5ac-403f-4d10-a7b4-3a12f46b56ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "SMD0603-100R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45ada2aa-0f27-4741-a151-191e5bbb8c6e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2792,11 +3104,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a421e109-93fe-44f7-9d40-61c21c956b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c85e7c0-765c-41ce-a7f9-aa422ec8ce33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/2f1b659c-6321-4c8d-9bef-86e68070b0c2")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -2906,11 +3244,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7867ef52-7122-406c-84d2-e4385917fb54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d61c5e8e-b4d9-4b7d-9688-f1df83865280")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/f4a96b55-fe59-46a5-a704-3fc3081406ff")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -3020,11 +3384,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09de6b85-08ad-4f07-9b3f-8caed6dec9b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b5860a3-843d-4810-90ce-01e893233f45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/c5ddddbd-a93b-400d-8de9-93d34db5fdf3")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -3130,6 +3520,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b4b6900-f372-4f72-a17a-ab95f2a6a5e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7edfde1e-3c39-4be0-9632-be2890d8d87b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3347,6 +3763,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37819fe4-2058-4407-a939-f98fbd3a311e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "RC0603JR-071K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c55a886c-7217-4b3a-af6f-848c08f598da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/d772f722-aa08-4956-9f43-0cce97823275")
 		(sheetname "st-link-v2")
@@ -3556,6 +3998,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f8aa56-3332-4496-8eab-d2db556a6ed1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "0603N2R7C500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56c593d7-a384-4e07-9594-927e35862010")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3773,6 +4241,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5077d9bd-365d-488c-b620-87606e801a96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8c2eff2-96cb-4e79-b819-76698c8bc0b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/3ea7d03f-b97e-4a1a-a082-08366895db63")
 		(sheetname "st-link-v2")
@@ -3919,16 +4413,16 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
 		(uuid "403a872b-9e94-4081-bd46-7a881daedb6d")
 		(at 115.1 65.6 90)
-		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
+		(descr "SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC7V-T1A.pdf, 3.2x1.5mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y3"
-			(at 0 -2.45 90)
+			(at 0 -1.95 90)
 			(layer "F.SilkS")
-			(uuid "b147653c-9ef2-4621-b667-edf6a12d9a23")
+			(uuid "2fda2b12-7467-41a6-845f-eeb3a4f57d9a")
 			(effects
 				(font
 					(size 1 1)
@@ -3937,9 +4431,9 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 0 2.45 90)
+			(at 0 1.95 90)
 			(layer "F.Fab")
-			(uuid "c4d6dbac-0f53-4ca6-9bf2-45880d03ad6b")
+			(uuid "751b7a62-f808-4e79-8543-569f6e4d6c35")
 			(effects
 				(font
 					(size 1 1)
@@ -3947,12 +4441,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6770d96-a661-4bd4-988d-1ed51f4c171b")
+			(uuid "8aed2a57-5e71-45ad-bfce-da567aef7ff5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4459,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e49b5aa2-a7c0-4357-ad31-aa83b9656f6c")
+			(uuid "da0c0afe-5379-4a6d-ad68-79c8c7458578")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,10 +4472,36 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "850653d7-ca3a-4a91-8105-1ec3423f45c0")
+			(uuid "22cfe6af-ec9a-46a5-92c2-d369dad40979")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca9c68d9-edc8-42ec-8fe8-8262344e97e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "32.768K-CFPX217"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5ac6b8b-fc53-478e-97ab-b2ef4321edd1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3992,119 +4512,129 @@
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2 -1.65)
-			(end -2 1.65)
+			(start -0.55 -0.95)
+			(end 0.55 -0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dceeb494-a89c-477b-ba4b-e039f76b9b82")
+			(uuid "e9ae2737-6c58-4f88-be88-da43e762089a")
 		)
 		(fp_line
-			(start -2 1.65)
-			(end 2 1.65)
+			(start -1.95 -0.9)
+			(end -1.95 0.9)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fdc4b3ec-8856-415f-a70d-73ace8690f20")
+			(uuid "31a0b62b-a040-44cb-9eb5-d8987da918cd")
 		)
 		(fp_line
-			(start 2.1 -1.7)
-			(end -2.1 -1.7)
+			(start -0.55 0.95)
+			(end 0.55 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab7980d5-88b4-4b8d-a2de-a98f5c6a1f67")
+		)
+		(fp_line
+			(start 2 -1.2)
+			(end -2 -1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4465ee70-f432-4aaf-9a83-0fc7c123118c")
+			(uuid "4fb5090c-361d-4b88-a1a5-641da8294b07")
 		)
 		(fp_line
-			(start -2.1 -1.7)
-			(end -2.1 1.7)
+			(start -2 -1.2)
+			(end -2 1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d5a4fff0-a4fb-44fb-b6db-a01464016ba4")
+			(uuid "d3e9bfa4-9254-4e17-acf6-5a3b5f5689db")
 		)
 		(fp_line
-			(start 2.1 1.7)
-			(end 2.1 -1.7)
+			(start 2 1.2)
+			(end 2 -1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b13acdf3-6bec-46d2-ac98-aed8f2586835")
+			(uuid "fcf762dd-f81e-4d74-8137-4f047cd10e60")
 		)
 		(fp_line
-			(start -2.1 1.7)
-			(end 2.1 1.7)
+			(start -2 1.2)
+			(end 2 1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "87eb21a9-f4ce-44be-b37d-911510090efd")
+			(uuid "1e9a7e9f-ec98-4312-8014-5e61f3ca784e")
 		)
 		(fp_line
-			(start 1.6 -1.25)
-			(end -1.6 -1.25)
+			(start 1.6 -0.75)
+			(end -1.6 -0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2630eb50-eaf8-47d9-85bf-4f7cbdc73799")
+			(uuid "a6c0853f-7be4-47c6-a211-751c01b0d03b")
 		)
 		(fp_line
-			(start -1.6 -1.25)
-			(end -1.6 1.25)
+			(start -1.6 -0.75)
+			(end -1.6 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c9437738-858b-4b91-9ac6-adfdc7585564")
+			(uuid "12451be9-5dbf-4c0b-94b9-c0f4e46de311")
 		)
 		(fp_line
 			(start -1.6 0.25)
-			(end -0.6 1.25)
+			(end -1.1 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cb8b79ee-a62e-4122-9089-1d126a5a833b")
+			(uuid "065a6a12-4966-44ad-9e5b-7e6d194c9560")
 		)
 		(fp_line
-			(start 1.6 1.25)
-			(end 1.6 -1.25)
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3dd84147-9055-4273-b1ef-ef8a05338063")
+			(uuid "d3e8cb87-f86c-4971-af5a-ef61007cdc63")
 		)
 		(fp_line
-			(start -1.6 1.25)
-			(end 1.6 1.25)
+			(start -1.6 0.75)
+			(end 1.6 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c5444b21-9a12-4a02-9cb2-7639ce0328a7")
+			(uuid "390f485c-12c6-4e92-b6f3-2998f7ae5831")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "c759c39b-65e4-4eb7-9b01-621bb686f267")
+			(uuid "6fdebc9e-51c8-4c86-ab11-0b4c5bcf50af")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4113,36 +4643,24 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.1 0.85 90)
-			(size 1.4 1.2)
+			(at -1.25 0 90)
+			(size 1 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 158 "Net-(U3-PC14)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a0dbe66f-96c9-4a87-932c-5cadcefc7ca1")
+			(uuid "f03721f5-58d5-44a8-a8e8-2b26eb2168cf")
 		)
 		(pad "2" smd rect
-			(at 1.1 0.85 90)
-			(size 1.4 1.2)
+			(at 1.25 0 90)
+			(size 1 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 162 "Net-(U3-PC15)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d38636b2-3285-4ec6-82a2-de69f16ce184")
+			(uuid "a5c1e103-46c7-4b41-8ef9-1e0fe921361e")
 		)
-		(pad "3" smd rect
-			(at 1.1 -0.85 90)
-			(size 1.4 1.2)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "411263fe-7f53-4e8c-b519-a9b902c8b8bb")
-		)
-		(pad "4" smd rect
-			(at -1.1 -0.85 90)
-			(size 1.4 1.2)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "77fd07fe-d9c3-400d-bb71-ea7f263579b3")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4217,6 +4735,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2d2bf31-4fd8-42db-aeb7-d362e86b0ef4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54275cd9-4960-42a5-a507-1dbb5076398d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4434,6 +4978,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c9ae1ee-9e8f-49f4-9fb1-99429f3bb7de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CRCW0603100KJNTABC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f665778f-0ccc-4420-ba8c-302a00e31a1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/cc796381-2b0a-46af-a70a-9b27298b349d")
 		(sheetname "st-link-v2")
@@ -4643,6 +5213,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cccf2b64-5107-4966-9d7f-fb1abae8a31f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "STM32F103C8T6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15a46b90-8327-4787-ad79-fc0fec62377f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5604,6 +6200,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83220fa3-c5a7-4e19-81e1-be204069a993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cbaa9ba-474c-419c-9b15-4176eb112ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/80ffee52-fa4c-4558-bbff-e9891f14e28d")
 		(sheetname "st-link-v2")
@@ -5813,6 +6435,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8013653-280f-47ff-a9c7-815b793c00b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80b1519b-d758-45e7-890d-ad4c1401e016")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6030,6 +6678,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20eb9d7f-d8c8-4de2-9845-9acd181a6b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e4e30dc-d2b5-48c7-adcf-eebf40ca0cf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/8d2bebef-ca9f-47f2-8265-c84efb6de0ce")
 		(sheetname "mcu")
@@ -6243,11 +6917,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d34ff8b9-8748-49a4-b972-4d566db6eccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de16b7f6-3665-4e8a-853d-26d5ff98617f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/ee47e18f-7499-44be-93cb-e4fac6a91329")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -6353,6 +7053,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e75cc295-8921-456f-a6b2-7f78bc489a7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "AP2112K-3.3TRG1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42a4c2e8-6bbb-4b9d-9df3-8dfe19ea04ad")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6577,16 +7303,16 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 		(layer "F.Cu")
 		(uuid "64d93424-f1c9-4e23-8812-350c75ab6cfb")
 		(at 110.65 65.6 90)
-		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
+		(descr "SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y2"
-			(at 0 -2.45 90)
+			(at 0 -2.8 90)
 			(layer "F.SilkS")
-			(uuid "f34cf8fc-1a4c-42b4-8e24-0e6d65b9b53b")
+			(uuid "82b33f6d-93bb-46fb-9bf7-f3c2c517e4fe")
 			(effects
 				(font
 					(size 1 1)
@@ -6595,9 +7321,9 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 0 2.45 90)
+			(at 0 2.8 90)
 			(layer "F.Fab")
-			(uuid "d864e172-7bef-4604-b3c6-57b17889bd45")
+			(uuid "7ac78ad5-f572-445c-8205-bc1ffc1aef3d")
 			(effects
 				(font
 					(size 1 1)
@@ -6605,12 +7331,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69945289-a2e5-4c9a-a5eb-6c6c72810191")
+			(uuid "ab40bdae-f39b-4a83-bcd1-bf0f2bab4175")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +7349,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d74b1951-3bf3-48a8-ae59-44b8481762fc")
+			(uuid "4837103a-7de2-4b62-9e81-9bf02a521a35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,10 +7362,36 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab87876e-f723-41e0-b44b-17cebe6b4d82")
+			(uuid "2f21e4be-29d0-4b44-8e09-9ff66efe46e9")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d1d571c-297f-488b-871d-43bb74fa9219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "8.00M-CFPX104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "692c3cb4-ad8a-40d7-a738-fa1daf566a9a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6650,157 +7402,197 @@
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2 -1.65)
-			(end -2 1.65)
+			(start -2.65 -1.85)
+			(end -2.65 1.85)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fd9a86b-90b1-4f06-94ac-3e77e4f3a7a0")
+			(uuid "fc85883d-0c06-436b-b154-a755ea62a17a")
 		)
 		(fp_line
-			(start -2 1.65)
-			(end 2 1.65)
+			(start -2.65 1.85)
+			(end 2.65 1.85)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9af5753c-e76b-41da-bf83-4f438ff7dc0e")
+			(uuid "746e5aad-318c-4a50-8ab7-f4829ad9df88")
 		)
 		(fp_line
-			(start 2.1 -1.7)
-			(end -2.1 -1.7)
+			(start 2.8 -1.9)
+			(end -2.8 -1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7d918e41-1904-48ec-a10b-2c456bd7b226")
+			(uuid "099c3b79-7813-48f8-980b-14e4fac1451f")
 		)
 		(fp_line
-			(start -2.1 -1.7)
-			(end -2.1 1.7)
+			(start -2.8 -1.9)
+			(end -2.8 1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "abbc74d5-741f-401f-b97c-2e5bc3b5811a")
+			(uuid "9a006b26-9944-48e7-a908-6e52ecec5862")
 		)
 		(fp_line
-			(start 2.1 1.7)
-			(end 2.1 -1.7)
+			(start 2.8 1.9)
+			(end 2.8 -1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "efbf6bde-9da3-42ba-bc60-c963a4f12c56")
+			(uuid "cbec752b-36cc-4294-9bff-ba1cf7c5dbd0")
 		)
 		(fp_line
-			(start -2.1 1.7)
-			(end 2.1 1.7)
+			(start -2.8 1.9)
+			(end 2.8 1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c598a839-ad60-42f4-8051-743479bcba57")
+			(uuid "a6bc7978-5b6b-4e91-b1ab-71d3feaf0600")
 		)
 		(fp_line
-			(start 1.6 -1.25)
-			(end -1.6 -1.25)
+			(start 2.3 -1.6)
+			(end 2.5 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "57c4090e-4df2-4b5c-b054-5429ca63f6d6")
+			(uuid "c57902b1-0d75-4eeb-8331-765703f29703")
 		)
 		(fp_line
-			(start -1.6 -1.25)
-			(end -1.6 1.25)
+			(start -2.3 -1.6)
+			(end 2.3 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e4cfcbf7-c0fa-4c58-9bd7-d91b66c5c209")
+			(uuid "6b590e5f-6d0b-4e07-9c4f-44322159d1d8")
 		)
 		(fp_line
-			(start -1.6 0.25)
-			(end -0.6 1.25)
+			(start 2.5 -1.4)
+			(end 2.5 1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7fe437c4-3963-4ac0-b8b2-d139f957cdab")
+			(uuid "b21df99c-c611-4523-b89a-eccd143beca2")
 		)
 		(fp_line
-			(start 1.6 1.25)
-			(end 1.6 -1.25)
+			(start -2.5 -1.4)
+			(end -2.3 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b400c1a9-4fb6-45ef-b349-14e4b4bc7564")
+			(uuid "9e655926-adfd-4ef0-a150-b5e99a021efb")
 		)
 		(fp_line
-			(start -1.6 1.25)
-			(end 1.6 1.25)
+			(start -2.5 0.6)
+			(end -1.5 1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b2945ba2-e3c4-475b-a353-ce7c2693ed9c")
+			(uuid "0be7d069-64c6-4e29-8745-f82ceb188241")
+		)
+		(fp_line
+			(start 2.5 1.4)
+			(end 2.3 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a491d4d5-a6ff-4b03-a509-0c6c7c0a596d")
+		)
+		(fp_line
+			(start -2.5 1.4)
+			(end -2.5 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "658148f7-c6d5-4d78-8005-ddc8f175d9ab")
+		)
+		(fp_line
+			(start 2.3 1.6)
+			(end -2.3 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1124ac3d-6565-42b6-a9bb-8b821c0bf82c")
+		)
+		(fp_line
+			(start -2.3 1.6)
+			(end -2.5 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "455f70cc-c679-4d29-9fa4-59dd4fa0ff72")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "ba8b8882-da7a-4f2b-9020-3c59a8f13e49")
+			(uuid "3d95e6ea-a4c2-44be-8938-fc7136c3d068")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.105)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(pad "1" smd rect
-			(at -1.1 0.85 90)
-			(size 1.4 1.2)
+			(at -1.65 1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 159 "Net-(U3-PH0)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b36eaeea-b57e-4836-9b46-ce0a5cdcc721")
+			(uuid "902d4f2c-9e67-4936-9852-a0377b7c0fa2")
 		)
 		(pad "2" smd rect
-			(at 1.1 0.85 90)
-			(size 1.4 1.2)
+			(at 1.65 1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 161 "Net-(U3-PH1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "5f93061f-59ae-471f-b238-3d631ddf3e52")
+			(uuid "ebec918a-b471-481e-a842-55da1a0baf69")
 		)
 		(pad "3" smd rect
-			(at 1.1 -0.85 90)
-			(size 1.4 1.2)
+			(at 1.65 -1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "50c0364b-fff3-481a-9472-fc0799b31ef5")
+			(uuid "526bb6cc-dcf6-443b-ab0f-2454a7389466")
 		)
 		(pad "4" smd rect
-			(at -1.1 -0.85 90)
-			(size 1.4 1.2)
+			(at -1.65 -1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "edb129d4-c893-48d5-9364-7c35d3c74791")
+			(uuid "6b11fa29-60f5-4fd6-b1dc-94c2a28f45fc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6875,6 +7667,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 -45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96d780f9-6fa1-4030-971e-d919bda7fd1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "STM32F407VGT6"
+			(at 0 0 -45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a735932-7562-4c86-953c-ac432bb9ba8c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8356,6 +9174,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db97912a-2cff-425c-9f8c-bfd23287fc95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21B225KOFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "403f9a1d-6303-412a-aa31-1949dce0933a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/9dd853f2-544e-46c0-b7f2-9aa0f6f3b759")
 		(sheetname "mcu")
@@ -8565,6 +9409,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57a35f3e-1ea9-40aa-8890-1cc3b155eda3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "0603N100J500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a772b349-b919-425d-8c18-62f2bd9b7194")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8782,11 +9652,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4515d143-7579-469c-aec0-43edc20c9268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1beb2848-c3f0-4a3c-b6f5-6670e68746c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/b91d28f5-fb3c-4bed-b02c-52e81c35d7ba")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -8892,6 +9788,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "457e998f-acba-43d0-af95-5066e70c97d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "OF-SMD2012B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e85274bc-5b7e-466b-8999-ef6e5aa1eccc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9131,6 +10053,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d2c3159-c9bb-4dcd-b07d-b87c8e6b78f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "SMD0603-100R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a811311c-e9e3-4f3c-b1bb-15f5cef4ef01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/a6f91ff9-07fe-4f46-9795-53ad9370eecf")
 		(sheetname "st-link-v2")
@@ -9340,6 +10288,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f1a1509-e761-4359-a57b-f3788dd3ab95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19c73c4e-dca8-462f-bd6b-fa7a7e97902f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9557,6 +10531,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24c76095-9959-4ccb-84af-0c700cbcafc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CRCW06034K70FKTABC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24714717-64b7-4a81-a115-4eadc2753182")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/de73b402-f60e-437f-9285-264a9975e3bc")
 		(sheetname "st-link-v2")
@@ -9703,16 +10703,16 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 		(layer "F.Cu")
 		(uuid "8937b530-1a84-4b15-9c36-075fe1c6339c")
-		(at 151.3375 71.75 90)
-		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
+		(at 151.75 71.75 90)
+		(descr "SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 -2.45 90)
+			(at 0 -2.8 90)
 			(layer "F.SilkS")
-			(uuid "34fe0c24-7efc-489f-b438-a93bab0ccd82")
+			(uuid "e9cba817-c1a9-4077-8c29-99bad0978b84")
 			(effects
 				(font
 					(size 1 1)
@@ -9721,9 +10721,9 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 0 2.45 90)
+			(at 0 2.8 90)
 			(layer "F.Fab")
-			(uuid "a2503ad4-e71d-4eb9-ab31-29ae2e13ea3f")
+			(uuid "ee91092d-5e40-4dc9-b34e-edcc2efb42b7")
 			(effects
 				(font
 					(size 1 1)
@@ -9731,12 +10731,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "944b1d7d-fcf5-4a0a-a521-13844d24fcd2")
+			(uuid "009f9e2d-973c-4852-a5a9-82d4adf55ab6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +10749,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7959fd42-728a-4156-9d25-e7f773534263")
+			(uuid "78c32034-4de0-4354-9718-761ad1c4a237")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,10 +10762,36 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f1c2a11-2e02-453f-8536-8a538543e7b4")
+			(uuid "1edc7564-d50d-4e5d-adff-09cebeb8012c")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f832b158-7bb0-4e7e-b421-938141ed316d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "8.00M-CFPX104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1aa33a7-4b28-4f4c-a7b7-d49151bbcaca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9776,157 +10802,197 @@
 		(sheetfile "st_link.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2 -1.65)
-			(end -2 1.65)
+			(start -2.65 -1.85)
+			(end -2.65 1.85)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d16795f8-2173-4f5e-956a-4f3b6c64851d")
+			(uuid "d280d51c-9828-4f79-9f64-4e1cdfeb89b4")
 		)
 		(fp_line
-			(start -2 1.65)
-			(end 2 1.65)
+			(start -2.65 1.85)
+			(end 2.65 1.85)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "709bb451-9388-4034-90c1-651face2a2c0")
+			(uuid "e0132af7-5574-4e8f-9995-11439d90cdd4")
 		)
 		(fp_line
-			(start 2.1 -1.7)
-			(end -2.1 -1.7)
+			(start 2.8 -1.9)
+			(end -2.8 -1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "14d514f0-ab84-44fb-b8ea-7f39537d9ae6")
+			(uuid "d931521d-a01c-46bb-ac8d-9cecb9ba37ff")
 		)
 		(fp_line
-			(start -2.1 -1.7)
-			(end -2.1 1.7)
+			(start -2.8 -1.9)
+			(end -2.8 1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "adac8d03-02f1-471a-ac00-c24cc95b3571")
+			(uuid "8f391def-7bb4-43d4-a9d6-8762ba24c40b")
 		)
 		(fp_line
-			(start 2.1 1.7)
-			(end 2.1 -1.7)
+			(start 2.8 1.9)
+			(end 2.8 -1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "27e70a34-27af-48ec-ada2-a57a593d5f62")
+			(uuid "ea8ba47c-6640-4278-b891-a75f5111f9c7")
 		)
 		(fp_line
-			(start -2.1 1.7)
-			(end 2.1 1.7)
+			(start -2.8 1.9)
+			(end 2.8 1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7287390a-260f-44bc-8382-ba833359e565")
+			(uuid "b20e4ba7-1b68-4fd0-b12e-b5879aa7eddd")
 		)
 		(fp_line
-			(start 1.6 -1.25)
-			(end -1.6 -1.25)
+			(start 2.3 -1.6)
+			(end 2.5 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8c182a86-82b9-4381-b500-78252c15076a")
+			(uuid "508c9866-0b84-4838-a809-4690653cef47")
 		)
 		(fp_line
-			(start -1.6 -1.25)
-			(end -1.6 1.25)
+			(start -2.3 -1.6)
+			(end 2.3 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "aeda6276-2c29-4548-91dd-99be9485efe1")
+			(uuid "c0163694-01ce-48a2-bb92-6455012cf2d9")
 		)
 		(fp_line
-			(start -1.6 0.25)
-			(end -0.6 1.25)
+			(start 2.5 -1.4)
+			(end 2.5 1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "83994244-90d4-43ad-af6d-c8f213d12cde")
+			(uuid "deefe6f7-223d-4596-a385-f23b2d14ca7e")
 		)
 		(fp_line
-			(start 1.6 1.25)
-			(end 1.6 -1.25)
+			(start -2.5 -1.4)
+			(end -2.3 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d953de5c-7351-4b8f-9dde-b26ee2d55010")
+			(uuid "145b7607-52a3-4f56-aee8-26e9437385c7")
 		)
 		(fp_line
-			(start -1.6 1.25)
-			(end 1.6 1.25)
+			(start -2.5 0.6)
+			(end -1.5 1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3447128c-6d46-47ce-96fe-b7f81a595ca3")
+			(uuid "d4403d9a-dddc-4ca0-86d5-534ba77798ff")
+		)
+		(fp_line
+			(start 2.5 1.4)
+			(end 2.3 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5d135d6c-d721-4615-a2b7-9706aee90502")
+		)
+		(fp_line
+			(start -2.5 1.4)
+			(end -2.5 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1f2f13be-7210-41cf-88c7-3c9113b34103")
+		)
+		(fp_line
+			(start 2.3 1.6)
+			(end -2.3 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7983014c-cc9f-418d-8b4b-30067a2c3953")
+		)
+		(fp_line
+			(start -2.3 1.6)
+			(end -2.5 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b9ff63e9-875d-450a-9117-09f53f580a56")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "4d53675f-8150-41d6-a043-bb8fe01e991e")
+			(uuid "73da77cb-74a5-455c-bc1e-1fb6af6b3ac1")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.105)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(pad "1" smd rect
-			(at -1.1 0.85 90)
-			(size 1.4 1.2)
+			(at -1.65 1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 183 "Net-(U2-PD0)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "96cbf898-54b8-4777-8853-e56530a6e7ca")
+			(uuid "fd79ff49-3f7e-42a6-b1c1-625c57a2acdc")
 		)
 		(pad "2" smd rect
-			(at 1.1 0.85 90)
-			(size 1.4 1.2)
+			(at 1.65 1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 186 "Net-(U2-PD1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "5fe29ebc-dd30-4c4e-a45f-b88bea98ba76")
+			(uuid "b0eb1ae5-736d-4d15-8765-ebac7c18d509")
 		)
 		(pad "3" smd rect
-			(at 1.1 -0.85 90)
-			(size 1.4 1.2)
+			(at 1.65 -1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "7f5cff44-710e-4142-bfd1-97e8bbfbcf3d")
+			(uuid "f37048f4-52cd-4262-b807-b2fdb2c1fec5")
 		)
 		(pad "4" smd rect
-			(at -1.1 -0.85 90)
-			(size 1.4 1.2)
+			(at -1.65 -1 90)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "df9d71f9-a490-4e0f-a24f-08644bbff85e")
+			(uuid "0c5a80c1-a897-4f3d-ac2d-47b60ff4e387")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10001,6 +11067,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7039e777-0304-4cb7-9c76-749f9f0f3e4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CRCW0603100KJNTABC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29abacf7-219a-4b27-9f81-53e611a48fb8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10218,6 +11310,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b192fbe5-cd68-40ed-abf1-61f9d7d94df2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74243fd1-f8af-4033-b055-f05b9ecaf11e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/c963c556-d9d9-4fe9-8ce9-50de8a0e47ef")
 		(sheetname "mcu")
@@ -10427,6 +11545,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "344b7389-74ee-4ce9-9f98-b3d38b7da793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a04ac9-f8ba-43d7-b7d9-51b2926d57a2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10644,6 +11788,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5dccf03-4ab7-4989-93fe-165ad6393913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78396b4e-19fe-4b4f-a348-ca051285a807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/e144f024-110d-448a-be7a-ed655c1e2ce5")
 		(sheetname "st-link-v2")
@@ -10853,6 +12023,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1e73a8b-a30d-4fa5-b298-4172ad0b135f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "OF-SMD2012R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e786167-e1d7-49f9-a8cf-b650439d52a6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11092,6 +12288,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ba1658c-8c3f-4ffc-9cdf-5d5b9254a550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CC0603BRNPO9BN4R7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cadcf53f-936e-437f-94f0-5313d586a611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/d626220a-9acb-4677-98a0-88777f9cd894")
 		(sheetname "mcu")
@@ -11301,6 +12523,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3a38ded-4074-44cb-ae77-0154e38d0ec0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "318414c6-e8cc-439e-9137-b3e933941897")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11518,6 +12766,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bd10e85-2556-4584-a9f8-735e4349b78c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CRCW06034K70FKTABC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3034e590-bc7b-4e30-8099-56916af1dfb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/385b5bbe-f645-46a4-8ef1-f84b2bdfd2c9")
 		(sheetname "st-link-v2")
@@ -11731,11 +13005,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfaf6cf2-7dc4-4f97-ab47-99009ddf2aa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "SMD0603-0R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90dbe0d7-bcc6-4269-999d-df516777bf43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/8a1760e7-fa4f-42f9-b830-53885b51a638")
 		(sheetname "st-link-v2")
 		(sheetfile "st_link.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -11944,11 +13244,37 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86170468-2767-4d93-96b8-72496a9e091c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df077397-4e69-4527-af19-213a3890dec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/c1b19dcc-6031-439b-b125-5f596f938d98")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -12054,6 +13380,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e14dd8e-1ffa-4030-aab8-e60790631f0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21B225KOFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c512cc31-761c-49f3-8c9a-e9fdc0a2c741")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12271,6 +13623,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f13803e-5882-4f68-ace7-666bdab07834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef79dfc8-e67f-4df4-afc7-f6a35547b607")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/38deca9e-7d14-4750-aa6e-a4ef2ed97ae7")
 		(sheetname "st-link-v2")
@@ -12480,6 +13858,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00e99406-c8fc-47d3-a858-989e2368cc29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de66b9e7-b48c-4512-b6c7-a5c93aa9a8ce")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12697,6 +14101,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df199641-10f0-4847-a141-c7aedccf8f04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab08d772-6db1-41af-ad03-c5a9f0207a22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/6d5b6bbd-3921-412b-b0d9-b6fe158ab1d1")
 		(sheetname "mcu")
@@ -12906,6 +14336,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6c7ea6f-4531-421e-bd3b-369b2b377709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c03d058-d10a-492f-b494-35a92fd9ba8d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13123,6 +14579,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d04605-eea5-43e0-bfe0-490570425e1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba9b31c7-a3b1-4a66-b598-b87654d6a7f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/731e9977-3f42-429f-93b2-ed675fdbcc70")
 		(sheetname "st-link-v2")
@@ -13336,6 +14818,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08101eb7-ca05-474d-9abc-bb23994dfd11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd60215a-9091-44a6-93e2-5e088bb053e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/17f4ea0c-0123-41fa-8d4f-e143673ad573")
 		(sheetname "st-link-v2")
@@ -13545,6 +15053,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "600990ea-a141-4239-8f53-88efc3276eb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "BC850B-DIO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c47ef834-589f-4556-bc1f-46434e317d4e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13816,6 +15350,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcb76d31-b4d0-4c27-b0f2-bb3f3b4fd247")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0c27b0d-3532-4a97-9c10-3f8794ce5f0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b/3c4a3eb6-2623-4647-9e38-ffdf5d82e432")
 		(sheetname "st-link-v2")
@@ -14029,6 +15589,32 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08c0ccec-b1bc-4935-ab4c-c6a13a622f91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fedf3f89-cdcd-4924-abef-4e7df0c6050a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c940864-b0c7-4fea-a950-c583ebb4a87f/c936e44a-f476-4ac4-a792-08ff63b7f8d3")
 		(sheetname "mcu")
@@ -14238,6 +15824,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aaa2b85-2785-4485-9d04-2dbfb36f0a77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "RC0603JR-071K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44998e1c-3b95-4cbd-96fc-a69c333772c1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14460,11 +16072,39 @@
 				(justify mirror)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84db87b6-4043-4c1d-b757-da6aa2041146")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4b0c5e7-4352-4f66-b841-c27bdd85692e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/f1cbac75-e5a5-408a-a853-1ebb3d8262aa")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -14524,7 +16164,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "DF40C-100DS-0.4V(51)"
+		(property "Value" "DF40C-100DP-04V-51"
 			(at 5.645 -2.865 0)
 			(layer "B.Fab")
 			(uuid "fee9c0a7-68fe-44d8-9c5d-5361ea8be163")
@@ -14570,6 +16210,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "584043e5-206e-47cb-85a3-5a4c5202d6a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TME" "DF40C-100DP-04V-51"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7819cfe-32d3-44e9-8245-956b165ce4a1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -16869,7 +18537,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "DF40C-100DS-0.4V(51)"
+		(property "Value" "DF40C-100DP-04V-51"
 			(at 5.645 -2.865 0)
 			(layer "B.Fab")
 			(uuid "5db18242-1a56-4209-85ae-7fe448608d12")
@@ -16915,6 +18583,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "caa99253-1b5e-4769-bb11-fe8287951789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TME" "DF40C-100DP-04V-51"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c0787ab-e72e-412f-85a4-584abc9710d4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19270,11 +20966,39 @@
 				(justify mirror)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "63eb5ce1-0f07-46d0-a73f-1fb10eb92f37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ef6bc5e-f879-45ec-8c48-1b4fdbf34ad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/0f7c70b7-9818-45dd-adcd-2132d6f0edd5")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -19390,11 +21114,39 @@
 				(justify mirror)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90fe38d6-d207-40c9-91df-684a5061f489")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d255073-91ab-4710-951e-6f11316a5393")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/fdfc9d12-5804-4f16-8be6-92b6a08585db")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-STM32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
