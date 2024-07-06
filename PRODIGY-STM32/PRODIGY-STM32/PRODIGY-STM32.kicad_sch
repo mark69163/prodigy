@@ -1071,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 186.69 125.73 0)
+		(at 241.3 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1080,7 +1080,7 @@
 		(fields_autoplaced yes)
 		(uuid "01efb3dd-1d8a-46b0-b312-ba863a3e4a82")
 		(property "Reference" "H1"
-			(at 189.23 124.4599 0)
+			(at 243.84 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 189.23 126.9999 0)
+			(at 243.84 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 186.69 125.73 0)
+			(at 241.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 125.73 0)
+			(at 241.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1117,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 186.69 125.73 0)
+			(at 241.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1126,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 186.69 125.73 0)
+			(at 241.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1135,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 186.69 125.73 0)
+			(at 241.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1154,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 186.69 144.78 0)
+		(at 241.3 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1163,7 +1163,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f7c70b7-9818-45dd-adcd-2132d6f0edd5")
 		(property "Reference" "FID2"
-			(at 189.23 143.5099 0)
+			(at 243.84 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1172,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 189.23 146.0499 0)
+			(at 243.84 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1181,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 186.69 144.78 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 144.78 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1199,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 186.69 144.78 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1208,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 186.69 144.78 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 186.69 144.78 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1236,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 195.58 125.73 0)
+		(at 250.19 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1245,7 +1245,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f1b659c-6321-4c8d-9bef-86e68070b0c2")
 		(property "Reference" "H3"
-			(at 198.12 124.4599 0)
+			(at 252.73 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1254,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 198.12 126.9999 0)
+			(at 252.73 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 195.58 125.73 0)
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 125.73 0)
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 195.58 125.73 0)
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1291,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 195.58 125.73 0)
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1300,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 195.58 125.73 0)
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1319,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 200.66 151.13 0)
+		(at 255.27 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1328,7 +1328,7 @@
 		(fields_autoplaced yes)
 		(uuid "b91d28f5-fb3c-4bed-b02c-52e81c35d7ba")
 		(property "Reference" "FID6"
-			(at 203.2 149.8599 0)
+			(at 257.81 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1337,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 203.2 152.3999 0)
+			(at 257.81 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1346,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 200.66 151.13 0)
+			(at 255.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 151.13 0)
+			(at 255.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1364,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 200.66 151.13 0)
+			(at 255.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 200.66 151.13 0)
+			(at 255.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1382,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 200.66 151.13 0)
+			(at 255.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1401,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 186.69 151.13 0)
+		(at 241.3 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1410,7 +1410,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1b19dcc-6031-439b-b125-5f596f938d98")
 		(property "Reference" "FID3"
-			(at 189.23 149.8599 0)
+			(at 243.84 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 189.23 152.3999 0)
+			(at 243.84 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 186.69 151.13 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 151.13 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 186.69 151.13 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1455,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 186.69 151.13 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 186.69 151.13 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 200.66 138.43 0)
+		(at 255.27 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1492,7 +1492,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5ddddbd-a93b-400d-8de9-93d34db5fdf3")
 		(property "Reference" "FID4"
-			(at 203.2 137.1599 0)
+			(at 257.81 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 203.2 139.6999 0)
+			(at 257.81 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 200.66 138.43 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 138.43 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 200.66 138.43 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1537,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 200.66 138.43 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 200.66 138.43 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1565,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 186.69 132.08 0)
+		(at 241.3 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1574,7 +1574,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee47e18f-7499-44be-93cb-e4fac6a91329")
 		(property "Reference" "H2"
-			(at 189.23 130.8099 0)
+			(at 243.84 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1583,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 189.23 133.3499 0)
+			(at 243.84 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 186.69 132.08 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 132.08 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 186.69 132.08 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 186.69 132.08 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1629,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 186.69 132.08 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 200.66 144.78 0)
+		(at 255.27 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1657,7 +1657,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1cbac75-e5a5-408a-a853-1ebb3d8262aa")
 		(property "Reference" "FID5"
-			(at 203.2 143.5099 0)
+			(at 257.81 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 203.2 146.0499 0)
+			(at 257.81 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1675,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 200.66 144.78 0)
+			(at 255.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 144.78 0)
+			(at 255.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 200.66 144.78 0)
+			(at 255.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1702,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 200.66 144.78 0)
+			(at 255.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1711,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 200.66 144.78 0)
+			(at 255.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1730,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 195.58 132.08 0)
+		(at 250.19 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1739,7 +1739,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4a96b55-fe59-46a5-a704-3fc3081406ff")
 		(property "Reference" "H4"
-			(at 198.12 130.8099 0)
+			(at 252.73 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1748,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 198.12 133.3499 0)
+			(at 252.73 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +1758,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 195.58 132.08 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 132.08 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +1776,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 195.58 132.08 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 195.58 132.08 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1794,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 195.58 132.08 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 186.69 138.43 0)
+		(at 241.3 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1822,7 +1822,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdfc9d12-5804-4f16-8be6-92b6a08585db")
 		(property "Reference" "FID1"
-			(at 189.23 137.1599 0)
+			(at 243.84 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1831,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 189.23 139.6999 0)
+			(at 243.84 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1840,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 186.69 138.43 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 138.43 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1858,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 186.69 138.43 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1867,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 186.69 138.43 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1876,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 186.69 138.43 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

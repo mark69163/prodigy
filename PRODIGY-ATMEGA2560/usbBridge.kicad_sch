@@ -1838,6 +1838,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "BC850B-DIO "
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cd319e2f-575c-46f8-9bd9-32fb25a989d9")
 		)
@@ -1909,6 +1918,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "SMD0603-0R"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81481071-7d5b-4cd0-a1ea-642d9dddd97e")
 		)
@@ -1971,6 +1989,15 @@
 			)
 		)
 		(property "Description" "Full Speed USB to Full Handshake UART, QFN-20"
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "FT231XQ-R"
 			(at 92.71 115.57 0)
 			(effects
 				(font
@@ -2101,6 +2128,15 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "BC850B-DIO "
 			(at 204.47 129.54 0)
 			(effects
 				(font
@@ -2247,6 +2283,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "0603N100J500CT "
+			(at 148.59 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75d563e3-531c-4e01-abad-486974c977ec")
 		)
@@ -2309,6 +2354,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
 			(at 162.56 121.92 0)
 			(effects
 				(font
@@ -2385,6 +2439,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "WR06X1002FTL "
+			(at 194.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4be80d23-f5e5-44fe-bd57-b17fc58e9897")
 		)
@@ -2453,6 +2516,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "SMD0603-0R"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75b70c7b-6031-4b9f-ae61-e1e13c0e444c")
 		)
@@ -2513,6 +2585,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "WR06X1002FTL "
 			(at 194.31 113.03 0)
 			(effects
 				(font

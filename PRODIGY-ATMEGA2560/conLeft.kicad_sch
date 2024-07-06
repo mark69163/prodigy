@@ -5288,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-100DS-0.4V(51)"
+		(property "Value" "DF40C-100DP-04V-51 "
 			(at 135.89 25.654 0)
 			(effects
 				(font
@@ -5316,6 +5316,15 @@
 		)
 		(property "Description" ""
 			(at 135.636 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "DF40C-100DP-04V-51 "
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

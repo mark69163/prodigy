@@ -387,6 +387,19 @@
 				)
 			)
 		)
+		(property "TME" "BC850B-DIO "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30ad2775-2ab4-49fc-be9a-05fa5ca6e2fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c0859e15-ccd4-4bc9-9657-4794b2548a11/80db1ea0-2238-4eb9-b8d4-93615bc127f8")
 		(sheetname "usbBridge")
@@ -654,6 +667,19 @@
 				)
 			)
 		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae2707d1-7ce6-4cbc-886f-44faf7bb1eb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4822de75-534b-4878-b140-638cea37e7de/946727e6-3aea-40d7-9e0d-9c1e874c6a64")
 		(sheetname "atmega2560")
@@ -867,6 +893,19 @@
 				)
 			)
 		)
+		(property "TME" "0603N100J500CT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c819796e-caea-4530-bdd0-82034901f0ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c0859e15-ccd4-4bc9-9657-4794b2548a11/aca6734f-b06a-4371-90f7-23254af6a95c")
 		(sheetname "usbBridge")
@@ -1030,7 +1069,7 @@
 				)
 			)
 		)
-		(property "Value" "ATmega2560-16A"
+		(property "Value" "ATmega2560-8A"
 			(at 0 9.349999 45)
 			(layer "F.Fab")
 			(uuid "5be29008-d078-46b6-870e-85d4affe3a21")
@@ -1073,6 +1112,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "ATMEGA2560V-8AU"
+			(at 0 0 -135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8491c8-f9ce-4fae-87f8-6b6fe59126ee")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2485,6 +2537,184 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "3560bc9c-a91f-4e9d-a55c-9199eba3e50d")
+		(at 166.5 80.75)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H3"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "b896056b-d0f5-437b-ad7d-33c950093233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "2e90cad8-9a9e-4c0e-a6a9-71e543dbdc52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91aeded3-4644-4d69-b36c-8b4eb705172a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b5f3190-fee4-46ce-a5fc-016f88d858ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22e1c0fe-f846-4fff-a0bc-823d92f07738")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fccebd57-10d7-415b-aa81-f335ede2da63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79b014d4-27fa-4321-b942-040ca48e9492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56798e5b-80c2-4597-b1d7-873225aa124d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b59a4f8c-f3ee-4993-a7c4-fc48973349a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/529f401b-22e7-4886-ae5b-825181414f63")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "bb5fe984-d329-4500-84f2-a104c33a4380")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "25a3c128-c0ac-4c4c-b3c7-803836f114e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d59f7ae8-e6c7-4b51-ad72-392073621a99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "74418571-aa52-4977-af28-f6edbb77149d")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "F.Cu" "F.Mask")
+			(uuid "0f493152-6d89-43a7-ae0e-2d0990c4a050")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "B.Cu" "B.Mask")
+			(uuid "c2154b98-1e9c-4b71-a1b7-48aa07681f1a")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4d9b569d-75e7-458c-871f-acb2bd5a0874")
@@ -2548,6 +2778,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcad012a-73d2-4e47-a437-a81580d3be58")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2765,6 +3008,19 @@
 				)
 			)
 		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c84d5fc9-2c6f-43e9-a177-203d89f0ca6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4822de75-534b-4878-b140-638cea37e7de/f7af727f-490d-4bb7-8b53-054d13ee8d64")
 		(sheetname "atmega2560")
@@ -2926,7 +3182,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-100DS-0.4V(51)"
+		(property "Value" "DF40C-100DP-04V-51 "
 			(at 5.645 2.865 90)
 			(layer "F.Fab")
 			(uuid "f7659d2a-8cf6-40d7-813e-fae584d19b41")
@@ -2969,6 +3225,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "DF40C-100DP-04V-51 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f731c631-b578-45ca-8a90-61b15a486bf5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5318,6 +5587,19 @@
 				)
 			)
 		)
+		(property "TME" "0603N100J500CT "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f614811-2a1d-49a9-97b5-1105e94ed1dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4822de75-534b-4878-b140-638cea37e7de/49f4bc15-cacf-4feb-8f34-6b4a4b4bacfd")
 		(sheetname "atmega2560")
@@ -5527,6 +5809,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5236b4ac-8131-4643-bbc9-960339e4eb6b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5744,6 +6039,19 @@
 				)
 			)
 		)
+		(property "TME" "SMD0603-0R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0da5e308-4238-4958-8757-4d2016b19103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c0859e15-ccd4-4bc9-9657-4794b2548a11/10e5dc4b-6259-4f45-ba0e-c6b57eb776dc")
 		(sheetname "usbBridge")
@@ -5890,16 +6198,16 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 		(layer "F.Cu")
 		(uuid "6f27c11f-fd81-4429-945f-7ca789c60bcb")
 		(at 125.05 64.65 -45)
-		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
+		(descr "SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 -2.450001 135)
+			(at 0 -2.8 -45)
 			(layer "F.SilkS")
-			(uuid "4aef1576-573a-4fb8-bcae-43446f5ca933")
+			(uuid "b8e38725-b911-4919-83ce-071cfc9dcec2")
 			(effects
 				(font
 					(size 1 1)
@@ -5907,10 +6215,10 @@
 				)
 			)
 		)
-		(property "Value" "16MHz"
-			(at 0 2.450001 135)
+		(property "Value" "8MHz"
+			(at 0 2.8 -45)
 			(layer "F.Fab")
-			(uuid "b4844601-0e00-4fe2-8786-43aad35b1d50")
+			(uuid "133ed695-dc2b-47e5-a7ee-20b43359fb20")
 			(effects
 				(font
 					(size 1 1)
@@ -5918,11 +6226,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 0 0 -45)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a758d47-914b-41ea-82cd-2dd83dcff7ec")
+			(uuid "a4275dec-7366-4a31-b3f9-fb737cde9610")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,9 +6241,10 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 -45)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "663aee6d-2d33-4ffd-b8c8-9eb4371f383b")
+			(uuid "29f449d7-ab84-417a-9ed2-f8fade1ba3c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,12 +6254,26 @@
 		)
 		(property "Description" ""
 			(at 0 0 -45)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c32d891-1a27-4fb1-ae1b-af745672ec56")
+			(uuid "9e6681d3-8d07-4542-b5fb-1ea11d1021a0")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "8.00M-CFPX104"
+			(at 0 0 -45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e87f124-12a6-4339-9b3a-2c32ecdf3ecd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5960,157 +6284,197 @@
 		(sheetfile "atmega2560.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2 1.65)
-			(end 2 1.65)
+			(start -2.65 1.850001)
+			(end 2.65 1.850001)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7242a799-82bc-4ba8-b0da-bb2938961b3e")
+			(uuid "db556483-ea3a-4fbb-b32d-03f6557ab846")
 		)
 		(fp_line
-			(start -2 -1.65)
-			(end -2 1.65)
+			(start -2.65 -1.850001)
+			(end -2.65 1.850001)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "17218962-fa46-456e-ab0a-cc207955c1aa")
+			(uuid "98e486ee-2c86-4171-a7de-64e82723b00a")
 		)
 		(fp_line
-			(start -2.1 1.7)
-			(end 2.1 1.7)
+			(start -2.8 1.9)
+			(end 2.8 1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc5bb69a-915c-40fa-971b-ed40ae1cc8a7")
+			(uuid "37907a9d-ca9f-416a-bd8a-73130703cce8")
 		)
 		(fp_line
-			(start -2.1 -1.7)
-			(end -2.1 1.7)
+			(start -2.8 -1.9)
+			(end -2.8 1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "18d261ea-eb14-47bb-9e08-ed4ee5b34f37")
+			(uuid "e70d04a8-257b-4e7c-9a5c-4e522eb1bddd")
 		)
 		(fp_line
-			(start 2.1 1.7)
-			(end 2.1 -1.7)
+			(start 2.8 1.9)
+			(end 2.8 -1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "69edcd30-9afd-4791-8ce8-f0b27dc0c6d9")
+			(uuid "5b1dbea3-a6c5-4938-ab7c-305bdc282f36")
 		)
 		(fp_line
-			(start 2.1 -1.7)
-			(end -2.1 -1.7)
+			(start 2.8 -1.9)
+			(end -2.8 -1.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a04851ed-f5d0-40ec-99bd-7886546255c2")
+			(uuid "c4516725-7c65-4e32-8b79-a7860806238e")
 		)
 		(fp_line
-			(start -1.6 1.25)
-			(end 1.6 1.25)
+			(start -2.499999 1.4)
+			(end -2.499999 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f64cd8aa-0400-4ed9-be67-b9efd785b00b")
+			(uuid "57a67654-19ef-4097-841e-93661f531ef3")
 		)
 		(fp_line
-			(start -1.6 0.25)
-			(end -0.600001 1.25)
+			(start -2.3 1.6)
+			(end -2.499999 1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a1a7deac-b745-4b56-87a7-079eeeb1e0a7")
+			(uuid "a458a7ce-e903-4018-865a-4668fff8ae07")
 		)
 		(fp_line
-			(start -1.6 -1.25)
-			(end -1.6 1.25)
+			(start -2.5 0.6)
+			(end -1.5 1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e5e99ff7-63c4-42ff-a4eb-bb3bc94cc249")
+			(uuid "66995642-2022-401a-b84f-ea14c0ffa8a8")
 		)
 		(fp_line
-			(start 1.6 1.25)
-			(end 1.6 -1.25)
+			(start -2.499999 -1.4)
+			(end -2.3 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2fcac21-e2f8-4e62-88b9-557dd56e9396")
+			(uuid "377d5cf5-41d4-4ddc-a235-f5040f9125d1")
 		)
 		(fp_line
-			(start 1.6 -1.25)
-			(end -1.6 -1.25)
+			(start -2.3 -1.6)
+			(end 2.3 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "74369060-151a-48c4-8f1f-cab521f72f4c")
+			(uuid "eea7ae0a-469a-4f3c-ad9f-7a42f114eaf7")
+		)
+		(fp_line
+			(start 2.3 1.6)
+			(end -2.3 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bea4e5e3-f8d5-4998-8752-3d86e1c9bf36")
+		)
+		(fp_line
+			(start 2.499999 1.4)
+			(end 2.3 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6922bcb-c3f1-4736-86dc-ff4c6faa5622")
+		)
+		(fp_line
+			(start 2.3 -1.6)
+			(end 2.499999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d57f292-73c3-499a-8df7-a4f2eb5171b2")
+		)
+		(fp_line
+			(start 2.499999 -1.4)
+			(end 2.499999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25b9f3d9-7421-4b5a-b973-99a621e6e52d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
+			(at 0 0 -45)
 			(layer "F.Fab")
-			(uuid "b251f4db-8b02-42f1-b624-b4faf251fd27")
+			(uuid "58c687b1-0236-4533-a6de-1bebb63be482")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.105)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(pad "1" smd rect
-			(at -1.1 0.85 315)
-			(size 1.4 1.2)
+			(at -1.65 1 315)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 138 "Net-(U1-XTAL2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "269fe2a8-e94c-4bd3-8383-eaf640223805")
+			(uuid "d2dfdfa6-9577-482c-865c-61f4affbb471")
 		)
 		(pad "2" smd rect
-			(at 1.1 0.85 315)
-			(size 1.4 1.2)
+			(at 1.65 1 315)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 140 "Net-(U1-XTAL1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1f8bc041-f288-473f-a96a-67e7580a69cd")
+			(uuid "2a796f79-38dc-4a4e-8db2-13ac205538e5")
 		)
 		(pad "3" smd rect
-			(at 1.1 -0.85 315)
-			(size 1.4 1.2)
+			(at 1.65 -1 315)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "487de89e-6219-46e7-901d-41ad137efe35")
+			(uuid "919aab7e-7d4a-4c33-be35-bb82a8cb0b68")
 		)
 		(pad "4" smd rect
-			(at -1.1 -0.85 315)
-			(size 1.4 1.2)
+			(at -1.65 -1 315)
+			(size 1.6 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "f21b278b-cc55-4dfc-bb89-8ed0a0a488bc")
+			(uuid "c288115a-023a-45d0-9a81-5ff283c8f664")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6120,6 +6484,362 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "72b2ca23-ed87-49ac-8592-a8bf0cef86b3")
+		(at 166.5 66.25)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H1"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "06ceea6f-4268-40d1-8749-5a20798a0470")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "fbb7d110-379b-4b31-8fd4-b69b5a5763f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "661314c1-6e52-498d-b5d1-df7ac8850558")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37837d0e-aaf2-4406-ae9c-61029286c04f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27b0b0c7-a346-4b4e-aaae-46972c02ced6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba7c902f-6dbe-48c0-a27f-d922cb3a23d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d9553be-5267-4728-9ca4-9e3cee064f6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb0f26d2-8810-463a-a45c-c20ab8ac2414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f6c5d21-db0f-44e4-8a9b-313b51ccf229")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c77f6d04-ac79-410c-8b76-f47b8b796f06")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2435d3f3-b5f3-455d-94ed-7444faaebe14")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "15d40af9-c306-4e6e-8728-1cbd5c5708e5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "138aab36-9d91-4659-ba92-5baaf5eedc03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d7b53d3e-029a-4e01-959a-557a64f5823f")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "F.Cu" "F.Mask")
+			(uuid "c34ab68f-9804-4548-9fab-7ae8fc94cb98")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "B.Cu" "B.Mask")
+			(uuid "b0a7fd69-98da-47ff-97e8-af2412d8177b")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "7bf2f3b7-012b-435f-b5bf-d90280cd8873")
+		(at 166.5 73.5)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H2"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "35afe85b-2068-4c7c-b767-90179cde131d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "14f4a0a1-9174-4d1f-bfe0-d2233cb89adf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d72ca36a-a106-41dd-ad6a-9b63421fbd07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3a09651-2a21-4ff0-a089-d13807b27e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5847777a-ac6c-4e17-ba56-831a1fc7edd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba820c30-bc2d-486c-be98-a897fc530424")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a3ec526-1360-4530-ab18-adde7fac4e46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f17079e-1efc-4120-a79b-bcb190259865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "775afcf1-8ae5-4c5e-bedf-9affba6f3411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/0d474f1e-3945-4cea-bd4b-eea470410736")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "113fbca7-8237-4756-b410-9c81f93b7012")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "fced8766-354d-473a-a49a-6ba2173e0b47")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5dc4442d-b4ae-4106-bfcd-21327530d5a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "620965c7-e646-48fc-9d3c-686526610f1f")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "F.Cu" "F.Mask")
+			(uuid "920fdc0f-ad55-443b-b540-b53b47632ca2")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "B.Cu" "B.Mask")
+			(uuid "4c0e034f-5bdb-4945-8081-bf697721505f")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -6185,6 +6905,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebc46ca1-2a80-46e4-b635-eb68129cde0a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6402,6 +7135,19 @@
 				)
 			)
 		)
+		(property "TME" "WR06X1002FTL "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbb88a69-5a23-46ff-9adc-5b3865556c9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c0859e15-ccd4-4bc9-9657-4794b2548a11/e4ec6712-5547-4272-b5cc-e0055d17ca3d")
 		(sheetname "usbBridge")
@@ -6615,6 +7361,19 @@
 				)
 			)
 		)
+		(property "TME" "SMD0603-0R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6223cdcf-1ef2-4536-b14c-7788718df99e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c0859e15-ccd4-4bc9-9657-4794b2548a11/d4bf7845-bedb-44e3-a652-9a8073e3a827")
 		(sheetname "usbBridge")
@@ -6778,7 +7537,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "4.7pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2479e202-4bef-4576-bbe8-a071ff46b851")
@@ -6824,6 +7583,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CC0603BRNPO9BN4R7 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a27e801-4488-440f-ae0e-453d4c7547a7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6974,6 +7746,159 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
+		(layer "F.Cu")
+		(uuid "bf40f91c-0679-4d29-a6df-868d63a7ca1d")
+		(at 172.4 69.45)
+		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -2.54 0)
+			(layer "F.SilkS")
+			(uuid "28725171-44d3-4798-aaae-d0b0a5f520cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2.286 0)
+			(layer "F.Fab")
+			(uuid "ad0793fa-54ff-437c-90af-f428bf35badb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2193e9d0-dfad-4314-9d30-f8755e42e4f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7da28f2e-c133-4e97-bd96-816ecc61e7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "772c78e6-cab8-40f8-9625-74de1dce8bbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1000bdbd-c5cb-4dfa-bee2-b6daafecb75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9257c0cb-2577-42fc-b334-020d97afa716")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df9c392-d0a0-4e90-bf06-6a3aeaab6d2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/dbe1b52a-f669-49c0-a724-1ee7f91fd04f")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr smd dnp)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4b88146f-7653-40c5-8e07-a96ad1c7fee3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "dbb68e3a-9ef5-4f42-a140-8e86b2e9693e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "076f3b04-f4bc-4afb-bdae-0541c9e5865a")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 1)
+			(clearance 1)
+			(uuid "aac67d83-137c-40da-8dca-e40c1b182fc9")
+		)
+	)
 	(footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
 		(layer "F.Cu")
 		(uuid "ce957124-eb91-47fc-888f-e21c21cb1916")
@@ -7037,6 +7962,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "FT231XQ-R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f6e2d25-670d-4380-bb4e-a3f369f54a0e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7557,6 +8495,19 @@
 				)
 			)
 		)
+		(property "TME" "BC850B-DIO "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02d3b400-7fd5-4f01-aa95-69770426125d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c0859e15-ccd4-4bc9-9657-4794b2548a11/0c837f60-8a9a-4405-9bfe-5a1460651b86")
 		(sheetname "usbBridge")
@@ -7824,6 +8775,19 @@
 				)
 			)
 		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "486384f3-9d19-45fc-9532-5b3b7e3b7ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4822de75-534b-4878-b140-638cea37e7de/c9a139ba-1714-4ad5-b3ab-01b135d955d2")
 		(sheetname "atmega2560")
@@ -7985,7 +8949,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-100DS-0.4V(51)"
+		(property "Value" "DF40C-100DP-04V-51 "
 			(at 5.645 2.865 90)
 			(layer "F.Fab")
 			(uuid "888ebe6d-5c20-4435-b7fc-1ed15aaec7d3")
@@ -8028,6 +8992,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "DF40C-100DP-04V-51 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31aaff3b-0cdd-423f-89b4-604bcef88239")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10377,6 +11354,19 @@
 				)
 			)
 		)
+		(property "TME" "TXS0108EPWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531814ea-a8d8-4ad1-812a-4b02e95374a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*SSOP*4.4x6.5mm*P0.65mm*")
 		(path "/4822de75-534b-4878-b140-638cea37e7de/6e338517-ca4a-481b-b1d8-8d8619b9ae21")
 		(sheetname "atmega2560")
@@ -10764,7 +11754,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "4.7pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "578c5382-7a51-40ca-994a-e96c7d1921fd")
@@ -10810,6 +11800,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CC0603BRNPO9BN4R7 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf5dd662-5bdf-4d39-a76e-21499bb3cd0a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10960,6 +11963,490 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
+		(layer "F.Cu")
+		(uuid "e9c2e8ab-7106-49de-8b76-ec2066c992d5")
+		(at 172.4 74)
+		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
+		(tags "fiducial")
+		(property "Reference" "FID3"
+			(at 0 -2.54 0)
+			(layer "F.SilkS")
+			(uuid "2a4a042f-51c0-4c40-b6d5-9f8193ac40bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2.286 0)
+			(layer "F.Fab")
+			(uuid "1e605c67-7fbd-4b14-94c4-3167492633ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42a1d3d4-b6ad-4f00-a3f1-960d7f617da4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65874fe8-6bac-4efa-8e14-57d0afa5b024")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55d32db5-a759-4d2a-98c4-ebfec71bbc42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "291856ca-6e31-44f0-b3d2-379365ef8307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ee557ba-e1b7-40d8-a3d3-887cab43260c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54194b5c-2bee-456c-820f-57d09e727b2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/40b71dac-429c-4bb0-a21f-5aba9de50a00")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr smd dnp)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "1caf8ded-a6ce-4068-9aaa-55b68bad5b47")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "ec7a7534-f7e9-423c-aa65-6769a48ed648")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "33f26fe6-53f7-4adc-95ca-510fc63576d0")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 1)
+			(clearance 1)
+			(uuid "eeb0fb78-4bf2-4f03-888e-9b5e799ff353")
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
+		(layer "F.Cu")
+		(uuid "ecd08745-c276-484c-9944-ceb30cc44ac3")
+		(at 172.4 64.9)
+		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0 -2.54 0)
+			(layer "F.SilkS")
+			(uuid "48497cc1-1f07-4056-9d5d-6e2e6a3675a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2.286 0)
+			(layer "F.Fab")
+			(uuid "d6ecfb1b-39d4-4291-a8eb-200c3e26f287")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c018ef6-65ea-4d81-99a6-cfe610dafcfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "814613e5-06c8-4ccb-a60e-7d1655d56c03")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce04a647-0784-4e61-ad8e-f3e5084a8133")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac509a00-5aa4-4d13-878b-92563fdb67d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc5bb90-21c3-40b5-8cbe-1a4837d1ee6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4db2fc9f-b4cc-4f18-ab1a-77cbf9a74258")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/497d1adb-0596-4365-b30f-d47c85ac21fa")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr smd dnp)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "01776a33-bbfc-4785-97b0-7ba512cb9ba8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "964c90f4-f2de-4905-ac4d-ff6a8e33ca4b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "edb34139-978f-4eb5-9aab-c94741dc8ea3")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 1)
+			(clearance 1)
+			(uuid "82b3de5a-4f5d-44f8-b681-b300f978e2ba")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "fc1def3e-31cd-48c0-aa4b-952cd0eab7a4")
+		(at 166.5 88)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H4"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "91edfc46-0160-415a-89d2-2228385b8f94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "3307ac16-852c-48a5-9f42-fdfa6b093960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a572fc24-c4a9-48cc-af43-b17c7d4e9de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1529c5c7-c9a1-4752-829a-66399f0536c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a0c3b41-669a-482a-bbf7-0ebc3a191d83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dac6a9a-970d-4b98-a4bb-2c1eadbdb77d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d7885d3-3dcd-4c9f-8569-b6cae279e4e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96af28ee-3cf0-48b6-bec6-d580a9dd99a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed512634-1efa-4707-8163-f9a5c4cb6591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3a55208a-c628-49d7-a51c-1ed518cd0671")
+		(sheetname "Root")
+		(sheetfile "PRODIGY-ATMEGA2560.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "11340205-71fd-4068-9c7f-14a4183877d5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b2e8cc81-3de1-42e2-8552-9628666bb696")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d3fd98aa-f5aa-4460-a4f6-8bc8b11c42dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "10a1b167-e149-4a77-940d-a2e413056bf0")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "F.Cu" "F.Mask")
+			(uuid "4859e193-2a53-4b69-83d7-4ebfe157f5da")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(layers "B.Cu" "B.Mask")
+			(uuid "e6cb3b85-66f0-4150-aa45-6d4dd584251b")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ffd2ab23-5d1a-4197-b40c-caea5402f590")
@@ -11023,6 +12510,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48ce8066-4b08-40cc-9e1a-624191f249bc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

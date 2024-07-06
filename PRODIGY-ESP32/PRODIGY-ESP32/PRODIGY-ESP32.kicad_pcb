@@ -147,7 +147,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 2.25 0 360)
+			(at 2.25 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "bb615ef6-0d32-4a09-bc06-b29a5353d7cd")
@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "f211845d-2695-4c1b-88a0-d7d677b7a6ba")
 			(effects
@@ -205,6 +205,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7da2f2aa-6482-4b29-a169-d82efcb8e80d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f01a7715-aeac-4bde-b50d-6c9d29e0a5cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf12fa3b-74de-4577-9bbf-e1ee1667fac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ce31774-55de-474e-94eb-9791b4a47382")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -315,7 +367,7 @@
 			(uuid "73ea6c65-c6b6-4785-ae89-5a3ec6558e29")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.24 20.925 360)
+			(at 5.24 20.925 0)
 			(layer "B.Fab")
 			(uuid "02a8e3d5-13e5-41fd-8733-3fe605757e20")
 			(effects
@@ -363,7 +415,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "e48b42be-02c6-45c7-bb44-a1baf10775af")
 			(effects
@@ -374,7 +426,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 4.3675 360)
+			(at 0 4.3675 0)
 			(layer "F.Fab")
 			(uuid "ddbb687e-4a60-4d33-890f-6ef4b9cb0b36")
 			(effects
@@ -419,6 +471,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eb3dcaa-54ab-4f00-a5a0-e2be7f412cfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33a3c93a-cf14-4936-bcb2-befc0c930703")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaff1fc7-acb6-485c-9627-d21eb015ee77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "SMD0603-0R "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56759ee8-74c0-479f-a1f9-420992df9959")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -529,7 +633,7 @@
 			(uuid "10d8d834-eee3-4989-81d5-e6a543bd2b95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9d79faf0-7273-405c-bd3c-499f69779169")
 			(effects
@@ -633,11 +737,63 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d04b04e-dbaf-4f28-9280-08696f297b60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f45ac12-6222-4b16-b956-81a6abed2ed6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e03c80a-2bde-41b4-a2d6-18c50bd3a079")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26b3546a-a33c-48ed-8555-e06d5a8e7a6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*M*2*B*")
 		(path "/614f7f54-bc4c-46c7-8db6-5a9f293ca429")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-ESP32.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 -41)
 			(end 3 -41)
@@ -1426,6 +1582,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fcde42b-092e-420b-ae30-4655120ad2bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc586a89-abfc-4976-a714-d00e316fa3a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "387d495d-e55b-43f0-b34a-d319102760d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41f412ff-47f6-4ae6-99e9-97f24e8a193b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2296,7 +2504,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "bfcb7051-7b0e-4ba7-b2c1-32fa758c951a")
 			(effects
@@ -2307,7 +2515,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0.125 -0.9375 360)
+			(at 0.125 -0.9375 0)
 			(layer "F.Fab")
 			(uuid "c34195ca-50cb-4f37-8c38-dbc45945dcc5")
 			(effects
@@ -2352,6 +2560,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "825bd5c4-4812-4978-94e2-3d5aeb62d799")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5573c953-42c3-424b-ad8c-a57990d6c022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22929a60-538c-453d-9cbd-c0123f446926")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "SMD0603-0R "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1cb4494-716c-48d0-9cfb-409a508266f6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2462,7 +2722,7 @@
 			(uuid "64248463-cd49-4645-8b1e-0db76eed1379")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "117ecf6c-7d98-4aec-8131-5a134731a852")
 			(effects
@@ -2565,6 +2825,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98b65cc8-0eed-4521-8874-42d75be55a95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "482cc971-824d-4e7c-9b00-14ef7e974a76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "254ff49d-acce-41be-925e-712be549643b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bc7f576-4d4e-4e95-bc49-792713826c51")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2826,6 +3138,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ee9df08-9ccf-42ff-abc3-935e1c2cf7bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "929d4f1e-68fb-4c8d-a050-213c418cf081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efe4097a-da63-410b-8a72-1dc8ee6bd26a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "BC850B-DIO "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33226610-a019-40c6-9f01-eca133891075")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3097,6 +3461,58 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38c75a2e-040e-480d-a9c8-80242d798d36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66b69685-80d4-4a3a-bd7f-a1a17fc987de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18247d76-7bfc-4210-8978-31b7e5cc561e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b120808-4fd6-47dd-90b8-349b85665d2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3c7462de-2eee-414a-8113-711292733e11")
 		(sheetname "Root")
@@ -3310,11 +3726,63 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f533bfe-9ac8-4ae0-9b9c-06549fb9137a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f4b6b5-2b02-473a-a0f7-ee8fbd951773")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34f3fad9-0403-4c30-bd5a-fcefd0df8f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fed0a05-fd4b-423a-a298-1ceb78cfc8aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/d19737ce-ea14-491c-ba11-2dc656247686")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-ESP32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -3420,6 +3888,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fd2a27c-74cd-4b31-89a8-ec8f86165c00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4b3f3b-c3a0-45d8-8959-3a6100432aaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ebbd46b-0bd5-4cea-a545-1e8d2fce4120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "882455ab-880c-4689-8eed-af1bedf0f4f6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3577,7 +4097,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3"
-			(at -2.55 -0.5 360)
+			(at -2.55 -0.5 0)
 			(layer "B.SilkS")
 			(uuid "3b2dbee9-fb69-4996-825d-6385df5ce03a")
 			(effects
@@ -3589,7 +4109,7 @@
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "d3c1791b-aa23-4881-8a98-df75eb3872b9")
 			(effects
@@ -3634,6 +4154,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c618650-3c71-4e77-85ed-bbc227053fbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "757f2d6d-d563-47d4-831b-f4b41ae4220d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6d6b60f-7d30-4593-b80a-eb60df49ba35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6970ef7c-3414-4577-9da1-10f83c4836f8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3814,7 +4386,7 @@
 			(uuid "837d3b91-1603-4f5c-af2d-d7924ec10579")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.55 -0.5 360)
+			(at 2.55 -0.5 0)
 			(layer "B.Fab")
 			(uuid "081cb2a6-d5de-406d-96cc-b23ba1278689")
 			(effects
@@ -3920,6 +4492,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d25c63bf-7bfb-4106-b80d-9e79a6f39ad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd3f1539-d456-4386-b3bc-4122b7301f84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19b44dab-6c2f-4a8a-b9d5-8d369670c319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL10B104KB8NNNC "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b9d1ad9-19a2-4ce7-b882-0af2f47dd485")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4137,6 +4761,58 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a10affa-7828-4d5c-8b2b-5d912c405b20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c280ba1-97bb-4e40-9338-a763d4cc5b1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06477f49-4300-4a52-b0fb-a2e8b70e89af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d00f2bd-39a5-43c4-8335-c864f216cf55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b6e2397b-b967-46bd-a597-25dbbc19e3b8")
 		(sheetname "Root")
@@ -4290,7 +4966,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "98306371-812b-443e-94a9-414dabc179c5")
 			(effects
@@ -4301,7 +4977,7 @@
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "afeb52d8-8f04-4ae2-9a78-e1536de2c181")
 			(effects
@@ -4346,6 +5022,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fc78a84-0cae-43ac-80d7-f9731554bdc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a6f4f7e-d218-4b48-97cd-a8b5eacfddcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef674c41-3f6c-4fb1-96cd-bcc5f26b5e80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64a9be15-086b-412d-af3d-d43749983882")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4526,7 +5254,7 @@
 			(uuid "238ce5b7-b9c3-4999-850a-63e23d1f8561")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "d39edafa-fcca-4a11-80dd-6711d1985789")
 			(effects
@@ -4568,16 +5296,16 @@
 			)
 		)
 	)
-	(footprint "Package_DFN_QFN:UQFN-10_1.4x1.8mm_P0.4mm"
+	(footprint "Package_DFN_QFN:Texas_UQFN-10_1.5x2mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "c3dbb5f1-c270-479d-b8d7-5c9e3cd3ffe1")
 		(at 171.35 97.3)
-		(descr "UQFN 10pin, https://www.onsemi.com/pub/Collateral/488AT.PDF")
-		(tags "UQFN-10_1.4x1.8mm_P0.4mm")
+		(descr "Texas RSE0010A UQFN, 10 Pin (https://www.ti.com/lit/ml/mpqf186d/mpqf186d.pdf)")
+		(tags "Texas RSE0010 UQFN NoLead")
 		(property "Reference" "U3"
-			(at 0 -2 360)
+			(at 0 -2.15 0)
 			(layer "F.SilkS")
-			(uuid "bca87545-f8f3-48c7-b0c8-f94890833901")
+			(uuid "1f9dc226-1c0e-4e7a-acc9-72e25fd9d4a0")
 			(effects
 				(font
 					(size 1 1)
@@ -4586,9 +5314,9 @@
 			)
 		)
 		(property "Value" "TS3USB221AQRSERQ1"
-			(at 0 2 360)
+			(at 0 2.3 0)
 			(layer "F.Fab")
-			(uuid "32f4580e-4a6d-4643-8d0f-927851d55141")
+			(uuid "6f54934a-161a-46dd-9012-2f58771312e7")
 			(effects
 				(font
 					(size 1 1)
@@ -4596,12 +5324,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:UQFN-10_1.4x1.8mm_P0.4mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_UQFN-10_1.5x2mm_P0.5mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e282e268-5c2f-48c1-8db8-7327043c9d53")
+			(uuid "636ee5f6-78f6-4aad-9795-7733c625c873")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +5342,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0666a3d2-3d32-4b37-91fe-c799c6cee84c")
+			(uuid "283b3619-1b67-40b2-90dd-010060e64aac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,10 +5355,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4a3cdce-50b2-4747-9040-a18419d50c5f")
+			(uuid "d818c341-1551-42e6-bad2-e67f9c9d5861")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "595-S3USB221AQRSERQ1 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cf81b35-079e-4bf8-9f37-de08bb2993c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b61d99b-c90d-44d0-958a-e01d767e4e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f12a092-47fb-4ac0-ab11-b4fdd1c59387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d54c0693-596d-4bf2-8e3e-0c012910d173")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4641,48 +5421,38 @@
 		(sheetfile "PRODIGY-ESP32.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.94 -0.57)
-			(end -0.94 -0.78)
+			(start -0.41 1.135)
+			(end -0.86 1.135)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d577d576-f92d-4491-ad2c-ac4fd9764577")
+			(uuid "d6f95282-2b1b-4a15-8a30-835826ccd92d")
 		)
 		(fp_line
-			(start -0.81 0.9)
-			(end -0.81 0.58)
+			(start 0.41 -1.135)
+			(end 0.86 -1.135)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9b06e597-b59f-44ed-8043-7e6d1049d737")
+			(uuid "078224f3-9964-4430-bbf9-6ad73c7f4ff0")
 		)
 		(fp_line
-			(start 0.81 -0.58)
-			(end 0.81 -0.9)
+			(start 0.41 1.135)
+			(end 0.86 1.135)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1a59ad9-38ba-4e96-a043-0dc4b25e47d1")
-		)
-		(fp_line
-			(start 0.81 0.9)
-			(end 0.81 0.58)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ca1b0631-7924-4905-84a5-fe50ecc98b42")
+			(uuid "8e72b07a-3fcc-48e1-a391-8b552ded8daf")
 		)
 		(fp_poly
 			(pts
-				(xy -0.94 -1.02) (xy -1.18 -1.35) (xy -0.7 -1.35) (xy -0.94 -1.02)
+				(xy -0.75 -1.14) (xy -0.99 -1.47) (xy -0.51 -1.47) (xy -0.75 -1.14)
 			)
 			(stroke
 				(width 0.12)
@@ -4690,200 +5460,210 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "e5227e3b-e332-41be-9725-3809f7f24f09")
+			(uuid "fa634d08-1d94-443d-9b50-10f72513e929")
 		)
 		(fp_line
-			(start -1.1 1.3)
-			(end -1.1 -1.3)
+			(start -1.2 -1.45)
+			(end -1.2 1.45)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1339171d-4ab6-4c45-a785-5ee27791a8dd")
+			(uuid "a89c3920-61c9-40c3-bad2-55a33c1d9b98")
 		)
 		(fp_line
-			(start -1.1 1.3)
-			(end 1.1 1.3)
+			(start -1.2 1.45)
+			(end 1.2 1.45)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "752d63d2-05e6-45ee-bb88-adae6c671819")
+			(uuid "f048c609-5cee-42de-a045-c826f6ed55a1")
 		)
 		(fp_line
-			(start 1.1 -1.3)
-			(end -1.1 -1.3)
+			(start 1.2 -1.45)
+			(end -1.2 -1.45)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "42188679-1aba-42cd-b0b1-396b2ece932f")
+			(uuid "75dfb51c-82b5-437f-a16b-403eb9c26a5a")
 		)
 		(fp_line
-			(start 1.1 -1.3)
-			(end 1.1 1.3)
+			(start 1.2 1.45)
+			(end 1.2 -1.45)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0663a15a-c776-4ac5-ad60-bc295e346db7")
+			(uuid "6b6e7961-5736-4f1e-9cf0-5b15230597ef")
 		)
 		(fp_line
-			(start -0.7 -0.4)
-			(end -0.7 0.9)
+			(start -0.75 -0.625)
+			(end -0.375 -1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8f55b2a4-44ce-4a86-af54-26df17115dd5")
+			(uuid "df098e6c-8069-4df1-8dca-4df770d86bf2")
 		)
 		(fp_line
-			(start -0.7 0.9)
-			(end 0.7 0.9)
+			(start -0.75 1)
+			(end -0.75 -0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4d6bdaa4-ec54-4ec1-8b7e-6f736dfa12e6")
+			(uuid "798eb7f7-364f-49de-b9e8-932e52d39788")
 		)
 		(fp_line
-			(start -0.2 -0.9)
-			(end -0.7 -0.4)
+			(start -0.375 -1)
+			(end 0.75 -1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a1393845-525c-46b0-92a6-1bf72e7d1955")
+			(uuid "0a4074d0-2298-40e2-9785-268999e1328e")
 		)
 		(fp_line
-			(start -0.2 -0.9)
-			(end 0.7 -0.9)
+			(start 0.75 -1)
+			(end 0.75 1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9cf8d811-1d71-4cd7-8531-2b9840190e8b")
+			(uuid "f7e5b0aa-30b5-4556-8b22-0f3bb65646c3")
 		)
 		(fp_line
-			(start 0.7 -0.9)
-			(end 0.7 0.9)
+			(start 0.75 1)
+			(end -0.75 1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d345d3e6-8f5c-4d17-b216-5bedaf3d85b2")
+			(uuid "ca02ddb8-9cb2-4523-80e6-7aca0e618bf6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "9aa8c167-bac8-46fe-b46c-fa82c39ede72")
+			(uuid "8c0126f6-3861-44f0-a34b-780da3e83197")
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.075)
+					(thickness 0.08)
 				)
 			)
 		)
-		(pad "1" smd rect
-			(at -0.5185 -0.2)
-			(size 0.663 0.225)
+		(pad "1" smd roundrect
+			(at -0.675 -0.75)
+			(size 0.55 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
 			(net 33 "/USB_D1+")
 			(pinfunction "D1+")
 			(pintype "bidirectional")
-			(uuid "91d40a9a-b815-4a7e-9721-2e0da135ff65")
+			(uuid "964285c4-15d7-4717-8bca-e12fa8b279d2")
 		)
-		(pad "2" smd rect
-			(at -0.5685 0.2)
-			(size 0.563 0.225)
+		(pad "2" smd roundrect
+			(at -0.675 -0.25)
+			(size 0.55 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
 			(net 51 "/USB_D2+")
 			(pinfunction "D2+")
 			(pintype "bidirectional")
-			(uuid "0ad8ba7e-4cfc-4ddf-8feb-b75d4e1166eb")
+			(uuid "af2f847f-c2cf-47e3-81ed-97021fc2618c")
 		)
-		(pad "3" smd rect
-			(at -0.4 0.7685)
-			(size 0.225 0.563)
+		(pad "3" smd roundrect
+			(at -0.675 0.25)
+			(size 0.55 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
 			(net 4 "/USB_D+")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "762837ae-6efd-443c-96a2-4f564f2ca1d1")
+			(uuid "feee3e3d-d4f9-4ef6-89c4-e91e89079862")
 		)
-		(pad "4" smd rect
-			(at 0 0.7685)
-			(size 0.225 0.563)
+		(pad "4" smd roundrect
+			(at -0.675 0.75)
+			(size 0.55 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "4af3f6b7-6941-4a23-b3d3-e868566d0a99")
+			(uuid "bc46ee11-ef2b-4d53-92dc-0af88a0d2e46")
 		)
-		(pad "5" smd rect
-			(at 0.4 0.7685)
-			(size 0.225 0.563)
+		(pad "5" smd roundrect
+			(at 0 0.9)
+			(size 0.3 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
 			(net 5 "/USB_D-")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "8b3016ce-57a8-498b-b7ba-2027d353df9e")
+			(uuid "8d919b0b-63f7-4c57-a556-cdfcea051495")
 		)
-		(pad "6" smd rect
-			(at 0.5685 0.2)
-			(size 0.563 0.225)
+		(pad "6" smd roundrect
+			(at 0.675 0.75)
+			(size 0.55 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
 			(net 52 "/USB_D2-")
 			(pinfunction "D2-")
 			(pintype "bidirectional")
-			(uuid "0cb95cf9-4524-447b-8e94-3475b51ad047")
+			(uuid "696aed0e-d281-4cec-8bdc-83ad9d84a8c9")
 		)
-		(pad "7" smd rect
-			(at 0.5685 -0.2)
-			(size 0.563 0.225)
+		(pad "7" smd roundrect
+			(at 0.675 0.25)
+			(size 0.55 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
 			(net 37 "/USB_D1-")
 			(pinfunction "D1-")
 			(pintype "bidirectional")
-			(uuid "c4d88cd8-b9b9-47ce-b4c7-5090ba48c545")
+			(uuid "79b0ad90-846f-4a04-ab02-758ec01a11c2")
 		)
-		(pad "8" smd rect
-			(at 0.4 -0.7685)
-			(size 0.225 0.563)
+		(pad "8" smd roundrect
+			(at 0.675 -0.25)
+			(size 0.55 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pinfunction "~{OE}")
 			(pintype "input")
-			(uuid "311f4bd9-7f2d-4c36-a833-002d437f6f58")
+			(uuid "269af79a-1532-42c8-a62f-32af262eb241")
 		)
-		(pad "9" smd rect
-			(at 0 -0.7685)
-			(size 0.225 0.563)
+		(pad "9" smd roundrect
+			(at 0.675 -0.75)
+			(size 0.55 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
 			(net 21 "+3V3")
 			(pinfunction "VCC")
 			(pintype "power_in")
-			(uuid "f94d2985-09c4-47f7-b11b-2a525159ef38")
+			(uuid "6e8bd1b4-104b-420e-96db-508c11190a50")
 		)
-		(pad "10" smd rect
-			(at -0.4 -0.7685)
-			(size 0.225 0.563)
+		(pad "10" smd roundrect
+			(at 0 -0.9)
+			(size 0.3 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
 			(net 60 "Net-(JP1-C)")
 			(pinfunction "S")
 			(pintype "input")
-			(uuid "23afd652-26e3-4f30-8d9e-20d7efb95dc9")
+			(uuid "54ba1b91-93d2-422d-b6ca-5c09c6c7c5a1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-10_1.4x1.8mm_P0.4mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_UQFN-10_1.5x2mm_P0.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4902,7 +5682,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "c881f172-546a-4566-b948-b2d038eeb7e1")
 			(effects
@@ -4913,7 +5693,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "7d68c044-878f-4479-a04f-3dc6c3f486b9")
 			(effects
@@ -4958,6 +5738,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dc50d36-764d-4318-b17a-a0af5dbacb5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "941404a9-73a5-4e8f-b68e-27199f5e09b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "395b8bbb-c013-4652-85bd-ffc1bfb2067b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "CL21A106KOQNNNE "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0e56394-bb34-4f11-8d00-0d4134b6afc2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5068,7 +5900,7 @@
 			(uuid "482d112e-9b56-4fad-819b-a7eda93ed27a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "da2efd57-482a-4d03-beda-371814b3dedc")
 			(effects
@@ -5115,7 +5947,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "dd9ab762-4469-46e8-90ec-29bb99a33735")
 			(effects
@@ -5126,7 +5958,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at -2.9375 1.43 360)
+			(at -2.9375 1.43 0)
 			(layer "F.Fab")
 			(uuid "67aa2f18-192a-4ffe-ac57-becad6b91a9d")
 			(effects
@@ -5171,6 +6003,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a6d53c8-e0f7-4666-bf76-ac19dac56158")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d303adf7-ab1c-48cd-b4e6-437353100765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43815ae1-86a6-45b9-99c7-c9990e705ad2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "RC0603JR-071K "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecfee8e7-74dc-41a0-ab91-96d7aa238e8e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5281,7 +6165,7 @@
 			(uuid "aba72b1b-3740-45db-92de-fc31dfa1fdda")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.9375 0 360)
+			(at -2.9375 0 0)
 			(layer "F.Fab")
 			(uuid "a624bad3-131b-4b5b-beac-a44051e485d7")
 			(effects
@@ -5388,11 +6272,63 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3311c570-a65c-4a23-85a1-f453e190b01e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eee5768c-56da-41ff-b531-56b1201004b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f70e0831-611e-4a33-9526-69ff904e728b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd386015-4471-46be-a1bd-b399a2ca2920")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/1f001f26-1c51-46e2-a72b-97443941279e")
 		(sheetname "Root")
 		(sheetfile "PRODIGY-ESP32.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -5498,6 +6434,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7d7bd4c-4969-4569-8fe2-52b1c7681517")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d634f59-faa1-4553-996d-373cfd1752f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b06af6dc-35ab-44e6-ad1b-9993daa84a10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "FT231XQ-R "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33d09934-1641-4fe9-b2fe-b56701a3fae2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6018,6 +7006,58 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd0955dd-d652-4368-8c4b-64363cac14e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaba35f4-1ade-4904-8451-c19e797f11c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e46d77a-6f06-475a-8ac2-575c11320b33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "BC850B-DIO "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86a7824b-6936-474e-bae8-7e863ccf094f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/f3b272fd-7ee7-4491-a33f-93dc9641a8f3")
 		(sheetname "Root")
@@ -6225,7 +7265,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "1116a699-2a7e-46d3-a2e1-7173e1aca723")
 			(effects
@@ -6236,7 +7276,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fe26f098-e00e-4f63-b2fd-57b8b43b0480")
 			(effects
@@ -6281,6 +7321,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "237cc2a5-9643-4677-b486-4af1befdf791")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03b40a95-3f6a-4e4b-b167-c35cc6ef3534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c2cf717-ca97-446e-a7a8-416ea6d46e19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "WR06X1002FTL "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dede5f1-02c0-4bf8-b8d9-5564385435ca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6391,7 +7483,7 @@
 			(uuid "04629126-3992-426c-b86b-c7f7d883d6e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c3460d22-ec10-46ee-8093-44c7f5601559")
 			(effects
@@ -6438,7 +7530,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 1.8 360)
+			(at 0 1.8 0)
 			(layer "B.SilkS")
 			(uuid "7dc9700f-7be0-42a3-ab4e-55492660e507")
 			(effects
@@ -6450,7 +7542,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Bridged12"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "B.Fab")
 			(uuid "4803c169-e4a0-4f84-a358-60ec3da0c143")
 			(effects
@@ -6498,6 +7590,62 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6df41050-004e-4f2a-b0ad-997b114a19bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "899de57a-a3e0-4d09-b42e-7ab0259883e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "feb48da1-e35b-49ab-8cc4-904caf46b625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80624389-4f42-4d7c-bba5-c110a96e79c0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

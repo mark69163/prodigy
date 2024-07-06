@@ -1,6 +1,7 @@
 "Reference","Value","TME","MOUSER","Qty","Footprint","DNP","Datasheet"
 "Y3","32.768kHz","32.768K-CFPX217","","1","Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm","","~"
 "Y1,Y2","8MHz","8.00M-CFPX104","","2","Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm","","~"
+"U4","M24C32-WMN6TP","M24C32-WMN6TP","","1","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","","http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf"
 "U3","STM32F407VGTx","STM32F407VGT6","","1","Package_QFP:LQFP-100_14x14mm_P0.5mm","","https://www.st.com/resource/en/datasheet/stm32f407vg.pdf"
 "U2","STM32F103C8Tx","STM32F103C8T6","","1","Package_QFP:LQFP-48_7x7mm_P0.5mm","","https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
 "U1","AP2112K-3.3","AP2112K-3.3TRG1","","1","Package_TO_SOT_SMD:SOT-23-5","","https://www.diodes.com/assets/Datasheets/AP2112.pdf"
