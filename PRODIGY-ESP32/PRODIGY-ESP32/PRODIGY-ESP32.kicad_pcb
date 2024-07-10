@@ -5485,7 +5485,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "2332e102-6cdb-48be-ba82-4dd9cb61a15c")
 			(effects
@@ -5496,7 +5496,7 @@
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "aa1d0098-ed4d-4d6d-a93b-b46e998e04ff")
 			(effects
@@ -5773,7 +5773,7 @@
 			(uuid "9352d204-3125-4df9-9af7-8db6603baec9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "7b0f62a8-8c8e-42e0-a2d9-0f27929f0eba")
 			(effects
@@ -6253,7 +6253,7 @@
 		(descr "Texas RSE0010A UQFN, 10 Pin (https://www.ti.com/lit/ml/mpqf186d/mpqf186d.pdf)")
 		(tags "Texas RSE0010 UQFN NoLead")
 		(property "Reference" "U2"
-			(at 0 -2.15 360)
+			(at 0 -2.15 0)
 			(layer "F.SilkS")
 			(uuid "5b3369bf-be3a-4f11-b116-6f2c239bd9a3")
 			(effects
@@ -6264,7 +6264,7 @@
 			)
 		)
 		(property "Value" "TS3USB221AQRSERQ1"
-			(at 0 2.3 360)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "5ce78822-cf8b-4a2a-999d-037dd794ddf9")
 			(effects
@@ -6592,7 +6592,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D1"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "e1db2109-804c-4040-a57f-ca53eb65b943")
 			(effects
@@ -6603,7 +6603,7 @@
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "8b9126db-c6eb-44b9-aff8-d0b34bc4a1f8")
 			(effects
@@ -6880,7 +6880,7 @@
 			(uuid "8507b457-64e5-47a0-9bb0-b67032bbf879")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "42ef6f1d-ac50-45aa-9e3a-e037b2efad78")
 			(effects

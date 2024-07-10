@@ -4697,9 +4697,9 @@
 		(at 62.23 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0fa6f1fd-6779-45f6-9b41-4f5eef80bfdc")
 		(property "Reference" "JP7"
@@ -4794,9 +4794,9 @@
 		(at 38.1 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "14db8b2b-938b-4526-b3a9-81699304b4b8")
 		(property "Reference" "JP4"
@@ -4941,7 +4941,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 511-LIS2DH12TR "
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -5146,113 +5146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network04")
-		(at 69.85 128.27 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bf2c9ba-8bdf-4aa1-af1e-37d0552b9cfe")
-		(property "Reference" "RN2"
-			(at 77.47 127.2539 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 77.47 129.7939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.865 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 69.85 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-			(at 69.85 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 69.85 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 69.85 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 69.85 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b0e3daa-542d-481d-9954-9d7138ada358")
-		)
-		(pin "4"
-			(uuid "02bc2a4e-6aea-4fb8-9d02-c77f99b88a0d")
-		)
-		(pin "3"
-			(uuid "9b64d6ea-9774-4c60-af13-f17c14021426")
-		)
-		(pin "1"
-			(uuid "0eb7b2a1-b095-4c21-832c-891bc9380cf4")
-		)
-		(pin "5"
-			(uuid "c59f3d70-7159-415d-9094-7d0e8a5a5c74")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 25.4 78.74 0)
 		(unit 1)
@@ -5391,7 +5284,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ZL262-4SG"
 			(at 254 88.9 0)
 			(effects
 				(font
@@ -5692,7 +5585,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4c781e1f-d4a3-43e8-bdcf-f86349edad10")
 		(property "Reference" "FID15"
@@ -5849,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -6012,7 +5905,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "PCF8574TS/3.118"
 			(at 118.11 148.59 0)
 			(effects
 				(font
@@ -6073,113 +5966,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04")
-		(at 57.15 39.37 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "534b5cbb-dfe4-4071-bed5-30043c060d0b")
-		(property "Reference" "RN1"
-			(at 64.77 38.3539 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 64.77 40.8939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.165 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a349b605-e7ee-4857-8c3c-7ab1a22abd95")
-		)
-		(pin "4"
-			(uuid "d7620f33-d9da-46fa-a0a8-6da9ff4d3f8d")
-		)
-		(pin "3"
-			(uuid "1fb92df7-75ad-4846-b928-22bca957feb6")
-		)
-		(pin "1"
-			(uuid "ab44aa98-e78f-440a-8773-821092ec46df")
-		)
-		(pin "5"
-			(uuid "ca5eb3b4-4769-4914-9b8b-ec90d603a1fa")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -6399,7 +6185,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "M20-8770842"
 			(at 147.32 146.05 0)
 			(effects
 				(font
@@ -6436,6 +6222,112 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
 					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04")
+		(at 69.85 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62ad91cf-fbbc-4fff-be31-6abe37584490")
+		(property "Reference" "RN2"
+			(at 77.47 127.2539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 129.7939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.865 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "DR1206-10K-4/8"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e12da324-a4bb-4dac-a1e9-c1e18967d638")
+		)
+		(pin "4"
+			(uuid "0d4f9d39-3a9e-4a8b-a7e8-6c94e6f2098b")
+		)
+		(pin "3"
+			(uuid "448c462b-ba49-4e0b-8243-c2965812653c")
+		)
+		(pin "1"
+			(uuid "a572af30-c3c6-4777-8ad5-a834e075029d")
+		)
+		(pin "5"
+			(uuid "d7d4c948-ed1d-45c5-97e6-f0b5c1807da5")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 595-HDC1080DMBR "
 			(at 199.39 91.44 0)
 			(effects
 				(font
@@ -6559,7 +6451,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c5e1030-3d1d-4360-a103-bebc6a437278")
 		(property "Reference" "FID16"
@@ -6648,9 +6540,9 @@
 		(at 25.4 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "79346e52-e78e-40a3-87ad-4ce6425c8fc3")
 		(property "Reference" "JP3"
@@ -6813,7 +6705,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "832e92e4-4890-4abd-9eaf-cb104ed83526")
 		(property "Reference" "FID13"
@@ -6969,7 +6861,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 208.28 29.21 0)
 			(effects
 				(font
@@ -7066,7 +6958,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 212.09 92.71 0)
 			(effects
 				(font
@@ -7097,7 +6989,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8ce4ee96-7a4b-4f89-a6a9-a241440eca9a")
 		(property "Reference" "FID14"
@@ -7518,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 168.91 35.56 0)
 			(effects
 				(font
@@ -7879,7 +7771,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "PCF8574TS/3.118"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -8028,7 +7920,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC1602B-BIW-ESV"
 			(at 137.16 52.07 0)
 			(effects
 				(font
@@ -8231,9 +8123,9 @@
 		(at 74.93 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cc49c3df-295e-4305-ae95-edae58dbfa45")
 		(property "Reference" "JP8"
@@ -8395,7 +8287,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 265.43 90.17 0)
 			(effects
 				(font
@@ -8689,7 +8581,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 195.58 29.21 0)
 			(effects
 				(font
@@ -8786,7 +8678,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 96.52 127 0)
 			(effects
 				(font
@@ -8882,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "3314J-1-103E"
 			(at 158.75 36.83 0)
 			(effects
 				(font
@@ -9249,7 +9141,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "BC850B-DIO"
 			(at 148.59 81.28 0)
 			(effects
 				(font
@@ -9347,9 +9239,9 @@
 		(at 54.61 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f577eca6-22de-40eb-a64d-be0ac3bca411")
 		(property "Reference" "JP6"
@@ -9440,13 +9332,119 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 41.91 69.85 90)
+		(lib_id "Device:R_Network04")
+		(at 57.15 39.37 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "f6a0b238-cb70-4883-9768-60e1622c5c01")
+		(property "Reference" "RN1"
+			(at 64.77 38.3539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 40.8939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.165 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "DR1206-10K-4/8"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b69db028-8bf8-403a-91eb-90b2c3b530a8")
+		)
+		(pin "4"
+			(uuid "0cb79cb7-4d0f-412a-b363-26cef822b5ac")
+		)
+		(pin "3"
+			(uuid "27cfd419-70b5-482f-ad0c-af18b7598019")
+		)
+		(pin "1"
+			(uuid "e346bf18-2c77-47d0-8802-c5ef3c6504d0")
+		)
+		(pin "5"
+			(uuid "4af49d68-c142-443e-8750-6d8052b9936b")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 41.91 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f6f07984-a8e1-4db7-9e8d-b50db91ed9c0")
 		(property "Reference" "JP5"

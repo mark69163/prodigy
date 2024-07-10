@@ -3491,7 +3491,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3GEYJ473V"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -3522,7 +3522,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "07e38365-26f0-4f42-bf66-048b830bd00a")
 		(property "Reference" "TP10"
@@ -3683,7 +3683,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -3781,7 +3781,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 50.8 53.34 0)
 			(effects
 				(font
@@ -3878,7 +3878,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1a8f2eef-3841-4327-a68a-9bdefc1d247e")
 		(property "Reference" "TP12"
@@ -4021,7 +4021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 485-2765 "
 			(at 198.12 100.33 0)
 			(effects
 				(font
@@ -4146,7 +4146,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERA6AEB105V"
 			(at 95.25 139.7 0)
 			(effects
 				(font
@@ -4177,7 +4177,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27b9954e-8c9f-40c4-b073-c872461df706")
 		(property "Reference" "TP11"
@@ -4404,7 +4404,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 119.38 53.34 0)
 			(effects
 				(font
@@ -4699,7 +4699,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GCM188R71E474KA64D"
 			(at 67.31 135.89 0)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "46d838b2-4537-4238-94ea-bbccd3bb993a")
 		(property "Reference" "TP13"
 			(at 170.18 94.4879 0)
@@ -4891,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A226MPQNNNE"
 			(at 34.29 168.91 0)
 			(effects
 				(font
@@ -4922,7 +4922,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b90d860-967f-4faf-b7d9-c897306485f2")
 		(property "Reference" "TP15"
@@ -5148,7 +5148,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 44.45 133.35 0)
 			(effects
 				(font
@@ -5191,7 +5191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCT 10k"
+		(property "Value" "NTC 10k"
 			(at 207.01 44.4499 0)
 			(effects
 				(font
@@ -5245,7 +5245,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "NTCS0805E3103JHT"
 			(at 203.2 43.18 0)
 			(effects
 				(font
@@ -5342,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 80.01 107.95 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "R9011-1-1K"
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -5576,6 +5576,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 64.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "NE5532ADR"
 			(at 64.77 168.91 0)
 			(effects
 				(font
@@ -5822,7 +5831,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 180.34 113.03 0)
 			(effects
 				(font
@@ -5919,7 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 130.81 53.34 0)
 			(effects
 				(font
@@ -6016,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N100J500CT "
 			(at 95.25 144.78 0)
 			(effects
 				(font
@@ -6085,6 +6094,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "NE5532ADR"
 			(at 95.25 125.73 0)
 			(effects
 				(font
@@ -6578,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 497-MO093803-1 "
 			(at 33.02 133.35 0)
 			(effects
 				(font
@@ -6760,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 142.24 53.34 0)
 			(effects
 				(font
@@ -6857,7 +6875,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 33.02 123.19 0)
 			(effects
 				(font
@@ -6954,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 203.2 57.15 0)
 			(effects
 				(font
@@ -7051,7 +7069,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bfc89b00-5f2d-43ce-9e11-d70ce3fef8c1")
 		(property "Reference" "TP14"
@@ -7212,7 +7230,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "KPS-3227SP1C"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -7363,6 +7381,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "NE5532ADR"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "40383871-04d3-4e02-b91b-c2ca8126e429")
 		)
@@ -7469,7 +7496,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GCM188R71E474KA64D"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -7566,7 +7593,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 55.88 53.34 0)
 			(effects
 				(font
@@ -7663,7 +7690,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -7761,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 175.26 113.03 0)
 			(effects
 				(font

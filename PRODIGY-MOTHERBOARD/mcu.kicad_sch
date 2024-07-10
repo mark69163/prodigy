@@ -12360,7 +12360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05d29f47-1abe-43db-b546-604dacbd03fe")
 		(property "Reference" "FID7"
@@ -12517,7 +12517,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 158.75 60.96 0)
 			(effects
 				(font
@@ -13268,7 +13268,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 77.47 173.99 0)
 			(effects
 				(font
@@ -13662,7 +13662,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 163.83 60.96 0)
 			(effects
 				(font
@@ -13779,7 +13779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 77.47 159.385 0)
 			(effects
 				(font
@@ -13842,7 +13842,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 77.47 163.83 0)
 			(effects
 				(font
@@ -13986,7 +13986,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 523-GSB1C411111DS1HR "
 			(at 114.3 60.96 0)
 			(effects
 				(font
@@ -14170,7 +14170,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 63.5 168.91 0)
 			(effects
 				(font
@@ -14332,7 +14332,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6aa013ca-ad75-43c7-a0e9-e47ff4e56735")
 		(property "Reference" "FID8"
@@ -14489,7 +14489,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 69.85 180.34 0)
 			(effects
 				(font
@@ -14585,7 +14585,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AC0603FR-075K1L"
 			(at 140.97 96.52 0)
 			(effects
 				(font
@@ -14945,7 +14945,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "KMR231GLFS "
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -15369,7 +15369,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ZL211-40KG"
 			(at 27.94 184.15 0)
 			(effects
 				(font
@@ -15469,7 +15469,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b1431b2f-a0c8-4f4e-be33-658b48d397f0")
 		(property "Reference" "JP2"
 			(at 30.48 128.2699 90)
@@ -15489,7 +15489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 33.02 129.54 0)
 			(effects
 				(font
@@ -15670,7 +15670,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 85.09 180.34 0)
 			(effects
 				(font
@@ -15701,7 +15701,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c7343eb7-5f5d-4646-9b5c-48ecc89d91bd")
 		(property "Reference" "TP1"
 			(at 36.83 185.9279 0)
@@ -16313,7 +16313,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ZL231-40KG"
 			(at 134.62 158.75 0)
 			(effects
 				(font
@@ -16524,7 +16524,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AC0603FR-075K1L"
 			(at 137.16 96.52 0)
 			(effects
 				(font
@@ -16660,22 +16660,22 @@
 		(fields_autoplaced yes)
 		(uuid "f9452f1c-c72a-4efb-af84-9fcf7b481b2f")
 		(property "Reference" "D3"
-			(at 140.0175 30.48 0)
+			(at 140.0175 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 140.0175 33.02 0)
+		(property "Value" "PMEG4030ER.115"
+			(at 140.0175 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -16720,7 +16720,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "PMEG4030ER.115"
 			(at 139.7 35.56 0)
 			(effects
 				(font

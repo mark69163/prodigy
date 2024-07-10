@@ -1891,7 +1891,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SN74LVC1T45DBVR"
 			(at 130.81 149.86 0)
 			(effects
 				(font
@@ -2000,7 +2000,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "PCA9306DCTR"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -2115,7 +2115,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CRCW06034K70FKTABC "
 			(at 181.61 95.25 0)
 			(effects
 				(font
@@ -2278,7 +2278,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CRCW06034K70FKTABC "
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -2704,7 +2704,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CRCW06034K70FKTABC "
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -2813,7 +2813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "220k"
 			(at 146.05 96.5199 0)
 			(effects
 				(font
@@ -2867,7 +2867,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF2203V"
 			(at 143.51 95.25 0)
 			(effects
 				(font
@@ -3030,7 +3030,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CRCW06034K70FKTABC "
 			(at 77.47 91.44 0)
 			(effects
 				(font

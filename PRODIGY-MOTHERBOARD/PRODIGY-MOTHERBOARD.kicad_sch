@@ -977,7 +977,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0418b831-f438-4370-90f2-8beffb86c0b9")
 		(property "Reference" "H1"
@@ -1078,7 +1078,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d0058f6-12fc-4fe0-ba89-a98fe37d9fb2")
 		(property "Reference" "FID3"
@@ -1169,7 +1169,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "130da721-b208-4382-aaaf-edd6e4ca9271")
 		(property "Reference" "FID5"
@@ -1260,7 +1260,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "151ea7c9-89b6-404c-ae8b-0892cc1ade55")
 		(property "Reference" "FID1"
@@ -1351,7 +1351,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2eedf6bc-9022-4888-9d84-864e84238ff9")
 		(property "Reference" "H3"
@@ -1452,7 +1452,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3adaae9e-f888-4efb-89cd-3fe6c2ef6127")
 		(property "Reference" "FID4"
@@ -1543,7 +1543,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "91dd96c1-6326-4286-884f-0a5d8ea94a98")
 		(property "Reference" "H5"
@@ -1644,7 +1644,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9fc905da-5a18-4c59-93ee-31905213006c")
 		(property "Reference" "FID6"
@@ -1735,7 +1735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cb586713-c3f8-4bd8-9ff7-ac63d1bd3acf")
 		(property "Reference" "H4"
@@ -1836,7 +1836,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4a04be9-7875-4a6a-8497-daac63f8dd98")
 		(property "Reference" "FID2"
@@ -1927,7 +1927,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7762e61-8abe-4a76-be56-c5e167108314")
 		(property "Reference" "H2"

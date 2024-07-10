@@ -2488,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "TXS0108EPWR"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -2638,7 +2638,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DR1206-10K-4/8"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -2745,7 +2745,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DR1206-10K-4/8"
 			(at 59.69 77.47 0)
 			(effects
 				(font
@@ -3116,7 +3116,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DR1206-10K-4/8"
 			(at 76.2 77.47 0)
 			(effects
 				(font

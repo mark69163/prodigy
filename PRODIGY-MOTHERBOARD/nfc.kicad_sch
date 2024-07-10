@@ -6686,7 +6686,7 @@
 				)
 			)
 		)
-		(property "Value" "5pF"
+		(property "Value" "4.7pF"
 			(at 227.33 31.75 90)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CC0603BRNPO9BN4R7 "
 			(at 227.33 36.83 0)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "242810e4-4be0-40c7-9324-9dd60211c6a0")
 		(property "Reference" "AE1"
 			(at 276.352 63.246 90)
@@ -7064,7 +7064,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10C221JB8NNNC"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -7161,7 +7161,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 20.32 74.93 0)
 			(effects
 				(font
@@ -7258,7 +7258,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -7300,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Value" "5pF"
+		(property "Value" "4.7pF"
 			(at 227.33 78.74 90)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CC0603BRNPO9BN4R7 "
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 22.86 54.61 0)
 			(effects
 				(font
@@ -7547,7 +7547,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 151.13 67.31 0)
 			(effects
 				(font
@@ -7643,7 +7643,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WF06P-3R3-5%"
 			(at 264.16 48.26 0)
 			(effects
 				(font
@@ -7740,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603B102K500CT"
 			(at 165.1 57.15 0)
 			(effects
 				(font
@@ -7901,7 +7901,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "MLF1608DR56JT"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "MLF1608DR56JT"
 			(at 187.96 48.26 0)
 			(effects
 				(font
@@ -8093,7 +8093,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERA3AEB272V"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -8190,7 +8190,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 35.56 36.83 0)
 			(effects
 				(font
@@ -8286,7 +8286,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 100.33 41.91 0)
 			(effects
 				(font
@@ -8383,7 +8383,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10C221JB8NNNC"
 			(at 199.39 52.07 0)
 			(effects
 				(font
@@ -8480,7 +8480,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N220J500CT"
 			(at 87.63 81.28 0)
 			(effects
 				(font
@@ -8709,7 +8709,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N220J500CT"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -8903,7 +8903,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N101J500CT"
 			(at 240.03 62.23 0)
 			(effects
 				(font
@@ -8946,7 +8946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5pF"
+		(property "Value" "4.7pF"
 			(at 256.54 63.4999 0)
 			(effects
 				(font
@@ -9000,7 +9000,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CC0603BRNPO9BN4R7 "
 			(at 252.73 62.23 0)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N220J500CT"
 			(at 227.33 66.04 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -9289,7 +9289,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 34.29 74.93 0)
 			(effects
 				(font
@@ -9320,7 +9320,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "984d981e-0dea-4462-872a-800b564c655f")
 		(property "Reference" "FID17"
@@ -9544,7 +9544,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N101J500CT"
 			(at 240.03 52.07 0)
 			(effects
 				(font
@@ -9639,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N220J500CT"
 			(at 227.33 48.26 0)
 			(effects
 				(font
@@ -9820,7 +9820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "XRCGB27M120F3M00R0"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -9914,7 +9914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5pF"
+		(property "Value" "4.7pF"
 			(at 256.54 53.3399 0)
 			(effects
 				(font
@@ -9968,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CC0603BRNPO9BN4R7 "
 			(at 252.73 52.07 0)
 			(effects
 				(font
@@ -10047,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 771-PN5321A3HNC10 "
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -10477,7 +10477,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "daf93f4a-c3a2-4148-afa8-a994b41f7c27")
 		(property "Reference" "FID18"
@@ -10700,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 22.86 36.83 0)
 			(effects
 				(font
@@ -10796,7 +10796,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WF06P-3R3-5%"
 			(at 264.16 66.04 0)
 			(effects
 				(font

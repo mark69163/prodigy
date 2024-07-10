@@ -1076,16 +1076,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 114.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c3bf03-740e-454a-bf6b-9872c78575c9")
-	)
-	(wire
-		(pts
 			(xy 166.37 123.19) (xy 166.37 110.49)
 		)
 		(stroke
@@ -1243,6 +1233,16 @@
 			(type default)
 		)
 		(uuid "58c9e7d0-11de-41be-8d23-a37047551799")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4c2404-64db-40cf-b170-7d6c83c32449")
 	)
 	(wire
 		(pts
@@ -1646,6 +1646,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 113.03) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3acd18-25de-48b5-8ef3-8785eb75dbce")
+	)
+	(wire
+		(pts
 			(xy 218.44 104.14) (xy 215.9 104.14)
 		)
 		(stroke
@@ -1656,7 +1666,7 @@
 	)
 	(rectangle
 		(start 95.25 38.1)
-		(end 156.21 124.46)
+		(end 156.21 138.43)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -1665,6 +1675,18 @@
 			(type none)
 		)
 		(uuid 41a5e027-06bb-4c32-bf68-fccbf16d52bb)
+	)
+	(rectangle
+		(start 107.95 104.14)
+		(end 123.19 130.81)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74c981f6-55df-4e7b-95e7-945067a00f62)
 	)
 	(rectangle
 		(start 161.29 64.77)
@@ -1741,6 +1763,19 @@
 			(justify left bottom)
 		)
 		(uuid "272029ea-d70c-4b41-b34b-f84402504f6f")
+	)
+	(text "2.5k"
+		(exclude_from_sim no)
+		(at 125.73 117.094 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8170f640-5fc6-4a2f-84b1-f09bb1842e67")
 	)
 	(hierarchical_label "RTD_W1"
 		(shape input)
@@ -1921,7 +1956,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 926-LMP2011MFX/NOPB "
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -2044,7 +2079,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 199.39 120.65 0)
 			(effects
 				(font
@@ -2207,7 +2242,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -2370,7 +2405,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "JUMPER-H/B"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -2466,7 +2501,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 209.55 81.28 0)
 			(effects
 				(font
@@ -2609,7 +2644,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 926-LMP2011MFX/NOPB "
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -2732,7 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 210.82 125.73 0)
 			(effects
 				(font
@@ -2829,7 +2864,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "JUMPER-H/B"
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -3043,7 +3078,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 926-LM4125IM525NOPB "
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -3213,7 +3248,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 926-LMP2011MFX/NOPB "
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -3336,7 +3371,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -3433,7 +3468,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -3518,6 +3553,102 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c36cb5c1-9441-4aa7-b6f2-268592ea949b")
+		(property "Reference" "R87"
+			(at 116.84 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.84 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.522 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "RC0603JR-071K "
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c75f8b78-da1a-4c1b-90d9-d91b7ab1b3c8")
+		)
+		(pin "1"
+			(uuid "78d81106-bd7b-402c-86a8-351ec0ebb1ad")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 926-LMP2011MFX/NOPB "
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -3777,7 +3908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "1k5"
 			(at 116.84 110.4899 0)
 			(effects
 				(font
@@ -3831,7 +3962,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1501FTL "
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -3927,7 +4058,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERA3AEB332V"
 			(at 199.39 102.87 0)
 			(effects
 				(font
@@ -4089,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 199.39 86.36 0)
 			(effects
 				(font
@@ -4185,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 223.52 81.28 0)
 			(effects
 				(font
@@ -4211,7 +4342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 114.3 0)
+		(at 114.3 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4220,7 +4351,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4866559-5675-4006-bf12-e3d5a6f7f6fc")
 		(property "Reference" "#PWR0235"
-			(at 114.3 120.65 0)
+			(at 114.3 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 119.38 0)
+			(at 114.3 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 114.3 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 114.3 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 114.3 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -746,6 +746,340 @@
 				)
 			)
 		)
+		(symbol "Device:R_Network04"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Network04"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP5"
+				(at 6.985 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_0_1"
+				(rectangle
+					(start -6.35 -3.175)
+					(end 3.81 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.842 1.524)
+					(end -4.318 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.302 1.524)
+					(end -1.778 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.762 1.524)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.524) (xy -5.08 2.286) (xy -2.54 2.286) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 2.286) (xy 0 2.286) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 2.286) (xy 2.54 2.286) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.778 1.524)
+					(end 3.302 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_1_1"
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 1.27)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 1.27)
+					(name "R4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Management:RT9742AGJ5F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1896,6 +2230,12 @@
 		)
 	)
 	(junction
+		(at 72.39 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da6a451-a982-4334-87c8-611c2242f75f")
+	)
+	(junction
 		(at 149.86 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1914,10 +2254,28 @@
 		(uuid "af18446f-0c94-4e03-8f37-84bb49778bd5")
 	)
 	(junction
+		(at 74.93 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1c37950-1391-41f0-a603-895dcf4bec1e")
+	)
+	(junction
+		(at 80.01 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be07240d-3d67-4cdb-acfd-e97317224f2b")
+	)
+	(junction
 		(at 168.91 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb6cb45-ff3a-4e55-9f94-aa9e33e17b7d")
+	)
+	(junction
+		(at 77.47 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0982b5a-43f6-4814-90e0-35a60673c248")
 	)
 	(no_connect
 		(at 151.13 72.39)
@@ -1945,13 +2303,33 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 102.87 111.76)
+			(xy 63.5 111.76) (xy 72.39 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "159d1fad-d0f9-4d15-9621-91a7312c91a7")
+	)
+	(wire
+		(pts
+			(xy 80.01 124.46) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186f7722-a97d-4944-8371-6e1ba1b06766")
+	)
+	(wire
+		(pts
+			(xy 77.47 109.22) (xy 77.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19346fc9-ba44-45ab-8d7f-36cbab5a50e8")
 	)
 	(wire
 		(pts
@@ -1975,6 +2353,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 114.3) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8bdc07-07c3-4cd7-bd45-010442b2ece9")
+	)
+	(wire
+		(pts
 			(xy 138.43 121.92) (xy 152.4 121.92)
 		)
 		(stroke
@@ -1982,6 +2370,16 @@
 			(type default)
 		)
 		(uuid "3544e6e4-31fe-4deb-8b62-4f8996ffda10")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d4f2b5-4be7-44fb-842d-e9baa300e17a")
 	)
 	(wire
 		(pts
@@ -1995,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 102.87 119.38)
+			(xy 63.5 119.38) (xy 102.87 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 102.87 124.46)
+			(xy 63.5 124.46) (xy 80.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 102.87 121.92)
+			(xy 63.5 121.92) (xy 77.47 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2122,6 +2520,26 @@
 			(type default)
 		)
 		(uuid "7bcef9af-f971-4f81-8dfe-b2961e9deda0")
+	)
+	(wire
+		(pts
+			(xy 72.39 97.79) (xy 72.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc824ce-b67f-4a8e-beea-448457c266e6")
+	)
+	(wire
+		(pts
+			(xy 77.47 121.92) (xy 102.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0f1272-4a6c-4e01-8140-9f642c78ea18")
 	)
 	(wire
 		(pts
@@ -2215,6 +2633,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 109.22) (xy 72.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86962d4-4a29-4eeb-9b7b-3b35ef073812")
+	)
+	(wire
+		(pts
 			(xy 149.86 134.62) (xy 170.18 134.62)
 		)
 		(stroke
@@ -2245,13 +2673,33 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 102.87 116.84)
+			(xy 63.5 116.84) (xy 102.87 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b67890f8-f1d9-49c9-af83-2eaeeafb2fab")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 80.01 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc518a77-41bb-4edc-8e5d-72c001e8d36e")
+	)
+	(wire
+		(pts
+			(xy 72.39 111.76) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcea80a-4c34-46b5-b2ef-ca5cd28f5fa8")
 	)
 	(wire
 		(pts
@@ -2275,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 102.87 114.3)
+			(xy 63.5 114.3) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 102.87 129.54)
+			(xy 63.5 129.54) (xy 102.87 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +3022,7 @@
 	)
 	(hierarchical_label "SD_CLK"
 		(shape input)
-		(at 86.36 119.38 180)
+		(at 63.5 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2586,7 +3034,7 @@
 	)
 	(hierarchical_label "SD_DAT3"
 		(shape bidirectional)
-		(at 86.36 114.3 180)
+		(at 63.5 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2598,7 +3046,7 @@
 	)
 	(hierarchical_label "SD_DAT0"
 		(shape bidirectional)
-		(at 86.36 121.92 180)
+		(at 63.5 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2622,7 +3070,7 @@
 	)
 	(hierarchical_label "SD_DET"
 		(shape output)
-		(at 86.36 129.54 180)
+		(at 63.5 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2634,7 +3082,7 @@
 	)
 	(hierarchical_label "SD_DAT1"
 		(shape bidirectional)
-		(at 86.36 124.46 180)
+		(at 63.5 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2646,7 +3094,7 @@
 	)
 	(hierarchical_label "SD_CMD"
 		(shape input)
-		(at 86.36 116.84 180)
+		(at 63.5 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2658,7 +3106,7 @@
 	)
 	(hierarchical_label "SD_DAT2"
 		(shape bidirectional)
-		(at 86.36 111.76 180)
+		(at 63.5 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2721,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 771-IP4252CZ168TTL1 "
 			(at 120.65 121.92 0)
 			(effects
 				(font
@@ -2815,7 +3263,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1050fe1f-2281-4bcf-8459-d70322d05345")
 		(property "Reference" "TP18"
 			(at 152.4 141.7319 0)
@@ -2970,6 +3418,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network04")
+		(at 77.47 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "197c9de0-8d55-4757-8d45-66c7285d9081")
+		(property "Reference" "RN6"
+			(at 69.85 103.1239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 69.85 105.6639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.455 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 77.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
+			(at 77.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 77.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 77.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abcaea3d-83b0-40a5-a02f-15154988eabb")
+		)
+		(pin "4"
+			(uuid "e648ef6e-2ebd-4492-a54f-f73d1dfd1ec2")
+		)
+		(pin "3"
+			(uuid "8856abc1-ceb0-40c6-8a7e-21dcdc2247b3")
+		)
+		(pin "1"
+			(uuid "de93b199-31f3-4661-8fca-d489f39b7150")
+		)
+		(pin "5"
+			(uuid "bc9c5b5d-ecd4-442c-826f-708764301e62")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
+					(reference "RN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 118.11 67.31 0)
 		(mirror x)
@@ -3042,7 +3595,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -3185,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 835-RT9742AGJ5F "
 			(at 140.97 69.85 0)
 			(effects
 				(font
@@ -3231,6 +3784,72 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
 					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62cb2f61-27e9-4926-9f4e-0b092ae15ff8")
+		(property "Reference" "#PWR0257"
+			(at 72.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc4114e9-0ecb-4b88-a4e4-3cb9a68ccb52")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -3375,7 +3994,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8ad78384-be6d-4280-91d4-1a458961f4e4")
 		(property "Reference" "TP19"
@@ -3602,7 +4221,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -3700,7 +4319,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a7617478-1adb-4336-9b48-45c8ec6eab18")
 		(property "Reference" "TP17"
 			(at 120.65 76.9621 0)
@@ -3923,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DM3BT-DSF-PEJS/C"
 			(at 193.04 121.92 0)
 			(effects
 				(font
@@ -4048,7 +4667,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cd165578-2203-4660-adef-da48bc822e9d")
 		(property "Reference" "R85"
 			(at 90.17 104.1399 0)
@@ -4059,7 +4678,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "10k"
 			(at 90.17 106.6799 0)
 			(effects
 				(font
@@ -4276,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 168.91 74.93 0)
 			(effects
 				(font

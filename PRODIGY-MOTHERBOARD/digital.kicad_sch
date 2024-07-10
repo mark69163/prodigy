@@ -468,7 +468,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED_RGBK"
+		(symbol "Device:LED_BGAR"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -482,7 +482,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_RGBK"
+			(property "Value" "LED_BGAR"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -508,7 +508,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, red/green/blue/cathode"
+			(property "Description" "RGB LED, blue/green/anode/red"
 				(at 0 0 0)
 				(effects
 					(font
@@ -535,9 +535,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_RGBK_0_0"
+			(symbol "LED_BGAR_0_0"
 				(text "B"
-					(at 1.905 -6.35 0)
+					(at -1.905 -6.35 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -545,7 +545,7 @@
 					)
 				)
 				(text "G"
-					(at 1.905 -1.27 0)
+					(at -1.905 -1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -553,7 +553,7 @@
 					)
 				)
 				(text "R"
-					(at 1.905 3.81 0)
+					(at -1.905 3.81 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -561,16 +561,17 @@
 					)
 				)
 			)
-			(symbol "LED_RGBK_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.254)
+			(symbol "LED_BGAR_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -623,6 +624,18 @@
 				)
 				(polyline
 					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 5.08) (xy 1.27 5.08)
 					)
 					(stroke
@@ -647,18 +660,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
@@ -672,18 +673,6 @@
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0)
@@ -719,7 +708,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy -2.032 5.08) (xy -2.032 -5.08) (xy -1.016 -5.08)
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
 					)
 					(stroke
 						(width 0)
@@ -881,6 +870,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 2.794 8.382)
 					(end -2.794 -7.62)
@@ -893,11 +893,11 @@
 					)
 				)
 			)
-			(symbol "LED_RGBK_1_1"
+			(symbol "LED_BGAR_1_1"
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "RA"
+					(name "BK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -913,9 +913,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "GA"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -931,9 +931,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "BA"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -949,9 +949,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "K"
+					(name "RK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6741,7 +6741,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "BC850B-DIO"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -6841,7 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 186.69 45.72 0)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -7031,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -7126,7 +7126,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -7223,7 +7223,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 200.66 91.44 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0fe8e3a1-e403-4848-882d-e9f368cf10f9")
 		(property "Reference" "C69"
@@ -7437,7 +7437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 201.295 127 0)
 			(effects
 				(font
@@ -7500,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 205.74 127 0)
 			(effects
 				(font
@@ -7649,7 +7649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 256.54 26.035 0)
 			(effects
 				(font
@@ -7712,7 +7712,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 256.54 30.48 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 248.92 121.92 0)
 			(effects
 				(font
@@ -7906,7 +7906,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 59.69 27.94 0)
 			(effects
 				(font
@@ -8298,7 +8298,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AR0805-39R-0.1%"
 			(at 55.88 167.64 0)
 			(effects
 				(font
@@ -8399,22 +8399,22 @@
 		(fields_autoplaced yes)
 		(uuid "2b66695c-02b6-40ec-99b2-aa43d7f421f3")
 		(property "Reference" "D50"
-			(at 97.4725 137.16 0)
+			(at 97.4725 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 97.4725 139.7 0)
+		(property "Value" "LED_RED"
+			(at 97.4725 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 99.06 142.24 0)
 			(effects
 				(font
@@ -8468,7 +8468,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934ID"
 			(at 99.06 142.24 0)
 			(effects
 				(font
@@ -8565,7 +8565,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 256.54 40.64 0)
 			(effects
 				(font
@@ -8954,7 +8954,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 69.85 91.44 0)
 			(effects
 				(font
@@ -9255,7 +9255,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CRCW251222R0FKTHBC"
 			(at 166.37 133.35 0)
 			(effects
 				(font
@@ -9417,7 +9417,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 46.99 91.44 0)
 			(effects
 				(font
@@ -9520,7 +9520,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 248.92 48.26 0)
 			(effects
 				(font
@@ -9539,6 +9539,90 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/ce186ed4-d4ab-4748-8528-740210dbd27e"
 					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_BGAR")
+		(at 240.03 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7ad797-0d71-4f9c-af5d-20003854c718")
+		(property "Reference" "D60"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_BGAR"
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, blue/green/anode/red"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "LL-509RGBC2E-004"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "614203e1-49bc-4071-b973-1a2d049a7c2f")
+		)
+		(pin "2"
+			(uuid "d5ad2ab1-f6cd-4b7d-a3ca-f4270c5c76a2")
+		)
+		(pin "1"
+			(uuid "32981a0e-a53c-49c7-8ad6-15403810c9d7")
+		)
+		(pin "4"
+			(uuid "4df0627c-fbcf-44ae-b9f1-ba3d9b5387b4")
+		)
+		(instances
+			(project ""
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/ce186ed4-d4ab-4748-8528-740210dbd27e"
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -9878,7 +9962,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CRCW06034K70FKTABC "
 			(at 29.21 134.62 0)
 			(effects
 				(font
@@ -9973,7 +10057,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 87.63 142.24 0)
 			(effects
 				(font
@@ -10090,7 +10174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-105xP"
 			(at 173.99 91.44 0)
 			(effects
 				(font
@@ -10135,7 +10219,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "B3FS-1050"
 			(at 179.07 91.44 0)
 			(effects
 				(font
@@ -10231,7 +10315,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -10333,7 +10417,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -10374,22 +10458,22 @@
 		(fields_autoplaced yes)
 		(uuid "49ac52b7-f29e-40b4-b3b8-5cc936551cf5")
 		(property "Reference" "D41"
-			(at 39.0525 140.97 0)
+			(at 39.0525 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.0525 143.51 0)
+		(property "Value" "LED_GREEN"
+			(at 39.0525 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 40.64 146.05 0)
 			(effects
 				(font
@@ -10443,7 +10527,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934LGD"
 			(at 40.64 146.05 0)
 			(effects
 				(font
@@ -10735,7 +10819,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-100R "
 			(at 147.32 143.51 0)
 			(effects
 				(font
@@ -10778,7 +10862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_GREEN"
 			(at 156.21 136.2074 90)
 			(effects
 				(font
@@ -10787,7 +10871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 160.02 133.35 0)
 			(effects
 				(font
@@ -10841,7 +10925,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934LGD"
 			(at 160.02 133.35 0)
 			(effects
 				(font
@@ -11005,7 +11089,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 87.63 27.94 0)
 			(effects
 				(font
@@ -11040,22 +11124,22 @@
 		(fields_autoplaced yes)
 		(uuid "5e0a6eb9-a1ad-4fc0-86d5-a2e59987bc2f")
 		(property "Reference" "D40"
-			(at 39.0525 129.54 0)
+			(at 39.0525 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.0525 132.08 0)
+		(property "Value" "LED_GREEN"
+			(at 39.0525 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 40.64 134.62 0)
 			(effects
 				(font
@@ -11109,7 +11193,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934LGD"
 			(at 40.64 134.62 0)
 			(effects
 				(font
@@ -11270,7 +11354,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -11321,7 +11405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-105xP"
 			(at 237.49 48.26 0)
 			(effects
 				(font
@@ -11366,7 +11450,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "B3FS-1050"
 			(at 242.57 48.26 0)
 			(effects
 				(font
@@ -11462,7 +11546,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "JUMPER-H/R"
 			(at 204.47 29.21 0)
 			(effects
 				(font
@@ -11692,7 +11776,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 29.21 146.05 0)
 			(effects
 				(font
@@ -11801,7 +11885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BS870"
+		(property "Value" "N-FET 1.4A"
 			(at 163.83 144.7799 0)
 			(effects
 				(font
@@ -11858,7 +11942,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "BSS316NH6327XTSA1"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -11958,7 +12042,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -12000,7 +12084,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_GREEN"
 			(at 39.0525 121.92 0)
 			(effects
 				(font
@@ -12008,7 +12092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 40.64 124.46 0)
 			(effects
 				(font
@@ -12062,7 +12146,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934LGD"
 			(at 40.64 124.46 0)
 			(effects
 				(font
@@ -12159,7 +12243,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -12255,7 +12339,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 119.38 57.15 0)
 			(effects
 				(font
@@ -12425,7 +12509,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 242.57 33.02 0)
 			(effects
 				(font
@@ -12521,7 +12605,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "LL-304PDD2E"
 			(at 55.88 173.99 0)
 			(effects
 				(font
@@ -12687,7 +12771,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "BC850B-DIO"
 			(at 53.34 184.15 0)
 			(effects
 				(font
@@ -12785,7 +12869,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-100R "
 			(at 44.45 184.15 0)
 			(effects
 				(font
@@ -12836,7 +12920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-105xP"
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -12881,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "B3FS-1050"
 			(at 241.3 91.44 0)
 			(effects
 				(font
@@ -13108,7 +13192,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 255.27 83.82 0)
 			(effects
 				(font
@@ -13403,7 +13487,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 248.92 132.08 0)
 			(effects
 				(font
@@ -13500,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -13597,7 +13681,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 204.47 44.45 0)
 			(effects
 				(font
@@ -13616,109 +13700,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/ce186ed4-d4ab-4748-8528-740210dbd27e"
 					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGBK")
-		(at 240.03 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b18bfc64-4f97-48df-9b9d-6d72bbd45845")
-		(property "Reference" "D60"
-			(at 241.3001 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_RGBK"
-			(at 238.7601 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 240.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, red/green/blue/cathode"
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd16c4cd-c47d-47b7-ade5-f0508af59dbd")
-		)
-		(pin "3"
-			(uuid "0439b46c-fa83-4107-8155-87cff96cfad3")
-		)
-		(pin "4"
-			(uuid "f1dd0b92-44c4-44a6-b1b8-808bf11c5a94")
-		)
-		(pin "1"
-			(uuid "77ee7a05-22c5-464b-9a51-af692a85ba76")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/ce186ed4-d4ab-4748-8528-740210dbd27e"
-					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -13751,7 +13732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 255.27 69.215 0)
 			(effects
 				(font
@@ -13814,7 +13795,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 255.27 73.66 0)
 			(effects
 				(font
@@ -13911,7 +13892,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 248.92 127 0)
 			(effects
 				(font
@@ -14006,7 +13987,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 199.39 139.7 0)
 			(effects
 				(font
@@ -14103,7 +14084,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 181.61 33.02 0)
 			(effects
 				(font
@@ -14138,22 +14119,22 @@
 		(fields_autoplaced yes)
 		(uuid "b63565fc-5910-4df9-9892-359fd20ecfac")
 		(property "Reference" "D48"
-			(at 97.4725 115.57 0)
+			(at 97.4725 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 97.4725 118.11 0)
+		(property "Value" "LED_RED"
+			(at 97.4725 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -14207,7 +14188,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934ID"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -14304,7 +14285,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 262.89 91.44 0)
 			(effects
 				(font
@@ -14346,7 +14327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1A PTC"
+		(property "Value" "0.75A PTC"
 			(at 168.91 125.7299 0)
 			(effects
 				(font
@@ -14401,7 +14382,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0ZCG0075FF2C"
 			(at 166.37 124.46 0)
 			(effects
 				(font
@@ -14497,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 140.97 148.59 0)
 			(effects
 				(font
@@ -14680,7 +14661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 193.04 69.215 0)
 			(effects
 				(font
@@ -14743,7 +14724,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 193.04 73.66 0)
 			(effects
 				(font
@@ -14840,7 +14821,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -14937,7 +14918,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 179.07 76.2 0)
 			(effects
 				(font
@@ -14972,22 +14953,22 @@
 		(fields_autoplaced yes)
 		(uuid "c9618559-9a26-44ae-baf4-3441d9e5887b")
 		(property "Reference" "D49"
-			(at 97.4725 125.73 0)
+			(at 97.4725 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 97.4725 128.27 0)
+		(property "Value" "LED_RED"
+			(at 97.4725 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -15041,7 +15022,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "L-934ID"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -15289,7 +15270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-105xP"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -15334,7 +15315,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "B3FS-1050"
 			(at 181.61 45.72 0)
 			(effects
 				(font
@@ -15496,7 +15477,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 140.97 57.15 0)
 			(effects
 				(font
@@ -15665,7 +15646,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 241.3 76.2 0)
 			(effects
 				(font
@@ -15782,7 +15763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 193.04 23.495 0)
 			(effects
 				(font
@@ -15845,7 +15826,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 193.04 27.94 0)
 			(effects
 				(font
@@ -15939,7 +15920,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SN74LVC1T45DBVR"
 			(at 49.53 57.15 0)
 			(effects
 				(font
@@ -16113,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 91.44 91.44 0)
 			(effects
 				(font
@@ -16216,7 +16197,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 160.02 124.46 0)
 			(effects
 				(font
@@ -16311,7 +16292,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 29.21 124.46 0)
 			(effects
 				(font
@@ -16408,7 +16389,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -16635,7 +16616,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -16798,7 +16779,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 264.16 48.26 0)
 			(effects
 				(font
@@ -16992,7 +16973,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WS2812B-V5"
 			(at 74.93 57.15 0)
 			(effects
 				(font

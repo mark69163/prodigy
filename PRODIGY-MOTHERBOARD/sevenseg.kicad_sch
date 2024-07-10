@@ -2324,7 +2324,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF3302V"
 			(at 109.22 73.66 0)
 			(effects
 				(font
@@ -2546,7 +2546,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "MAX7219CWG+"
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -2709,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -2938,7 +2938,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 83.82 77.47 0)
 			(effects
 				(font

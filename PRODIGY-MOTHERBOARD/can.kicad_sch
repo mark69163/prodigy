@@ -243,7 +243,7 @@
 				)
 			)
 		)
-		(symbol "Device:L_Iron_Coupled_1324"
+		(symbol "Device:L_Iron_Coupled_1423"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -257,7 +257,7 @@
 					)
 				)
 			)
-			(property "Value" "L_Iron_Coupled_1324"
+			(property "Value" "L_Iron_Coupled_1423"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -310,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_Iron_Coupled_1324_0_1"
+			(symbol "L_Iron_Coupled_1423_0_1"
 				(circle
 					(center -3.048 -1.27)
 					(radius 0.254)
@@ -526,7 +526,7 @@
 					)
 				)
 			)
-			(symbol "L_Iron_Coupled_1324_1_1"
+			(symbol "L_Iron_Coupled_1423_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -564,7 +564,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -582,7 +582,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -1852,13 +1852,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Iron_Coupled_1423")
+		(at 156.21 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d6adb3c-aa04-4375-84b0-58e82138edd4")
+		(property "Reference" "L4"
+			(at 156.591 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACM7060-701-2PL-TL"
+			(at 156.591 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_TDK_ACM7060"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Coupled inductor with iron core"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "ACM7060-701-2PL-TL"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5d2bdbb0-be45-4e40-9da1-aa69084d1aed")
+		)
+		(pin "2"
+			(uuid "d94661c5-5fdd-4409-b3bc-e1fdbc397b90")
+		)
+		(pin "4"
+			(uuid "d74baee4-3fe8-485f-a48d-ae95640e49f3")
+		)
+		(pin "1"
+			(uuid "44d5fa51-97eb-4c34-93e9-2fdf0d570dbd")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 95.25 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0dcd20ac-880d-410a-9393-dbb4fc6dfea7")
 		(property "Reference" "TP9"
@@ -2019,7 +2103,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N101J500CT"
 			(at 148.59 97.79 0)
 			(effects
 				(font
@@ -2137,7 +2221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 93.98 90)
 			(effects
 				(font
@@ -2182,7 +2266,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERA3AEB59R0V"
 			(at 210.82 93.98 0)
 			(effects
 				(font
@@ -2279,7 +2363,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e00efa7-3738-4717-9dd5-9e4334ce2fd7")
 		(property "Reference" "FID11"
@@ -2382,7 +2466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4n7"
+		(property "Value" "4.7nF"
 			(at 224.79 93.9799 0)
 			(effects
 				(font
@@ -2436,7 +2520,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "06031C472KAT2A"
 			(at 220.98 92.71 0)
 			(effects
 				(font
@@ -2599,7 +2683,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N101J500CT"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -2696,7 +2780,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5363b861-6667-455a-a420-024fe9756e48")
 		(property "Reference" "FID12"
@@ -2853,7 +2937,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N101J500CT"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -2950,7 +3034,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N101J500CT"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -3047,7 +3131,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -3145,7 +3229,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "TJA1051T/E.118"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -3182,108 +3266,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Iron_Coupled_1324")
-		(at 156.21 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9830270-2501-4a62-9a96-6f58afa91d44")
-		(property "Reference" "L4"
-			(at 156.591 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Iron_Coupled_1324"
-			(at 156.591 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_TDK_ACM7060"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Coupled inductor with iron core"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5971b74d-5648-428d-930a-4711de1e5c4d")
-		)
-		(pin "4"
-			(uuid "d91ea3fb-c2e2-4bbb-8b22-a9ea1dad32af")
-		)
-		(pin "1"
-			(uuid "e5cc03ca-4a2b-4067-819a-9a17d8d83680")
-		)
-		(pin "3"
-			(uuid "0528c36f-1aeb-405a-806c-285554671a0b")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/cf0d8bf1-4632-49df-9398-b3de35528304"
-					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 83.82 90)
 			(effects
 				(font
@@ -3494,7 +3476,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERA3AEB59R0V"
 			(at 210.82 83.82 0)
 			(effects
 				(font

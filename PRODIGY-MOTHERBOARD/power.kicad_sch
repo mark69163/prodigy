@@ -4925,7 +4925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 50.8 38.608 90)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0ZCF0200AF2C"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF3302V"
 			(at 168.91 142.24 0)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 835-RT9742AGJ5F "
 			(at 53.34 81.28 0)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "06035A390JAT2A"
 			(at 189.23 64.77 0)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF2200V"
 			(at 257.81 74.93 0)
 			(effects
 				(font
@@ -5592,7 +5592,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "TPS54331DR"
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AR0603-50K-0.1%"
 			(at 173.99 73.66 0)
 			(effects
 				(font
@@ -5811,22 +5811,22 @@
 		(fields_autoplaced yes)
 		(uuid "3d008048-aa3c-471c-8458-2be3192795a5")
 		(property "Reference" "D6"
-			(at 62.5475 31.75 0)
+			(at 62.5475 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 62.5475 34.29 0)
+		(property "Value" "PMEG4030ER.115"
+			(at 62.5475 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -5871,7 +5871,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "PMEG4030ER.115"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4108d65e-a136-4fd9-a238-fe5bdf5e96e0")
 		(property "Reference" "TP8"
@@ -6129,7 +6129,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "49ffc0dc-aac0-4070-89d1-f8ba0d4edf41")
 		(property "Reference" "TP2"
@@ -6290,7 +6290,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 243.84 41.91 0)
 			(effects
 				(font
@@ -6387,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 257.81 45.72 0)
 			(effects
 				(font
@@ -6406,103 +6406,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 232.41 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "555cd4eb-1476-467f-ade9-2bace2cee4ff")
-		(property "Reference" "C21"
-			(at 236.22 140.0809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 236.22 142.6209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 233.3752 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25f9972a-4839-4e20-9790-e31697a76943")
-		)
-		(pin "2"
-			(uuid "d1f627ff-cd6a-45e0-9000-3f903327da1a")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6579,7 +6482,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "HPI0630-6R8"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -6676,7 +6579,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "EEEFPV101XAP"
 			(at 71.12 43.18 0)
 			(effects
 				(font
@@ -6773,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 252.73 121.92 0)
 			(effects
 				(font
@@ -6936,7 +6839,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -7098,7 +7001,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "06035A470JAT2A"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -7129,7 +7032,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "68abaed9-7105-43ab-af8f-1afc27d6efa4")
 		(property "Reference" "TP7"
@@ -7288,7 +7191,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "HPI0630-6R8"
 			(at 222.25 36.83 0)
 			(effects
 				(font
@@ -7385,7 +7288,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -7482,7 +7385,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF3303V"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -7579,7 +7482,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF6802V"
 			(at 149.86 46.99 0)
 			(effects
 				(font
@@ -7676,7 +7579,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603B102K500CT"
 			(at 168.91 133.35 0)
 			(effects
 				(font
@@ -7711,7 +7614,7 @@
 		(fields_autoplaced yes)
 		(uuid "7db7393a-8c15-483c-8ea0-d37fa9f9b5a3")
 		(property "Reference" "D8"
-			(at 214.63 40.9575 90)
+			(at 214.63 40.3224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,8 +7622,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 214.63 43.4975 90)
+		(property "Value" "B340A-E3/61T"
+			(at 214.63 42.8624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 212.09 41.91 0)
 			(effects
 				(font
@@ -7773,7 +7676,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "B340A-E3/61T"
 			(at 212.09 41.91 0)
 			(effects
 				(font
@@ -7870,7 +7773,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 110.49 109.22 0)
 			(effects
 				(font
@@ -7967,7 +7870,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "06035C103JAT2A"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -8064,7 +7967,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "06031C472KAT2A"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -8161,7 +8064,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -8258,7 +8161,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 107.95 36.83 0)
 			(effects
 				(font
@@ -8355,7 +8258,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 238.76 114.3 0)
 			(effects
 				(font
@@ -8452,7 +8355,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF3303V"
 			(at 149.86 36.83 0)
 			(effects
 				(font
@@ -8549,7 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -8580,7 +8483,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a52b5614-1306-4c1e-ab14-edc3b5674355")
 		(property "Reference" "TP3"
@@ -8741,7 +8644,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a6337035-b17a-49eb-9c3b-cc8dbe7e03f1")
 		(property "Reference" "TP4"
@@ -8902,7 +8805,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 257.81 57.15 0)
 			(effects
 				(font
@@ -9063,7 +8966,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "TPS54331DR"
 			(at 186.69 36.83 0)
 			(effects
 				(font
@@ -9115,7 +9018,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ad27c864-4fb2-494a-89f8-b6e841982b45")
 		(property "Reference" "TP6"
@@ -9276,7 +9179,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -9295,102 +9198,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 236.22 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae3de8c3-9d58-470e-bd2a-f62d0b0845f8")
-		(property "Reference" "C22"
-			(at 240.03 65.1509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 240.03 67.6909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 237.1852 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 236.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 236.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 236.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2af4d513-aeb3-4347-8c8f-832b95b6e19f")
-		)
-		(pin "2"
-			(uuid "5912e05f-cf89-45ee-86ce-ac9b2d0f17b1")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9535,7 +9342,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -9651,7 +9458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 30.48 35.306 0)
 			(effects
 				(font
@@ -9696,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "FC68148"
 			(at 29.21 34.29 0)
 			(effects
 				(font
@@ -9718,138 +9525,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c24b4e6d-e104-4ad3-a243-3f54ebe6e7c7")
-		(property "Reference" "#PWR041"
-			(at 232.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d85479bd-bef7-4900-b422-46d6f12b59a8")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5380f1d-4af4-4819-b5ac-39ae7f86d288")
-		(property "Reference" "#PWR043"
-			(at 236.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d4afd46-c743-4a4b-949e-3f5c1de80c3f")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9994,7 +9669,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -10013,72 +9688,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 232.41 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9d60f7b-909c-4abd-bcfe-e94b829bdcdf")
-		(property "Reference" "#PWR040"
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 232.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 232.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a087c482-f580-4fd2-a196-b1df87a8a6b4")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10157,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 120.65 36.83 0)
 			(effects
 				(font
@@ -10265,7 +9874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B340A-E3/61T"
 			(at 209.55 115.8875 90)
 			(effects
 				(font
@@ -10274,7 +9883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 207.01 114.3 0)
 			(effects
 				(font
@@ -10319,7 +9928,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "B340A-E3/61T"
 			(at 207.01 114.3 0)
 			(effects
 				(font
@@ -10614,7 +10223,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF6800V"
 			(at 257.81 66.04 0)
 			(effects
 				(font
@@ -10711,7 +10320,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -10874,7 +10483,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -10893,72 +10502,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2358e75-e09a-44be-9c22-aa2e0136eb9a")
-		(property "Reference" "#PWR042"
-			(at 236.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 236.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e172749e-078a-4251-8dcf-0ad540d2b9f4")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11102,7 +10645,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "06035C103JAT2A"
 			(at 158.75 123.19 0)
 			(effects
 				(font
@@ -11265,7 +10808,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AC0603FR-072K2L"
 			(at 252.73 135.89 0)
 			(effects
 				(font
@@ -11362,7 +10905,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 252.73 144.78 0)
 			(effects
 				(font
@@ -11544,7 +11087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 54.61 139.7 0)
 			(effects
 				(font
@@ -11589,7 +11132,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "NLCV32T-101K-EF"
 			(at 54.61 139.7 0)
 			(effects
 				(font
@@ -11620,7 +11163,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f660d2a5-22f3-4b06-afc6-a5721acdb934")
 		(property "Reference" "TP5"
@@ -11781,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 226.06 114.3 0)
 			(effects
 				(font
@@ -11878,7 +11421,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF6802V"
 			(at 148.59 119.38 0)
 			(effects
 				(font

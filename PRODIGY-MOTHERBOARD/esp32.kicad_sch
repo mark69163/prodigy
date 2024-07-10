@@ -7368,7 +7368,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AC0603FR-075K1L"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -7464,7 +7464,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 90.17 80.01 0)
 			(effects
 				(font
@@ -7673,7 +7673,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 523-GSB1C411111DS1HR "
 			(at 40.64 81.28 0)
 			(effects
 				(font
@@ -7856,7 +7856,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "KMR231GLFS "
 			(at 38.1 173.99 0)
 			(effects
 				(font
@@ -8019,7 +8019,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 44.45 173.99 0)
 			(effects
 				(font
@@ -8116,7 +8116,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SD05.TCT "
 			(at 85.09 80.01 0)
 			(effects
 				(font
@@ -8147,7 +8147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "447aa4ef-0718-4aea-99d7-59a67cdcd6b7")
 		(property "Reference" "FID9"
@@ -8304,7 +8304,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A475KAQNNNG"
 			(at 59.69 173.99 0)
 			(effects
 				(font
@@ -8399,7 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 52.07 166.37 0)
 			(effects
 				(font
@@ -8561,7 +8561,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "AC0603FR-075K1L"
 			(at 67.31 116.84 0)
 			(effects
 				(font
@@ -8724,7 +8724,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ed8aa79-3520-4ce8-8d04-993b7f243da8")
 		(property "Reference" "FID10"
@@ -8947,7 +8947,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "WR06X1002FTL "
 			(at 38.1 158.75 0)
 			(effects
 				(font
@@ -9036,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 710-9774040360R "
 			(at 246.38 38.1 0)
 			(effects
 				(font
@@ -9308,7 +9308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 52.07 151.765 0)
 			(effects
 				(font
@@ -9371,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "1N4148WSTR-SMC"
 			(at 52.07 156.21 0)
 			(effects
 				(font
@@ -9413,7 +9413,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "PMEG4030ER.115"
 			(at 66.3575 53.34 0)
 			(effects
 				(font
@@ -9421,7 +9421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 66.04 55.88 0)
 			(effects
 				(font
@@ -9466,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "PMEG4030ER.115"
 			(at 66.04 55.88 0)
 			(effects
 				(font
@@ -9827,7 +9827,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "123A-58B00"
 			(at 158.75 80.01 0)
 			(effects
 				(font

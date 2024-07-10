@@ -1401,7 +1401,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SWR2512-2R-5%"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -1510,7 +1510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "100uF"
 			(at 124.46 80.3909 0)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 121.6152 83.82 0)
 			(effects
 				(font
@@ -1564,7 +1564,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "EEEFPV101XAP"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -1661,7 +1661,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 134.62 80.01 0)
 			(effects
 				(font
@@ -1824,7 +1824,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "DRV8870DDAR"
 			(at 146.05 93.98 0)
 			(effects
 				(font

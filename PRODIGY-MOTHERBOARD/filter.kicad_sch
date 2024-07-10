@@ -1714,7 +1714,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09894526-cf18-4b9d-bb0b-3803e31a5942")
 		(property "Reference" "TP16"
@@ -1874,7 +1874,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-100R "
 			(at 133.35 76.2 0)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "3314J-1-202E"
 			(at 196.85 113.03 0)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 102.87 97.79 0)
 			(effects
 				(font
@@ -2229,7 +2229,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "MCP6021RT-E/OT"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -2333,7 +2333,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM32ER61C476KE15L"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -2385,7 +2385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.072 91.44 90)
 			(effects
 				(font
@@ -2430,7 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF2203V"
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 204.47 120.65 0)
 			(effects
 				(font
@@ -2645,7 +2645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.702 76.2 90)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF2203V"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -2865,7 +2865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 85.09 74.295 0)
 			(effects
 				(font
@@ -2919,7 +2919,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 81.28 72.39 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.702 91.44 90)
 			(effects
 				(font
@@ -3016,7 +3016,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF2203V"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21A106KOQNNNE  "
 			(at 196.85 102.87 0)
 			(effects
 				(font
@@ -3276,7 +3276,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL10B104KB8NNNC  "
 			(at 92.71 72.39 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM31C5C1H104JA01L"
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0603JR-071K "
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -3564,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "ERJ3EKF6802V"
 			(at 121.92 83.82 0)
 			(effects
 				(font
