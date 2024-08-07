@@ -13088,7 +13088,7 @@
 			(uuid "85968f85-7cb8-42f4-8a8c-f47e213e08a5")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
 					(reference "J1")
 					(unit 1)
@@ -13959,7 +13959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7025"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 118.11 60.96 0)
 			(effects
 				(font
@@ -15388,7 +15388,7 @@
 			(uuid "e8cb1b33-c29a-4364-b5d4-01101e3a9fdf")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
 					(reference "JP1")
 					(unit 1)
@@ -15523,7 +15523,7 @@
 			(uuid "de963db8-ce21-496f-9639-06c00a3e6c2e")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
 					(reference "JP2")
 					(unit 1)

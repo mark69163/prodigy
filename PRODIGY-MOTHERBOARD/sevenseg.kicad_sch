@@ -2374,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:CA56-12SRWA"
+		(property "Footprint" "seven_segment_four_digit:4_digit_7_segment_display"
 			(at 180.34 96.52 0)
 			(effects
 				(font

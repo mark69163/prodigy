@@ -9620,7 +9620,7 @@
 			(uuid "4df0627c-fbcf-44ae-b9f1-ba3d9b5387b4")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/ce186ed4-d4ab-4748-8528-740210dbd27e"
 					(reference "D60")
 					(unit 1)

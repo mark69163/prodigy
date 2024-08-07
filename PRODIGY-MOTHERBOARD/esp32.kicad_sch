@@ -7646,7 +7646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7025"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 44.45 81.28 0)
 			(effects
 				(font
@@ -8223,7 +8223,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/4747deee-8806-443e-847a-65f550cadde4"
 					(reference "FID9")
 					(unit 1)

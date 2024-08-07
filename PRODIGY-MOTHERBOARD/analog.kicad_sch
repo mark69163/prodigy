@@ -5618,7 +5618,7 @@
 			(uuid "745d34da-1697-45c8-845c-97a3fd822f95")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a2bc12b1-b9d0-4419-aed0-74588fb36767"
 					(reference "U20")
 					(unit 2)
@@ -6136,7 +6136,7 @@
 			(uuid "745d34da-1697-45c8-845c-97a3fd822f96")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a2bc12b1-b9d0-4419-aed0-74588fb36767"
 					(reference "U20")
 					(unit 1)
@@ -7415,7 +7415,7 @@
 			(uuid "745d34da-1697-45c8-845c-97a3fd822f97")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/a2bc12b1-b9d0-4419-aed0-74588fb36767"
 					(reference "U20")
 					(unit 3)

@@ -2593,7 +2593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 203.835 78.74 90)
 			(effects
 				(font
@@ -2700,7 +2700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 52.705 77.47 90)
 			(effects
 				(font
@@ -3071,7 +3071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 69.215 77.47 90)
 			(effects
 				(font

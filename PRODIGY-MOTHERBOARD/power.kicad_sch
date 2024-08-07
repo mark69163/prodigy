@@ -11053,7 +11053,7 @@
 			(uuid "960accb0-9045-4aaf-b56b-a59a6e20fa9c")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "#PWR025")
 					(unit 1)
@@ -11148,7 +11148,7 @@
 			(uuid "102ca5ac-8293-4383-a5d2-a08ec8be9b45")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "L1")
 					(unit 1)

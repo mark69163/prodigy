@@ -2095,7 +2095,7 @@
 			(uuid "1a46585e-0c29-4b0a-bed4-c0b96fbc09ec")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "R80")
 					(unit 1)
@@ -2421,7 +2421,7 @@
 			(uuid "2a4e8550-4f99-4d3c-a041-f1c6f79f20ba")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "JP10")
 					(unit 1)
@@ -3121,7 +3121,7 @@
 			(uuid "d6a699b0-2d8b-4b79-a655-78145ea4429e")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "U23")
 					(unit 1)
@@ -3291,7 +3291,7 @@
 			(uuid "c39f5137-d376-4d62-80f9-ce5f8af0c877")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "U22")
 					(unit 1)
@@ -3484,7 +3484,7 @@
 			(uuid "ff85a755-bf7d-4440-abf4-05159227bab7")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/1fb3a40b-5b56-4526-bac8-0d25e381d4b7"
 					(reference "C87")
 					(unit 1)

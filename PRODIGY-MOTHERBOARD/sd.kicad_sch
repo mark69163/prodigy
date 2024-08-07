@@ -3444,7 +3444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 84.455 104.14 90)
 			(effects
 				(font
