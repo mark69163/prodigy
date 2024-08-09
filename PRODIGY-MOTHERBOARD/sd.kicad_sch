@@ -2523,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 97.79) (xy 72.39 99.06)
+			(xy 80.01 97.79) (xy 80.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3418,111 +3418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network04")
-		(at 77.47 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "197c9de0-8d55-4757-8d45-66c7285d9081")
-		(property "Reference" "RN6"
-			(at 69.85 103.1239 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 105.6639 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 84.455 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 77.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-			(at 77.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 77.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 77.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" ""
-			(at 77.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abcaea3d-83b0-40a5-a02f-15154988eabb")
-		)
-		(pin "4"
-			(uuid "e648ef6e-2ebd-4492-a54f-f73d1dfd1ec2")
-		)
-		(pin "3"
-			(uuid "8856abc1-ceb0-40c6-8a7e-21dcdc2247b3")
-		)
-		(pin "1"
-			(uuid "de93b199-31f3-4661-8fca-d489f39b7150")
-		)
-		(pin "5"
-			(uuid "bc9c5b5d-ecd4-442c-826f-708764301e62")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
-					(reference "RN6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 118.11 67.31 0)
 		(mirror x)
@@ -3791,7 +3686,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 72.39 97.79 0)
+		(at 80.01 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3800,7 +3695,7 @@
 		(fields_autoplaced yes)
 		(uuid "62cb2f61-27e9-4926-9f4e-0b092ae15ff8")
 		(property "Reference" "#PWR0257"
-			(at 72.39 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3704,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 72.39 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 97.79 0)
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 97.79 0)
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 72.39 97.79 0)
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,6 +4296,112 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04")
+		(at 74.93 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a8eec981-8253-4009-a06c-3916f25a7456")
+		(property "Reference" "RN6"
+			(at 82.55 103.1239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 105.6639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 67.945 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e848973-0793-4d53-bf31-fa9c75153d41")
+		)
+		(pin "4"
+			(uuid "b33bb68d-cb25-4727-a017-d1c18ec0302a")
+		)
+		(pin "3"
+			(uuid "5dba7916-58a3-4c57-b3e5-bcd6e6bc211c")
+		)
+		(pin "1"
+			(uuid "d5837441-d7d5-41da-9a03-b945dc78fd3c")
+		)
+		(pin "5"
+			(uuid "4bd945a8-b9b3-41c7-bf4f-211e238421e1")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/20646931-b26f-4e3f-9f16-a00d92b20b98"
+					(reference "RN6")
 					(unit 1)
 				)
 			)

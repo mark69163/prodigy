@@ -1155,6 +1155,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3e8bef-10af-4069-b79b-2dea9ee4a8ea")
+	)
+	(wire
+		(pts
 			(xy 205.74 106.68) (xy 210.82 106.68)
 		)
 		(stroke
@@ -1222,16 +1232,6 @@
 			(type default)
 		)
 		(uuid "5813fe39-21dd-43ea-930f-b062053a5901")
-	)
-	(wire
-		(pts
-			(xy 59.69 106.68) (xy 77.47 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "596a390b-f968-4c49-9946-f61cbcf2daac")
 	)
 	(wire
 		(pts
@@ -1485,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 109.22) (xy 86.36 109.22)
+			(xy 54.61 109.22) (xy 86.36 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1748,9 +1748,53 @@
 		)
 		(uuid "981818c7-eb2f-43eb-8c2b-b6ab8fb74368")
 	)
+	(label "I2C_SCL_3V3"
+		(at 57.15 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23cd6d28-5fa9-4857-809c-0d32beb7c1f9")
+	)
+	(label "I2C_SDA_5V"
+		(at 223.52 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e3b8819-a0d6-4282-b84d-0d9174b77d20")
+	)
+	(label "I2C_SCL_5V"
+		(at 223.52 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80221c4f-e1df-4f9e-9362-d78180ac16cf")
+	)
+	(label "I2C_SDA_3V3"
+		(at 57.15 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a12d9c2e-fd99-40e9-9125-6b32a0b5d444")
+	)
 	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
-		(at 59.69 106.68 180)
+		(at 54.61 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1774,7 +1818,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
-		(at 59.69 109.22 180)
+		(at 54.61 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
