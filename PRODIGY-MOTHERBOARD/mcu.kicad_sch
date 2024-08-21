@@ -14156,6 +14156,215 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
+		(at 134.62 161.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68c514f4-f867-43c9-a9d7-79f0d0fad0f1")
+		(property "Reference" "J3"
+			(at 135.89 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x20_Odd_Even"
+			(at 135.128 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Horizontal"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "ZL231-40KG"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "49dd5fa4-1c2c-4613-8beb-a1ee51af38a6")
+		)
+		(pin "36"
+			(uuid "47940007-a3a0-451a-9e5a-0393973f39a7")
+		)
+		(pin "6"
+			(uuid "1a3ba8dd-a3c8-4c76-9bdb-7854400c38a5")
+		)
+		(pin "11"
+			(uuid "9e22a3f9-2684-4809-9be4-1197fe39e452")
+		)
+		(pin "31"
+			(uuid "1499d731-2e1d-4b61-878f-b98741ae66e9")
+		)
+		(pin "10"
+			(uuid "100ad41c-b325-4752-b0a8-30232b7bd230")
+		)
+		(pin "7"
+			(uuid "916ed317-6fe3-4bac-88c4-c29b0cb8438a")
+		)
+		(pin "26"
+			(uuid "eddb8b8f-4a27-4715-a7b6-24e527d04397")
+		)
+		(pin "1"
+			(uuid "9600792f-e27e-4e75-b651-97d6f3f0f3f1")
+		)
+		(pin "3"
+			(uuid "3fc616d7-bfd0-4509-a312-6d3b322c51fc")
+		)
+		(pin "22"
+			(uuid "97ec0c48-a9cb-4a99-8cf6-8bada1474c88")
+		)
+		(pin "33"
+			(uuid "5b4ba3a3-41ff-4f95-8644-e6c6538c4f0a")
+		)
+		(pin "20"
+			(uuid "37959d13-ea2d-44a8-81f7-9fb50e6f97ba")
+		)
+		(pin "30"
+			(uuid "3e0366be-b8b3-4644-a8a3-8fc082501156")
+		)
+		(pin "27"
+			(uuid "3218ea33-30c0-49b9-aa03-48abf637d9a3")
+		)
+		(pin "15"
+			(uuid "7e3ebe32-3bff-4b32-b086-a3021ba21e74")
+		)
+		(pin "17"
+			(uuid "77420b94-b3c4-4275-acdd-e2cf44ad3646")
+		)
+		(pin "21"
+			(uuid "396acb7e-d866-4a9f-8312-92ca2a00609f")
+		)
+		(pin "23"
+			(uuid "ada911bf-9c05-46c1-a5d6-f21707fa1d18")
+		)
+		(pin "28"
+			(uuid "fad7bade-36ee-4aff-892f-57d4df1e07a9")
+		)
+		(pin "34"
+			(uuid "f720038c-8521-4111-b145-0fd9577e313c")
+		)
+		(pin "39"
+			(uuid "a9aba3b6-d145-4e51-8203-1523d8ba47a9")
+		)
+		(pin "40"
+			(uuid "f10ef86d-0530-482c-824c-54f4a02fff96")
+		)
+		(pin "29"
+			(uuid "cc9bba13-3052-4d0a-9c65-dd2d0a093fec")
+		)
+		(pin "24"
+			(uuid "ff742556-18a0-474c-a982-05c442eb36d9")
+		)
+		(pin "32"
+			(uuid "4e2cb3d4-2551-4f79-a657-6a3969a7c567")
+		)
+		(pin "35"
+			(uuid "94892f07-e67c-4aef-9ba9-713e81293d05")
+		)
+		(pin "19"
+			(uuid "eabed5d7-b313-4435-bc35-5f879494ca09")
+		)
+		(pin "4"
+			(uuid "af74584d-06cb-445b-aafb-1eb003ecadb6")
+		)
+		(pin "25"
+			(uuid "35d5d360-a18c-4efb-a7e2-47bc65534551")
+		)
+		(pin "5"
+			(uuid "67bbd61d-b30f-485c-9b1d-8da872b268fe")
+		)
+		(pin "2"
+			(uuid "f77c69ab-dd49-47c5-a3b4-a835534cb235")
+		)
+		(pin "37"
+			(uuid "c07a9518-0c92-42a3-aced-34de29843337")
+		)
+		(pin "12"
+			(uuid "645c7759-b310-439d-b47c-9357359a7f26")
+		)
+		(pin "9"
+			(uuid "2c73d77c-0795-4d62-a9f7-f16c38664e39")
+		)
+		(pin "16"
+			(uuid "aa8e2b0a-7565-4320-bae6-32d5060e9034")
+		)
+		(pin "18"
+			(uuid "81ca9079-1c31-4a45-908c-5cb6eb3d3bf2")
+		)
+		(pin "14"
+			(uuid "f28e2122-1129-4797-8d80-9b34390d6c74")
+		)
+		(pin "38"
+			(uuid "4bb91085-e632-4867-8376-0523b1311787")
+		)
+		(pin "8"
+			(uuid "ba59168b-f3dc-4bdb-b89e-096f9545a451")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SD05_SOD323")
 		(at 69.85 180.34 90)
 		(unit 1)
@@ -15976,215 +16185,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 134.62 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd5e45aa-342e-4b5c-b46e-735ce3f0b353")
-		(property "Reference" "J3"
-			(at 135.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x20_Odd_Even"
-			(at 135.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Horizontal"
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "ZL231-40KG"
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "b0cd5395-770a-4e6e-b7f0-dea559fc7a4f")
-		)
-		(pin "36"
-			(uuid "a10cd451-151f-43bf-aa70-5a31181a39d1")
-		)
-		(pin "6"
-			(uuid "0d385876-a0b0-478c-9e41-8a53569a1a8d")
-		)
-		(pin "11"
-			(uuid "3f43f49c-02a0-498e-80c9-bec38cb6ca26")
-		)
-		(pin "31"
-			(uuid "babff35b-f4ce-4dad-af5c-5f0713204cf8")
-		)
-		(pin "10"
-			(uuid "b9794301-e19c-4057-a75a-0c825c28e9b9")
-		)
-		(pin "7"
-			(uuid "5f1079b0-7733-4325-ae12-e952b34f7ded")
-		)
-		(pin "26"
-			(uuid "b9390826-b769-4a98-ac60-c04311b2812f")
-		)
-		(pin "1"
-			(uuid "d71b3d1c-bdd5-48f9-976f-0cd7c2969ff6")
-		)
-		(pin "3"
-			(uuid "33193817-856e-4b82-9ae0-0f4163472daa")
-		)
-		(pin "22"
-			(uuid "71646e4f-b0ba-4903-9499-009b03ff730e")
-		)
-		(pin "33"
-			(uuid "bf82ef98-c538-44a2-9737-3c021e22cb55")
-		)
-		(pin "20"
-			(uuid "e5bcbcd2-6cf5-4c04-ad6a-84ea152939e3")
-		)
-		(pin "30"
-			(uuid "4e993038-7dd4-438b-b4d9-e835ccb9905e")
-		)
-		(pin "27"
-			(uuid "81aa27d3-92f7-4412-a3e7-c367defed7ef")
-		)
-		(pin "15"
-			(uuid "a15e67ff-4baa-408c-8109-1affe4cf25a9")
-		)
-		(pin "17"
-			(uuid "414e8b9c-cc3f-462c-9e37-deef46a261cb")
-		)
-		(pin "21"
-			(uuid "0348a017-b91d-486d-b840-31deebcf83fc")
-		)
-		(pin "23"
-			(uuid "f6a3143d-9c83-4f6f-8796-2dc543f8e504")
-		)
-		(pin "28"
-			(uuid "015bcb73-8c40-4d5d-a2b0-4ef4b81a6deb")
-		)
-		(pin "34"
-			(uuid "7b563a56-83cc-4aff-ba3b-0884253c562f")
-		)
-		(pin "39"
-			(uuid "64f8d723-9870-4e03-8c18-08cbf81bfc88")
-		)
-		(pin "40"
-			(uuid "81b5845d-1608-4275-ac80-234fd8b66f07")
-		)
-		(pin "29"
-			(uuid "6f50112b-5763-4897-a65f-b0a02877e7fb")
-		)
-		(pin "24"
-			(uuid "20204114-d691-4bfd-8930-7374a86a27da")
-		)
-		(pin "32"
-			(uuid "d26d34d7-4d52-49b1-95f7-80b1573edfc9")
-		)
-		(pin "35"
-			(uuid "e3c1d84e-5b7b-4c91-8e67-357bf9e99cdc")
-		)
-		(pin "19"
-			(uuid "9d49ea87-40b8-498f-bf09-c04588aeb472")
-		)
-		(pin "4"
-			(uuid "34c487f4-a296-44ea-a469-19d92529eec6")
-		)
-		(pin "25"
-			(uuid "20f1c5b9-c73d-4e97-948a-3930c69456e8")
-		)
-		(pin "5"
-			(uuid "8123cf96-f264-45a9-b89c-1e91a9707e1b")
-		)
-		(pin "2"
-			(uuid "93fde077-33c5-417f-b7a3-065f44cf288b")
-		)
-		(pin "37"
-			(uuid "c4366e05-f391-49b0-a353-7289c44657de")
-		)
-		(pin "12"
-			(uuid "59f0441c-8742-4a02-b465-ab039b93d1ba")
-		)
-		(pin "9"
-			(uuid "89064aa9-cd89-4173-98d5-31b2f77b5be6")
-		)
-		(pin "16"
-			(uuid "7221d7b3-2f6d-408f-b1bd-e6957ee2e881")
-		)
-		(pin "18"
-			(uuid "b8799be3-2634-4839-bebe-ecf3adb9e214")
-		)
-		(pin "14"
-			(uuid "69f7d023-cb29-4909-84cf-2d8a3a4c12aa")
-		)
-		(pin "38"
-			(uuid "14697673-231b-4c43-b276-846c0d95f481")
-		)
-		(pin "8"
-			(uuid "1ee74a39-3ea3-4279-b9bc-0aa347004dd5")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/27fc7bb4-2bbd-477b-b6e3-e07582947566"
-					(reference "J3")
 					(unit 1)
 				)
 			)
