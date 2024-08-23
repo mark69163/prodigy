@@ -6565,6 +6565,17 @@
 		)
 		(uuid "40c38bfe-e549-4a0b-8e06-5154cb1f4606")
 	)
+	(label "D+"
+		(at 119.38 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "414ba5fa-f1d7-463d-b380-1e9679515967")
+	)
 	(label "ESP_GPIO_5"
 		(at 218.44 124.46 0)
 		(fields_autoplaced yes)
@@ -6872,6 +6883,17 @@
 			(justify right bottom)
 		)
 		(uuid "ab503c18-8a1b-4765-b56c-5e1dd34205d1")
+	)
+	(label "D-"
+		(at 119.38 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af74d865-7f44-48f2-ad7d-11f592fe7edc")
 	)
 	(label "ESP_GPIO_9"
 		(at 261.62 109.22 180)
