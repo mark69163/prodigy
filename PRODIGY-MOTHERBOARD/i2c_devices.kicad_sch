@@ -651,340 +651,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Network04"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at -7.62 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Network04"
-				(at 5.08 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP5"
-				(at 6.985 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network star-topology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R?Array?SIP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Network04_0_1"
-				(rectangle
-					(start -6.35 -3.175)
-					(end 3.81 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -5.842 1.524)
-					(end -4.318 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.302 1.524)
-					(end -1.778 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.762 1.524)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.524) (xy -5.08 2.286) (xy -2.54 2.286) (xy -2.54 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy -2.54 2.286) (xy 0 2.286) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 0 2.286) (xy 2.54 2.286) (xy 2.54 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.778 1.524)
-					(end 3.302 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Network04_1_1"
-				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 1.27)
-					(name "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 1.27)
-					(name "R2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "R3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 1.27)
-					(name "R4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Pack04"
 			(pin_names
 				(offset 0) hide)
@@ -3173,7 +2839,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -3190,7 +2856,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -3216,7 +2882,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3234,7 +2900,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3272,7 +2938,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3535,6 +3201,30 @@
 		(uuid "21627b85-49b0-4989-a10d-7e1a0cc685eb")
 	)
 	(junction
+		(at 57.15 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2210169e-76f7-46c3-a1be-8d0e8d68a64d")
+	)
+	(junction
+		(at 62.23 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "322345c9-7493-41cf-9e80-d418893a503a")
+	)
+	(junction
+		(at 231.14 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a232d97-1d86-4b1f-9c39-dc9da3b02acd")
+	)
+	(junction
+		(at 59.69 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4677c106-f76d-44dd-a301-c80dfe52c5f7")
+	)
+	(junction
 		(at 158.75 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3563,12 +3253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8959de27-1902-4481-86ae-93ec7a61d239")
-	)
-	(junction
-		(at 231.14 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8de302b2-4c36-4841-b5c6-ae797a7425e5")
 	)
 	(junction
 		(at 118.11 123.19)
@@ -3867,6 +3551,16 @@
 			(type default)
 		)
 		(uuid "2c5e3c61-df36-42fe-bd2a-ad5f161e2f4f")
+	)
+	(wire
+		(pts
+			(xy 57.15 34.29) (xy 59.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f931712-b12a-42ae-991c-3bdf30b956e4")
 	)
 	(wire
 		(pts
@@ -4350,6 +4044,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d1ad16-4d4a-42da-a1b3-3073899b733e")
+	)
+	(wire
+		(pts
 			(xy 142.24 153.67) (xy 130.81 153.67)
 		)
 		(stroke
@@ -4547,6 +4251,16 @@
 			(type default)
 		)
 		(uuid "b84df786-c9a5-4200-9ca1-c69d71cf2f66")
+	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 57.15 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b4333e-8a11-43c2-a37a-4f5e492141df")
 	)
 	(wire
 		(pts
@@ -6751,6 +6465,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 231.14 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e91e9a-7e6f-4364-8129-83dc57bbbf40")
+		(property "Reference" "#PWR0133"
+			(at 231.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 231.14 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 231.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ec01ab-0cc0-4e98-8a29-16d22ea34a0c")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 25.4 69.85 90)
 		(unit 1)
@@ -7330,6 +7110,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 212.09 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97df0e6e-9081-479f-a081-67478f98378b")
+		(property "Reference" "#PWR043"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3af8bf2-d80d-4dd9-805a-6d4d0ab3c9e7")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 33.02 0)
 		(unit 1)
@@ -7390,72 +7236,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
 					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 212.09 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98567d15-80cb-404b-adcc-2558bb0844f9")
-		(property "Reference" "#PWR0133"
-			(at 212.09 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 212.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "648e9efb-eab2-4486-9b1c-331c3a5f7a72")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
-					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -7553,72 +7333,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 231.14 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aebfe5af-8647-4f6b-a18d-cde3489da4fd")
-		(property "Reference" "#PWR0135"
-			(at 231.14 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 231.14 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 231.14 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbbfc052-1daf-41fd-874f-408f153b8c24")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
-					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -9293,6 +9007,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 59.69 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24cac23-1aba-43ad-b4a5-61d63731a28d")
+		(property "Reference" "RN1"
+			(at 64.77 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Pack04"
+			(at 64.77 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 66.675 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2aebfaac-0cd7-4c98-90aa-c1be10c6f1e6")
+		)
+		(pin "4"
+			(uuid "3de080d1-b500-47e1-947b-828192acb5ae")
+		)
+		(pin "5"
+			(uuid "e0cfe9a1-cb17-4d10-896a-632566a287aa")
+		)
+		(pin "2"
+			(uuid "19b8a98d-f3e1-4875-bc0b-855050ebfb22")
+		)
+		(pin "7"
+			(uuid "7f4cb903-cd52-42c4-99f4-7c29bfc6ec5e")
+		)
+		(pin "6"
+			(uuid "925fe67a-b81c-47b9-9d26-cbd5ad267596")
+		)
+		(pin "1"
+			(uuid "f432178c-43b1-46df-998f-969651e09af1")
+		)
+		(pin "3"
+			(uuid "2b07bf8e-557f-4660-b213-cc79f865b8d1")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 73.66 0)
 		(unit 1)
@@ -9450,112 +9252,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
 					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04")
-		(at 57.15 39.37 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6a0b238-cb70-4883-9768-60e1622c5c01")
-		(property "Reference" "RN1"
-			(at 64.77 38.3539 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 64.77 40.8939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 50.165 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "DR1206-10K-4/8"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b69db028-8bf8-403a-91eb-90b2c3b530a8")
-		)
-		(pin "4"
-			(uuid "0cb79cb7-4d0f-412a-b363-26cef822b5ac")
-		)
-		(pin "3"
-			(uuid "27cfd419-70b5-482f-ad0c-af18b7598019")
-		)
-		(pin "1"
-			(uuid "e346bf18-2c77-47d0-8802-c5ef3c6504d0")
-		)
-		(pin "5"
-			(uuid "4af49d68-c142-443e-8750-6d8052b9936b")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/68745e9f-546d-4e12-ac2b-ba23aeab0093/94efb13e-f47a-4ad5-a80b-985c2164e820"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
