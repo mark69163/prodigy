@@ -1,10 +1,17 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "+3V3",
+      "+12V",
+      "+5V",
+      "+3.3V",
+      "VAA",
+      "VCC"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -37,6 +44,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       15,
@@ -62,7 +70,7 @@
       36,
       40
     ],
-    "visible_layers": "0005045_80000001",
+    "visible_layers": "0005075_80000001",
     "zone_display_mode": 0
   },
   "git": {
