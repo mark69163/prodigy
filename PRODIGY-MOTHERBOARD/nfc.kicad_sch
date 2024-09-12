@@ -6843,7 +6843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NFC_antenna_v1:40x40 antenna"
 			(at 278.13 55.88 0)
 			(effects
 				(font
