@@ -141,27 +141,28 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 3.175 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -182,7 +183,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -209,7 +210,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -223,7 +224,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -2.54 0) (xy -2.032 0)
 					)
 					(stroke
 						(width 0)
@@ -235,7 +236,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -2.032 -1.27) (xy -2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -247,7 +248,31 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -259,7 +284,31 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 					)
 					(stroke
 						(width 0)
@@ -270,7 +319,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -290,7 +339,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 5.08 270)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -300,6 +349,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2635,7 +2720,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2652,7 +2737,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2678,7 +2763,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2696,7 +2781,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2734,7 +2819,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2973,16 +3058,10 @@
 		)
 	)
 	(junction
-		(at 69.85 48.26)
+		(at 67.31 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19ca1046-3366-4d5d-b413-77790dc26466")
-	)
-	(junction
-		(at 60.96 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2127fb49-9df4-455f-86ab-21e05b848b02")
+		(uuid "0d5a5717-4424-4238-9020-4e69cb46ebc4")
 	)
 	(junction
 		(at 207.01 43.18)
@@ -3015,22 +3094,28 @@
 		(uuid "4708451c-3d79-4362-b606-4195935b2752")
 	)
 	(junction
+		(at 228.6 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bb4b9a1-10b7-49ab-ab67-c134c9176933")
+	)
+	(junction
 		(at 220.98 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "526eb73e-1ac3-4f44-baa7-069e95489f4f")
 	)
 	(junction
+		(at 55.88 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "698ae1f4-4916-489c-92b4-a2cbc2ab9d5c")
+	)
+	(junction
 		(at 234.95 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8482fb6e-9d09-470a-ab60-4186259c2f9b")
-	)
-	(junction
-		(at 228.6 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "895635f1-6978-4466-a22e-616198edaac5")
 	)
 	(junction
 		(at 248.92 50.8)
@@ -3043,6 +3128,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7c24813-530f-40a0-96f9-473949c10842")
+	)
+	(junction
+		(at 69.85 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81578f7-472c-49a7-beb2-314d54394166")
 	)
 	(junction
 		(at 193.04 43.18)
@@ -3063,10 +3154,10 @@
 		(uuid "df32c51a-46b4-4246-8031-a21ae25ef0e2")
 	)
 	(junction
-		(at 60.96 58.42)
+		(at 62.23 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f98da74b-619d-4aef-9521-d1e0e3ec1b32")
+		(uuid "e1e37bc8-c8b6-4a71-b84f-f048f6a773de")
 	)
 	(no_connect
 		(at 215.9 104.14)
@@ -3118,6 +3209,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 49.53) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015a8856-cea6-417b-8d8a-934c8a027834")
+	)
+	(wire
+		(pts
 			(xy 138.43 96.52) (xy 134.62 96.52)
 		)
 		(stroke
@@ -3145,6 +3246,26 @@
 			(type default)
 		)
 		(uuid "05db15a0-bf52-4f1a-9094-936f1e790f7d")
+	)
+	(wire
+		(pts
+			(xy 55.88 43.18) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084b3d5f-1cbc-4708-9eb4-c55d721ace01")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d02c04-8aa6-4aaa-a068-c3df59390577")
 	)
 	(wire
 		(pts
@@ -3185,6 +3306,16 @@
 			(type default)
 		)
 		(uuid "0c7d85e4-ee39-4865-aa2a-ab9c7195ae5d")
+	)
+	(wire
+		(pts
+			(xy 62.23 54.61) (xy 62.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2bb79b-b670-4cb9-866d-46698fffd8bd")
 	)
 	(wire
 		(pts
@@ -3248,6 +3379,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 58.42) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fcaea2-664e-4d42-9b2d-6ea84a5ff1f4")
+	)
+	(wire
+		(pts
 			(xy 139.7 40.64) (xy 134.62 40.64)
 		)
 		(stroke
@@ -3308,17 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 48.26) (xy 69.85 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d72102-7e02-4206-acaf-63272e7e62a5")
-	)
-	(wire
-		(pts
-			(xy 60.96 58.42) (xy 60.96 60.96)
+			(xy 62.23 58.42) (xy 62.23 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 69.85 58.42)
+			(xy 55.88 58.42) (xy 62.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3428,6 +3559,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 44.45) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8716e7-6382-49bb-b9ae-ed5e1494009f")
+	)
+	(wire
+		(pts
 			(xy 138.43 116.84) (xy 134.62 116.84)
 		)
 		(stroke
@@ -3458,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 49.53) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43471c05-a348-491e-9fd3-a22ce210374a")
+	)
+	(wire
+		(pts
 			(xy 144.78 68.58) (xy 134.62 68.58)
 		)
 		(stroke
@@ -3475,6 +3626,16 @@
 			(type default)
 		)
 		(uuid "485e9c93-d98c-481a-83b6-309c3ff4aaaa")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f118f9b-f620-42b4-a6da-51458d43907f")
 	)
 	(wire
 		(pts
@@ -3638,16 +3799,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 43.18) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751c0825-7c0a-4cd4-9328-dd7658615f96")
-	)
-	(wire
-		(pts
 			(xy 240.03 99.06) (xy 236.22 99.06)
 		)
 		(stroke
@@ -3685,6 +3836,16 @@
 			(type default)
 		)
 		(uuid "7c3e5309-76bd-4058-a359-d2eb467b08aa")
+	)
+	(wire
+		(pts
+			(xy 69.85 49.53) (xy 69.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6a2467-e8ca-43b3-ab21-a9510818e3c6")
 	)
 	(wire
 		(pts
@@ -3888,7 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 60.96 43.18)
+			(xy 55.88 43.18) (xy 55.88 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4038,16 +4199,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3cc672b-ed26-4844-af59-af010638e21f")
-	)
-	(wire
-		(pts
 			(xy 193.04 50.8) (xy 193.04 52.07)
 		)
 		(stroke
@@ -4078,6 +4229,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 44.45) (xy 67.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbdb547-5545-47cc-a1cc-305a36b89e95")
+	)
+	(wire
+		(pts
 			(xy 144.78 78.74) (xy 134.62 78.74)
 		)
 		(stroke
@@ -4088,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 69.85 50.8)
+			(xy 69.85 48.26) (xy 69.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +5717,7 @@
 			(uuid "2317f41b-077c-4578-a342-9daa1c3c44de")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
 					(reference "#PWR02")
 					(unit 1)
@@ -5711,7 +5872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 60.96 0)
+		(at 62.23 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5720,7 +5881,7 @@
 		(fields_autoplaced yes)
 		(uuid "461a208a-3599-494a-b131-80ccb7fd5f93")
 		(property "Reference" "#PWR01"
-			(at 60.96 67.31 0)
+			(at 62.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5890,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 66.04 0)
+			(at 62.23 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,6 +6010,88 @@
 			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 62.23 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d5562ca-15c7-44a2-b992-4b984b2bd82f")
+		(property "Reference" "Y1"
+			(at 62.484 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 62.484 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "8.00M-CFPX104"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8ee76803-cceb-4116-b1e7-98a50c34bf08")
+		)
+		(pin "1"
+			(uuid "dc04f4ed-e764-4f2d-9a85-f536efcefae0")
+		)
+		(pin "2"
+			(uuid "e2205a5f-1a54-4ef6-bc40-38b3b423b70b")
+		)
+		(pin "3"
+			(uuid "e2fd588f-850c-4abe-a937-e9da87b74f73")
+		)
+		(instances
+			(project "PRODIGY-ATMEGA2560"
+				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6055,82 +6298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 64.77 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90bdfdbb-3bf5-49fb-9a91-d58e22149c74")
-		(property "Reference" "Y1"
-			(at 58.674 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8MHz"
-			(at 56.388 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
-			(at 64.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "8.00M-CFPX104"
-			(at 64.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57de23d1-72c7-45c3-8822-b97e23d98395")
-		)
-		(pin "2"
-			(uuid "aec745f7-75a0-42f3-9619-3f7718b40564")
-		)
-		(instances
-			(project "PRODIGY-ATMEGA2560"
-				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 262.89 46.99 0)
 		(mirror y)
@@ -6276,6 +6443,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 228.6 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8bc44bb-1a70-4b93-a5ca-2f36f3bca2a9")
+		(property "Reference" "#PWR08"
+			(at 228.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c8da47-b902-46c8-a201-7c3dbbfd1d59")
+		)
+		(instances
+			(project "PRODIGY-ATMEGA2560"
+				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 220.98 46.99 0)
 		(mirror y)
@@ -6355,75 +6588,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 228.6 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cddfd13d-6356-4974-aba5-cc2bd3e05607")
-		(property "Reference" "#PWR08"
-			(at 228.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 228.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d43ac514-988b-47c3-b70c-be019f9eff7a")
-		)
-		(instances
-			(project "PRODIGY-ATMEGA2560"
-				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 60.96 54.61 0)
+		(at 55.88 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6432,7 +6598,7 @@
 		(dnp no)
 		(uuid "ce65efa3-37fa-4b17-b7c6-874df0734e57")
 		(property "Reference" "C1"
-			(at 57.15 53.3399 0)
+			(at 52.07 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6607,7 @@
 			)
 		)
 		(property "Value" "4.7pF"
-			(at 57.15 55.8799 0)
+			(at 52.07 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6616,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 59.9948 58.42 0)
+			(at 54.9148 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 54.61 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6634,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 54.61 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6643,7 @@
 			)
 		)
 		(property "TME" "CC0603BRNPO9BN4R7 "
-			(at 60.96 54.61 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6658,7 @@
 			(uuid "3b7a4f85-b57f-4f10-b323-017c20612a92")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
 					(reference "C1")
 					(unit 1)
@@ -6637,7 +6803,7 @@
 			(uuid "21f4bc8c-5e59-4560-b38e-b7a98a9c1db4")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/4822de75-534b-4878-b140-638cea37e7de"
 					(reference "#PWR03")
 					(unit 1)

@@ -1666,7 +1666,7 @@
 		)
 		(uuid "0f817eeb-ffac-4cb8-9090-4f221f626da9")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB-"
 		(shape bidirectional)
 		(at 71.12 107.95 180)
 		(fields_autoplaced yes)
@@ -1702,7 +1702,7 @@
 		)
 		(uuid "66056576-8798-4a2c-91d6-45b63df55eb8")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB+"
 		(shape bidirectional)
 		(at 71.12 110.49 180)
 		(fields_autoplaced yes)
@@ -1772,7 +1772,7 @@
 			(uuid "ba83884e-cf90-41ce-937e-10b61578b18b")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f/c0859e15-ccd4-4bc9-9657-4794b2548a11"
 					(reference "#PWR015")
 					(unit 1)

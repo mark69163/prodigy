@@ -2932,16 +2932,6 @@
 			)
 			(uuid "42291d1a-e1f7-4f3c-be89-4dd500afc6f0")
 		)
-		(pin "USB_DP" bidirectional
-			(at 67.31 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "889cc7ba-53ac-468d-a05d-cdf11f0aacb1")
-		)
 		(pin "USB_HOST_FAULT" input
 			(at 25.4 34.29 180)
 			(effects
@@ -2981,16 +2971,6 @@
 				(justify left)
 			)
 			(uuid "0073465c-bd70-47f3-8ec5-d361cb8d90c2")
-		)
-		(pin "USB_DM" bidirectional
-			(at 67.31 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "081640c8-fc2b-45e2-8d08-cc3ef53fc7a9")
 		)
 		(pin "CAN_OUT_RX1" output
 			(at 25.4 21.59 180)
@@ -3212,6 +3192,26 @@
 			)
 			(uuid "03314308-8c72-4d76-ad0a-98152dbd9c27")
 		)
+		(pin "USB-" bidirectional
+			(at 67.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86987042-f850-4e52-bfea-5c5efb83a1e9")
+		)
+		(pin "USB+" bidirectional
+			(at 67.31 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64589ef8-9c5a-48ab-bd94-f724adc45481")
+		)
 		(instances
 			(project "PRODIGY-ATMEGA2560"
 				(path "/58f705c8-87df-406b-b9b9-efbb33b15a7f"
@@ -3279,26 +3279,6 @@
 			)
 			(uuid "80f66c31-8b21-4c01-a549-287e2b4c1ed2")
 		)
-		(pin "USB_DM" bidirectional
-			(at 76.2 24.13 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1d713041-8935-4a29-a626-0e28199a95d8")
-		)
-		(pin "USB_DP" bidirectional
-			(at 76.2 21.59 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0c601d55-f3ae-401b-ad78-13be962d705e")
-		)
 		(pin "USB_BOOT" bidirectional
 			(at 99.06 27.94 0)
 			(effects
@@ -3318,6 +3298,26 @@
 				(justify right)
 			)
 			(uuid "2e9bd5ca-e2f3-45a2-bec3-f6c664cbd729")
+		)
+		(pin "USB-" bidirectional
+			(at 76.2 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cb62becb-7a46-4cd0-a408-6b639cd91a7c")
+		)
+		(pin "USB+" bidirectional
+			(at 76.2 21.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2df141b9-e8a2-4404-80fd-0f29007b5667")
 		)
 		(instances
 			(project "PRODIGY-ATMEGA2560"
