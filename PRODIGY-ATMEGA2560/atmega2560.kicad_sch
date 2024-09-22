@@ -3329,16 +3329,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 152.4) (xy 134.62 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117c5c40-5960-45d4-8ad9-7f1c2f777909")
-	)
-	(wire
-		(pts
 			(xy 138.43 147.32) (xy 134.62 147.32)
 		)
 		(stroke
@@ -3786,6 +3776,16 @@
 			(type default)
 		)
 		(uuid "6d795346-0037-47b5-adeb-7045e644e2d9")
+	)
+	(wire
+		(pts
+			(xy 134.62 152.4) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70209b69-0ae2-4e42-bf27-25203f1e3bef")
 	)
 	(wire
 		(pts
@@ -4663,18 +4663,6 @@
 		)
 		(uuid "0304caa7-18d0-4d31-a6d6-adead99a8cb3")
 	)
-	(hierarchical_label "ANALOG_MICROPHONE"
-		(shape input)
-		(at 138.43 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04a52db3-df0f-4705-ac6f-b3a79408d3f7")
-	)
 	(hierarchical_label "DIGITAL_BUTTON_IN_0"
 		(shape input)
 		(at 138.43 116.84 0)
@@ -4698,6 +4686,18 @@
 			(justify left)
 		)
 		(uuid "05b67882-ff8a-41e7-92ff-681bac8d26d3")
+	)
+	(hierarchical_label "ANALOG_JOYSTICK_X"
+		(shape input)
+		(at 138.43 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06d082cc-8a72-4fcb-8ba6-5fc6ccaed3de")
 	)
 	(hierarchical_label "MCU_GPIO_20"
 		(shape bidirectional)
@@ -4747,6 +4747,18 @@
 		)
 		(uuid "19c4f510-bc44-4345-b735-78dfd226bddc")
 	)
+	(hierarchical_label "ANALOG_HEATER_TEMPERATURE"
+		(shape input)
+		(at 138.43 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a67956d-0541-4ca3-9614-291929d5d22c")
+	)
 	(hierarchical_label "DIGITAL_BUTTON_IN_3"
 		(shape input)
 		(at 138.43 124.46 0)
@@ -4759,9 +4771,9 @@
 		)
 		(uuid "1cb777cc-e662-4e76-8816-330da9db75cf")
 	)
-	(hierarchical_label "ANALOG_BREAKOUT_PT100"
+	(hierarchical_label "ANALOG_PHOTOTRANSISTOR"
 		(shape input)
-		(at 138.43 167.64 0)
+		(at 138.43 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4769,7 +4781,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1ffdc0d0-9eca-4587-bc9b-aecf119d8586")
+		(uuid "26443c9b-267a-4656-859c-8472066b2113")
 	)
 	(hierarchical_label "SERIAL_OUT_TX1"
 		(shape output)
@@ -4782,18 +4794,6 @@
 			(justify right)
 		)
 		(uuid "2776fc0e-e2ce-4cba-a2c3-9bbf6ec8d421")
-	)
-	(hierarchical_label "ANALOG_POTENTIOMETER"
-		(shape input)
-		(at 138.43 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ac788e2-39cb-4983-a1a5-c1df435b21ee")
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape output)
@@ -4831,6 +4831,18 @@
 		)
 		(uuid "35a8905e-6d84-4b5b-866b-0e550c915de1")
 	)
+	(hierarchical_label "ANALOG_POTENTIOMETER"
+		(shape input)
+		(at 138.43 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36d746f4-d63f-479e-96ae-1825e102cba8")
+	)
 	(hierarchical_label "USB_RESET"
 		(shape bidirectional)
 		(at 85.09 35.56 180)
@@ -4867,18 +4879,6 @@
 		)
 		(uuid "3f20b050-1854-4361-86a9-ebbccd309ccf")
 	)
-	(hierarchical_label "ANALOG_JOYSTICK_Y"
-		(shape input)
-		(at 138.43 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4160ee96-7c69-4aa8-ab3c-c0739d378732")
-	)
 	(hierarchical_label "SPI_IRQ_NFC"
 		(shape output)
 		(at 138.43 147.32 0)
@@ -4902,6 +4902,18 @@
 			(justify left)
 		)
 		(uuid "44f26e16-4497-47e8-bd05-1a6216f34252")
+	)
+	(hierarchical_label "ANALOG_BREAKOUT_PIEZO"
+		(shape input)
+		(at 138.43 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "489c419f-30d2-4e1a-a6ee-3f1656320bbd")
 	)
 	(hierarchical_label "SPI_CS_NFC"
 		(shape output)
@@ -4927,7 +4939,7 @@
 		)
 		(uuid "4ce57b29-4815-45e0-a44a-3d8e676fe637")
 	)
-	(hierarchical_label "DIGITAL_RGB_R"
+	(hierarchical_label "DIGITAL_RGB_B"
 		(shape output)
 		(at 144.78 73.66 0)
 		(fields_autoplaced yes)
@@ -4937,7 +4949,19 @@
 			)
 			(justify left)
 		)
-		(uuid "539953b6-4f50-458b-b28e-71285fd6c7aa")
+		(uuid "504db40c-cf24-4ccf-9cba-63d8b05e2a70")
+	)
+	(hierarchical_label "ANALOG_JOYSTICK_Y"
+		(shape input)
+		(at 138.43 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5807521a-e771-4436-8bc1-f3363d5e682f")
 	)
 	(hierarchical_label "SPI_CS_TFT"
 		(shape output)
@@ -4975,18 +4999,6 @@
 		)
 		(uuid "5af189db-04bb-4508-9cd5-f95e99b21021")
 	)
-	(hierarchical_label "DIGITAL_RGB_B"
-		(shape output)
-		(at 144.78 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d0e0d64-5d7e-42a1-a897-79320307e9c8")
-	)
 	(hierarchical_label "MCU_GPIO_24"
 		(shape bidirectional)
 		(at 88.9 91.44 180)
@@ -5022,18 +5034,6 @@
 			(justify left)
 		)
 		(uuid "64fd4a23-305b-4601-a593-6aa21b325e2c")
-	)
-	(hierarchical_label "ANALOG_PHOTOTRANSISTOR"
-		(shape input)
-		(at 138.43 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66c15dd0-64a8-429e-ad3b-9c5b28aebecd")
 	)
 	(hierarchical_label "USB_RX"
 		(shape input)
@@ -5142,18 +5142,6 @@
 			(justify left)
 		)
 		(uuid "7d1abc16-8aa5-4aeb-94f4-64aac1a5fd76")
-	)
-	(hierarchical_label "ANALOG_BREAKOUT_PIEZO"
-		(shape input)
-		(at 138.43 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "827c2e42-130f-475f-9a56-acee691b3a30")
 	)
 	(hierarchical_label "MCU_GPIO_5"
 		(shape bidirectional)
@@ -5359,6 +5347,18 @@
 		)
 		(uuid "a7609a8a-10f7-4ebd-a26b-f7c41fc284d2")
 	)
+	(hierarchical_label "DIGITAL_RGB_R"
+		(shape output)
+		(at 144.78 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8d83210-475e-46e7-ac49-95cc14a96ac9")
+	)
 	(hierarchical_label "SPI_RST_NFC"
 		(shape output)
 		(at 138.43 96.52 0)
@@ -5431,18 +5431,6 @@
 		)
 		(uuid "baf62899-600c-497b-bb7b-ed62b5f9a479")
 	)
-	(hierarchical_label "ANALOG_JOYSTICK_X"
-		(shape input)
-		(at 138.43 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd0e9bf9-69fa-4fac-822b-e8193252ef45")
-	)
 	(hierarchical_label "MCU_GPIO_12"
 		(shape bidirectional)
 		(at 139.7 50.8 0)
@@ -5466,18 +5454,6 @@
 			(justify right)
 		)
 		(uuid "c7962265-b323-43c6-863f-9988df4d7b43")
-	)
-	(hierarchical_label "ANALOG_HEATER_TEMPERATURE"
-		(shape input)
-		(at 138.43 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7f25191-b8fe-4bf8-b42e-2b51249228f0")
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape output)
@@ -5539,6 +5515,18 @@
 		)
 		(uuid "d1cf4263-d641-439d-b341-643ee72308e3")
 	)
+	(hierarchical_label "ANALOG_BREAKOUT_PT100"
+		(shape input)
+		(at 138.43 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4a3a025-267d-4087-acea-60e1c132633d")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
 		(at 138.43 109.22 0)
@@ -5550,6 +5538,18 @@
 			(justify left)
 		)
 		(uuid "d71d2fb0-dfab-454b-8fe6-93dc63c5e530")
+	)
+	(hierarchical_label "ANALOG_MICROPHONE"
+		(shape input)
+		(at 138.43 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db1a1418-dad4-497e-8c97-f47a42ec30f7")
 	)
 	(hierarchical_label "SD_DAT2"
 		(shape bidirectional)
