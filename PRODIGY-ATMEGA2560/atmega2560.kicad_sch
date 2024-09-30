@@ -3819,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 167.64 87.63)
+			(xy 138.43 124.46) (xy 134.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3889,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 134.62 119.38)
+			(xy 138.43 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5253,7 +5253,7 @@
 	)
 	(hierarchical_label "SPI_TFT_RESET"
 		(shape output)
-		(at 171.45 87.63 0)
+		(at 138.43 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5325,7 +5325,7 @@
 	)
 	(hierarchical_label "SPI_CS_BREAKOUT"
 		(shape output)
-		(at 137.16 119.38 0)
+		(at 138.43 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
