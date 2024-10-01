@@ -1098,7 +1098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 241.3 87.63 0)
 			(effects
 				(font
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
 					(reference "H1")
 					(unit 1)
@@ -1263,7 +1263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 250.19 87.63 0)
 			(effects
 				(font
@@ -1592,7 +1592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -1757,7 +1757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 250.19 93.98 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f"
 					(reference "FID1")
 					(unit 1)

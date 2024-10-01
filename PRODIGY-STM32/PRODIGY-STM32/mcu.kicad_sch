@@ -309,6 +309,259 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3308,6 +3561,12 @@
 		(uuid "9fff5c28-2799-42a4-b9ed-0afbc48310d1")
 	)
 	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6714459-166f-4f26-91a9-b5f39d822b82")
+	)
+	(junction
 		(at 224.79 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3391,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 46.99) (xy 101.6 46.99)
+			(xy 59.69 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3761,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48da676c-a805-4051-b518-6ef31e287938")
+	)
+	(wire
+		(pts
 			(xy 124.46 20.32) (xy 124.46 24.13)
 		)
 		(stroke
@@ -3768,6 +4037,16 @@
 			(type default)
 		)
 		(uuid "4d510c51-b8c0-4212-83bc-2fbe1634a527")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 66.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d515071-98b2-4299-b4d4-447bbcc2874c")
 	)
 	(wire
 		(pts
@@ -3941,6 +4220,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 44.45) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7e3f6f-988f-4709-8512-c82c64a221ea")
+	)
+	(wire
+		(pts
 			(xy 151.13 80.01) (xy 147.32 80.01)
 		)
 		(stroke
@@ -3971,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.8) (xy 59.69 46.99)
+			(xy 59.69 50.8) (xy 59.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4298,6 +4587,16 @@
 			(type default)
 		)
 		(uuid "9d727152-dd9f-45f9-9378-05ea1fc77406")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb7a528-e71a-48d5-8b7c-bce6f3c0da26")
 	)
 	(wire
 		(pts
@@ -4688,6 +4987,16 @@
 			(type default)
 		)
 		(uuid "d2a3ef09-eb58-4a81-91c5-da1868aae608")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d2c58b-973e-4094-b633-b763fcd990c1")
 	)
 	(wire
 		(pts
@@ -8571,7 +8880,7 @@
 		(dnp no)
 		(uuid "11f33be6-ca99-4895-b889-cf67aef1c9d4")
 		(property "Reference" "C14"
-			(at 55.88 55.8799 0)
+			(at 54.102 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8889,7 @@
 			)
 		)
 		(property "Value" "4.7pF"
-			(at 55.88 58.4199 0)
+			(at 54.102 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9619,7 @@
 			(uuid "d45196fd-a455-4b0b-a9bc-57ad2a518633")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/2c940864-b0c7-4fea-a950-c583ebb4a87f"
 					(reference "U3")
 					(unit 1)
@@ -9401,92 +9710,6 @@
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/2c940864-b0c7-4fea-a950-c583ebb4a87f"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 66.04 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33f88f3a-291d-456d-8303-ecc33ae2f269")
-		(property "Reference" "Y2"
-			(at 66.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8MHz"
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "8.00M-CFPX104"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e91c5e3-1a90-4be1-b3f8-6613401464cb")
-		)
-		(pin "2"
-			(uuid "05500874-5616-4be2-b26c-629e7aa40fdf")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/2c940864-b0c7-4fea-a950-c583ebb4a87f"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -11129,7 +11352,7 @@
 			(uuid "35226f30-90bc-493b-8c28-be5ebfca7fa1")
 		)
 		(instances
-			(project ""
+			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/2c940864-b0c7-4fea-a950-c583ebb4a87f"
 					(reference "U4")
 					(unit 1)
@@ -11469,6 +11692,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 66.04 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca46b6ca-9f86-4c04-870d-e0f0bc79c33d")
+		(property "Reference" "Y2"
+			(at 66.294 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 66.294 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "8.00M-CFPX104"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4255d9ee-39d8-4920-beaf-75ef91fb3ac3")
+		)
+		(pin "1"
+			(uuid "8851e796-e512-4f24-ad3d-d46b553d401b")
+		)
+		(pin "2"
+			(uuid "9430119a-3c77-4c4f-9206-737af52339fa")
+		)
+		(pin "3"
+			(uuid "f8bb9d7c-ff59-49aa-9df9-b010c7956c54")
+		)
+		(instances
+			(project "PRODIGY-STM32"
+				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/2c940864-b0c7-4fea-a950-c583ebb4a87f"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 72.39 57.15 0)
 		(mirror y)
@@ -11479,7 +11784,7 @@
 		(dnp no)
 		(uuid "d626220a-9acb-4677-98a0-88777f9cd894")
 		(property "Reference" "C15"
-			(at 68.58 55.8799 0)
+			(at 75.184 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11793,7 @@
 			)
 		)
 		(property "Value" "4.7pF"
-			(at 68.58 58.4199 0)
+			(at 75.184 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
