@@ -2317,126 +2317,6 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2715,12 +2595,6 @@
 		(uuid "5df2c787-5330-4a24-a80b-55dac52224d6")
 	)
 	(junction
-		(at 88.9 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61042a72-0974-46ed-b480-df5b93a2b2ef")
-	)
-	(junction
 		(at 52.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2731,12 +2605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68944408-9c96-41d3-aeef-58a3d6eeeb0d")
-	)
-	(junction
-		(at 224.79 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88d7ec65-6422-4e0b-a078-569c72519fbf")
 	)
 	(junction
 		(at 73.66 177.8)
@@ -3586,16 +3454,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 148.59) (xy 88.9 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7b4853-7d28-45ff-a77b-cfde77810ed9")
-	)
-	(wire
-		(pts
 			(xy 85.09 66.04) (xy 104.14 66.04)
 		)
 		(stroke
@@ -4125,6 +3983,17 @@
 		)
 		(uuid "0fa18fcd-c256-4301-b43b-e0e833a4c044")
 	)
+	(label "+3V3_STLINK"
+		(at 223.52 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "124b4081-57df-4725-91a0-cc62e22cf67f")
+	)
 	(label "RENUM"
 		(at 153.67 86.36 180)
 		(fields_autoplaced yes)
@@ -4191,6 +4060,39 @@
 		)
 		(uuid "73f95643-6359-4285-9a32-910340421630")
 	)
+	(label "+3V3_STLINK"
+		(at 34.29 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80a839c2-a682-444c-b8fc-7b68f0f82cdb")
+	)
+	(label "+3V3_STLINK"
+		(at 142.24 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "850d5df8-a696-4f8c-8a2b-d1be1d7fbe8a")
+	)
+	(label "+3V3_STLINK"
+		(at 146.05 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ea0de2-fa3b-4e09-b502-7cd23b12b4b5")
+	)
 	(label "T_RST"
 		(at 160.02 170.18 180)
 		(fields_autoplaced yes)
@@ -4213,6 +4115,28 @@
 		)
 		(uuid "a45ab5aa-a834-4656-99f7-fd8b2630bede")
 	)
+	(label "+3V3_STLINK"
+		(at 250.19 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6351e8e-e5f0-4779-929b-bd3c961e1267")
+	)
+	(label "+3V3_STLINK"
+		(at 121.92 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aff57fbb-afa7-4192-befc-4f737871a814")
+	)
 	(label "T_SWO"
 		(at 160.02 180.34 180)
 		(fields_autoplaced yes)
@@ -4234,6 +4158,17 @@
 			(justify right bottom)
 		)
 		(uuid "b7c3f133-8f7e-4be3-a9e0-2f8cf5f8141c")
+	)
+	(label "+3V3_STLINK"
+		(at 224.79 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c608436b-d5c0-4ba8-bbf1-a38985945ac8")
 	)
 	(label "USB_D+"
 		(at 158.75 78.74 180)
@@ -4278,6 +4213,17 @@
 			(justify right bottom)
 		)
 		(uuid "eb886140-440d-4819-b902-d983ff15a8f8")
+	)
+	(label "+3V3_STLINK"
+		(at 80.01 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2badb87-9dcc-4a43-a569-8965c9b8283f")
 	)
 	(label "T_DIO"
 		(at 160.02 177.8 180)
@@ -4801,72 +4747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2553cda6-c52a-4270-9258-5ad8beb61337")
-		(property "Reference" "#PWR08"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 88.9 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab5667b3-13ac-40e8-bf0a-a838ee2c9099")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 237.49 69.85 0)
 		(unit 1)
@@ -4994,72 +4874,6 @@
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 142.24 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37f7c16f-5bc4-488d-a44d-d6ac3f664dbb")
-		(property "Reference" "#PWR042"
-			(at 142.24 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "588cf321-2c0c-4ea8-913b-9d2e6b12e448")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5479,72 +5293,6 @@
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 121.92 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47b047e6-70e7-452f-a744-1dfba683c434")
-		(property "Reference" "#PWR011"
-			(at 121.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 121.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9b50177-43c2-412c-9bfb-99c98d9bec66")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6007,72 +5755,6 @@
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 250.19 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a4f6f7f-d25f-4b5b-b560-898da0038597")
-		(property "Reference" "#PWR018"
-			(at 250.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 250.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1324ed9d-1904-4dd6-8230-f22859559d88")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7028,73 +6710,6 @@
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 223.52 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1f0f3d8-dc4f-415a-bc62-fcbb3620aa9b")
-		(property "Reference" "#PWR014"
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 223.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a19b57c9-96a4-40d0-9287-f80a822b8e55")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8260,72 +7875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 146.05 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df3688da-d0ba-4988-afbb-e835a6f28971")
-		(property "Reference" "#PWR012"
-			(at 146.05 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 146.05 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fed7cab6-8537-4655-a784-c5e618431cd5")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 181.61 0)
 		(mirror y)
@@ -8724,138 +8273,6 @@
 			(project "PRODIGY-STM32"
 				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 224.79 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efe16712-1328-4b74-b3c6-443cba636686")
-		(property "Reference" "#PWR016"
-			(at 224.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 224.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82fe06c4-17fc-4a5b-a835-2182824c7f2d")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 34.29 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efedd711-1103-41bd-a525-27ef1aeb8c84")
-		(property "Reference" "#PWR02"
-			(at 34.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 34.29 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb3a8594-6f81-4f85-b660-0c888f147d5f")
-		)
-		(instances
-			(project "PRODIGY-STM32"
-				(path "/f2f1c781-b8fe-416b-b7a0-b424640c1d9f/caaba626-bd7e-4e0a-99a7-0ba7c1d3fe0b"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
