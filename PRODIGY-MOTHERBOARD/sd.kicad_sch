@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2d95b798-fa05-4afe-8b2f-64ae76babb97")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
 			(exclude_from_sim no)

@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "c4494226-8afc-4cf0-9643-4714a63a3b71")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
 			(pin_names

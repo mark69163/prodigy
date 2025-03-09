@@ -5,7 +5,8 @@
 	(uuid "f1c25860-8989-4190-bd24-2491d23ca7d9")
 	(paper "A4")
 	(title_block
-		(date "2024-06-22")
+		(date "2025-03-08")
+		(rev "0.1.1")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
@@ -3146,7 +3147,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 229 191 0.0000)
 		)
 		(uuid "7df83d4f-8c4f-4445-bdae-bd2c13239983")
 		(property "Sheetname" "POWER"

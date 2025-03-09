@@ -6,9 +6,233 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply")
-		(date "2023-12-27")
+		(date "2025-03-08")
+		(rev "0.1.1")
 	)
 	(lib_symbols
+		(symbol "0_TPS5433:TPS54331DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -9.652 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS54331DR"
+				(at 5.588 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54331.pdf?ts=1728548828572&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTPS54331"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54331DR_1_1"
+				(rectangle
+					(start -10.16 0)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -17.78 90)
+					(length 2.54)
+					(name "ETPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Barrel_Jack_MountingPin"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1649,247 +1873,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:TPS54336ADDA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS54336ADDA"
-				(at 3.81 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
-				(at 22.86 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54336a.pdf"
-				(at 25.4 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" " 4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Down DC-DC Switching Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TI*SO*PowerPAD*ThermalVias*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS54336ADDA_1_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "PH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "VSENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "ETPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -2636,6 +2619,12 @@
 		(uuid "317a5ae7-03bd-4cf3-ab11-47cb3e861a3b")
 	)
 	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ab48a01-947d-4a8c-8478-0f4df7d00a02")
+	)
+	(junction
 		(at 120.65 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2684,18 +2673,6 @@
 		(uuid "663b350d-9f70-47fe-b68f-4f8cc827160b")
 	)
 	(junction
-		(at 44.45 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c2df540-dcc5-4302-99a9-8abb61d8adb7")
-	)
-	(junction
-		(at 185.42 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6db7e6b6-3b2a-4e6e-b2b0-2fe64a63cc58")
-	)
-	(junction
 		(at 107.95 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2720,22 +2697,28 @@
 		(uuid "7e68d487-cd29-401a-927a-dece511f4fe6")
 	)
 	(junction
+		(at 110.49 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81140773-a35c-49ad-9b87-37708b30aa26")
+	)
+	(junction
 		(at 181.61 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ac705cb-cd8a-419a-95d6-2b301dbf4a42")
 	)
 	(junction
+		(at 44.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d4b9e92-306b-4d87-8662-0a8ecddbe55b")
+	)
+	(junction
 		(at 231.14 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e8b0022-3ca6-48bb-a258-ef83419703a7")
-	)
-	(junction
-		(at 29.21 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa16ea5a-a1e6-4214-84c7-e154ca46bfba")
 	)
 	(junction
 		(at 41.91 83.82)
@@ -2762,10 +2745,10 @@
 		(uuid "c252768b-1fa7-4bce-978b-cbbea5a6fd43")
 	)
 	(junction
-		(at 180.34 119.38)
+		(at 29.21 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9a1dd77-7f65-46e0-8cf2-3dfc7c6d145b")
+		(uuid "c682f19f-b0aa-4272-be00-9c005aa65b09")
 	)
 	(junction
 		(at 133.35 31.75)
@@ -2802,12 +2785,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d12123-73fc-4452-a3a1-f249109d7f48")
-	)
-	(junction
-		(at 110.49 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db34bcf5-47e4-4ef3-b373-53d449f2df31")
 	)
 	(junction
 		(at 120.65 40.64)
@@ -2850,6 +2827,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f58a8f39-6311-4a3d-a8dd-519f62aab3c8")
+	)
+	(junction
+		(at 182.88 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74c932e-fadf-469a-b812-271e1d0025ec")
 	)
 	(junction
 		(at 201.93 109.22)
@@ -3001,16 +2984,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 46.99) (xy 186.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ae1d3f-da50-420d-8b9e-dfe883957ee1")
-	)
-	(wire
-		(pts
 			(xy 156.21 106.68) (xy 156.21 114.3)
 		)
 		(stroke
@@ -3048,16 +3021,6 @@
 			(type default)
 		)
 		(uuid "1fda2adb-d75d-4432-b4b0-510a30b3555c")
-	)
-	(wire
-		(pts
-			(xy 110.49 102.87) (xy 110.49 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235857bd-c06a-42d7-b12d-08ea957b60c9")
 	)
 	(wire
 		(pts
@@ -3121,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 48.26) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccc462a-e594-478a-bf4a-ea4cd08867be")
+	)
+	(wire
+		(pts
 			(xy 67.31 139.7) (xy 63.5 139.7)
 		)
 		(stroke
@@ -3148,16 +3121,6 @@
 			(type default)
 		)
 		(uuid "31376c87-7868-4feb-ab2b-b5ba2aa88476")
-	)
-	(wire
-		(pts
-			(xy 185.42 46.99) (xy 185.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3413993e-e7cc-4e37-a8d6-d61b8b0328cd")
 	)
 	(wire
 		(pts
@@ -3199,6 +3162,17 @@
 		)
 		(uuid "36cfa19e-da23-479e-8aa4-7c173765028e")
 	)
+	(polyline
+		(pts
+			(xy 105.41 107.95) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "391a0ae6-6f6c-4649-a6e5-597a717f974e")
+	)
 	(wire
 		(pts
 			(xy 133.35 31.75) (xy 149.86 31.75)
@@ -3218,6 +3192,16 @@
 			(type default)
 		)
 		(uuid "39d2a2a8-06bd-4a6e-8fe8-7bf2b3aed154")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9a3707-e421-425c-b02d-75d2bdb66594")
 	)
 	(wire
 		(pts
@@ -3251,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 41.91) (xy 29.21 44.45)
+			(xy 29.21 46.99) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3298,6 +3282,16 @@
 			(type default)
 		)
 		(uuid "4562e500-0657-4a72-be2d-3e62e40ff956")
+	)
+	(wire
+		(pts
+			(xy 185.42 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cb9904-2053-4de3-9272-e1c099bf490a")
 	)
 	(wire
 		(pts
@@ -3371,6 +3365,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 104.14) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c57b55-165e-44d1-b51f-4307f4bb6d0d")
+	)
+	(wire
+		(pts
 			(xy 158.75 127) (xy 158.75 132.08)
 		)
 		(stroke
@@ -3408,16 +3412,6 @@
 			(type default)
 		)
 		(uuid "4f1ade95-0b15-4bf9-9783-08e916b1658c")
-	)
-	(wire
-		(pts
-			(xy 180.34 119.38) (xy 181.61 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fb3a243-7ee9-47da-922c-627e027eb1db")
 	)
 	(wire
 		(pts
@@ -3541,16 +3535,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 46.99) (xy 185.42 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed6d8b0-dc03-4360-9af6-a5b7a7fa046e")
-	)
-	(wire
-		(pts
 			(xy 123.19 104.14) (xy 135.89 104.14)
 		)
 		(stroke
@@ -3628,16 +3612,6 @@
 			(type default)
 		)
 		(uuid "67af075a-35f8-438e-ab68-a84183744e46")
-	)
-	(wire
-		(pts
-			(xy 36.83 31.75) (xy 43.18 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ee761b-492a-48a1-b6a1-9bb687a50e30")
 	)
 	(wire
 		(pts
@@ -3829,6 +3803,27 @@
 		)
 		(uuid "8202b3dc-d403-4206-99e7-ded6193073cf")
 	)
+	(polyline
+		(pts
+			(xy 243.84 139.7) (xy 250.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "82926296-3efe-4840-a60f-35c465886448")
+	)
+	(wire
+		(pts
+			(xy 187.96 46.99) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b60268-ab25-4cef-8d18-e536edfa6e14")
+	)
 	(wire
 		(pts
 			(xy 158.75 41.91) (xy 149.86 41.91)
@@ -3901,13 +3896,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 31.75) (xy 43.18 41.91)
+			(xy 180.34 119.38) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88925cfb-ff8a-42af-b80a-df7591c40a12")
+		(uuid "89f36541-3779-4653-8004-f3e887bf704a")
 	)
 	(wire
 		(pts
@@ -3928,6 +3923,16 @@
 			(type default)
 		)
 		(uuid "8c98bf2e-f660-426c-898e-84064ddcbe52")
+	)
+	(wire
+		(pts
+			(xy 185.42 46.99) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e55e18d-f4d9-42f8-9a24-e53ab60b4fb5")
 	)
 	(wire
 		(pts
@@ -3998,6 +4003,16 @@
 			(type default)
 		)
 		(uuid "9c8f1f54-ada7-43f3-8fa9-ffd619413631")
+	)
+	(wire
+		(pts
+			(xy 29.21 46.99) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5b9a6f-7285-4baf-875c-4b38634aeae8")
 	)
 	(wire
 		(pts
@@ -4131,16 +4146,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 119.38) (xy 180.34 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6cb46e0-dc73-4b5d-bc46-23e0402bc3b8")
-	)
-	(wire
-		(pts
 			(xy 173.99 60.96) (xy 189.23 60.96)
 		)
 		(stroke
@@ -4188,6 +4193,16 @@
 			(type default)
 		)
 		(uuid "c3ac5a24-569e-48cc-9b52-5aef4a7e6ba7")
+	)
+	(wire
+		(pts
+			(xy 36.83 41.91) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba76dc8-4e88-4969-86df-8955b8c0bc6f")
 	)
 	(wire
 		(pts
@@ -4251,16 +4266,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 36.83) (xy 44.45 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da4af5b0-d623-422f-8eed-a0eb1c819eb8")
-	)
-	(wire
-		(pts
 			(xy 71.12 46.99) (xy 71.12 49.53)
 		)
 		(stroke
@@ -4271,7 +4276,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 119.38) (xy 180.34 120.65)
+			(xy 182.88 119.38) (xy 182.88 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4379,6 +4384,17 @@
 		)
 		(uuid "eb7c80ed-5af7-4397-999e-fbe5ae7e709f")
 	)
+	(polyline
+		(pts
+			(xy 250.19 69.85) (xy 255.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eea0475b-55cb-4e4a-9d4d-94f892d20abd")
+	)
 	(wire
 		(pts
 			(xy 196.85 101.6) (xy 201.93 101.6)
@@ -4419,16 +4435,6 @@
 		)
 		(uuid "f53cc4c3-e8a7-436a-b267-c1a14f43d7b3")
 	)
-	(wire
-		(pts
-			(xy 43.18 41.91) (xy 29.21 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5bca6dc-7321-4429-ad60-9e9c05b7f3bf")
-	)
 	(rectangle
 		(start 144.78 20.32)
 		(end 157.48 50.8)
@@ -4453,6 +4459,20 @@
 			(type none)
 		)
 		(uuid 12a3431c-90ac-414c-b56e-18d3d4318139)
+	)
+	(rectangle
+		(start 101.6 74.93)
+		(end 124.46 87.63)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 29ca9852-4300-4835-b1ca-323660e27115)
 	)
 	(rectangle
 		(start 16.51 62.23)
@@ -4492,6 +4512,34 @@
 		(uuid 5040d5cf-37bc-41a1-aa37-715bdb6488fd)
 	)
 	(rectangle
+		(start 38.1 40.64)
+		(end 67.31 55.88)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 5ec93723-1eb6-4787-be79-67a6809d144f)
+	)
+	(rectangle
+		(start 221.234 132.842)
+		(end 244.094 146.812)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 64857122-ba11-44ea-a3a7-2b7c68b6652e)
+	)
+	(rectangle
 		(start 254 40.64)
 		(end 276.86 78.74)
 		(stroke
@@ -4516,6 +4564,34 @@
 			(color 255 229 191 1)
 		)
 		(uuid 96d5e86b-ac30-4ae1-add8-63b24cb7d7c4)
+	)
+	(rectangle
+		(start 101.854 123.952)
+		(end 120.904 137.922)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid a879e9fe-02b1-4be1-946c-237e63588b72)
+	)
+	(rectangle
+		(start 227.33 60.706)
+		(end 250.19 78.486)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid b2c689e6-d5c1-406a-9a89-8cf745a2a90f)
 	)
 	(rectangle
 		(start 168.91 58.42)
@@ -4556,6 +4632,20 @@
 		(uuid c631c0a3-d21b-4e07-8551-f4998df9e1f5)
 	)
 	(rectangle
+		(start 102.108 143.51)
+		(end 124.968 156.21)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid d90ca6db-3966-4698-a357-f37d2ff6383c)
+	)
+	(rectangle
 		(start 99.06 93.98)
 		(end 281.94 158.75)
 		(stroke
@@ -4569,7 +4659,7 @@
 	)
 	(text "+5V TO +3V3 STEP-DOWN"
 		(exclude_from_sim no)
-		(at 228.6 99.06 0)
+		(at 235.966 99.06 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4628,6 +4718,21 @@
 		)
 		(uuid "431cd54e-7791-42b0-87dd-daf9303817fb")
 	)
+	(text "NOTE:\nPower Input\n\nCorrected orientation of Barrel jack.\n\nCorrected footprint of the fuse."
+		(exclude_from_sim no)
+		(at 38.608 54.356 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "67e12a3f-ca1c-41e4-b522-5a58ecf70589")
+	)
 	(text "USB HOST POWER OUT"
 		(exclude_from_sim no)
 		(at 48.768 67.31 0)
@@ -4654,6 +4759,21 @@
 		)
 		(uuid "9a4edb7c-06b9-4949-b35b-d3fd3a3ecb62")
 	)
+	(text "NOTE:\nTPS54331DR Symbol\n\nCorrected the\ncomponent's pinout."
+		(exclude_from_sim no)
+		(at 102.87 154.94 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a6a2d85-3880-4080-b9cf-09582c22d978")
+	)
 	(text "OUTPUT\nSET TO\n5.010V\n3A"
 		(exclude_from_sim no)
 		(at 267.97 63.5 0)
@@ -4664,6 +4784,36 @@
 			(justify left bottom)
 		)
 		(uuid "a3a1f1b6-827f-459d-873d-73c40eb66dce")
+	)
+	(text "NOTE:\nResistor feedback network\n\nAlternatively use:\nR13 - 3.24k 1%\nR14 - 0R\n"
+		(exclude_from_sim no)
+		(at 222.25 146.05 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab39b299-d6e8-4729-a24a-62ada5bd2027")
+	)
+	(text "NOTE:\nTPS54331DR Symbol\n\nCorrected the\ncomponent's pinout."
+		(exclude_from_sim no)
+		(at 102.362 86.36 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbbe1733-42d2-4399-8694-a44130ce5fce")
 	)
 	(text "ERROR \nAMPLIFIER \nINPUT"
 		(exclude_from_sim no)
@@ -4698,6 +4848,36 @@
 		)
 		(uuid "e38b0e64-0c3e-49db-a2a1-ecc28c1b09a9")
 	)
+	(text "NOTE:\nResistor feedback network\n\nAlternatively use:\nR16 - 1.91k\nR17 - 0R\nR18 - 0R"
+		(exclude_from_sim no)
+		(at 228.6 76.454 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8ef1e15-2ef2-4671-afb7-e2d95b06623b")
+	)
+	(text "NOTE:\nPower rail sourcing\n\n3V3 regulator\nis sourced from 12V\ninstead of 5V\n"
+		(exclude_from_sim no)
+		(at 102.87 137.16 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef337572-5b9a-424d-9ed3-5c4c38c9b4f0")
+	)
 	(label "+3V3"
 		(at 250.19 109.22 180)
 		(fields_autoplaced yes)
@@ -4730,6 +4910,17 @@
 			(justify right bottom)
 		)
 		(uuid "43532215-5430-43df-aa1c-46d34a48cb80")
+	)
+	(label "VIN"
+		(at 105.41 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb075c0a-8430-47bf-8c58-a6f77607c8c2")
 	)
 	(hierarchical_label "USB_HOST_PWR"
 		(shape output)
@@ -4925,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
 			(at 50.8 38.608 90)
 			(effects
 				(font
@@ -5086,6 +5277,72 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181013c7-23e0-49fe-aeb8-ec977d2b0b85")
+		(property "Reference" "#PWR029"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1ab32e9-7394-484c-b87d-175509ebae31")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5522,122 +5779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS54336ADDA")
-		(at 181.61 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f7b2029-8313-49cc-82d2-f058d4e9287f")
-		(property "Reference" "U2"
-			(at 181.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS54331DR"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
-			(at 204.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54336a.pdf"
-			(at 207.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "TPS54331DR"
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48759008-be7e-4eb7-ae81-dddb5d24fd6b")
-		)
-		(pin "2"
-			(uuid "77adae99-05b7-4c9b-9abe-8005c28127cd")
-		)
-		(pin "3"
-			(uuid "0fdf14c2-6390-4068-84f5-9b00ecc6737d")
-		)
-		(pin "4"
-			(uuid "f3abe8c7-6c16-434c-b1c2-314de023d74e")
-		)
-		(pin "5"
-			(uuid "0b953f2e-f449-422e-8e3d-838bfd1f87bb")
-		)
-		(pin "6"
-			(uuid "de2ee092-5a17-48ac-9cbe-1032fab0eaf7")
-		)
-		(pin "7"
-			(uuid "d647a4d4-aa90-4929-9fa9-6d24dc7045e2")
-		)
-		(pin "8"
-			(uuid "07fdb49a-6ba3-49e9-9c94-d28bfa01271d")
-		)
-		(pin "9"
-			(uuid "bc07f88d-275a-458b-a386-459381cdf0f3")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 173.99 73.66 0)
 		(unit 1)
@@ -5736,7 +5877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 120.65 0)
+		(at 182.88 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5745,7 +5886,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bc97793-a70f-4e37-b63b-de0ac4e41dd6")
 		(property "Reference" "#PWR035"
-			(at 180.34 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 125.73 0)
+			(at 182.88 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 120.65 0)
+			(at 182.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 120.65 0)
+			(at 182.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 120.65 0)
+			(at 182.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,6 +6258,94 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_TPS5433:TPS54331DR")
+		(at 181.61 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49640014-f216-4919-84f4-4d570bb42de8")
+		(property "Reference" "U2"
+			(at 172.974 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54331DR"
+			(at 186.69 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+			(at 181.61 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54331.pdf?ts=1728548828572&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTPS54331"
+			(at 181.61 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4f0cb903-4596-4e1c-ad55-f8250504f857")
+		)
+		(pin "4"
+			(uuid "2301af37-3bbe-43e2-a670-69428d7055c9")
+		)
+		(pin "7"
+			(uuid "cf271d2c-c23e-4492-94db-de3d11913d6e")
+		)
+		(pin "6"
+			(uuid "35b4875c-daf1-43f3-bdcb-51228a97fb45")
+		)
+		(pin "1"
+			(uuid "88c0ef87-d314-4682-8192-8ea1ad9b5dec")
+		)
+		(pin "2"
+			(uuid "79af8f65-d85a-4f92-82b7-27d342cff003")
+		)
+		(pin "9"
+			(uuid "36855244-30ab-4360-9be0-01cae82f7a9b")
+		)
+		(pin "5"
+			(uuid "041992fe-d25b-4807-9013-db469954acf0")
+		)
+		(pin "3"
+			(uuid "895d0598-60b8-455f-8af1-ec9fb4d22a1c")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6923,6 +7152,94 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_TPS5433:TPS54331DR")
+		(at 186.69 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "648a72e4-f804-4258-b68e-0dcc030951cb")
+		(property "Reference" "U3"
+			(at 177.8 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54331DR"
+			(at 191.516 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+			(at 186.69 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54331.pdf?ts=1728548828572&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTPS54331"
+			(at 186.69 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "464d4152-9b65-4649-963a-d1659ae75cc4")
+		)
+		(pin "2"
+			(uuid "426c2391-3ccd-459e-94c4-a360650d4bd1")
+		)
+		(pin "8"
+			(uuid "a23a809b-d52b-49cb-915f-e36b254fafe9")
+		)
+		(pin "9"
+			(uuid "68030b57-e305-45c2-9cd2-c61ae8592f96")
+		)
+		(pin "6"
+			(uuid "a7c4625c-301f-4b6c-b714-d22e2e833e21")
+		)
+		(pin "7"
+			(uuid "ce4d5ae3-8ed6-4177-bf5d-ebeb03cd5851")
+		)
+		(pin "1"
+			(uuid "7df9dace-10cf-484b-9231-0a082298acc0")
+		)
+		(pin "3"
+			(uuid "5410a38e-1e70-4f13-9a81-a60cc7e2523a")
+		)
+		(pin "5"
+			(uuid "9b2ce05a-6b98-4eb2-bd48-f0c50bfad15c")
+		)
+		(instances
+			(project "PRODIGY-MOTHERBOARD"
+				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8830,188 +9147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa09162b-76c1-489b-9902-747879765461")
-		(property "Reference" "#PWR037"
-			(at 185.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98e2ed38-4d6a-459c-97b5-6d698968cdc1")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TPS54336ADDA")
-		(at 186.69 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab221e81-ab61-4a8e-8016-68ff9daeafd0")
-		(property "Reference" "U3"
-			(at 186.69 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS54331DR"
-			(at 186.69 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
-			(at 209.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54336a.pdf"
-			(at 212.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "TPS54331DR"
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca6de64-f142-4b73-a190-622181e31690")
-		)
-		(pin "2"
-			(uuid "a7914607-fc7a-4c5b-b15d-5991630c3029")
-		)
-		(pin "3"
-			(uuid "b7ccdeb5-91d8-4460-a5f4-39b69c3ac15a")
-		)
-		(pin "4"
-			(uuid "9f69366b-7af2-4a4a-90e8-4f1ad2eee6c5")
-		)
-		(pin "5"
-			(uuid "ac17199a-444b-48fe-9a6e-6e43e7221579")
-		)
-		(pin "6"
-			(uuid "5ff483de-4171-406f-bad6-edee251c42c0")
-		)
-		(pin "7"
-			(uuid "f5bd2c48-27e6-42b8-8ff0-5a5ab02f26d0")
-		)
-		(pin "8"
-			(uuid "ec3c5812-d63c-4c17-9347-9929d2e0490d")
-		)
-		(pin "9"
-			(uuid "c1e6ab62-2beb-442f-9909-ee6b0dac79c1")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 82.55 135.89 0)
 		(unit 1)
@@ -9434,7 +9569,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 29.21 34.29 0)
+		(at 29.21 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9443,7 +9578,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcc30df9-62d7-4a7e-9ebd-8c9509203941")
 		(property "Reference" "J5"
-			(at 29.21 26.67 0)
+			(at 29.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +9586,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at 29.21 29.21 0)
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9594,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 30.48 35.306 0)
+			(at 30.48 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 35.306 0)
+			(at 30.48 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 34.29 0)
+			(at 29.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9621,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 29.21 34.29 0)
+			(at 29.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9630,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 29.21 34.29 0)
+			(at 29.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9639,7 @@
 			)
 		)
 		(property "TME" "FC68148"
-			(at 29.21 34.29 0)
+			(at 29.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,16 +9927,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 44.45 0)
+		(at 29.21 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb4ecd35-7533-4ec5-bd95-16d6a21826da")
 		(property "Reference" "#PWR021"
-			(at 29.21 50.8 0)
+			(at 29.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 49.53 0)
+			(at 29.21 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 44.45 0)
+			(at 29.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 44.45 0)
+			(at 29.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 44.45 0)
+			(at 29.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,72 +10213,6 @@
 			(project "PRODIGY-MOTHERBOARD"
 				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 110.49 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3e414fb-5da7-4ee9-94b3-d8a626297ce2")
-		(property "Reference" "#PWR029"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b39bf666-2546-4fbc-a7d0-27123e3132bc")
-		)
-		(instances
-			(project "PRODIGY-MOTHERBOARD"
-				(path "/f1c25860-8989-4190-bd24-2491d23ca7d9/7df83d4f-8c4f-4445-bdae-bd2c13239983"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)

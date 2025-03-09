@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2e87d6d8-c8ca-4824-bf7c-f4eab0d98fb3")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Device:Antenna_Loop"
 			(pin_numbers hide)

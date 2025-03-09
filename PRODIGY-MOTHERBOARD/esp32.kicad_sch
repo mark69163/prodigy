@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "9db92ec2-41dd-4039-ab22-efc66d108e03")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Bus_M.2_Socket_B"
 			(exclude_from_sim no)

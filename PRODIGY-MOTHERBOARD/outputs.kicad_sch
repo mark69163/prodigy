@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "a6f2b1b3-faac-4089-838c-1fcf9c0003d3")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_A"
 			(pin_names
@@ -3769,6 +3773,20 @@
 		(uuid 3c21da6f-3373-4482-b51e-d84531e15252)
 	)
 	(rectangle
+		(start 17.78 167.64)
+		(end 39.37 181.61)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 4aa56dd4-2455-4232-8369-ff2a7bf740d0)
+	)
+	(rectangle
 		(start 17.78 59.69)
 		(end 83.82 96.52)
 		(stroke
@@ -3956,6 +3974,21 @@
 			(justify left bottom)
 		)
 		(uuid "bcd584aa-d0d3-40a4-932b-ccd7296bc391")
+	)
+	(text "NOTE:\nTME Component change \n\nOredered screw terminals\nchanged from P2.54\nto proper P5.08\n"
+		(exclude_from_sim no)
+		(at 18.796 180.848 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd7dea9a-61ac-4f91-8783-2914502aa6a1")
 	)
 	(text "SERIAL breakout\nwith level shifter\n"
 		(exclude_from_sim no)
@@ -4930,7 +4963,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -6211,7 +6244,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 269.24 38.1 0)
 			(effects
 				(font
@@ -6554,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -6657,7 +6690,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 200.66 36.83 0)
 			(effects
 				(font
@@ -7219,7 +7252,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 71.12 123.19 0)
 			(effects
 				(font
@@ -7384,7 +7417,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -8342,7 +8375,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -8882,7 +8915,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 224.79 143.51 0)
 			(effects
 				(font
@@ -9089,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "DG308-2.54-02P"
+		(property "TME" "DG301-5.0-2P11"
 			(at 257.81 99.06 0)
 			(effects
 				(font

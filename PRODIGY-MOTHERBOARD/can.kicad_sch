@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "d7bc15e8-f132-4ae9-b315-1965217ab02b")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

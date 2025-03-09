@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "d93a5cff-5dee-47a6-96ab-823d29c7eae7")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:AD8603"
 			(pin_names

@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "cc4dc8e9-35c7-475b-83c6-d75182886f21")
 	(paper "A4")
+	(title_block
+		(date "2025-03-08")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "2x50_generic_connector:2x50_Odd-Even"
 			(exclude_from_sim no)
